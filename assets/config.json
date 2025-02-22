@@ -1,0 +1,5392 @@
+{
+  "gameFolder": "C:/Games/Baldur's Gate Enhanced Edition",
+  "modsFolders": [
+    "Z:/games/bg/mods/bg1",
+    "Z:/games/bg/mods/both"
+  ],
+  "language": "English",
+  "weiduLocation": "C:/Games/Baldur's Gate Enhanced Edition/weidu.exe",
+  "mods": [
+    {
+      "name": "AC_QUEST",
+      "tp2File": "AC_QUEST\\ac_quest.TP2",
+      "version": "6.1",
+      "language": {
+        "value": 1,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "A Job Well-Paid",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "A Feast for the Gnolls",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "Jumper -> Original version: Ugh and Jumper are inside the cave.",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "Jumper -> Alternative for compatibility: Ugh and Jumper are outside.",
+          "install": false
+        },
+        {
+          "num": 4,
+          "name": "The Lost Son",
+          "install": false
+        },
+        {
+          "num": 5,
+          "name": "Of Wolves and Men -> Quest uses hut near Thalantyr in High Hedge.",
+          "install": false
+        },
+        {
+          "num": 6,
+          "name": "Of Wolves and Men -> Quest uses house in Beregost.",
+          "install": false
+        },
+        {
+          "num": 7,
+          "name": "The Great Carlini",
+          "install": false
+        },
+        {
+          "num": 8,
+          "name": "A Home for the Gibberlings",
+          "install": false
+        },
+        {
+          "num": 9,
+          "name": "Fangirls",
+          "install": false
+        },
+        {
+          "num": 10,
+          "name": "The Serpents of Abbathor -> Original version",
+          "install": false
+        },
+        {
+          "num": 11,
+          "name": "The Serpents of Abbathor -> Tweaked version: quest can be finished in BG1.",
+          "install": false
+        },
+        {
+          "num": 12,
+          "name": "A Halfling among the Eyeless",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "Aura_BG1",
+      "tp2File": "Aura_BG1\\Setup-Aura_BG1.tp2",
+      "version": "3.3",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Aura NPC for Baldur's Gate: Enhanced Edition",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "Choose a class for Aura: -> Artificer (Thief)",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "Choose a class for Aura: -> Illusionist / Artificer (Mage / Thief)",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "Choose a class for Aura: -> Priestess / Artificer (Cleric / Thief)",
+          "install": false
+        },
+        {
+          "num": 4,
+          "name": "Choose a class for Aura: -> Artificer (Bard, EEex required)",
+          "install": false
+        },
+        {
+          "num": 5,
+          "name": "Choose a portrait for Aura: -> Default Portrait (The Artisan)",
+          "install": false
+        },
+        {
+          "num": 6,
+          "name": "Choose a portrait for Aura: -> Alternate 1 (Omar Diaz)",
+          "install": false
+        },
+        {
+          "num": 7,
+          "name": "Choose a portrait for Aura: -> Alternate 2 (Pantalion)",
+          "install": false
+        },
+        {
+          "num": 8,
+          "name": "Choose a portrait for Aura: -> Alternate 3 (The Artisan, edited from Neverwinter Nights)",
+          "install": false
+        },
+        {
+          "num": 9,
+          "name": "Choose a portrait for Aura: -> Original BG1 Default (Lava Del'Vortel)",
+          "install": false
+        },
+        {
+          "num": 10,
+          "name": "Choose a portrait for Aura: -> Second BG1 Default (Lava Del'Vortel)",
+          "install": false
+        },
+        {
+          "num": 11,
+          "name": "Choose a portrait for Aura: -> Third BG2 Default (The Artisan)",
+          "install": false
+        },
+        {
+          "num": 12,
+          "name": "Choose a portrait for Aura: -> Original BG2 Default (The Artisan)",
+          "install": false
+        },
+        {
+          "num": 13,
+          "name": "Choose a portrait for Aura: -> Second BG2 Default (The Artisan)",
+          "install": false
+        },
+        {
+          "num": 14,
+          "name": "ADD-ON: Pre-version 3.4 soundset for Aura by Kait",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "bg1npc",
+      "tp2File": "bg1npc\\bg1npc.tp2",
+      "version": "v32",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "The BG1 NPC Project: Required Modifications",
+          "install": false
+        },
+        {
+          "num": 10,
+          "name": "The BG1 NPC Project: Banters, Quests, and Interjections",
+          "install": false
+        },
+        {
+          "num": 20,
+          "name": "The BG1 NPC Project: Ajantis Romance Core (teen content) -> Speed: 1 hour real time (standard) minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 21,
+          "name": "The BG1 NPC Project: Ajantis Romance Core (teen content) -> Speed: 45 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 22,
+          "name": "The BG1 NPC Project: Ajantis Romance Core (teen content) -> Speed: 30 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 23,
+          "name": "The BG1 NPC Project: Ajantis Romance Core (teen content) -> Speed: 15 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 24,
+          "name": "The BG1 NPC Project: Ajantis Romance Core (teen content) -> Speed: 1 hour 30 minutes (extended) real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 30,
+          "name": "The BG1 NPC Project: Branwen's Romance Core (teen content) -> Speed: 1 hour real time (standard) minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 31,
+          "name": "The BG1 NPC Project: Branwen's Romance Core (teen content) -> Speed: 45 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 32,
+          "name": "The BG1 NPC Project: Branwen's Romance Core (teen content) -> Speed: 30 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 33,
+          "name": "The BG1 NPC Project: Branwen's Romance Core (teen content) -> Speed: 15 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 34,
+          "name": "The BG1 NPC Project: Branwen's Romance Core (teen content) -> Speed: 1 hour 30 minutes (extended) real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 40,
+          "name": "The BG1 NPC Project: Coran's Romance Core (adult content) -> Speed: 1 hour real time (standard) minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 41,
+          "name": "The BG1 NPC Project: Coran's Romance Core (adult content) -> Speed: 45 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 42,
+          "name": "The BG1 NPC Project: Coran's Romance Core (adult content) -> Speed: 30 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 43,
+          "name": "The BG1 NPC Project: Coran's Romance Core (adult content) -> Speed: 15 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 44,
+          "name": "The BG1 NPC Project: Coran's Romance Core (adult content) -> Speed: 1 hour 30 minutes (extended) real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 50,
+          "name": "The BG1 NPC Project: Dynaheir's Romance Core (teen content) -> Speed: 1 hour real time (standard) minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 51,
+          "name": "The BG1 NPC Project: Dynaheir's Romance Core (teen content) -> Speed: 45 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 52,
+          "name": "The BG1 NPC Project: Dynaheir's Romance Core (teen content) -> Speed: 30 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 53,
+          "name": "The BG1 NPC Project: Dynaheir's Romance Core (teen content) -> Speed: 15 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 54,
+          "name": "The BG1 NPC Project: Dynaheir's Romance Core (teen content) -> Speed: 1 hour 30 minutes (extended) real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 60,
+          "name": "The BG1 NPC Project: Shar-Teel Relationship Core (adult content) -> Speed: 1 hour real time (standard) minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 61,
+          "name": "The BG1 NPC Project: Shar-Teel Relationship Core (adult content) -> Speed: 45 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 62,
+          "name": "The BG1 NPC Project: Shar-Teel Relationship Core (adult content) -> Speed: 30 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 63,
+          "name": "The BG1 NPC Project: Shar-Teel Relationship Core (adult content) -> Speed: 15 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 64,
+          "name": "The BG1 NPC Project: Shar-Teel Relationship Core (adult content) -> Speed: 1 hour 30 minutes (extended) real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 70,
+          "name": "The BG1 NPC Project: Xan's Romance Core (teen content) -> Speed: 1 hour real time (standard) minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 71,
+          "name": "The BG1 NPC Project: Xan's Romance Core (teen content) -> Speed: 45 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 72,
+          "name": "The BG1 NPC Project: Xan's Romance Core (teen content) -> Speed: 30 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 73,
+          "name": "The BG1 NPC Project: Xan's Romance Core (teen content) -> Speed: 15 minutes real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 74,
+          "name": "The BG1 NPC Project: Xan's Romance Core (teen content) -> Speed: 1 hour 30 minutes (extended) real time minimum between LoveTalks",
+          "install": false
+        },
+        {
+          "num": 80,
+          "name": "The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan vs Coran",
+          "install": false
+        },
+        {
+          "num": 90,
+          "name": "The BG1 NPC Project: NPCs can be sent to wait in an inn",
+          "install": false
+        },
+        {
+          "num": 100,
+          "name": "Jason Compton's Accelerated Banter Script",
+          "install": false
+        },
+        {
+          "num": 110,
+          "name": "BGEE Banter Timing Tweak -> Banter Timing: Normal (about 27 minutes between banter dialogs)",
+          "install": false
+        },
+        {
+          "num": 111,
+          "name": "BGEE Banter Timing Tweak -> Banter Timing: Fast (about 20 minutes between banter dialogs)",
+          "install": false
+        },
+        {
+          "num": 112,
+          "name": "BGEE Banter Timing Tweak -> Banter Timing: Very fast (about 13 minutes between banter dialogs)",
+          "install": false
+        },
+        {
+          "num": 113,
+          "name": "BGEE Banter Timing Tweak -> Banter Timing: Slow (about 40 minutes between banter dialogs)",
+          "install": false
+        },
+        {
+          "num": 114,
+          "name": "BGEE Banter Timing Tweak -> Banter Timing: Very slow (about 55 minutes between banter dialogs)",
+          "install": false
+        },
+        {
+          "num": 120,
+          "name": "The BG1 NPC Project: Bardic Reputation Adjustment",
+          "install": false
+        },
+        {
+          "num": 130,
+          "name": "The BG1 NPC Project: Sarevok's Diary Adjustments -> SixofSpades Extended Sarevok's Diary",
+          "install": false
+        },
+        {
+          "num": 131,
+          "name": "The BG1 NPC Project: Sarevok's Diary Adjustments -> Sarevok's Diary Date Changes only",
+          "install": false
+        },
+        {
+          "num": 150,
+          "name": "The BG1 NPC Project: Kivan's \"Kivan and Deheriana Companions\" portrait",
+          "install": false
+        },
+        {
+          "num": 155,
+          "name": "The BG1 NPC Project: Give Coran his \"Murder in Baldur's Gate\" portrait",
+          "install": false
+        },
+        {
+          "num": 160,
+          "name": "The BG1 NPC Project: Add Non-Joinable NPC portraits to quests and dialogues",
+          "install": false
+        },
+        {
+          "num": 200,
+          "name": "The BG1 NPC Project: Player-Initiated Dialogues",
+          "install": false
+        },
+        {
+          "num": 240,
+          "name": "The BG1 NPC Project: Kivan's Proficiency -> Kivan uses spears",
+          "install": false
+        },
+        {
+          "num": 241,
+          "name": "The BG1 NPC Project: Kivan's Proficiency -> Kivan uses halberds",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "bg1npcmusic",
+      "tp2File": "bg1npcmusic\\setup-bg1npcmusic.tp2",
+      "version": "v6",
+      "language": {
+        "value": 0,
+        "name": "<no language found>"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "The BG1 NPC Project Music Pack -> Install All Audio",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "The BG1 NPC Project Music Pack -> Install Regular Audio Only",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "The BG1 NPC Project Music Pack -> Install Romance Audio Only",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "The BG1 NPC Project Music Pack -> Install All Audio - Short versions",
+          "install": false
+        },
+        {
+          "num": 4,
+          "name": "The BG1 NPC Project Music Pack -> Install Regular Audio Only - Short versions",
+          "install": false
+        },
+        {
+          "num": 5,
+          "name": "The BG1 NPC Project Music Pack -> Install Romance Audio Only - Short versions",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "bg1re",
+      "tp2File": "bg1re\\setup-bg1re.tp2",
+      "version": "13",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 1,
+          "name": "Bardolan's Briefing, by berelinde",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "Scar's Spare Time, by jastey",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "Kim's Preoccupation, by jastey (WARNING - refer to the readme!)",
+          "install": false
+        },
+        {
+          "num": 4,
+          "name": "Extension of Bjornin Encounter (Personal Wound Treatment), by jastey",
+          "install": false
+        },
+        {
+          "num": 5,
+          "name": "No Starch in the Maypole",
+          "install": false
+        },
+        {
+          "num": 6,
+          "name": "Duke Eltan's Spare Minute, by jastey",
+          "install": false
+        },
+        {
+          "num": 7,
+          "name": "Husam's Personal Preparation, by jastey",
+          "install": false
+        },
+        {
+          "num": 8,
+          "name": "Laurel's Post-Hunting, by jastey",
+          "install": false
+        },
+        {
+          "num": 9,
+          "name": "Bartus' Seduction, by jastey",
+          "install": false
+        },
+        {
+          "num": 10,
+          "name": "Lina's Massage, by jastey",
+          "install": false
+        },
+        {
+          "num": 11,
+          "name": "First Night with Quentin, by Kulyok",
+          "install": false
+        },
+        {
+          "num": 12,
+          "name": "Chatting Niklos Up, by Kulyok (mature content. WARNING - refer to the readme!)",
+          "install": false
+        },
+        {
+          "num": 13,
+          "name": "Slythe and Krystin, by Kulyok (mature content. WARNING - refer to the readme!)",
+          "install": false
+        },
+        {
+          "num": 14,
+          "name": "No Regrets",
+          "install": false
+        },
+        {
+          "num": 15,
+          "name": "Purchased Love, by Thimblerig",
+          "install": false
+        },
+        {
+          "num": 16,
+          "name": "Hull: Heavy Duty, by Lava",
+          "install": false
+        },
+        {
+          "num": 17,
+          "name": "Late Night with Jaheira, by Kulyok",
+          "install": false
+        },
+        {
+          "num": 18,
+          "name": "Sil's Blessing, by Lava",
+          "install": false
+        },
+        {
+          "num": 19,
+          "name": "Melicamp: The Poultry Boy, by Lava",
+          "install": false
+        },
+        {
+          "num": 20,
+          "name": "Reading with Rinnie, by Western Paladin",
+          "install": false
+        },
+        {
+          "num": 21,
+          "name": "Molly the Husband-Grabber, by Kulyok",
+          "install": false
+        },
+        {
+          "num": 22,
+          "name": "The Mourning of Centeol, the Spider Lady, by Lava",
+          "install": false
+        },
+        {
+          "num": 23,
+          "name": "The Essential End, by Lava (WARNING - refer to the readme!)",
+          "install": false
+        },
+        {
+          "num": 24,
+          "name": "The Harvestmen Lair, by Lava (mature content)",
+          "install": false
+        },
+        {
+          "num": 25,
+          "name": "The Great Zudini, by Kulyok (mature content)",
+          "install": false
+        },
+        {
+          "num": 26,
+          "name": "The Messenger, by Thimblerig",
+          "install": false
+        },
+        {
+          "num": 27,
+          "name": "Ender Sai, the Hero's Reward, by Thimblerig (WARNING - refer to the readme!)",
+          "install": false
+        },
+        {
+          "num": 28,
+          "name": "The Novelists, by Thimblerig",
+          "install": false
+        },
+        {
+          "num": 29,
+          "name": "The Honest Lies of Two Riversides, By Lava",
+          "install": false
+        },
+        {
+          "num": 30,
+          "name": "Necromancer's Trouble, by jastey",
+          "install": false
+        },
+        {
+          "num": 31,
+          "name": "Dinner with Thalantyr, by jastey",
+          "install": false
+        },
+        {
+          "num": 32,
+          "name": "Girdle of Gender Reactions, by Thimblerig, Kulyok, Domi, Lava, Lastknightleft, Twani, Jastey, Daisy Ninja Girl",
+          "install": false
+        },
+        {
+          "num": 33,
+          "name": "The Surgeon's Dream, by Kulyok",
+          "install": false
+        },
+        {
+          "num": 34,
+          "name": "All That Left Was, by Lava and Thimblerig",
+          "install": false
+        },
+        {
+          "num": 35,
+          "name": "A Childhood Friend, by Kulyok",
+          "install": false
+        },
+        {
+          "num": 36,
+          "name": "Arlene the Working Girl, by Kulyok",
+          "install": false
+        },
+        {
+          "num": 37,
+          "name": "Della May from Thay, by Kulyok",
+          "install": false
+        },
+        {
+          "num": 38,
+          "name": "A Dirty Guard in Candlekeep, by Kulyok (mature content. WARNING - refer to the readme!)",
+          "install": false
+        },
+        {
+          "num": 39,
+          "name": "Phoenix Flame, by Kulyok (mature content)",
+          "install": false
+        },
+        {
+          "num": 40,
+          "name": "Mikala the Monk, by Twani",
+          "install": false
+        },
+        {
+          "num": 41,
+          "name": "The Messenger 2: Rain or Snow or Gloom of Night, by Thimblerig and tibicina",
+          "install": false
+        },
+        {
+          "num": 42,
+          "name": "Camryn and Tamah, by tibicina",
+          "install": false
+        },
+        {
+          "num": 43,
+          "name": "Minor Disclosures, by jastey",
+          "install": false
+        },
+        {
+          "num": 44,
+          "name": "Cloakwood Lovers, by tibicina",
+          "install": false
+        },
+        {
+          "num": 100,
+          "name": "Main Component: Amount of -ahem- details and BG-style vs. description text! (Required) -> Teen Version and Skip Components with Warnings.",
+          "install": false
+        },
+        {
+          "num": 101,
+          "name": "Main Component: Amount of -ahem- details and BG-style vs. description text! (Required) -> Teen Version and Show/Install all Components with Warnings.",
+          "install": false
+        },
+        {
+          "num": 102,
+          "name": "Main Component: Amount of -ahem- details and BG-style vs. description text! (Required) -> BG-style Version [Adult content] and Skip Components with Warnings.",
+          "install": false
+        },
+        {
+          "num": 103,
+          "name": "Main Component: Amount of -ahem- details and BG-style vs. description text! (Required) -> BG-style Version [Adult content] and Show/Install all Components with Warnings.",
+          "install": false
+        },
+        {
+          "num": 104,
+          "name": "Main Component: Amount of -ahem- details and BG-style vs. description text! (Required) -> Descriptive Version [Adult content] and Skip Components with Warnings.",
+          "install": false
+        },
+        {
+          "num": 105,
+          "name": "Main Component: Amount of -ahem- details and BG-style vs. description text! (Required) -> Descriptive Version [Adult content] and Show/Install all Components with Warnings.",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "bg1ub",
+      "tp2File": "bg1ub\\setup-bg1ub.tp2",
+      "version": "v16.4",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Ice Island Level Two Restoration",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "The Mysterious Vial",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "Additional Elminster Encounter",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "Angelo Notices Shar-teel",
+          "install": false
+        },
+        {
+          "num": 4,
+          "name": "Finishable Kagain Caravan Quest",
+          "install": false
+        },
+        {
+          "num": 5,
+          "name": "Coran and the Wyverns",
+          "install": false
+        },
+        {
+          "num": 6,
+          "name": "Kivan and Tazok",
+          "install": false
+        },
+        {
+          "num": 7,
+          "name": "Branwen and Tranzig",
+          "install": false
+        },
+        {
+          "num": 8,
+          "name": "Safana the Flirt",
+          "install": false
+        },
+        {
+          "num": 9,
+          "name": "Appropriate Albert and Rufie Reward",
+          "install": false
+        },
+        {
+          "num": 10,
+          "name": "Place Entar Silvershield in His Home",
+          "install": false
+        },
+        {
+          "num": 11,
+          "name": "Scar and the Sashenstar's Daughter",
+          "install": false
+        },
+        {
+          "num": 12,
+          "name": "Quoningar, the Cleric",
+          "install": false
+        },
+        {
+          "num": 13,
+          "name": "Shilo Chen and the Ogre-Magi",
+          "install": false
+        },
+        {
+          "num": 14,
+          "name": "Edie, the Merchant League Applicant",
+          "install": false
+        },
+        {
+          "num": 15,
+          "name": "Flaming Fist Mercenary Reinforcements",
+          "install": false
+        },
+        {
+          "num": 16,
+          "name": "Creature Corrections",
+          "install": false
+        },
+        {
+          "num": 17,
+          "name": "Creature Restorations",
+          "install": false
+        },
+        {
+          "num": 18,
+          "name": "Creature Name Restorations",
+          "install": false
+        },
+        {
+          "num": 19,
+          "name": "Minor Dialogue Restorations",
+          "install": false
+        },
+        {
+          "num": 20,
+          "name": "Audio Restorations",
+          "install": false
+        },
+        {
+          "num": 21,
+          "name": "Store, Tavern and Inn Fixes and Restorations",
+          "install": false
+        },
+        {
+          "num": 22,
+          "name": "Item Corrections and Restorations",
+          "install": false
+        },
+        {
+          "num": 23,
+          "name": "Area Corrections and Restorations",
+          "install": false
+        },
+        {
+          "num": 24,
+          "name": "Permanent Corpses",
+          "install": false
+        },
+        {
+          "num": 25,
+          "name": "Elven Charm and Sleep Racial Resistance",
+          "install": false
+        },
+        {
+          "num": 26,
+          "name": "The Original Saga Music Playlist Corrections",
+          "install": false
+        },
+        {
+          "num": 27,
+          "name": "Sarevok's Diary Corrections",
+          "install": false
+        },
+        {
+          "num": 28,
+          "name": "Prism and the Emeralds Tweak",
+          "install": false
+        },
+        {
+          "num": 29,
+          "name": "Duke Eltan in the Harbor Master's Building",
+          "install": false
+        },
+        {
+          "num": 30,
+          "name": "Nim Furlwing Encounter",
+          "install": false
+        },
+        {
+          "num": 31,
+          "name": "Restored Elfsong Tavern Movie",
+          "install": false
+        },
+        {
+          "num": 32,
+          "name": "Svlast, the Fallen Paladin Encounter",
+          "install": false
+        },
+        {
+          "num": 33,
+          "name": "Mal-Kalen, the Ulcaster Ghost",
+          "install": false
+        },
+        {
+          "num": 34,
+          "name": "Chapter 6 Dialogue Restorations",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "BGEEClassicMovies",
+      "tp2File": "BGEEClassicMovies\\BGEEClassicMovies.tp2",
+      "version": "v2.3.1",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Restore BG1 movies to BG:EE -> Replace all movies",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "Restore BG1 movies to BG:EE -> Add missing movies",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "Show all movies in options without need to unlock them in game",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "Restore BG1 Chapter and Dream Screens",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "bgqe",
+      "tp2File": "bgqe\\setup-bgqe.tp2",
+      "version": "29",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Slime Quest",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "Beregost Family Quest",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "Babysitting Quest, including the Carnival Encounter...",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "Nashkel Monster Quest",
+          "install": false
+        },
+        {
+          "num": 4,
+          "name": "Fallen Paladin Quest",
+          "install": false
+        },
+        {
+          "num": 5,
+          "name": "Undying Love Quest",
+          "install": false
+        },
+        {
+          "num": 6,
+          "name": "Lovesick Half-Orc",
+          "install": false
+        },
+        {
+          "num": 7,
+          "name": "Unexpected Help Quest",
+          "install": false
+        },
+        {
+          "num": 8,
+          "name": "Many Little Paws",
+          "install": false
+        },
+        {
+          "num": 9,
+          "name": "Drunk Near Beregost Temple",
+          "install": false
+        },
+        {
+          "num": 10,
+          "name": "A Warm Place for Noober",
+          "install": false
+        },
+        {
+          "num": 11,
+          "name": "Brage's Sword",
+          "install": false
+        },
+        {
+          "num": 12,
+          "name": "Legal Sea Charts Sources",
+          "install": false
+        },
+        {
+          "num": 13,
+          "name": "Additions to the Lady's Hall and the Bitch Queen's Temple",
+          "install": false
+        },
+        {
+          "num": 14,
+          "name": "A Worried Farmer",
+          "install": false
+        },
+        {
+          "num": 15,
+          "name": "Bodies for a Good Cause",
+          "install": false
+        },
+        {
+          "num": 16,
+          "name": "Finish Cordyr's Quest without killing Sil",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "bst",
+      "tp2File": "bst\\setup-bst.tp2",
+      "version": "vEAOB.9",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "The BS Company presents Balduran's Seatower",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "c#endlessbg1",
+      "tp2File": "c#endlessbg1\\c#endlessbg1.tp2",
+      "version": "20",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Endless BG1: Main Component (Required)",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "More Flavor to Hero of Baldur's Gate (Includes PC's Residence Inside Palace)",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "Short Public Hero Tribute",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "Sarevok's Unique Items",
+          "install": false
+        },
+        {
+          "num": 4,
+          "name": "Sarevok's Sword",
+          "install": false
+        },
+        {
+          "num": 5,
+          "name": "Imoen and Duke Jannath (Imoen Gets Residence Inside Palace)",
+          "install": false
+        },
+        {
+          "num": 6,
+          "name": "Duke Eltan Is in the Palace",
+          "install": false
+        },
+        {
+          "num": 7,
+          "name": "Flaming Fist After Final Fight",
+          "install": false
+        },
+        {
+          "num": 8,
+          "name": "Elminster Makes an Appearance -> jastey's Version",
+          "install": false
+        },
+        {
+          "num": 9,
+          "name": "Elminster Makes an Appearance -> Restored BG1 Text",
+          "install": false
+        },
+        {
+          "num": 10,
+          "name": "First Refugees Come to Baldur's Gate",
+          "install": false
+        },
+        {
+          "num": 11,
+          "name": "Ophyllis the Treasurer is Inside Palace Dungeon",
+          "install": false
+        },
+        {
+          "num": 12,
+          "name": "Denkod in Thieves' Guild Comments on Sarevok's Death",
+          "install": false
+        },
+        {
+          "num": 13,
+          "name": "Skip Thieves' Maze Once After Sarevok's Death",
+          "install": false
+        },
+        {
+          "num": 14,
+          "name": "Korlasz' Dungeon is in BG1",
+          "install": false
+        },
+        {
+          "num": 15,
+          "name": "Fenster the Palace Healer Is in the Palace",
+          "install": false
+        },
+        {
+          "num": 16,
+          "name": "Captain Corwin Is in the Palace",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "cdtweaks",
+      "tp2File": "cdtweaks\\setup-cdtweaks.tp2",
+      "version": "v16",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 10,
+          "name": "Remove Helmet Animations",
+          "install": false
+        },
+        {
+          "num": 20,
+          "name": "Change Imoen's Avatar to Mage",
+          "install": false
+        },
+        {
+          "num": 30,
+          "name": "Change Nalia's Avatar to Thief",
+          "install": false
+        },
+        {
+          "num": 40,
+          "name": "Change Viconia's Skin Color to Dark Blue",
+          "install": false
+        },
+        {
+          "num": 50,
+          "name": "Avatar Morphing Script",
+          "install": false
+        },
+        {
+          "num": 60,
+          "name": "Weapon Animation Tweaks",
+          "install": false
+        },
+        {
+          "num": 70,
+          "name": "Icewind Dale Casting Graphics [Andyr]",
+          "install": false
+        },
+        {
+          "num": 72,
+          "name": "Baldur's Gate Casting Graphics [Andyr]",
+          "install": false
+        },
+        {
+          "num": 80,
+          "name": "Restore SoA Load Screen Logo",
+          "install": false
+        },
+        {
+          "num": 82,
+          "name": "Restore IWD Loading Screens [icelus]",
+          "install": false
+        },
+        {
+          "num": 90,
+          "name": "Disable Portrait Icons Added by Equipped Items",
+          "install": false
+        },
+        {
+          "num": 100,
+          "name": "Commoners Use Drab Colors",
+          "install": false
+        },
+        {
+          "num": 110,
+          "name": "Icon Improvements",
+          "install": false
+        },
+        {
+          "num": 120,
+          "name": "Change Avatar When Wearing Robes or Armor [Galactygon]",
+          "install": false
+        },
+        {
+          "num": 130,
+          "name": "Force All Dialogue to Pause Game",
+          "install": false
+        },
+        {
+          "num": 140,
+          "name": "Fix Boo's Squeak",
+          "install": false
+        },
+        {
+          "num": 150,
+          "name": "Remove \"+x\" From Unique Item Names",
+          "install": false
+        },
+        {
+          "num": 160,
+          "name": "Make Magic Shields Glow [plainab/grogerson]",
+          "install": false
+        },
+        {
+          "num": 170,
+          "name": "Unique Icons [Lava] -> Only replace icons that aren't already unique",
+          "install": false
+        },
+        {
+          "num": 171,
+          "name": "Unique Icons [Lava] -> Replace all icons",
+          "install": false
+        },
+        {
+          "num": 180,
+          "name": "Unique Containers [Miloch] -> Fixes only",
+          "install": false
+        },
+        {
+          "num": 181,
+          "name": "Unique Containers [Miloch] -> Unique icons only",
+          "install": false
+        },
+        {
+          "num": 182,
+          "name": "Unique Containers [Miloch] -> Unique icons and names",
+          "install": false
+        },
+        {
+          "num": 190,
+          "name": "Use Character Colors Instead of Item Colors -> For all shields and helmets",
+          "install": false
+        },
+        {
+          "num": 191,
+          "name": "Use Character Colors Instead of Item Colors -> For non-magical shields and helmets",
+          "install": false
+        },
+        {
+          "num": 192,
+          "name": "Use Character Colors Instead of Item Colors -> For all helmets",
+          "install": false
+        },
+        {
+          "num": 193,
+          "name": "Use Character Colors Instead of Item Colors -> For non-magical helmets",
+          "install": false
+        },
+        {
+          "num": 194,
+          "name": "Use Character Colors Instead of Item Colors -> For all shields",
+          "install": false
+        },
+        {
+          "num": 195,
+          "name": "Use Character Colors Instead of Item Colors -> For non-magical shields",
+          "install": false
+        },
+        {
+          "num": 200,
+          "name": "Remove Annoying Visual Effects from Equipped Items -> Remove blur effect",
+          "install": false
+        },
+        {
+          "num": 220,
+          "name": "Enhanced Overlays for Colorblind Players [Fouinto]",
+          "install": false
+        },
+        {
+          "num": 230,
+          "name": "Restore IWD Tooltips",
+          "install": false
+        },
+        {
+          "num": 1010,
+          "name": "More Interjections",
+          "install": false
+        },
+        {
+          "num": 1020,
+          "name": "Alter HP Triggers for NPC Wounded Dialogues",
+          "install": false
+        },
+        {
+          "num": 1030,
+          "name": "Reveal Wilderness Areas Before Chapter Six",
+          "install": false
+        },
+        {
+          "num": 1035,
+          "name": "Make Cloakwood Areas Available Before Completing the Bandit Camp -> First area only",
+          "install": false
+        },
+        {
+          "num": 1036,
+          "name": "Make Cloakwood Areas Available Before Completing the Bandit Camp -> All of Cloakwood except the mines",
+          "install": false
+        },
+        {
+          "num": 1040,
+          "name": "Improved Athkatlan City Guard",
+          "install": false
+        },
+        {
+          "num": 1050,
+          "name": "Gradual Drow Item Disintegration",
+          "install": false
+        },
+        {
+          "num": 1060,
+          "name": "Breakable Iron Non-Magical Shields, Helms, and Armor",
+          "install": false
+        },
+        {
+          "num": 1070,
+          "name": "Improved Multi-Player Kick-Out Dialogues",
+          "install": false
+        },
+        {
+          "num": 1075,
+          "name": "Send BioWare NPCs to an Inn [DavidW/Zed Nocear]",
+          "install": false
+        },
+        {
+          "num": 1080,
+          "name": "Add Bags of Holding",
+          "install": false
+        },
+        {
+          "num": 1085,
+          "name": "Portable Containers [Zed Nocear]",
+          "install": false
+        },
+        {
+          "num": 1090,
+          "name": "Exotic Item Pack",
+          "install": false
+        },
+        {
+          "num": 1100,
+          "name": "Reveal City Maps When Entering Area",
+          "install": false
+        },
+        {
+          "num": 1101,
+          "name": "Do Not Reveal City Maps When Entering Area",
+          "install": false
+        },
+        {
+          "num": 1110,
+          "name": "Add Map Notes",
+          "install": false
+        },
+        {
+          "num": 1120,
+          "name": "Stores Sell Higher Stacks of Items",
+          "install": false
+        },
+        {
+          "num": 1125,
+          "name": "Infinite Non-Magical Ammo for Bows, Crossbows, and Slings",
+          "install": false
+        },
+        {
+          "num": 1130,
+          "name": "Reputation Resets in BG2",
+          "install": false
+        },
+        {
+          "num": 1140,
+          "name": "Gems and Potions Require Identification -> Gems and potions",
+          "install": false
+        },
+        {
+          "num": 1141,
+          "name": "Gems and Potions Require Identification -> Just gems",
+          "install": false
+        },
+        {
+          "num": 1142,
+          "name": "Gems and Potions Require Identification -> Just potions",
+          "install": false
+        },
+        {
+          "num": 1150,
+          "name": "Shapeshifter Rebalancing [Weimer]",
+          "install": false
+        },
+        {
+          "num": 1160,
+          "name": "Multiple Strongholds [Sabre, Baldurdash, Weimer] -> No restrictions",
+          "install": false
+        },
+        {
+          "num": 1161,
+          "name": "Multiple Strongholds [Sabre, Baldurdash, Weimer] -> Keep class restrictions",
+          "install": false
+        },
+        {
+          "num": 1170,
+          "name": "Bonus Merchants [Baldurdash]",
+          "install": false
+        },
+        {
+          "num": 1180,
+          "name": "Female Edwina [Davide Carte, Wendy Yung, Weimer]",
+          "install": false
+        },
+        {
+          "num": 1190,
+          "name": "Romance Bug Fixes [Sabre, Richardson]",
+          "install": false
+        },
+        {
+          "num": 1200,
+          "name": "Imoen ToB Dialogue Fix [jcompton]",
+          "install": false
+        },
+        {
+          "num": 1210,
+          "name": "Use BG Walking Speeds",
+          "install": false
+        },
+        {
+          "num": 1220,
+          "name": "Allow Cromwell to Upgrade Watcher's Keep Items",
+          "install": false
+        },
+        {
+          "num": 1225,
+          "name": "Adjust Cromwell's Forging Time -> Instant forging (original BG2 default)",
+          "install": false
+        },
+        {
+          "num": 1226,
+          "name": "Adjust Cromwell's Forging Time -> Eight hours",
+          "install": false
+        },
+        {
+          "num": 1227,
+          "name": "Adjust Cromwell's Forging Time -> Full 24 hours (BG2EE default, includes sleep)",
+          "install": false
+        },
+        {
+          "num": 1230,
+          "name": "Allow Cespenar to Use Cromwell Recipes",
+          "install": false
+        },
+        {
+          "num": 1240,
+          "name": "Friendly Arm Inn Hidden Container Restoration [plainab]",
+          "install": false
+        },
+        {
+          "num": 1250,
+          "name": "Move NPCs from Baldur's Gate",
+          "install": false
+        },
+        {
+          "num": 1251,
+          "name": "Move NPCs to Convenient Locations: Move Alora to Gullykin",
+          "install": false
+        },
+        {
+          "num": 1252,
+          "name": "Move NPCs to Convenient Locations: Move Eldoth to the Coast Way",
+          "install": false
+        },
+        {
+          "num": 1253,
+          "name": "Move NPCs to Convenient Locations: Move Quayle to the Nashkel Carnival",
+          "install": false
+        },
+        {
+          "num": 1254,
+          "name": "Move NPCs to Convenient Locations: Move Shar-Teel to North Nashkel Road",
+          "install": false
+        },
+        {
+          "num": 1255,
+          "name": "Move NPCs to Convenient Locations: Move Tiax to Beregost",
+          "install": false
+        },
+        {
+          "num": 1256,
+          "name": "Move NPCs to Convenient Locations: Move Viconia to South Beregost Road",
+          "install": false
+        },
+        {
+          "num": 1260,
+          "name": "Bardic Reputation Adjustment",
+          "install": false
+        },
+        {
+          "num": 1270,
+          "name": "Change Cloakwood Mine Chapter End Change Trigger to Non-TotSC Behavior [plainab]",
+          "install": false
+        },
+        {
+          "num": 1280,
+          "name": "Game Ends When the Main Character Dies",
+          "install": false
+        },
+        {
+          "num": 1290,
+          "name": "NPCs Respond to the Main Character, Not to Whichever Character Talks to Them",
+          "install": false
+        },
+        {
+          "num": 1300,
+          "name": "Make Heart of Winter Accessible at Any Level",
+          "install": false
+        },
+        {
+          "num": 1310,
+          "name": "Restore (Most) BG2 Spells and Make Scrolls Available   WARNING: They will look very out of place",
+          "install": false
+        },
+        {
+          "num": 1330,
+          "name": "NPCs Cannot Use Doors",
+          "install": false
+        },
+        {
+          "num": 1340,
+          "name": "Make the Planar Sphere Stronghold Available to All Classes",
+          "install": false
+        },
+        {
+          "num": 1341,
+          "name": "Make the de'Arnise Keep Stronghold Available to All Classes",
+          "install": false
+        },
+        {
+          "num": 1342,
+          "name": "Make the Temple Strongholds Available to All Classes",
+          "install": false
+        },
+        {
+          "num": 1343,
+          "name": "Make the Thieves Guild Stronghold Available to All Classes",
+          "install": false
+        },
+        {
+          "num": 1344,
+          "name": "Make the Playhouse Stronghold Available to All Classes",
+          "install": false
+        },
+        {
+          "num": 1345,
+          "name": "Make the Noble Order of the Radiant Heart Stronghold Available to All Classes",
+          "install": false
+        },
+        {
+          "num": 1346,
+          "name": "Make the Druid Grove Stronghold Available to All Classes",
+          "install": false
+        },
+        {
+          "num": 1347,
+          "name": "Make the Imnesvale Cabin Stronghold Available to All Classes",
+          "install": false
+        },
+        {
+          "num": 2010,
+          "name": "Separate Resist Fire/Cold Icon into Separate Icons [Angel]",
+          "install": false
+        },
+        {
+          "num": 2020,
+          "name": "Two-Handed Bastard Swords",
+          "install": false
+        },
+        {
+          "num": 2030,
+          "name": "Two-Handed Katanas",
+          "install": false
+        },
+        {
+          "num": 2035,
+          "name": "Two-Handed Axes",
+          "install": false
+        },
+        {
+          "num": 2040,
+          "name": "Universal Clubs",
+          "install": false
+        },
+        {
+          "num": 2060,
+          "name": "Weapon Styles for All",
+          "install": false
+        },
+        {
+          "num": 2080,
+          "name": "Delay High Level Abilities",
+          "install": false
+        },
+        {
+          "num": 2090,
+          "name": "Change Experience Point Cap -> Remove experience cap",
+          "install": false
+        },
+        {
+          "num": 2091,
+          "name": "Change Experience Point Cap -> Level 20 experience point cap",
+          "install": false
+        },
+        {
+          "num": 2092,
+          "name": "Change Experience Point Cap -> Level 30 experience point cap",
+          "install": false
+        },
+        {
+          "num": 2100,
+          "name": "Allow Thieving and Stealth in Heavy Armor per PnP",
+          "install": false
+        },
+        {
+          "num": 2120,
+          "name": "Allow Arcane Spellcasting in Heavy Armor",
+          "install": false
+        },
+        {
+          "num": 2140,
+          "name": "Expanded Dual-Class Options",
+          "install": false
+        },
+        {
+          "num": 2150,
+          "name": "Wear Multiple Protection Items -> PnP restrictions",
+          "install": false
+        },
+        {
+          "num": 2151,
+          "name": "Wear Multiple Protection Items -> No restrictions",
+          "install": false
+        },
+        {
+          "num": 2152,
+          "name": "Wear Multiple Protection Items -> Allow armor plus one protection item [Angel]",
+          "install": false
+        },
+        {
+          "num": 2160,
+          "name": "Alter Weapon Proficiency System -> Rebalanced weapon proficiencies",
+          "install": false
+        },
+        {
+          "num": 2161,
+          "name": "Alter Weapon Proficiency System -> BG-style weapon proficiencies, with weapon styles [the bigg]",
+          "install": false
+        },
+        {
+          "num": 2162,
+          "name": "Alter Weapon Proficiency System -> BG-style weapon proficiencies, without weapon styles [the bigg]",
+          "install": false
+        },
+        {
+          "num": 2163,
+          "name": "Alter Weapon Proficiency System -> IWD-style proficiencies with weapon styles",
+          "install": false
+        },
+        {
+          "num": 2164,
+          "name": "Alter Weapon Proficiency System -> IWD-style proficiencies without weapon styles",
+          "install": false
+        },
+        {
+          "num": 2170,
+          "name": "Cast Spells from Scrolls (and Other Items) at Character Level",
+          "install": false
+        },
+        {
+          "num": 2190,
+          "name": "Limit Ability of Storekeepers to Identify Items -> Only mage and bard storekeepers can identify items",
+          "install": false
+        },
+        {
+          "num": 2191,
+          "name": "Limit Ability of Storekeepers to Identify Items -> Identification ability is based on storekeeper's lore",
+          "install": false
+        },
+        {
+          "num": 2192,
+          "name": "Limit Ability of Storekeepers to Identify Items -> Hybrid of both methods",
+          "install": false
+        },
+        {
+          "num": 2200,
+          "name": "Multi-Class Grandmastery [Weimer]",
+          "install": false
+        },
+        {
+          "num": 2210,
+          "name": "Change Grandmastery Bonuses -> True grandmastery [Baldurdash]",
+          "install": false
+        },
+        {
+          "num": 2211,
+          "name": "Change Grandmastery Bonuses -> BG2 grandmastery rules",
+          "install": false
+        },
+        {
+          "num": 2220,
+          "name": "Change Magically Created Weapons to Zero Weight",
+          "install": false
+        },
+        {
+          "num": 2230,
+          "name": "Make +x/+y Weapons Consistent",
+          "install": false
+        },
+        {
+          "num": 2231,
+          "name": "Description Updates for Make +x/+y Weapons Consistent Component",
+          "install": false
+        },
+        {
+          "num": 2240,
+          "name": "Un-Nerfed THAC0 Table",
+          "install": false
+        },
+        {
+          "num": 2250,
+          "name": "Un-Nerfed Sorcerer Spell Progression Table",
+          "install": false
+        },
+        {
+          "num": 2260,
+          "name": "Alter Mage Spell Progression Table -> Un-nerfed table [Blucher]",
+          "install": false
+        },
+        {
+          "num": 2261,
+          "name": "Alter Mage Spell Progression Table -> PnP table",
+          "install": false
+        },
+        {
+          "num": 2270,
+          "name": "Alter Bard Spell Progression Table -> Un-nerfed table [Blucher]",
+          "install": false
+        },
+        {
+          "num": 2271,
+          "name": "Alter Bard Spell Progression Table -> PnP table",
+          "install": false
+        },
+        {
+          "num": 2280,
+          "name": "Alter Cleric Spell Progression Table -> Un-nerfed table [Blucher]",
+          "install": false
+        },
+        {
+          "num": 2281,
+          "name": "Alter Cleric Spell Progression Table -> PnP table",
+          "install": false
+        },
+        {
+          "num": 2290,
+          "name": "Alter Druid Spell and Level Progression Tables -> No level progression changes, un-nerfed druid spell table only [Blucher]",
+          "install": false
+        },
+        {
+          "num": 2291,
+          "name": "Alter Druid Spell and Level Progression Tables -> No level progression changes, PnP druid/cleric spell table only",
+          "install": false
+        },
+        {
+          "num": 2292,
+          "name": "Alter Druid Spell and Level Progression Tables -> Use cleric level progression changes with normal druid spell table",
+          "install": false
+        },
+        {
+          "num": 2293,
+          "name": "Alter Druid Spell and Level Progression Tables -> Use cleric level progression changes with un-nerfed druid spell table [Blucher]",
+          "install": false
+        },
+        {
+          "num": 2294,
+          "name": "Alter Druid Spell and Level Progression Tables -> Use cleric level progression changes with pnp druid/cleric spell table",
+          "install": false
+        },
+        {
+          "num": 2295,
+          "name": "Alter Druid Spell and Level Progression Tables -> Use cleric level progression changes with normal cleric spell table",
+          "install": false
+        },
+        {
+          "num": 2296,
+          "name": "Alter Druid Spell and Level Progression Tables -> Use cleric level progression changes with un-nerfed cleric spell table [Blucher]",
+          "install": false
+        },
+        {
+          "num": 2297,
+          "name": "Use cleric level progression changes with normal druid spell table",
+          "install": false
+        },
+        {
+          "num": 2300,
+          "name": "Triple-Class HLA Tables",
+          "install": false
+        },
+        {
+          "num": 2310,
+          "name": "Add Save Penalties for Spells Cast by High-Level Casters -> Arcane magic only",
+          "install": false
+        },
+        {
+          "num": 2311,
+          "name": "Add Save Penalties for Spells Cast by High-Level Casters -> Divine magic only",
+          "install": false
+        },
+        {
+          "num": 2312,
+          "name": "Add Save Penalties for Spells Cast by High-Level Casters -> Arcane and divine magic",
+          "install": false
+        },
+        {
+          "num": 2320,
+          "name": "Trap Cap Removal [Ardanis/GeN1e]",
+          "install": false
+        },
+        {
+          "num": 2330,
+          "name": "Remove Delay for Magical Traps [Ardanis/GeN1e]",
+          "install": false
+        },
+        {
+          "num": 2339,
+          "name": "Remove Summoning Cap for Regular Summons",
+          "install": false
+        },
+        {
+          "num": 2340,
+          "name": "Remove Summoning Cap for Celestials [Ardanis/GeN1e]",
+          "install": false
+        },
+        {
+          "num": 2350,
+          "name": "Alter Multi-Class Restrictions -> Allow humans to multi-class",
+          "install": false
+        },
+        {
+          "num": 2351,
+          "name": "Alter Multi-Class Restrictions -> Allow non-humans access to all multi-class combinations",
+          "install": false
+        },
+        {
+          "num": 2352,
+          "name": "Install options one and two (everyone can multi-class anything)",
+          "install": false
+        },
+        {
+          "num": 2353,
+          "name": "Alter Multi-Class Restrictions -> Allow non-humans access to a multi-classes only if they can access the single-classes",
+          "install": false
+        },
+        {
+          "num": 2357,
+          "name": "Alter Multi-Class Restrictions -> Install options one and two (everyone can multi-class anything)",
+          "install": false
+        },
+        {
+          "num": 2358,
+          "name": "Alter Multi-Class Restrictions -> Install options one and three (everyone can multi-class anything they can single-class)",
+          "install": false
+        },
+        {
+          "num": 2360,
+          "name": "Remove Racial Restrictions for Single-Classes",
+          "install": false
+        },
+        {
+          "num": 2370,
+          "name": "Alter Dual-Class Restrictions -> Humans can no longer dual-class",
+          "install": false
+        },
+        {
+          "num": 2371,
+          "name": "Alter Dual-Class Restrictions -> Allow non-humans to dual-class",
+          "install": false
+        },
+        {
+          "num": 2372,
+          "name": "Alter Dual-Class Restrictions -> Both options: *only* non-humans can dual-class",
+          "install": false
+        },
+        {
+          "num": 2380,
+          "name": "Remove Racial Restrictions for Kits",
+          "install": false
+        },
+        {
+          "num": 2390,
+          "name": "Alter Paladin Spell Progression Table -> Paladins Use Icewind Dale-Heart of Winter Spell Tables [grogerson]",
+          "install": false
+        },
+        {
+          "num": 2391,
+          "name": "Alter Paladin Spell Progression Table -> BG2-Style Progression (Up To Level Six Spells) [TotoR]",
+          "install": false
+        },
+        {
+          "num": 2400,
+          "name": "Alter Ranger Spell Progression Table -> Rangers Use Icewind Dale-Heart of Winter Spell Tables [grogerson]",
+          "install": false
+        },
+        {
+          "num": 2401,
+          "name": "Alter Ranger Spell Progression Table -> BG2-Style Progression (Up To Level Five Spells) [TotoR]",
+          "install": false
+        },
+        {
+          "num": 2410,
+          "name": "Druids Use 3E Alignment Restrictions",
+          "install": false
+        },
+        {
+          "num": 2420,
+          "name": "Loosen Equipment Restrictions for Cleric Multi- and Dual-Classes",
+          "install": false
+        },
+        {
+          "num": 2430,
+          "name": "Change Equipment Restrictions for Druid Multi- and Dual-Classes -> Loosen equipment restrictions for druid multi- and dual-classes",
+          "install": false
+        },
+        {
+          "num": 2431,
+          "name": "Change Equipment Restrictions for Druid Multi- and Dual-Classes -> Tighten equipment restrictions for druid multi- and dual-classes [Angel]",
+          "install": false
+        },
+        {
+          "num": 2440,
+          "name": "Everyone Gets Bonus APR from Specialization [subtledoctor]",
+          "install": false
+        },
+        {
+          "num": 2450,
+          "name": "Enforce PnP Proficiency Rules on Dual-Classed Characters [subtledoctor]",
+          "install": false
+        },
+        {
+          "num": 2500,
+          "name": "Exceptional Strength Weight Limit Changes [sarevok57]",
+          "install": false
+        },
+        {
+          "num": 2510,
+          "name": "Level-Lock Spell Scrolls [Angel]",
+          "install": false
+        },
+        {
+          "num": 2520,
+          "name": "Allow Mages to Use Bucklers and Thieves to Use Small Shields [Angel]",
+          "install": false
+        },
+        {
+          "num": 2530,
+          "name": "Lightning Bolts Don't Bounce [Angel]",
+          "install": false
+        },
+        {
+          "num": 2540,
+          "name": "Speed Up de'Arnise Keep Stronghold Quests",
+          "install": false
+        },
+        {
+          "num": 2550,
+          "name": "Alter Gnome Mage Kit/Multi-Class Options -> Keep gnome illusionist multi-class, enable all kits for single-class",
+          "install": false
+        },
+        {
+          "num": 2551,
+          "name": "Alter Gnome Mage Kit/Multi-Class Options -> Generic mage multi-class, keep only illusionist kit for single-class",
+          "install": false
+        },
+        {
+          "num": 2552,
+          "name": "Alter Gnome Mage Kit/Multi-Class Options -> Generic mage multi-class, enable all kits for single-class",
+          "install": false
+        },
+        {
+          "num": 2560,
+          "name": "Allow Monks to Wear Helmets",
+          "install": false
+        },
+        {
+          "num": 2580,
+          "name": "Alter Wisdom-Based Divine Bonus Spell Table -> Use PnP/PsT Table",
+          "install": false
+        },
+        {
+          "num": 2581,
+          "name": "Alter Wisdom-Based Divine Bonus Spell Table -> Use BG/BG2/IWD Table",
+          "install": false
+        },
+        {
+          "num": 2590,
+          "name": "Thieves Can Backstab With More Weapons With \"Use Any Item\" or as Dual- and Multi-Classes",
+          "install": false
+        },
+        {
+          "num": 2620,
+          "name": "Make Certain Creatures Immune to Backstab/Sneak Attack [Luke]",
+          "install": false
+        },
+        {
+          "num": 2999,
+          "name": "Max HP at Level One",
+          "install": false
+        },
+        {
+          "num": 3000,
+          "name": "Higher HP on Level Up -> Maximum",
+          "install": false
+        },
+        {
+          "num": 3001,
+          "name": "Higher HP on Level Up -> NWN-style",
+          "install": false
+        },
+        {
+          "num": 3002,
+          "name": "Higher HP on Level Up -> Average rolls",
+          "install": false
+        },
+        {
+          "num": 3008,
+          "name": "Allow HP Rolls Through Level 20 [Angel]",
+          "install": false
+        },
+        {
+          "num": 3010,
+          "name": "Maximum HP Creatures [the bigg] -> For all creatures in game",
+          "install": false
+        },
+        {
+          "num": 3011,
+          "name": "Maximum HP Creatures [the bigg] -> For non-party-joinable NPCs only",
+          "install": false
+        },
+        {
+          "num": 3012,
+          "name": "Maximum HP Creatures [the bigg] -> For party-joinable NPCs only",
+          "install": false
+        },
+        {
+          "num": 3020,
+          "name": "Identify All Items",
+          "install": false
+        },
+        {
+          "num": 3030,
+          "name": "Easy Spell Learning -> 100% learn spells",
+          "install": false
+        },
+        {
+          "num": 3031,
+          "name": "Easy Spell Learning -> 100% learn spells and no maximum cap",
+          "install": false
+        },
+        {
+          "num": 3040,
+          "name": "Make Bags of Holding Bottomless",
+          "install": false
+        },
+        {
+          "num": 3050,
+          "name": "Remove Fatigue from Restoration Spells",
+          "install": false
+        },
+        {
+          "num": 3060,
+          "name": "Remove \"You Must Gather Your Party...\" Sound [Weimer]",
+          "install": false
+        },
+        {
+          "num": 3070,
+          "name": "Change Effect of Reputation on Store Prices -> Low Reputation Store Discount [Sabre]",
+          "install": false
+        },
+        {
+          "num": 3071,
+          "name": "Change Effect of Reputation on Store Prices -> Reputation has no effect, stores price fixed at 100% [Luiz]",
+          "install": false
+        },
+        {
+          "num": 3072,
+          "name": "Change Effect of Reputation on Store Prices -> Reputation has no effect, stores price fixed at 80% [Luiz]",
+          "install": false
+        },
+        {
+          "num": 3073,
+          "name": "Change Effect of Reputation on Store Prices -> Reputation has no effect, stores price fixed at 60% [Luiz]",
+          "install": false
+        },
+        {
+          "num": 3080,
+          "name": "Increase Ammo Stack Size -> Unlimited ammo stacking",
+          "install": false
+        },
+        {
+          "num": 3081,
+          "name": "Increase Ammo Stack Size -> Stacks of 40",
+          "install": false
+        },
+        {
+          "num": 3082,
+          "name": "Increase Ammo Stack Size -> Stacks of 80",
+          "install": false
+        },
+        {
+          "num": 3083,
+          "name": "Increase Ammo Stack Size -> Stacks of 120",
+          "install": false
+        },
+        {
+          "num": 3090,
+          "name": "Increase Jewelry, Gem, and Miscellaneous Item Stacks -> Unlimited jewelry, gem, and miscellaneous item stacking",
+          "install": false
+        },
+        {
+          "num": 3091,
+          "name": "Increase Jewelry, Gem, and Miscellaneous Item Stacks -> Stacks of 40",
+          "install": false
+        },
+        {
+          "num": 3092,
+          "name": "Increase Jewelry, Gem, and Miscellaneous Item Stacks -> Stacks of 80",
+          "install": false
+        },
+        {
+          "num": 3093,
+          "name": "Increase Jewelry, Gem, and Miscellaneous Item Stacks -> Stacks of 120",
+          "install": false
+        },
+        {
+          "num": 3100,
+          "name": "Increase Potion Stacking -> Unlimited potion stacking",
+          "install": false
+        },
+        {
+          "num": 3101,
+          "name": "Increase Potion Stacking -> Stacks of 40",
+          "install": false
+        },
+        {
+          "num": 3102,
+          "name": "Increase Potion Stacking -> Stacks of 80",
+          "install": false
+        },
+        {
+          "num": 3103,
+          "name": "Increase Potion Stacking -> Stacks of 120",
+          "install": false
+        },
+        {
+          "num": 3110,
+          "name": "Increase Scroll Stacking -> Unlimited scroll stacking",
+          "install": false
+        },
+        {
+          "num": 3111,
+          "name": "Increase Scroll Stacking -> Stacks of 40",
+          "install": false
+        },
+        {
+          "num": 3112,
+          "name": "Increase Scroll Stacking -> Stacks of 80",
+          "install": false
+        },
+        {
+          "num": 3113,
+          "name": "Increase Scroll Stacking -> Stacks of 120",
+          "install": false
+        },
+        {
+          "num": 3115,
+          "name": "Stackable Ankheg Shells, Winter Wolf Pelts and Wyvern Heads",
+          "install": false
+        },
+        {
+          "num": 3120,
+          "name": "Happy Patch - Alter How Party NPCs Complain About Reputation -> NPCs are never angry about reputation",
+          "install": false
+        },
+        {
+          "num": 3121,
+          "name": "Happy Patch - Alter How Party NPCs Complain About Reputation -> NPCs can be angry about reputation but never leave [Salk]",
+          "install": false
+        },
+        {
+          "num": 3122,
+          "name": "Happy Patch - Alter How Party NPCs Complain About Reputation -> NPCs are always neutral about reputation [Anomaly]",
+          "install": false
+        },
+        {
+          "num": 3123,
+          "name": "NPCs Don't Fight",
+          "install": false
+        },
+        {
+          "num": 3124,
+          "name": "Stop Haer'Dalis-Aerie Romance from Starting",
+          "install": false
+        },
+        {
+          "num": 3125,
+          "name": "Neutral Characters Make Happy Comments at Mid-Range Reputation [Luiz]",
+          "install": false
+        },
+        {
+          "num": 3130,
+          "name": "No Traps or Locks [Weimer]",
+          "install": false
+        },
+        {
+          "num": 3140,
+          "name": "Faster Chapter One and Two Cutscenes and Dreams -> Originals from Ease-of-Use mod [Karzak, Blucher, aVENGER, Weimer]",
+          "install": false
+        },
+        {
+          "num": 3141,
+          "name": "Faster Chapter One and Two Cutscenes and Dreams -> Non-silly version",
+          "install": false
+        },
+        {
+          "num": 3150,
+          "name": "Remove Annoying Visual Effects from Equipped Items -> Remove spell trap and reflection effects",
+          "install": false
+        },
+        {
+          "num": 3151,
+          "name": "Remove Annoying Visual Effects from Equipped Items -> Remove all of the above",
+          "install": false
+        },
+        {
+          "num": 3160,
+          "name": "Keep Drizzt's Loot, Disable Malchor Harpell [Weimer]",
+          "install": false
+        },
+        {
+          "num": 3170,
+          "name": "No Drow Avatars On Party In Underdark [Weimer]",
+          "install": false
+        },
+        {
+          "num": 3175,
+          "name": "Disable Romances",
+          "install": false
+        },
+        {
+          "num": 3176,
+          "name": "Accelerate/Decelerate Romances",
+          "install": false
+        },
+        {
+          "num": 3183,
+          "name": "Romance Cheats [Sabre, Richardson, Weimer]",
+          "install": false
+        },
+        {
+          "num": 3190,
+          "name": "Rest Anywhere [japheth]",
+          "install": false
+        },
+        {
+          "num": 3191,
+          "name": "Disable Non-Hostile Rest Spawns",
+          "install": false
+        },
+        {
+          "num": 3194,
+          "name": "Alter Hostile Rest Spawns -> Disable completely",
+          "install": false
+        },
+        {
+          "num": 3195,
+          "name": "Alter Hostile Rest Spawns -> Decrease frequency by 50%",
+          "install": false
+        },
+        {
+          "num": 3196,
+          "name": "Alter Hostile Rest Spawns -> Increase frequency by 50%",
+          "install": false
+        },
+        {
+          "num": 3197,
+          "name": "Alter Hostile Rest Spawns -> Double frequency",
+          "install": false
+        },
+        {
+          "num": 3198,
+          "name": "Alter Hostile Rest Spawns -> Quadruple frequency",
+          "install": false
+        },
+        {
+          "num": 3200,
+          "name": "Sellable Items [icelus]",
+          "install": false
+        },
+        {
+          "num": 3205,
+          "name": "Stores Purchase All Item Types",
+          "install": false
+        },
+        {
+          "num": 3210,
+          "name": "Minimum Stats Cheat",
+          "install": false
+        },
+        {
+          "num": 3220,
+          "name": "Sensible Entrance Points",
+          "install": false
+        },
+        {
+          "num": 3230,
+          "name": "Taerom Makes Additional Ankheg Armor [Icendoan/grogerson]",
+          "install": false
+        },
+        {
+          "num": 3240,
+          "name": "Friendly Random Drops -> Randomize on reload",
+          "install": false
+        },
+        {
+          "num": 3241,
+          "name": "Friendly Random Drops -> Choose your drop",
+          "install": false
+        },
+        {
+          "num": 3242,
+          "name": "Friendly Random Drops -> Exchange with merchants",
+          "install": false
+        },
+        {
+          "num": 3250,
+          "name": "Never Lose Access to Orrick the Gray's Trade Goods",
+          "install": false
+        },
+        {
+          "num": 3260,
+          "name": "Recoverable Ammunition [argent77] -> 25% chance to recover after a successful hit",
+          "install": false
+        },
+        {
+          "num": 3261,
+          "name": "Recoverable Ammunition [argent77] -> 50% chance to recover after a successful hit",
+          "install": false
+        },
+        {
+          "num": 3262,
+          "name": "Recoverable Ammunition [argent77] -> 75% chance to recover after a successful hit",
+          "install": false
+        },
+        {
+          "num": 3263,
+          "name": "Recoverable Ammunition [argent77] -> 100% chance to recover after a successful hit",
+          "install": false
+        },
+        {
+          "num": 3264,
+          "name": "Recoverable Ammunition [argent77] -> 25% chance to recover after a successful hit, vs. enemies only",
+          "install": false
+        },
+        {
+          "num": 3265,
+          "name": "Recoverable Ammunition [argent77] -> 50% chance to recover after a successful hit, vs. enemies only",
+          "install": false
+        },
+        {
+          "num": 3266,
+          "name": "Recoverable Ammunition [argent77] -> 75% chance to recover after a successful hit, vs. enemies only",
+          "install": false
+        },
+        {
+          "num": 3267,
+          "name": "Recoverable Ammunition [argent77] -> 100% chance to recover after a successful hit, vs. enemies only",
+          "install": false
+        },
+        {
+          "num": 3270,
+          "name": "Recoverable Throwing Weapons [argent77] -> 25% chance to recover after a successful hit",
+          "install": false
+        },
+        {
+          "num": 3271,
+          "name": "Recoverable Throwing Weapons [argent77] -> 50% chance to recover after a successful hit",
+          "install": false
+        },
+        {
+          "num": 3272,
+          "name": "Recoverable Throwing Weapons [argent77] -> 75% chance to recover after a successful hit",
+          "install": false
+        },
+        {
+          "num": 3273,
+          "name": "Recoverable Throwing Weapons [argent77] -> 100% chance to recover after a successful hit",
+          "install": false
+        },
+        {
+          "num": 3274,
+          "name": "Recoverable Throwing Weapons [argent77] -> 25% chance to recover after a successful hit, vs. enemies only",
+          "install": false
+        },
+        {
+          "num": 3275,
+          "name": "Recoverable Throwing Weapons [argent77] -> 50% chance to recover after a successful hit, vs. enemies only",
+          "install": false
+        },
+        {
+          "num": 3276,
+          "name": "Recoverable Throwing Weapons [argent77] -> 75% chance to recover after a successful hit, vs. enemies only",
+          "install": false
+        },
+        {
+          "num": 3277,
+          "name": "Recoverable Throwing Weapons [argent77] -> 100% chance to recover after a successful hit, vs. enemies only",
+          "install": false
+        },
+        {
+          "num": 3280,
+          "name": "Give Every Class/Kit Four Weapon Slots",
+          "install": false
+        },
+        {
+          "num": 3290,
+          "name": "Personalize Automatic Save Names -> Use scheme: 000000000-Protagonist-Save-Name",
+          "install": false
+        },
+        {
+          "num": 3291,
+          "name": "Personalize Automatic Save Names -> Use scheme: 000000000-Protagonist Save-Name",
+          "install": false
+        },
+        {
+          "num": 3292,
+          "name": "Personalize Automatic Save Names -> Use scheme: 000000000-(Protagonist)-Save-Name",
+          "install": false
+        },
+        {
+          "num": 3293,
+          "name": "Personalize Automatic Save Names -> Use scheme: 000000000-(Protagonist) Save-Name",
+          "install": false
+        },
+        {
+          "num": 3294,
+          "name": "Personalize Automatic Save Names -> Use scheme: 000000000-[Protagonist]-Save-Name",
+          "install": false
+        },
+        {
+          "num": 3295,
+          "name": "Personalize Automatic Save Names -> Use scheme: 000000000-[Protagonist] Save-Name",
+          "install": false
+        },
+        {
+          "num": 3300,
+          "name": "Death Cam",
+          "install": false
+        },
+        {
+          "num": 3310,
+          "name": "Start New Games with Party AI Turned Off",
+          "install": false
+        },
+        {
+          "num": 3320,
+          "name": "No Depreciation in Stores",
+          "install": false
+        },
+        {
+          "num": 3330,
+          "name": "Make Party Members Less Likely to Die Irreversibly",
+          "install": false
+        },
+        {
+          "num": 3340,
+          "name": "Increase Party Movement Speed and/or Casting Speed Outside of Combat [argent77] -> Movement speed by 50 percent",
+          "install": false
+        },
+        {
+          "num": 3341,
+          "name": "Increase Party Movement Speed and/or Casting Speed Outside of Combat [argent77] -> Movement speed by 100 percent",
+          "install": false
+        },
+        {
+          "num": 3342,
+          "name": "Increase Party Movement Speed and/or Casting Speed Outside of Combat [argent77] -> Movement speed by 150 percent",
+          "install": false
+        },
+        {
+          "num": 3343,
+          "name": "Increase Party Movement Speed and/or Casting Speed Outside of Combat [argent77] -> Movement speed by 50 percent and casting speed",
+          "install": false
+        },
+        {
+          "num": 3344,
+          "name": "Increase Party Movement Speed and/or Casting Speed Outside of Combat [argent77] -> Movement speed by 100 percent and casting speed",
+          "install": false
+        },
+        {
+          "num": 3345,
+          "name": "Increase Party Movement Speed and/or Casting Speed Outside of Combat [argent77] -> Movement speed by 150 percent and casting speed",
+          "install": false
+        },
+        {
+          "num": 3346,
+          "name": "Increase Party Movement Speed and/or Casting Speed Outside of Combat [argent77] -> Casting speed only",
+          "install": false
+        },
+        {
+          "num": 3350,
+          "name": "Create Interval Saves [argent77] -> Every 15 minutes (one save only)",
+          "install": false
+        },
+        {
+          "num": 3351,
+          "name": "Create Interval Saves [argent77] -> Every 30 minutes (one save only)",
+          "install": false
+        },
+        {
+          "num": 3352,
+          "name": "Create Interval Saves [argent77] -> Every 60 minutes (one save only)",
+          "install": false
+        },
+        {
+          "num": 3353,
+          "name": "Create Interval Saves [argent77] -> Every 120 minutes (one save only)",
+          "install": false
+        },
+        {
+          "num": 3354,
+          "name": "Create Interval Saves [argent77] -> Every 15 minutes (cycle through four saves)",
+          "install": false
+        },
+        {
+          "num": 3355,
+          "name": "Create Interval Saves [argent77] -> Every 30 minutes (cycle through four saves)",
+          "install": false
+        },
+        {
+          "num": 3356,
+          "name": "Create Interval Saves [argent77] -> Every 60 minutes (cycle through four saves)",
+          "install": false
+        },
+        {
+          "num": 3357,
+          "name": "Create Interval Saves [argent77] -> Every 120 minutes (cycle through four saves)",
+          "install": false
+        },
+        {
+          "num": 3358,
+          "name": "Create Interval Saves [argent77] -> Customize (via cdtweaks.txt)",
+          "install": false
+        },
+        {
+          "num": 3360,
+          "name": "Reset UnderSigil Fog of War",
+          "install": false
+        },
+        {
+          "num": 4000,
+          "name": "Adjust Evil Joinable NPC Reaction Rolls",
+          "install": false
+        },
+        {
+          "num": 4010,
+          "name": "Improved Fate Spirit Summoning",
+          "install": false
+        },
+        {
+          "num": 4020,
+          "name": "ToB-Style NPCs",
+          "install": false
+        },
+        {
+          "num": 4025,
+          "name": "Allow NPC Pairs to Separate",
+          "install": false
+        },
+        {
+          "num": 4030,
+          "name": "Consistent Stats: Edwin -> Use BG values",
+          "install": false
+        },
+        {
+          "num": 4031,
+          "name": "Consistent Stats: Edwin -> Use BG2 values",
+          "install": false
+        },
+        {
+          "num": 4040,
+          "name": "Consistent Stats: Jaheira -> Use BG values",
+          "install": false
+        },
+        {
+          "num": 4041,
+          "name": "Consistent Stats: Jaheira -> Use BG2 values",
+          "install": false
+        },
+        {
+          "num": 4050,
+          "name": "Change Jaheira to Neutral Good Alignment",
+          "install": false
+        },
+        {
+          "num": 4060,
+          "name": "Consistent Stats: Minsc -> Use BG values",
+          "install": false
+        },
+        {
+          "num": 4061,
+          "name": "Consistent Stats: Minsc -> Use BG2 values",
+          "install": false
+        },
+        {
+          "num": 4070,
+          "name": "Consistent Stats: Viconia -> Use BG values",
+          "install": false
+        },
+        {
+          "num": 4071,
+          "name": "Consistent Stats: Viconia -> Use BG2 values",
+          "install": false
+        },
+        {
+          "num": 4080,
+          "name": "Make Khalid a Fighter-Mage [Domi]",
+          "install": false
+        },
+        {
+          "num": 4090,
+          "name": "Make Montaron an Assassin [Andyr]",
+          "install": false
+        },
+        {
+          "num": 4100,
+          "name": "Change Korgan to Neutral Evil Alignment",
+          "install": false
+        },
+        {
+          "num": 4110,
+          "name": "Give Kagain a Legal Constitution Score of 19",
+          "install": false
+        },
+        {
+          "num": 4120,
+          "name": "Give Coran a Legal Dexterity Score of 19",
+          "install": false
+        },
+        {
+          "num": 4130,
+          "name": "Make Xan a Generalist Mage [Mike1072]",
+          "install": false
+        },
+        {
+          "num": 4131,
+          "name": "Make Dynaheir a Generalist Mage [Angel]",
+          "install": false
+        },
+        {
+          "num": 4132,
+          "name": "Make Xzar a Generalist Mage [Angel]",
+          "install": false
+        },
+        {
+          "num": 4133,
+          "name": "Make Edwin a Generalist Mage [Angel]",
+          "install": false
+        },
+        {
+          "num": 4140,
+          "name": "Don't Auto-Assign Advanced AI Scripting to Party",
+          "install": false
+        },
+        {
+          "num": 4150,
+          "name": "Move Boo Into Minsc's Pack",
+          "install": false
+        },
+        {
+          "num": 4160,
+          "name": "Allow Yeslick to Use Axes",
+          "install": false
+        },
+        {
+          "num": 4170,
+          "name": "Ensure Shar-Teel Doesn't Die in the Original Challenge",
+          "install": false
+        },
+        {
+          "num": 4180,
+          "name": "Removable NPC Items",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "celestials",
+      "tp2File": "celestials\\setup-celestials.tp2",
+      "version": "v10",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "PnP Celestials",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "Deva and Planetar Animations",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "DlcMerger",
+      "tp2File": "DlcMerger\\DlcMerger.tp2",
+      "version": "1.7",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 1,
+          "name": "Merge DLC into game -> Merge \"Siege of Dragonspear\" DLC",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "Merge DLC into game -> Merge user-defined DLC",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "Merge DLC into game -> Merge all available DLCs",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "Drake",
+      "tp2File": "Drake\\Setup-Drake.tp2",
+      "version": "1.7",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Drake NPC for Baldur's Gate: Enhanced Edition",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "Choose a portrait for Drake: -> Default Portrait (The Artisan)",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "Choose a portrait for Drake: -> BG2-style (The Artisan)",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "Choose a portrait for Drake: -> Beta Portrait (Lava Del'Vortel)",
+          "install": false
+        },
+        {
+          "num": 4,
+          "name": "OPTIONAL: Install Universal Crossbows, Crossbow Proficiency for Drake?",
+          "install": false
+        },
+        {
+          "num": 5,
+          "name": "OPTIONAL: Original Soundset by BillyYank",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "dw_talents",
+      "tp2File": "dw_talents\\dw_talents.tp2",
+      "version": "Beta 15",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 100,
+          "name": "Install in batch mode (ask about all components before starting installation). DO NOT USE WITH PROJECT INFINITY.",
+          "install": false
+        },
+        {
+          "num": 1500,
+          "name": "Include arcane spells from Icewind Dale: Enhanced Edition",
+          "install": false
+        },
+        {
+          "num": 1510,
+          "name": "Include divine spells from Icewind Dale: Enhanced Edition",
+          "install": false
+        },
+        {
+          "num": 1520,
+          "name": "Include bard songs from Icewind Dale: Enhanced Edition",
+          "install": false
+        },
+        {
+          "num": 1600,
+          "name": "Use Baldur's Gate-style Insect Plague and Creeping Doom instead of Icewind Dale versions",
+          "install": false
+        },
+        {
+          "num": 1610,
+          "name": "Use Baldur's Gate-style Mordenkainen's Sword in addition to Icewind Dale version",
+          "install": false
+        },
+        {
+          "num": 2000,
+          "name": "Install all spell tweaks (if you don't select this, you will be given a chance to choose by category)",
+          "install": false
+        },
+        {
+          "num": 2010,
+          "name": "Core Stratagems spell-system changes (assumed by Sword Coast Stratagems mod)",
+          "install": false
+        },
+        {
+          "num": 2020,
+          "name": "Baldur's Gate-inspired tweaks to Icewind Dale spells",
+          "install": false
+        },
+        {
+          "num": 2030,
+          "name": "Changes to Restoration",
+          "install": false
+        },
+        {
+          "num": 2040,
+          "name": "Changes to shapeshift spells",
+          "install": false
+        },
+        {
+          "num": 2050,
+          "name": "Icewind Dale-inspired tweaks to Baldur's Gate/Baldur's Gate II spells",
+          "install": false
+        },
+        {
+          "num": 2060,
+          "name": "Rebalancings of slightly-too-powerful spells",
+          "install": false
+        },
+        {
+          "num": 2070,
+          "name": "Spell school changes",
+          "install": false
+        },
+        {
+          "num": 2080,
+          "name": "Spells increased in power",
+          "install": false
+        },
+        {
+          "num": 2500,
+          "name": "Add 9 new arcane spells",
+          "install": false
+        },
+        {
+          "num": 2510,
+          "name": "Add 6 new divine spells (some borrowed from Divine Remix)",
+          "install": false
+        },
+        {
+          "num": 2520,
+          "name": "Revised Elementals",
+          "install": false
+        },
+        {
+          "num": 20000,
+          "name": "Introduce new races and subraces",
+          "install": false
+        },
+        {
+          "num": 40000,
+          "name": "Eliminate class/race restrictions and most class/ability score restrictions",
+          "install": false
+        },
+        {
+          "num": 40100,
+          "name": "Revised class alignment rules",
+          "install": false
+        },
+        {
+          "num": 40150,
+          "name": "Make Barbarian Into a Class",
+          "install": false
+        },
+        {
+          "num": 40160,
+          "name": "Make Wizard Slayer Kit Available to Barbarians",
+          "install": false
+        },
+        {
+          "num": 40190,
+          "name": "Revised Paladins and Blackguards",
+          "install": false
+        },
+        {
+          "num": 40200,
+          "name": "Icewind Dale-style paladins and blackguards",
+          "install": false
+        },
+        {
+          "num": 40300,
+          "name": "Revised Smite Evil",
+          "install": false
+        },
+        {
+          "num": 40310,
+          "name": "Higher-level paladins get additional uses of Lay on Hands and Smite Evil",
+          "install": false
+        },
+        {
+          "num": 40400,
+          "name": "Rangers use Icewind Dale-style spell memorisation",
+          "install": false
+        },
+        {
+          "num": 40450,
+          "name": "Thieves gain the Evasion ability (on a successful save for half damage against abilities that require you to dodge, take no damage)",
+          "install": false
+        },
+        {
+          "num": 40460,
+          "name": "Modified thief Evasion",
+          "install": false
+        },
+        {
+          "num": 40470,
+          "name": "Rebalanced thief and bounty hunter traps at low levels",
+          "install": false
+        },
+        {
+          "num": 40500,
+          "name": "Revised favored enemy for rangers: new enemy groups, and rangers reselect their favored enemy at 4th level and every third level thereafter",
+          "install": false
+        },
+        {
+          "num": 40600,
+          "name": "Revised shapeshift powers for druids and avengers",
+          "install": false
+        },
+        {
+          "num": 40610,
+          "name": "Druids use cleric XP and spell tables",
+          "install": false
+        },
+        {
+          "num": 40650,
+          "name": "Revised speciality priests of Lathander/Helm/Talos/Tempus/Tyr",
+          "install": false
+        },
+        {
+          "num": 40660,
+          "name": "Modified cleric stronghold quest for priests of any god except Lathander/Helm/Talos",
+          "install": false
+        },
+        {
+          "num": 40700,
+          "name": "Allow monks to use staffs",
+          "install": false
+        },
+        {
+          "num": 40750,
+          "name": "Adjust opposition schools for speciality mages (see readme for details) -> Use Baldur's Gate opposition schools",
+          "install": false
+        },
+        {
+          "num": 40751,
+          "name": "Adjust opposition schools for speciality mages (see readme for details) -> Use Icewind Dale opposition schools",
+          "install": false
+        },
+        {
+          "num": 40752,
+          "name": "Adjust opposition schools for speciality mages (see readme for details) -> Use pen-and-paper AD&D opposition schools",
+          "install": false
+        },
+        {
+          "num": 40753,
+          "name": "Adjust opposition schools for speciality mages (see readme for details) -> Use custom opposition schools",
+          "install": false
+        },
+        {
+          "num": 40800,
+          "name": "Require speciality mages to memorize at least one spell per level from their speciality school",
+          "install": false
+        },
+        {
+          "num": 40850,
+          "name": "Speciality mages automatically get one speciality spell at each level (where possible)",
+          "install": false
+        },
+        {
+          "num": 40900,
+          "name": "Allow multiclassed and dual-classed mages to become specialists and wild mages",
+          "install": false
+        },
+        {
+          "num": 40925,
+          "name": "Bloodlines for sorcerers",
+          "install": false
+        },
+        {
+          "num": 40950,
+          "name": "Dragon Disciples can be disciples of any chromatic dragon (Red/Blue/Green/Black/White)",
+          "install": false
+        },
+        {
+          "num": 41000,
+          "name": "Rebalanced and revised kits -> Default (affects all kits)",
+          "install": false
+        },
+        {
+          "num": 41001,
+          "name": "Rebalanced and revised kits -> Skip shapeshifters (use this if you want to use another mod that messes with shapeshifting)",
+          "install": false
+        },
+        {
+          "num": 50000,
+          "name": "New wizard specializations: elemental specialists",
+          "install": false
+        },
+        {
+          "num": 50100,
+          "name": "New wizard specialization: Force Mage",
+          "install": false
+        },
+        {
+          "num": 50200,
+          "name": "New wizard kits: Militant Wizards",
+          "install": false
+        },
+        {
+          "num": 50300,
+          "name": "New sorcerer kit: Bloodrager",
+          "install": false
+        },
+        {
+          "num": 50400,
+          "name": "New choices of god / goddess for speciality priests",
+          "install": false
+        },
+        {
+          "num": 50500,
+          "name": "New class: Favored Soul",
+          "install": false
+        },
+        {
+          "num": 50600,
+          "name": "New blackguard kits",
+          "install": false
+        },
+        {
+          "num": 55000,
+          "name": "Allow druids to multiclass as mages, rangers, and thieves",
+          "install": false
+        },
+        {
+          "num": 55100,
+          "name": "Multiclass/dual-class barbarian/cleric and fighter/cleric kits",
+          "install": false
+        },
+        {
+          "num": 55200,
+          "name": "Multiclass/dual-class barbarian/druid and fighter/druid kits",
+          "install": false
+        },
+        {
+          "num": 55300,
+          "name": "Multiclass/dual-class fighter/mage kits",
+          "install": false
+        },
+        {
+          "num": 55400,
+          "name": "Multiclass/dual-class fighter/thief kits",
+          "install": false
+        },
+        {
+          "num": 55500,
+          "name": "Multiclass/dual-class cleric/mage kits",
+          "install": false
+        },
+        {
+          "num": 55600,
+          "name": "Multiclass/dual-class cleric/ranger and druid/ranger kits",
+          "install": false
+        },
+        {
+          "num": 55700,
+          "name": "Multiclass/dual-class cleric/thief and druid/thief kits",
+          "install": false
+        },
+        {
+          "num": 55800,
+          "name": "Multiclass/dual-class mage/thief kits",
+          "install": false
+        },
+        {
+          "num": 55900,
+          "name": "Multiclass fighter/mage/cleric kits",
+          "install": false
+        },
+        {
+          "num": 60100,
+          "name": "Characters choose minor new abilities every three levels",
+          "install": false
+        },
+        {
+          "num": 60200,
+          "name": "Revised and expanded high-level abilities system",
+          "install": false
+        },
+        {
+          "num": 60300,
+          "name": "Improved NPC customisation and management",
+          "install": false
+        },
+        {
+          "num": 80000,
+          "name": "Revised ability score modifiers -> Standard Talents of Faerun system (recommended)",
+          "install": false
+        },
+        {
+          "num": 80001,
+          "name": "Revised ability score modifiers -> Strict pen-and-paper 3rd edition system",
+          "install": false
+        },
+        {
+          "num": 80100,
+          "name": "Point-buy system for choosing ability scores -> Characters have 75 points to spend (e.g. 16,15,14,12,10,8)",
+          "install": false
+        },
+        {
+          "num": 80101,
+          "name": "Point-buy system for choosing ability scores -> Characters have 80 points to spend (e.g. 18,16,15,13,10,8)",
+          "install": false
+        },
+        {
+          "num": 80102,
+          "name": "Point-buy system for choosing ability scores -> Characters have 85 points to spend (e.g. 18,17,16,13,11,10)",
+          "install": false
+        },
+        {
+          "num": 80103,
+          "name": "Point-buy system for choosing ability scores -> Characters have 90 points to spend (e.g. 18,18,17,15,12,10)",
+          "install": false
+        },
+        {
+          "num": 80104,
+          "name": "Point-buy system for choosing ability scores -> Characters have a random number of points to spend (and can reroll that random number in character creation)",
+          "install": false
+        },
+        {
+          "num": 80150,
+          "name": "3rd-edition-style THAC0s (somewhat faster progression for clerics/thieves/mages)",
+          "install": false
+        },
+        {
+          "num": 80160,
+          "name": "Revised Shields",
+          "install": false
+        },
+        {
+          "num": 80500,
+          "name": "Remove intelligence-based restrictions on number and level of learnable spells",
+          "install": false
+        },
+        {
+          "num": 81000,
+          "name": "Cleric/Rangers may become proficient with longbows and shortbows",
+          "install": false
+        },
+        {
+          "num": 81010,
+          "name": "Wider access to Grand Mastery -> Multi-classed fighters can advance to Grand Mastery in any weapon",
+          "install": false
+        },
+        {
+          "num": 81011,
+          "name": "Wider access to Grand Mastery -> Paladins, blackguards, and single-classed rangers can advance to Grand Mastery in any weapon",
+          "install": false
+        },
+        {
+          "num": 81012,
+          "name": "Wider access to Grand Mastery -> All single- and multi-classed warriors (paladins, rangers, blackguards, fighters) can advance to Grand Mastery in any weapon",
+          "install": false
+        },
+        {
+          "num": 81020,
+          "name": "Dual-class kitted characters must obey the weapon-proficiency restrictions of their kit",
+          "install": false
+        },
+        {
+          "num": 81030,
+          "name": "Dual-class characters gain weapon proficiencies as for their current class",
+          "install": false
+        },
+        {
+          "num": 81100,
+          "name": "Revised Weapon Proficiency System",
+          "install": false
+        },
+        {
+          "num": 81200,
+          "name": "Revised Weapon Styles",
+          "install": false
+        },
+        {
+          "num": 90000,
+          "name": "Tidy up class-selection menu",
+          "install": false
+        },
+        {
+          "num": 90100,
+          "name": "Thieves gain skill points in multiples of five",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "EEex",
+      "tp2File": "EEex\\EEex.tp2",
+      "version": "v0.10.2.1-alpha",
+      "language": {
+        "value": 0,
+        "name": "<no language found>"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "EEex",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "Experimental - Use LuaJIT (can help stuttering)",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "Enable effect menu module - LShift-on-hover to view spells affecting creature",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "Enable empty container module - Highlight empty containers in gray instead of cyan",
+          "install": false
+        },
+        {
+          "num": 4,
+          "name": "Enable timer module - Visual indicators for modal actions, contingencies, and spell/item cooldowns",
+          "install": false
+        },
+        {
+          "num": 5,
+          "name": "Timer module - Show modal actions (red bar)",
+          "install": false
+        },
+        {
+          "num": 6,
+          "name": "Timer module - Show contingencies (green bar)",
+          "install": false
+        },
+        {
+          "num": 7,
+          "name": "Timer module - Show spell/item cooldowns (cyan bar)",
+          "install": false
+        },
+        {
+          "num": 8,
+          "name": "Enable time step module - Advance 1 game tick on keypress",
+          "install": false
+        },
+        {
+          "num": 9,
+          "name": "Enable hotkey module - Edit override/B3Hotkey.lua to create advanced spell hotkeys",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "glamnpcpack",
+      "tp2File": "glamnpcpack\\setup-glamnpcpack.tp2",
+      "version": "v5",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Glam's NPC Pack for BG:EE, BGT and BG TUTU",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "HiddenGameplayOptions",
+      "tp2File": "HiddenGameplayOptions\\HiddenGameplayOptions.tp2",
+      "version": "4.7",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Install all Hidden Gameplay Options at once",
+          "install": false
+        },
+        {
+          "num": 10,
+          "name": "Add in-game option \"Enable Debug Mode\"",
+          "install": false
+        },
+        {
+          "num": 11,
+          "name": "Add in-game option \"Enable UI Edit Mode\"",
+          "install": false
+        },
+        {
+          "num": 12,
+          "name": "Add in-game option \"Show Strrefs\"",
+          "install": false
+        },
+        {
+          "num": 13,
+          "name": "Add in-game option \"Hotkeys On Tooltips\"",
+          "install": false
+        },
+        {
+          "num": 14,
+          "name": "Add in-game option \"Show trigger icons on tab\"",
+          "install": false
+        },
+        {
+          "num": 15,
+          "name": "Add in-game option \"Allow Spacebar in Dialogs\"",
+          "install": false
+        },
+        {
+          "num": 16,
+          "name": "Add in-game option \"Limit druidic spells for Cleric/Ranger\"",
+          "install": false
+        },
+        {
+          "num": 17,
+          "name": "Add in-game option \"3E Sneak Attack\"",
+          "install": false
+        },
+        {
+          "num": 18,
+          "name": "Add in-game option \"Critical Hit Screen Shake\"",
+          "install": false
+        },
+        {
+          "num": 19,
+          "name": "Add in-game option \"Show extra combat info\"",
+          "install": false
+        },
+        {
+          "num": 20,
+          "name": "Add in-game option \"Show Game Date and Time on Pause\"",
+          "install": false
+        },
+        {
+          "num": 21,
+          "name": "Add in-game option \"Disable Area Map Zoom\"",
+          "install": false
+        },
+        {
+          "num": 22,
+          "name": "Add in-game option \"Reverse Mouse Wheel Zoom\"",
+          "install": false
+        },
+        {
+          "num": 23,
+          "name": "Add in-game option \"Pause Game on Map Screen\"",
+          "install": false
+        },
+        {
+          "num": 24,
+          "name": "Add in-game option \"Enable Fog\"",
+          "install": false
+        },
+        {
+          "num": 25,
+          "name": "Add in-game option \"Disable Movies\"",
+          "install": false
+        },
+        {
+          "num": 26,
+          "name": "Add in-game option \"No Cosmetic Attacks\"",
+          "install": false
+        },
+        {
+          "num": 27,
+          "name": "Add in-game option \"XP Bonus in Nightmare Mode\"",
+          "install": false
+        },
+        {
+          "num": 28,
+          "name": "Add in-game option \"Trigger Bored Sounds\"",
+          "install": false
+        },
+        {
+          "num": 29,
+          "name": "Add in-game option \"Frame Rate\" (experimental)",
+          "install": false
+        },
+        {
+          "num": 30,
+          "name": "Add in-game option \"Action Feedback\"",
+          "install": false
+        },
+        {
+          "num": 31,
+          "name": "Add in-game option \"Display Level Up Icon\"",
+          "install": false
+        },
+        {
+          "num": 32,
+          "name": "Add in-game option \"Show Area of Effect Range\"",
+          "install": false
+        },
+        {
+          "num": 33,
+          "name": "Add in-game option \"Enhanced Path Search\"",
+          "install": false
+        },
+        {
+          "num": 34,
+          "name": "Add in-game option \"Expire Trap Highlights\"",
+          "install": false
+        },
+        {
+          "num": 35,
+          "name": "Add in-game option \"Show Learnable Spells\"",
+          "install": false
+        },
+        {
+          "num": 36,
+          "name": "Add in-game option \"Render Search Map\"",
+          "install": false
+        },
+        {
+          "num": 37,
+          "name": "Add in-game option \"Render Dynamic Search Map\"",
+          "install": false
+        },
+        {
+          "num": 38,
+          "name": "Add in-game options for Tweak Anthology's \"Create Interval Saves\"",
+          "install": false
+        },
+        {
+          "num": 39,
+          "name": "Add in-game option \"Force Dialog Pause\"",
+          "install": false
+        },
+        {
+          "num": 101,
+          "name": "Update key bindings -> for priest spells only",
+          "install": false
+        },
+        {
+          "num": 102,
+          "name": "Update key bindings -> for mage spells only",
+          "install": false
+        },
+        {
+          "num": 103,
+          "name": "Update key bindings -> for priest and mage spells",
+          "install": false
+        },
+        {
+          "num": 200,
+          "name": "Improved Cheat Menu",
+          "install": false
+        },
+        {
+          "num": 201,
+          "name": "Update resource tables for \"Improved Cheat Menu\"",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "isra",
+      "tp2File": "isra\\isra.tp2",
+      "version": "v3.5",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Isra NPC Mod for BG:EE, EET, BGT and TuTu",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "Valerie/Isra crossmod content",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "Gavin/Isra crossmod content",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "LeUI",
+      "tp2File": "LeUI\\LeUI.tp2",
+      "version": "4.9.1",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "lefreut's Enhanced UI - Core component",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "lefreut's Enhanced UI - BG2 vanilla bams for spells",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "lefreut's Enhanced UI - BG2 vanilla fonts for descriptions",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "PPE",
+      "tp2File": "PPE\\setup-PPE.tp2",
+      "version": "1.02",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Portraits Portraits Everywhere (PPE) - core component",
+          "install": false
+        },
+        {
+          "num": 10,
+          "name": "Isandir's CHARNAME Portraits",
+          "install": false
+        },
+        {
+          "num": 20,
+          "name": "Replace Low Quality TOB & SOA Portraits",
+          "install": false
+        },
+        {
+          "num": 25,
+          "name": "Edwin/Edwina",
+          "install": false
+        },
+        {
+          "num": 30,
+          "name": "Ust Natha Drow NPCs",
+          "install": false
+        },
+        {
+          "num": 40,
+          "name": "Vampire NPCs",
+          "install": false
+        },
+        {
+          "num": 100,
+          "name": "Category Portraits (Recommended) -> Sequenced",
+          "install": false
+        },
+        {
+          "num": 150,
+          "name": "Category Portraits (Recommended) -> Random",
+          "install": false
+        },
+        {
+          "num": 300,
+          "name": "Change Imoen portraits -> BG1 Portrait",
+          "install": false
+        },
+        {
+          "num": 301,
+          "name": "Change Imoen portraits -> SOD Portrait",
+          "install": false
+        },
+        {
+          "num": 302,
+          "name": "Change Imoen portraits -> BG2 Portrait",
+          "install": false
+        },
+        {
+          "num": 310,
+          "name": "Change Viconia portraits -> BG1 Portrait",
+          "install": false
+        },
+        {
+          "num": 311,
+          "name": "Change Viconia portraits -> SOD Portrait",
+          "install": false
+        },
+        {
+          "num": 312,
+          "name": "Change Viconia portraits -> BG2 Portrait",
+          "install": false
+        },
+        {
+          "num": 320,
+          "name": "Change Jaheira portraits -> BG1 Portrait",
+          "install": false
+        },
+        {
+          "num": 322,
+          "name": "Change Jaheira portraits -> BG2 Portrait",
+          "install": false
+        },
+        {
+          "num": 330,
+          "name": "Change Minsc portraits -> BG1 Portrait",
+          "install": false
+        },
+        {
+          "num": 332,
+          "name": "Change Minsc portraits -> BG2 Portrait",
+          "install": false
+        },
+        {
+          "num": 340,
+          "name": "Change Edwin portraits -> BG1 Portrait",
+          "install": false
+        },
+        {
+          "num": 342,
+          "name": "Change Edwin portraits -> BG2 Portrait",
+          "install": false
+        },
+        {
+          "num": 350,
+          "name": "Longhair Aerie",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "rr",
+      "tp2File": "rr\\setup-rr.tp2",
+      "version": "v4.92",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Proper dual-wielding implementation for Thieves and Bards",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "Thief kit revisions",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "Thief High Level Ability revisions",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "Proper racial adjustments for thieving skills",
+          "install": false
+        },
+        {
+          "num": 4,
+          "name": "Bard kit revisions",
+          "install": false
+        },
+        {
+          "num": 5,
+          "name": "Bard High Level Ability revisions",
+          "install": false
+        },
+        {
+          "num": 6,
+          "name": "Proper spell progression for Bards",
+          "install": false
+        },
+        {
+          "num": 7,
+          "name": "Additional equipment for Thieves and Bards",
+          "install": false
+        },
+        {
+          "num": 8,
+          "name": "Upgradeable Equipment",
+          "install": false
+        },
+        {
+          "num": 9,
+          "name": "Revised Thievery -> Use PnP thievery potions and prevent their effects from stacking",
+          "install": false
+        },
+        {
+          "num": 10,
+          "name": "Revised Thievery -> Retain default thievery potions and prevent their effects from stacking",
+          "install": false
+        },
+        {
+          "num": 11,
+          "name": "Chosen of Cyric encounter",
+          "install": false
+        },
+        {
+          "num": 12,
+          "name": "Shadow Thief Improvements",
+          "install": false
+        },
+        {
+          "num": 999,
+          "name": "BG2-style icons for RR content",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "Sirene",
+      "tp2File": "Sirene\\Setup-Sirene.tp2",
+      "version": "<unknown>",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Sirene NPC for Baldur's Gate",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "Choose an alternate portrait for Sirene? -> BG2 Default (Isandir)",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "Choose an alternate portrait for Sirene? -> Original BG1 Default (sporeboy)",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "Choose an alternate portrait for Sirene? -> Alternate 1 (Sirick, Light Armor)",
+          "install": false
+        },
+        {
+          "num": 4,
+          "name": "Choose an alternate portrait for Sirene? -> Alternate 1 (Sirick/Lava, Heavy Armor)",
+          "install": false
+        },
+        {
+          "num": 5,
+          "name": "Choose an alternate portrait for Sirene? -> Alternate 2 (Lodaligae)",
+          "install": false
+        },
+        {
+          "num": 6,
+          "name": "Choose an alternate class for Sirene? -> True Paladin",
+          "install": false
+        },
+        {
+          "num": 7,
+          "name": "Choose an alternate class for Sirene? -> Cavalier",
+          "install": false
+        },
+        {
+          "num": 8,
+          "name": "Choose an alternate class for Sirene? -> Inquisitor",
+          "install": false
+        },
+        {
+          "num": 9,
+          "name": "Choose an alternate class for Sirene? -> Undead Hunter",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "SirinesCall",
+      "tp2File": "SirinesCall\\setup-SirinesCall.tp2",
+      "version": "v16.3",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "The Lure of the Sirine's Call",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "Extended Lighthouse Area",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "spell_rev",
+      "tp2File": "spell_rev\\setup-spell_rev.tp2",
+      "version": "v4 Beta 18",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Spell Revisions",
+          "install": false
+        },
+        {
+          "num": 10,
+          "name": "Deva and Planetar Animations",
+          "install": false
+        },
+        {
+          "num": 20,
+          "name": "Mirror Image Fix",
+          "install": false
+        },
+        {
+          "num": 30,
+          "name": "Dispel Magic Fix",
+          "install": false
+        },
+        {
+          "num": 40,
+          "name": "Cure Sleep Fix",
+          "install": false
+        },
+        {
+          "num": 50,
+          "name": "Remove Disabled Spells from Spell Selection Screens",
+          "install": false
+        },
+        {
+          "num": 55,
+          "name": "Spell Deflection blocks AoE spells",
+          "install": false
+        },
+        {
+          "num": 60,
+          "name": "Update Spellbooks of Joinable NPCs",
+          "install": false
+        },
+        {
+          "num": 65,
+          "name": "Revised Warrior HLAs",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "stratagems",
+      "tp2File": "stratagems\\setup-stratagems.tp2",
+      "version": "35.21",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 100,
+          "name": "Install in batch mode (ask about all components before starting installation). DO NOT USE WITH PROJECT INFINITY.",
+          "install": false
+        },
+        {
+          "num": 1500,
+          "name": "Include arcane spells from Icewind Dale: Enhanced Edition",
+          "install": false
+        },
+        {
+          "num": 1510,
+          "name": "Include divine spells from Icewind Dale: Enhanced Edition",
+          "install": false
+        },
+        {
+          "num": 1520,
+          "name": "Include bard songs from Icewind Dale: Enhanced Edition",
+          "install": false
+        },
+        {
+          "num": 1600,
+          "name": "Use Baldur's Gate-style Insect Plague and Creeping Doom instead of Icewind Dale versions",
+          "install": false
+        },
+        {
+          "num": 1610,
+          "name": "Use Baldur's Gate-style Mordenkainen's Sword in addition to Icewind Dale version",
+          "install": false
+        },
+        {
+          "num": 2000,
+          "name": "Install all spell tweaks (if you don't select this, you will be given a chance to choose by category)",
+          "install": false
+        },
+        {
+          "num": 2010,
+          "name": "Core Stratagems spell-system changes (installed by default by any AI component)",
+          "install": false
+        },
+        {
+          "num": 2020,
+          "name": "Baldur's Gate-inspired tweaks to Icewind Dale spells",
+          "install": false
+        },
+        {
+          "num": 2030,
+          "name": "Changes to Restoration",
+          "install": false
+        },
+        {
+          "num": 2040,
+          "name": "Changes to shapeshift spells",
+          "install": false
+        },
+        {
+          "num": 2050,
+          "name": "Icewind Dale-inspired tweaks to Baldur's Gate/Baldur's Gate II spells",
+          "install": false
+        },
+        {
+          "num": 2060,
+          "name": "Rebalancings of slightly-too-powerful spells",
+          "install": false
+        },
+        {
+          "num": 2070,
+          "name": "Spell school changes",
+          "install": false
+        },
+        {
+          "num": 2080,
+          "name": "Spells increased in power",
+          "install": false
+        },
+        {
+          "num": 2500,
+          "name": "Add 9 new arcane spells",
+          "install": false
+        },
+        {
+          "num": 2510,
+          "name": "Add 6 new divine spells (some borrowed from Divine Remix)",
+          "install": false
+        },
+        {
+          "num": 2520,
+          "name": "Revised elementals and elemental summoning",
+          "install": false
+        },
+        {
+          "num": 2900,
+          "name": "Move or modify some overpowered magic items",
+          "install": false
+        },
+        {
+          "num": 3010,
+          "name": "Replace +1 arrows and other projectiles with nonmagical \"fine\" ones",
+          "install": false
+        },
+        {
+          "num": 3015,
+          "name": "Re-introduce potions of extra-healing",
+          "install": false
+        },
+        {
+          "num": 3017,
+          "name": "Make elemental arrows like BG2",
+          "install": false
+        },
+        {
+          "num": 3020,
+          "name": "Replace many +1 magic weapons with nonmagical \"fine\" ones",
+          "install": false
+        },
+        {
+          "num": 3021,
+          "name": "Replace many +1 magic weapons with nonmagical \"fine\" ones -> Fine weapons are immune to the iron crisis",
+          "install": false
+        },
+        {
+          "num": 3022,
+          "name": "Replace many +1 magic weapons with nonmagical \"fine\" ones -> Fine weapons are affected by the iron crisis",
+          "install": false
+        },
+        {
+          "num": 3040,
+          "name": "Reduce the number of Arrows of Dispelling in stores -> Remove Arrows of Dispelling from stores",
+          "install": false
+        },
+        {
+          "num": 3041,
+          "name": "Reduce the number of Arrows of Dispelling in stores -> Stores sell a maximum of 5 Arrows of Dispelling",
+          "install": false
+        },
+        {
+          "num": 3500,
+          "name": "Standardise spells between BG and BG2 -> Remove spells not in BG1",
+          "install": false
+        },
+        {
+          "num": 3501,
+          "name": "Standardise spells between BG and BG2 -> Introduce BG2 spell scrolls into BG1",
+          "install": false
+        },
+        {
+          "num": 3505,
+          "name": "Wider selection of random scrolls",
+          "install": false
+        },
+        {
+          "num": 3510,
+          "name": "Wider availability of wizard spell scrolls in Icewind Dale",
+          "install": false
+        },
+        {
+          "num": 3540,
+          "name": "Reduce the power of Inquisitors' Dispel Magic -> Inquisitors dispel at 1.5 x their level (not twice their level)",
+          "install": false
+        },
+        {
+          "num": 3541,
+          "name": "Reduce the power of Inquisitors' Dispel Magic -> Inquisitors dispel at their level (not twice their level)",
+          "install": false
+        },
+        {
+          "num": 3550,
+          "name": "Increase the power of Cure Wounds and Cause Wounds spells to the level found in 3rd Edition D&D -> Spells heal or inflict a random amount of damage (1d8 per level of the spell, plus 1 point per caster level, to a maximum of 5 points per spell level)",
+          "install": false
+        },
+        {
+          "num": 3551,
+          "name": "Increase the power of Cure Wounds and Cause Wounds spells to the level found in 3rd Edition D&D -> Spells heal or inflict the maximum amount of damage in this range",
+          "install": false
+        },
+        {
+          "num": 3552,
+          "name": "Increase the power of Cure Wounds and Cause Wounds spells to the level found in 3rd Edition D&D -> Spells heal or inflict about the average amount of damage in this range",
+          "install": false
+        },
+        {
+          "num": 3580,
+          "name": "Greater Restoration and Lesser Restoration spells heal ability-score damage",
+          "install": false
+        },
+        {
+          "num": 4000,
+          "name": "More Appropriate-Speed Bears",
+          "install": false
+        },
+        {
+          "num": 4020,
+          "name": "More realistic wolves and wild dogs",
+          "install": false
+        },
+        {
+          "num": 4030,
+          "name": "Improved shapeshifting",
+          "install": false
+        },
+        {
+          "num": 4050,
+          "name": "Decrease the rate at which reputation improves -> Reputation increases at about 2/3 the normal rate",
+          "install": false
+        },
+        {
+          "num": 4051,
+          "name": "Decrease the rate at which reputation improves -> Reputation increases at about 1/2 the normal rate",
+          "install": false
+        },
+        {
+          "num": 4052,
+          "name": "Decrease the rate at which reputation improves -> Reputation increases at about 1/3 the normal rate",
+          "install": false
+        },
+        {
+          "num": 4093,
+          "name": "Decrease the rate at which reputation improves -> Reputation increases at about 1/4 the normal rate",
+          "install": false
+        },
+        {
+          "num": 4099,
+          "name": "Allow player to choose NPC proficiencies and skills",
+          "install": false
+        },
+        {
+          "num": 4100,
+          "name": "Improved NPC customization and management",
+          "install": false
+        },
+        {
+          "num": 4115,
+          "name": "Thieves assign skill points in multiples of five",
+          "install": false
+        },
+        {
+          "num": 4130,
+          "name": "Revised handling of death effects like disintegration, petrification and imprisonment (party members who are disintegrated etc can be resurrected; imprisoned or petrified characters rejoin the party automatically; the game doesn't end if the main character is petrified or imprisoned)",
+          "install": false
+        },
+        {
+          "num": 4135,
+          "name": "Revised resting: resting in the wild uses up provisions",
+          "install": false
+        },
+        {
+          "num": 4140,
+          "name": "Revised inn rooms: more expensive, more benefits",
+          "install": false
+        },
+        {
+          "num": 4145,
+          "name": "Skip the Candlekeep tutorial sections -> Remove the tutorial NPCs from Candlekeep",
+          "install": false
+        },
+        {
+          "num": 4146,
+          "name": "Skip the Candlekeep tutorial sections -> Skip Candlekeep altogether (warning: breaks the 4th wall!)",
+          "install": false
+        },
+        {
+          "num": 4150,
+          "name": "Allow the Cowled Wizards to detect spellcasting in most indoor, above-ground areas in Athkatla",
+          "install": false
+        },
+        {
+          "num": 4160,
+          "name": "Increase the price of a license to practise magic in Athkatla -> License costs 10,000 gp",
+          "install": false
+        },
+        {
+          "num": 4161,
+          "name": "Increase the price of a license to practise magic in Athkatla -> License costs 15,000 gp",
+          "install": false
+        },
+        {
+          "num": 4162,
+          "name": "Increase the price of a license to practise magic in Athkatla -> License costs 20,000 gp",
+          "install": false
+        },
+        {
+          "num": 4163,
+          "name": "Increase the price of a license to practise magic in Athkatla -> License costs 30,000 gp",
+          "install": false
+        },
+        {
+          "num": 4164,
+          "name": "Increase the price of a license to practise magic in Athkatla -> License costs 50,000 gp",
+          "install": false
+        },
+        {
+          "num": 4170,
+          "name": "Increase the price asked by Gaelan Bayle -> Gaelan wants 40,000 gold pieces",
+          "install": false
+        },
+        {
+          "num": 4171,
+          "name": "Increase the price asked by Gaelan Bayle -> Gaelan wants 60,000 gold pieces",
+          "install": false
+        },
+        {
+          "num": 4172,
+          "name": "Increase the price asked by Gaelan Bayle -> Gaelan wants 80,000 gold pieces",
+          "install": false
+        },
+        {
+          "num": 4173,
+          "name": "Increase the price asked by Gaelan Bayle -> Gaelan wants 100,000 gold pieces",
+          "install": false
+        },
+        {
+          "num": 4174,
+          "name": "Increase the price asked by Gaelan Bayle -> Gaelan wants 120,000 gold pieces",
+          "install": false
+        },
+        {
+          "num": 4190,
+          "name": "Make Watchers' Keep accessible between SoA and ToB (warning: this will make it inaccessible until the end of SoA)",
+          "install": false
+        },
+        {
+          "num": 4210,
+          "name": "Randomize the maze in Watcher's Keep",
+          "install": false
+        },
+        {
+          "num": 4215,
+          "name": "Remove unrealistically helpful items from certain areas",
+          "install": false
+        },
+        {
+          "num": 4216,
+          "name": "Remove unrealistically convenient ammunition from the game -> Only remove nonmagical ammo from random containers",
+          "install": false
+        },
+        {
+          "num": 4217,
+          "name": "Remove unrealistically convenient ammunition from the game -> Remove ammo up to the +2 level from random containers",
+          "install": false
+        },
+        {
+          "num": 4218,
+          "name": "Remove unrealistically convenient ammunition from the game -> Remove all ammo from random containers",
+          "install": false
+        },
+        {
+          "num": 4230,
+          "name": "Delay the arrival of the \"bonus merchants\" in the Adventurers' Mart and the Copper Coronet",
+          "install": false
+        },
+        {
+          "num": 4240,
+          "name": "Treat mages' and priests' High-Level Abilities as innate abilities rather than memorisable spells (each may be taken only once)",
+          "install": false
+        },
+        {
+          "num": 4250,
+          "name": "Make spell sequencers and contingencies into innate abilities",
+          "install": false
+        },
+        {
+          "num": 5000,
+          "name": "Ease-of-use party AI",
+          "install": false
+        },
+        {
+          "num": 5070,
+          "name": "Cosmetic change: stop Stoneskins from changing the caster's colour",
+          "install": false
+        },
+        {
+          "num": 5080,
+          "name": "Improved BG Textscreens",
+          "install": false
+        },
+        {
+          "num": 5900,
+          "name": "Initialise AI components (required for all tactical and AI components)",
+          "install": false
+        },
+        {
+          "num": 6000,
+          "name": "Smarter general AI",
+          "install": false
+        },
+        {
+          "num": 6010,
+          "name": "Better calls for help",
+          "install": false
+        },
+        {
+          "num": 6020,
+          "name": "Smarter general AI and better calls for help",
+          "install": false
+        },
+        {
+          "num": 6030,
+          "name": "Smarter Mages",
+          "install": false
+        },
+        {
+          "num": 6040,
+          "name": "Smarter Priests",
+          "install": false
+        },
+        {
+          "num": 6100,
+          "name": "Potions for NPCs",
+          "install": false
+        },
+        {
+          "num": 6200,
+          "name": "Improved Spiders",
+          "install": false
+        },
+        {
+          "num": 6300,
+          "name": "Smarter sirines and dryads",
+          "install": false
+        },
+        {
+          "num": 6310,
+          "name": "Slightly smarter carrion crawlers",
+          "install": false
+        },
+        {
+          "num": 6320,
+          "name": "Smarter basilisks",
+          "install": false
+        },
+        {
+          "num": 6500,
+          "name": "Improved golems",
+          "install": false
+        },
+        {
+          "num": 6510,
+          "name": "Improved fiends and celestials",
+          "install": false
+        },
+        {
+          "num": 6520,
+          "name": "Smarter genies",
+          "install": false
+        },
+        {
+          "num": 6540,
+          "name": "Smarter dragons",
+          "install": false
+        },
+        {
+          "num": 6550,
+          "name": "Smarter beholders",
+          "install": false
+        },
+        {
+          "num": 6560,
+          "name": "Smarter mind flayers",
+          "install": false
+        },
+        {
+          "num": 6570,
+          "name": "Smarter githyanki",
+          "install": false
+        },
+        {
+          "num": 6580,
+          "name": "Improved Vampires",
+          "install": false
+        },
+        {
+          "num": 6590,
+          "name": "Smarter Throne of Bhaal final villain",
+          "install": false
+        },
+        {
+          "num": 6700,
+          "name": "Revised Icewind Dale Undead",
+          "install": false
+        },
+        {
+          "num": 6800,
+          "name": "Smarter Illasera",
+          "install": false
+        },
+        {
+          "num": 6810,
+          "name": "Smarter Gromnir",
+          "install": false
+        },
+        {
+          "num": 6820,
+          "name": "Smarter Yaga-Shura",
+          "install": false
+        },
+        {
+          "num": 6830,
+          "name": "Smarter Abazigal",
+          "install": false
+        },
+        {
+          "num": 6840,
+          "name": "Ascension versions of Irenicus and Sendai use SCS abilities and AI",
+          "install": false
+        },
+        {
+          "num": 6850,
+          "name": "Ascension demons use SCS abilities and AI",
+          "install": false
+        },
+        {
+          "num": 7000,
+          "name": "Improved doppelgangers",
+          "install": false
+        },
+        {
+          "num": 7010,
+          "name": "Tougher Black Talons and Iron Throne guards",
+          "install": false
+        },
+        {
+          "num": 7020,
+          "name": "Improved deployment for parties of assassins",
+          "install": false
+        },
+        {
+          "num": 7030,
+          "name": "Improved kobolds",
+          "install": false
+        },
+        {
+          "num": 7040,
+          "name": "Relocated bounty hunters",
+          "install": false
+        },
+        {
+          "num": 7050,
+          "name": "Improved Ulcaster",
+          "install": false
+        },
+        {
+          "num": 7060,
+          "name": "Improved Balduran's Isle",
+          "install": false
+        },
+        {
+          "num": 7070,
+          "name": "Improved Durlag's Tower",
+          "install": false
+        },
+        {
+          "num": 7080,
+          "name": "Improved Demon Cultists",
+          "install": false
+        },
+        {
+          "num": 7090,
+          "name": "Improved Cloakwood Druids",
+          "install": false
+        },
+        {
+          "num": 7100,
+          "name": "Improved Bassilus",
+          "install": false
+        },
+        {
+          "num": 7110,
+          "name": "Improved Drasus party",
+          "install": false
+        },
+        {
+          "num": 7130,
+          "name": "Improved Red Wizards",
+          "install": false
+        },
+        {
+          "num": 7140,
+          "name": "Improved Undercity assassins",
+          "install": false
+        },
+        {
+          "num": 7150,
+          "name": "Improved Carsa/Kahrk interaction",
+          "install": false
+        },
+        {
+          "num": 7200,
+          "name": "Tougher chapter-two end battle",
+          "install": false
+        },
+        {
+          "num": 7210,
+          "name": "Tougher chapter-three end battle",
+          "install": false
+        },
+        {
+          "num": 7220,
+          "name": "Tougher chapter-four end battle",
+          "install": false
+        },
+        {
+          "num": 7230,
+          "name": "Tougher chapter-five end battle",
+          "install": false
+        },
+        {
+          "num": 7250,
+          "name": "Improved final battle",
+          "install": false
+        },
+        {
+          "num": 7900,
+          "name": "Improved minor encounters",
+          "install": false
+        },
+        {
+          "num": 8000,
+          "name": "Make the starting dungeon slightly harder",
+          "install": false
+        },
+        {
+          "num": 8010,
+          "name": "Improved Shade Lord",
+          "install": false
+        },
+        {
+          "num": 8020,
+          "name": "Spellcasting Demiliches",
+          "install": false
+        },
+        {
+          "num": 8040,
+          "name": "Tie difficulty of level-dependent monster groupings to the difficulty slider",
+          "install": false
+        },
+        {
+          "num": 8050,
+          "name": "Improved Random Encounters",
+          "install": false
+        },
+        {
+          "num": 8060,
+          "name": "Improved de'Arnise Keep (\"Tactics Remix\")",
+          "install": false
+        },
+        {
+          "num": 8070,
+          "name": "Improved Unseeing Eye",
+          "install": false
+        },
+        {
+          "num": 8080,
+          "name": "Improved Bodhi",
+          "install": false
+        },
+        {
+          "num": 8085,
+          "name": "Ascension version of Bodhi uses Improved-Bodhi abilities",
+          "install": false
+        },
+        {
+          "num": 8090,
+          "name": "Party's items are taken from them in Spellhold",
+          "install": false
+        },
+        {
+          "num": 8100,
+          "name": "Improved battle with Irenicus in Spellhold",
+          "install": false
+        },
+        {
+          "num": 8110,
+          "name": "Improved Sahuagin",
+          "install": false
+        },
+        {
+          "num": 8120,
+          "name": "Improved Beholder hive",
+          "install": false
+        },
+        {
+          "num": 8130,
+          "name": "Rebalanced troll regeneration",
+          "install": false
+        },
+        {
+          "num": 8140,
+          "name": "Improved Drow",
+          "install": false
+        },
+        {
+          "num": 8150,
+          "name": "Improved Watcher's Keep",
+          "install": false
+        },
+        {
+          "num": 8160,
+          "name": "Improved Fire Giant temple",
+          "install": false
+        },
+        {
+          "num": 8170,
+          "name": "Improved Sendai's Enclave",
+          "install": false
+        },
+        {
+          "num": 8180,
+          "name": "Improved Abazigal's Lair",
+          "install": false
+        },
+        {
+          "num": 8190,
+          "name": "Improved Minor Encounters",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "thepicturestandard",
+      "tp2File": "thepicturestandard\\thepicturestandard.tp2",
+      "version": "0.71",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 1000,
+          "name": "Main -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 1500,
+          "name": "Main -> Lore Alternative",
+          "install": false
+        },
+        {
+          "num": 2000,
+          "name": "Followers -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 2300,
+          "name": "Followers -> Variant A",
+          "install": false
+        },
+        {
+          "num": 2600,
+          "name": "Followers -> Variant B",
+          "install": false
+        },
+        {
+          "num": 3000,
+          "name": "BG1NPC -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 3500,
+          "name": "BG1NPC -> Lore Alternative",
+          "install": false
+        },
+        {
+          "num": 4000,
+          "name": "Dark Horizons -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 4500,
+          "name": "Dark Horizons -> Lore Alternative",
+          "install": false
+        },
+        {
+          "num": 5000,
+          "name": "Drizzt Saga -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 5500,
+          "name": "Drizzt Saga -> Lore Alternative",
+          "install": false
+        },
+        {
+          "num": 6000,
+          "name": "Dark Side of the Sword Coast -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 6500,
+          "name": "Dark Side of the Sword Coast -> Lore Alternative",
+          "install": false
+        },
+        {
+          "num": 7000,
+          "name": "Eilistraee's Song -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 7500,
+          "name": "Eilistraee's Song -> Lore Alternative",
+          "install": false
+        },
+        {
+          "num": 8000,
+          "name": "Innershade -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 8500,
+          "name": "Innershade -> Lore Alternative",
+          "install": false
+        },
+        {
+          "num": 9000,
+          "name": "I Shall Never Forget -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 9500,
+          "name": "I Shall Never Forget -> Lore Alternative",
+          "install": false
+        },
+        {
+          "num": 10000,
+          "name": "Rogue Rebalancing -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 10500,
+          "name": "Rogue Rebalancing -> Lore Alternative",
+          "install": false
+        },
+        {
+          "num": 11000,
+          "name": "Sellswords -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 11500,
+          "name": "Sellswords -> Lore Alternative",
+          "install": false
+        },
+        {
+          "num": 12000,
+          "name": "Tales Of The Deep Gardens -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 12500,
+          "name": "Tales Of The Deep Gardens -> Lore Alternative",
+          "install": false
+        },
+        {
+          "num": 13000,
+          "name": "T'was A Slow Boat -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 13500,
+          "name": "T'was A Slow Boat -> Lore Alternative",
+          "install": false
+        },
+        {
+          "num": 14000,
+          "name": "Finch -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 14500,
+          "name": "Finch -> Alternative",
+          "install": false
+        },
+        {
+          "num": 15000,
+          "name": "Gavin -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 15500,
+          "name": "Gavin -> Alternative",
+          "install": false
+        },
+        {
+          "num": 16000,
+          "name": "Indira",
+          "install": false
+        },
+        {
+          "num": 17000,
+          "name": "Isra",
+          "install": false
+        },
+        {
+          "num": 18000,
+          "name": "Valerie",
+          "install": false
+        },
+        {
+          "num": 19000,
+          "name": "The White Queen -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 19500,
+          "name": "The White Queen -> Lore Alternative",
+          "install": false
+        },
+        {
+          "num": 20000,
+          "name": "The Darkest Day -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 20500,
+          "name": "The Darkest Day -> Lore Alternative",
+          "install": false
+        },
+        {
+          "num": 21000,
+          "name": "Tower of Deception",
+          "install": false
+        },
+        {
+          "num": 22000,
+          "name": "Siege of Dragonspear -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 22500,
+          "name": "Siege of Dragonspear -> Lore Alternative",
+          "install": false
+        },
+        {
+          "num": 23000,
+          "name": "Tortured Souls -> Vanilla",
+          "install": false
+        },
+        {
+          "num": 23500,
+          "name": "Tortured Souls -> Lore Alternative",
+          "install": false
+        },
+        {
+          "num": 80000,
+          "name": "Standardized Edwin -> BG1 Edwin",
+          "install": false
+        },
+        {
+          "num": 80300,
+          "name": "Standardized Edwin -> BG2 Edwin",
+          "install": false
+        },
+        {
+          "num": 80600,
+          "name": "Standardized Edwin -> Variant A",
+          "install": false
+        },
+        {
+          "num": 80900,
+          "name": "Standardized Edwin -> Variant B",
+          "install": false
+        },
+        {
+          "num": 81000,
+          "name": "Standardized Iomen -> BG1 Iomen",
+          "install": false
+        },
+        {
+          "num": 81100,
+          "name": "Standardized Iomen -> BG2 Iomen",
+          "install": false
+        },
+        {
+          "num": 81200,
+          "name": "Standardized Iomen -> SoD Iomen",
+          "install": false
+        },
+        {
+          "num": 81300,
+          "name": "Standardized Iomen -> Variant A",
+          "install": false
+        },
+        {
+          "num": 81400,
+          "name": "Standardized Iomen -> Variant B",
+          "install": false
+        },
+        {
+          "num": 81500,
+          "name": "Standardized Iomen -> Immersive Iomen Variant",
+          "install": false
+        },
+        {
+          "num": 82000,
+          "name": "Standardized Jaheira -> BG1 Jaheira",
+          "install": false
+        },
+        {
+          "num": 82300,
+          "name": "Standardized Jaheira -> BG2 Jaheira",
+          "install": false
+        },
+        {
+          "num": 82600,
+          "name": "Standardized Jaheira -> Variant",
+          "install": false
+        },
+        {
+          "num": 83000,
+          "name": "Standardized Minsc -> BG1 Minsc",
+          "install": false
+        },
+        {
+          "num": 83500,
+          "name": "Standardized Minsc -> BG2 Minsc",
+          "install": false
+        },
+        {
+          "num": 84000,
+          "name": "Standardized Viconia -> BG1 Viconia",
+          "install": false
+        },
+        {
+          "num": 84100,
+          "name": "Standardized Viconia -> BG2 Viconia",
+          "install": false
+        },
+        {
+          "num": 84200,
+          "name": "Standardized Viconia -> SoD Viconia",
+          "install": false
+        },
+        {
+          "num": 84300,
+          "name": "Standardized Viconia -> Variant A",
+          "install": false
+        },
+        {
+          "num": 84400,
+          "name": "Standardized Viconia -> Variant B",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "ViconiaRevamped",
+      "tp2File": "ViconiaRevamped\\setup-ViconiaRevamped.tp2",
+      "version": "v7.2",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Viconia Revamped -> Dual-class: Thief/Cleric",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "Viconia Revamped -> Dual-class: Assassin/Cleric",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "Viconia Revamped -> Dual-class: Shadowdancer/Cleric",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "Viconia Revamped -> Dual-class: Nightcloak of Shar",
+          "install": false
+        },
+        {
+          "num": 4,
+          "name": "Viconia Revamped -> Dual-class: Darkcloak of Shar",
+          "install": false
+        },
+        {
+          "num": 10,
+          "name": "Viconia Revamped -> Multi-class: Thief/Cleric",
+          "install": false
+        },
+        {
+          "num": 11,
+          "name": "Viconia Revamped -> Multi-class: Assassin/Cleric",
+          "install": false
+        },
+        {
+          "num": 12,
+          "name": "Viconia Revamped -> Multi-class: Shadowdancer/Cleric",
+          "install": false
+        },
+        {
+          "num": 13,
+          "name": "Viconia Revamped -> Multi-class: Nightcloak of Shar",
+          "install": false
+        },
+        {
+          "num": 14,
+          "name": "Viconia Revamped -> Multi-class: Darkcloak of Shar",
+          "install": false
+        },
+        {
+          "num": 15,
+          "name": "Viconia Revamped -> Multi-class: Cleric/Mage",
+          "install": false
+        },
+        {
+          "num": 50,
+          "name": "Portraits for Viconia -> Use Baldur's Gate portrait",
+          "install": false
+        },
+        {
+          "num": 51,
+          "name": "Portraits for Viconia -> Use Baldur's Gate 2 portrait",
+          "install": false
+        },
+        {
+          "num": 52,
+          "name": "Portraits for Viconia -> Use Siege of Dragonspear portrait",
+          "install": false
+        },
+        {
+          "num": 53,
+          "name": "Portraits for Viconia -> Use recolored Baldur's Gate portrait (drow skin and hair)",
+          "install": false
+        },
+        {
+          "num": 54,
+          "name": "Portraits for Viconia -> Use recolored Baldur's Gate 2 portrait (partially blue clothing)",
+          "install": false
+        },
+        {
+          "num": 55,
+          "name": "Portraits for Viconia -> Use restored Baldur's Gate 2 Demo portrait (BG1 style)",
+          "install": false
+        },
+        {
+          "num": 56,
+          "name": "Portraits for Viconia -> Use restored Baldur's Gate 2 Demo portrait (BG2 style)",
+          "install": false
+        },
+        {
+          "num": 57,
+          "name": "Portraits for Viconia -> Use improved Siege of Dragonspear portrait",
+          "install": false
+        },
+        {
+          "num": 60,
+          "name": "Add special ability: Embrace of Shar",
+          "install": false
+        },
+        {
+          "num": 70,
+          "name": "Apply drow penalty: Day Blindness",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "wsr",
+      "tp2File": "wsr\\wsr.tp2",
+      "version": "v1.14",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 100,
+          "name": "Wizard Slayer kit revision",
+          "install": false
+        },
+        {
+          "num": 200,
+          "name": "Wizard Slayer High Level Ability revision",
+          "install": false
+        },
+        {
+          "num": 301,
+          "name": "Revised Wizard Slayer item restrictions -> Minimal changes",
+          "install": false
+        },
+        {
+          "num": 302,
+          "name": "Revised Wizard Slayer item restrictions -> Moderate changes",
+          "install": false
+        },
+        {
+          "num": 999,
+          "name": "BG2-style icons for WSR content",
+          "install": false
+        }
+      ]
+    }
+  ],
+  "externalMods": [
+    {
+      "name": "bg1npc",
+      "tp2File": "Z:\\games\\bg\\mods\\bg1\\the-bg1npc-project-v32\\bg1npc\\bg1npc.tp2",
+      "version": "v32",
+      "copy": true
+    },
+    {
+      "name": "bg1npcmusic",
+      "tp2File": "Z:\\games\\bg\\mods\\bg1\\bg1npcmusic\\setup-bg1npcmusic.tp2",
+      "version": "v6",
+      "copy": true
+    },
+    {
+      "name": "bst",
+      "tp2File": "Z:\\games\\bg\\mods\\bg1\\bs-baldurans-seatower-veaob.9\\bst\\setup-bst.tp2",
+      "version": "vEAOB.9",
+      "copy": true
+    },
+    {
+      "name": "glamnpcpack",
+      "tp2File": "Z:\\games\\bg\\mods\\bg1\\glamnpcpack-v5\\glamnpcpack\\setup-glamnpcpack.tp2",
+      "version": "v5",
+      "copy": true
+    },
+    {
+      "name": "bgqe",
+      "tp2File": "Z:\\games\\bg\\mods\\bg1\\baldurs-gate-mini-quests-and-encounters-modification-29\\bgqe\\setup-bgqe.tp2",
+      "version": "29",
+      "copy": true
+    },
+    {
+      "name": "BGEEClassicMovies",
+      "tp2File": "Z:\\games\\bg\\mods\\bg1\\bgee-classic-movies-v2.3.1\\BGEEClassicMovies\\BGEEClassicMovies.tp2",
+      "version": "v2.3.1",
+      "copy": true
+    },
+    {
+      "name": "Drake",
+      "tp2File": "Z:\\games\\bg\\mods\\bg1\\ArtemiusI-Drake-v1.7a\\ArtemiusI-Drake-dd6fb4d\\Drake\\Setup-Drake.tp2",
+      "version": "1.7",
+      "copy": true
+    },
+    {
+      "name": "SirinesCall",
+      "tp2File": "Z:\\games\\bg\\mods\\bg1\\SirinesCall\\setup-SirinesCall.tp2",
+      "version": "v16.3",
+      "copy": true
+    },
+    {
+      "name": "bg1re",
+      "tp2File": "Z:\\games\\bg\\mods\\bg1\\baldurs-gate-romantic-encounters-modification-bg1re-13\\bg1re\\setup-bg1re.tp2",
+      "version": "13",
+      "copy": true
+    },
+    {
+      "name": "c#endlessbg1",
+      "tp2File": "Z:\\games\\bg\\mods\\bg1\\endless-bg1-mod-20\\c#endlessbg1\\c#endlessbg1.tp2",
+      "version": "20",
+      "copy": true
+    },
+    {
+      "name": "isra",
+      "tp2File": "Z:\\games\\bg\\mods\\bg1\\isra-npc-for-bg-v3.5\\isra\\isra.tp2",
+      "version": "v3.5",
+      "copy": true
+    },
+    {
+      "name": "Sirene",
+      "tp2File": "Z:\\games\\bg\\mods\\bg1\\ArtemiusI-Sirene-NPC-v3.1\\ArtemiusI-Sirene-NPC-64beded\\Sirene\\Setup-Sirene.tp2",
+      "version": "<unknown>",
+      "copy": true
+    },
+    {
+      "name": "bg1ub",
+      "tp2File": "Z:\\games\\bg\\mods\\bg1\\bg1-unfinished-business-v16.4\\bg1ub\\setup-bg1ub.tp2",
+      "version": "v16.4",
+      "copy": true
+    },
+    {
+      "name": "Aura_BG1",
+      "tp2File": "Z:\\games\\bg\\mods\\bg1\\Aura_BG1-4.0\\Aura_BG1\\Setup-Aura_BG1.tp2",
+      "version": "3.3",
+      "copy": true
+    },
+    {
+      "name": "AC_QUEST",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\ascalons-questpack-6.1\\AC_QUEST\\ac_quest.TP2",
+      "version": "6.1",
+      "copy": true
+    },
+    {
+      "name": "cdtweaks",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\cdtweaks-v16\\cdtweaks\\setup-cdtweaks.tp2",
+      "version": "v16",
+      "copy": true
+    },
+    {
+      "name": "celestials",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\celestials-v10\\celestials\\setup-celestials.tp2",
+      "version": "v10",
+      "copy": true
+    },
+    {
+      "name": "dw_talents",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\dw_talents-beta-15\\dw_talents\\dw_talents.tp2",
+      "version": "Beta 15",
+      "copy": true
+    },
+    {
+      "name": "EEex",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\eeex-v0.10.2.1-alpha\\EEex\\EEex.tp2",
+      "version": "v0.10.2.1-alpha",
+      "copy": true
+    },
+    {
+      "name": "HiddenGameplayOptions",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\HiddenGameplayOptions-v4.7\\HiddenGameplayOptions\\HiddenGameplayOptions.tp2",
+      "version": "4.7",
+      "copy": true
+    },
+    {
+      "name": "LeUI",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\lefreuts-enhanced-ui-bg2ee-skin-4.9.1\\LeUI\\LeUI.tp2",
+      "version": "4.9.1",
+      "copy": true
+    },
+    {
+      "name": "PPE",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\Portraits-Portraits-Everywhere-1.01\\PPE\\setup-PPE.tp2",
+      "version": "1.02",
+      "copy": true
+    },
+    {
+      "name": "rr",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\rr-v492\\rr\\setup-rr.tp2",
+      "version": "v4.92",
+      "copy": true
+    },
+    {
+      "name": "spell_rev",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\spell_rev-v4-beta18\\spell_rev\\setup-spell_rev.tp2",
+      "version": "v4 Beta 18",
+      "copy": true
+    },
+    {
+      "name": "stratagems",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\stratagems-35.21\\stratagems\\setup-stratagems.tp2",
+      "version": "35.21",
+      "copy": true
+    },
+    {
+      "name": "thepicturestandard",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\The Picture Standard-0-7-1\\thepicturestandard\\thepicturestandard.tp2",
+      "version": "0.71",
+      "copy": true
+    },
+    {
+      "name": "ViconiaRevamped",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\ViconiaRevamped v7.2\\ViconiaRevamped\\setup-ViconiaRevamped.tp2",
+      "version": "v7.2",
+      "copy": true
+    },
+    {
+      "name": "wsr",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\wsr_v114\\wsr\\wsr.tp2",
+      "version": "v1.14",
+      "copy": true
+    },
+    {
+      "name": "DlcMerger",
+      "tp2File": "Z:\\games\\bg\\mods\\bg1\\win-64bit-DlcMerger-v1.7\\DlcMerger\\DlcMerger.tp2",
+      "version": "1.7",
+      "copy": true
+    },
+    {
+      "name": "SotSC",
+      "tp2File": "Z:\\games\\bg\\mods\\bg1\\SotSC-v8.9\\SotSC\\SotSC.tp2",
+      "version": "v8.9",
+      "copy": false
+    },
+    {
+      "name": "atweaks",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\atweaks\\setup-atweaks.tp2",
+      "version": "v4.53",
+      "copy": false
+    },
+    {
+      "name": "BardicWonders",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\Bardic-Wonders-v2.9\\BardicWonders\\BardicWonders.tp2",
+      "version": "<unknown>",
+      "copy": false
+    },
+    {
+      "name": "bubb_spell_menu_extended",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\Bubbs-Spell-Menu-Extended-5.1\\bubb_spell_menu_extended\\bubb_spell_menu_extended.tp2",
+      "version": "v5.1",
+      "copy": false
+    },
+    {
+      "name": "bubb_revert_pathfinding",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\bubb_revert_pathfinding\\bubb_revert_pathfinding.tp2",
+      "version": "<unknown>",
+      "copy": false
+    },
+    {
+      "name": "gaenemyrando",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\EnemyRandomizer-v1.1.3\\gaenemyrando\\gaenemyrando.tp2",
+      "version": "V1.1.3",
+      "copy": false
+    },
+    {
+      "name": "faiths_and_powers",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\Faiths_and_Powers-0.91.3\\faiths_and_powers\\Faiths_and_Powers.tp2",
+      "version": "0.91.3",
+      "copy": false
+    },
+    {
+      "name": "refinements",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\refinements-4.36.1\\refinements\\setup-refinements.tp2",
+      "version": "beta 4.36",
+      "copy": false
+    },
+    {
+      "name": "shadowadept",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\Shadow-Magic-3.2\\shadowadept\\shadowadept.tp2",
+      "version": "3.2",
+      "copy": false
+    },
+    {
+      "name": "ArtisansKitpack",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\The-Artisan-s-Kitpack-4.8\\ArtisansKitpack\\ArtisansKitpack.TP2",
+      "version": "4.8",
+      "copy": false
+    },
+    {
+      "name": "C0Warlock",
+      "tp2File": "Z:\\games\\bg\\mods\\both\\Warlock-2.8\\C0Warlock\\C0Warlock.TP2",
+      "version": "2.8",
+      "copy": false
+    }
+  ]
+}

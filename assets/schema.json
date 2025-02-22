@@ -1,0 +1,138 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/Config",
+    "definitions": {
+        "Config": {
+            "type": "object",
+            "properties": {
+                "gameFolder": {
+                    "type": "string"
+                },
+                "modsFolders": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "weiduLocation": {
+                    "type": "string"
+                },
+                "language": {
+                    "type": "string"
+                },
+                "mods": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Mod"
+                    }
+                },
+                "externalMods": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ExternalMod"
+                    }
+                }
+            },
+            "required": [
+                "gameFolder",
+                "modsFolders",
+                "weiduLocation",
+                "language",
+                "mods",
+                "externalMods"
+            ],
+            "additionalProperties": false
+        },
+        "Mod": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "tp2File": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "string"
+                },
+                "language": {
+                    "$ref": "#/definitions/ValueName"
+                },
+                "components": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ModComponent"
+                    }
+                }
+            },
+            "required": [
+                "components",
+                "language",
+                "name",
+                "tp2File",
+                "version"
+            ],
+            "additionalProperties": false
+        },
+        "ValueName": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "number"
+                },
+                "name": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "value",
+                "name"
+            ],
+            "additionalProperties": false
+        },
+        "ModComponent": {
+            "type": "object",
+            "properties": {
+                "num": {
+                    "type": "number"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "install": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "num",
+                "name",
+                "install"
+            ],
+            "additionalProperties": false
+        },
+        "ExternalMod": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "tp2File": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "string"
+                },
+                "copy": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "copy",
+                "name",
+                "tp2File",
+                "version"
+            ],
+            "additionalProperties": false
+        }
+    }
+}

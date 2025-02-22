@@ -1,0 +1,42 @@
+{
+  "name": "ie-baf-generator",
+  "version": "0.0.1",
+  "description": "Script BAF generator for Infinity Engine games",
+  "main": "lib/index.js",
+  "bin": {
+    "generate": "./lib/index.js"
+  },
+  "scripts": {
+    "start": "nodemon --watch src/**/*.ts --exec ts-node src/index.ts",
+    "start:windows": "nodemon --watch 'src/**/*.ts' --exec \"npx ts-node\" src/index.ts",
+    "create": "npm run build && npm run test",
+    "build": "tsc -p .",
+    "local": "sudo npm i -g && generate",
+    "refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnaudpourbaix/ie-baf-generator.git"
+  },
+  "author": "Arnaud Pourbaix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arnaudpourbaix/ie-baf-generator/issues"
+  },
+  "homepage": "https://github.com/arnaudpourbaix/ie-baf-generator#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "commander": "^10.0.0",
+    "deepmerge": "^4.3.1",
+    "figlet": "^1.5.2",
+    "glob": "^9.3.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
