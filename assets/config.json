@@ -8,8 +8,34 @@
   "weiduLocation": "C:/Games/Baldur's Gate Enhanced Edition/weidu.exe",
   "mods": [
     {
+      "name": "DlcMerger",
+      "tp2File": "DlcMerger/DlcMerger.tp2",
+      "version": "1.7",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 1,
+          "name": "Merge DLC into game -> Merge \"Siege of Dragonspear\" DLC",
+          "install": true
+        },
+        {
+          "num": 2,
+          "name": "Merge DLC into game -> Merge user-defined DLC",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "Merge DLC into game -> Merge all available DLCs",
+          "install": false
+        }
+      ]
+    },
+    {
       "name": "AC_QUEST",
-      "tp2File": "AC_QUEST\\ac_quest.TP2",
+      "tp2File": "AC_QUEST/ac_quest.TP2",
       "version": "6.1",
       "language": {
         "value": 1,
@@ -19,17 +45,17 @@
         {
           "num": 0,
           "name": "A Job Well-Paid",
-          "install": false
+          "install": true
         },
         {
           "num": 1,
           "name": "A Feast for the Gnolls",
-          "install": false
+          "install": true
         },
         {
           "num": 2,
           "name": "Jumper -> Original version: Ugh and Jumper are inside the cave.",
-          "install": false
+          "install": true
         },
         {
           "num": 3,
@@ -39,7 +65,7 @@
         {
           "num": 4,
           "name": "The Lost Son",
-          "install": false
+          "install": true
         },
         {
           "num": 5,
@@ -49,22 +75,22 @@
         {
           "num": 6,
           "name": "Of Wolves and Men -> Quest uses house in Beregost.",
-          "install": false
+          "install": true
         },
         {
           "num": 7,
           "name": "The Great Carlini",
-          "install": false
+          "install": true
         },
         {
           "num": 8,
           "name": "A Home for the Gibberlings",
-          "install": false
+          "install": true
         },
         {
           "num": 9,
           "name": "Fangirls",
-          "install": false
+          "install": true
         },
         {
           "num": 10,
@@ -74,7 +100,7 @@
         {
           "num": 11,
           "name": "The Serpents of Abbathor -> Tweaked version: quest can be finished in BG1.",
-          "install": false
+          "install": true
         },
         {
           "num": 12,
@@ -85,7 +111,7 @@
     },
     {
       "name": "Aura_BG1",
-      "tp2File": "Aura_BG1\\Setup-Aura_BG1.tp2",
+      "tp2File": "Aura_BG1/Setup-Aura_BG1.tp2",
       "version": "3.3",
       "language": {
         "value": 0,
@@ -95,12 +121,12 @@
         {
           "num": 0,
           "name": "Aura NPC for Baldur's Gate: Enhanced Edition",
-          "install": false
+          "install": true
         },
         {
           "num": 1,
           "name": "Choose a class for Aura: -> Artificer (Thief)",
-          "install": false
+          "install": true
         },
         {
           "num": 2,
@@ -120,7 +146,7 @@
         {
           "num": 5,
           "name": "Choose a portrait for Aura: -> Default Portrait (The Artisan)",
-          "install": false
+          "install": true
         },
         {
           "num": 6,
@@ -171,7 +197,7 @@
     },
     {
       "name": "bg1npc",
-      "tp2File": "bg1npc\\bg1npc.tp2",
+      "tp2File": "bg1npc/bg1npc.tp2",
       "version": "v32",
       "language": {
         "value": 0,
@@ -181,17 +207,17 @@
         {
           "num": 0,
           "name": "The BG1 NPC Project: Required Modifications",
-          "install": false
+          "install": true
         },
         {
           "num": 10,
           "name": "The BG1 NPC Project: Banters, Quests, and Interjections",
-          "install": false
+          "install": true
         },
         {
           "num": 20,
           "name": "The BG1 NPC Project: Ajantis Romance Core (teen content) -> Speed: 1 hour real time (standard) minimum between LoveTalks",
-          "install": false
+          "install": true
         },
         {
           "num": 21,
@@ -216,7 +242,7 @@
         {
           "num": 30,
           "name": "The BG1 NPC Project: Branwen's Romance Core (teen content) -> Speed: 1 hour real time (standard) minimum between LoveTalks",
-          "install": false
+          "install": true
         },
         {
           "num": 31,
@@ -241,7 +267,7 @@
         {
           "num": 40,
           "name": "The BG1 NPC Project: Coran's Romance Core (adult content) -> Speed: 1 hour real time (standard) minimum between LoveTalks",
-          "install": false
+          "install": true
         },
         {
           "num": 41,
@@ -266,7 +292,7 @@
         {
           "num": 50,
           "name": "The BG1 NPC Project: Dynaheir's Romance Core (teen content) -> Speed: 1 hour real time (standard) minimum between LoveTalks",
-          "install": false
+          "install": true
         },
         {
           "num": 51,
@@ -291,7 +317,7 @@
         {
           "num": 60,
           "name": "The BG1 NPC Project: Shar-Teel Relationship Core (adult content) -> Speed: 1 hour real time (standard) minimum between LoveTalks",
-          "install": false
+          "install": true
         },
         {
           "num": 61,
@@ -316,7 +342,7 @@
         {
           "num": 70,
           "name": "The BG1 NPC Project: Xan's Romance Core (teen content) -> Speed: 1 hour real time (standard) minimum between LoveTalks",
-          "install": false
+          "install": true
         },
         {
           "num": 71,
@@ -341,7 +367,7 @@
         {
           "num": 80,
           "name": "The BG1 NPC Project: Female Romance Challenges, Ajantis vs Xan vs Coran",
-          "install": false
+          "install": true
         },
         {
           "num": 90,
@@ -356,7 +382,7 @@
         {
           "num": 110,
           "name": "BGEE Banter Timing Tweak -> Banter Timing: Normal (about 27 minutes between banter dialogs)",
-          "install": false
+          "install": true
         },
         {
           "num": 111,
@@ -386,7 +412,7 @@
         {
           "num": 130,
           "name": "The BG1 NPC Project: Sarevok's Diary Adjustments -> SixofSpades Extended Sarevok's Diary",
-          "install": false
+          "install": true
         },
         {
           "num": 131,
@@ -406,7 +432,7 @@
         {
           "num": 160,
           "name": "The BG1 NPC Project: Add Non-Joinable NPC portraits to quests and dialogues",
-          "install": false
+          "install": true
         },
         {
           "num": 200,
@@ -416,7 +442,7 @@
         {
           "num": 240,
           "name": "The BG1 NPC Project: Kivan's Proficiency -> Kivan uses spears",
-          "install": false
+          "install": true
         },
         {
           "num": 241,
@@ -427,7 +453,7 @@
     },
     {
       "name": "bg1npcmusic",
-      "tp2File": "bg1npcmusic\\setup-bg1npcmusic.tp2",
+      "tp2File": "bg1npcmusic/setup-bg1npcmusic.tp2",
       "version": "v6",
       "language": {
         "value": 0,
@@ -437,7 +463,7 @@
         {
           "num": 0,
           "name": "The BG1 NPC Project Music Pack -> Install All Audio",
-          "install": false
+          "install": true
         },
         {
           "num": 1,
@@ -468,7 +494,7 @@
     },
     {
       "name": "bg1re",
-      "tp2File": "bg1re\\setup-bg1re.tp2",
+      "tp2File": "bg1re/setup-bg1re.tp2",
       "version": "13",
       "language": {
         "value": 0,
@@ -478,222 +504,222 @@
         {
           "num": 1,
           "name": "Bardolan's Briefing, by berelinde",
-          "install": false
+          "install": true
         },
         {
           "num": 2,
           "name": "Scar's Spare Time, by jastey",
-          "install": false
+          "install": true
         },
         {
           "num": 3,
           "name": "Kim's Preoccupation, by jastey (WARNING - refer to the readme!)",
-          "install": false
+          "install": true
         },
         {
           "num": 4,
           "name": "Extension of Bjornin Encounter (Personal Wound Treatment), by jastey",
-          "install": false
+          "install": true
         },
         {
           "num": 5,
           "name": "No Starch in the Maypole",
-          "install": false
+          "install": true
         },
         {
           "num": 6,
           "name": "Duke Eltan's Spare Minute, by jastey",
-          "install": false
+          "install": true
         },
         {
           "num": 7,
           "name": "Husam's Personal Preparation, by jastey",
-          "install": false
+          "install": true
         },
         {
           "num": 8,
           "name": "Laurel's Post-Hunting, by jastey",
-          "install": false
+          "install": true
         },
         {
           "num": 9,
           "name": "Bartus' Seduction, by jastey",
-          "install": false
+          "install": true
         },
         {
           "num": 10,
           "name": "Lina's Massage, by jastey",
-          "install": false
+          "install": true
         },
         {
           "num": 11,
           "name": "First Night with Quentin, by Kulyok",
-          "install": false
+          "install": true
         },
         {
           "num": 12,
           "name": "Chatting Niklos Up, by Kulyok (mature content. WARNING - refer to the readme!)",
-          "install": false
+          "install": true
         },
         {
           "num": 13,
           "name": "Slythe and Krystin, by Kulyok (mature content. WARNING - refer to the readme!)",
-          "install": false
+          "install": true
         },
         {
           "num": 14,
           "name": "No Regrets",
-          "install": false
+          "install": true
         },
         {
           "num": 15,
           "name": "Purchased Love, by Thimblerig",
-          "install": false
+          "install": true
         },
         {
           "num": 16,
           "name": "Hull: Heavy Duty, by Lava",
-          "install": false
+          "install": true
         },
         {
           "num": 17,
           "name": "Late Night with Jaheira, by Kulyok",
-          "install": false
+          "install": true
         },
         {
           "num": 18,
           "name": "Sil's Blessing, by Lava",
-          "install": false
+          "install": true
         },
         {
           "num": 19,
           "name": "Melicamp: The Poultry Boy, by Lava",
-          "install": false
+          "install": true
         },
         {
           "num": 20,
           "name": "Reading with Rinnie, by Western Paladin",
-          "install": false
+          "install": true
         },
         {
           "num": 21,
           "name": "Molly the Husband-Grabber, by Kulyok",
-          "install": false
+          "install": true
         },
         {
           "num": 22,
           "name": "The Mourning of Centeol, the Spider Lady, by Lava",
-          "install": false
+          "install": true
         },
         {
           "num": 23,
           "name": "The Essential End, by Lava (WARNING - refer to the readme!)",
-          "install": false
+          "install": true
         },
         {
           "num": 24,
           "name": "The Harvestmen Lair, by Lava (mature content)",
-          "install": false
+          "install": true
         },
         {
           "num": 25,
           "name": "The Great Zudini, by Kulyok (mature content)",
-          "install": false
+          "install": true
         },
         {
           "num": 26,
           "name": "The Messenger, by Thimblerig",
-          "install": false
+          "install": true
         },
         {
           "num": 27,
           "name": "Ender Sai, the Hero's Reward, by Thimblerig (WARNING - refer to the readme!)",
-          "install": false
+          "install": true
         },
         {
           "num": 28,
           "name": "The Novelists, by Thimblerig",
-          "install": false
+          "install": true
         },
         {
           "num": 29,
           "name": "The Honest Lies of Two Riversides, By Lava",
-          "install": false
+          "install": true
         },
         {
           "num": 30,
           "name": "Necromancer's Trouble, by jastey",
-          "install": false
+          "install": true
         },
         {
           "num": 31,
           "name": "Dinner with Thalantyr, by jastey",
-          "install": false
+          "install": true
         },
         {
           "num": 32,
           "name": "Girdle of Gender Reactions, by Thimblerig, Kulyok, Domi, Lava, Lastknightleft, Twani, Jastey, Daisy Ninja Girl",
-          "install": false
+          "install": true
         },
         {
           "num": 33,
           "name": "The Surgeon's Dream, by Kulyok",
-          "install": false
+          "install": true
         },
         {
           "num": 34,
           "name": "All That Left Was, by Lava and Thimblerig",
-          "install": false
+          "install": true
         },
         {
           "num": 35,
           "name": "A Childhood Friend, by Kulyok",
-          "install": false
+          "install": true
         },
         {
           "num": 36,
           "name": "Arlene the Working Girl, by Kulyok",
-          "install": false
+          "install": true
         },
         {
           "num": 37,
           "name": "Della May from Thay, by Kulyok",
-          "install": false
+          "install": true
         },
         {
           "num": 38,
           "name": "A Dirty Guard in Candlekeep, by Kulyok (mature content. WARNING - refer to the readme!)",
-          "install": false
+          "install": true
         },
         {
           "num": 39,
           "name": "Phoenix Flame, by Kulyok (mature content)",
-          "install": false
+          "install": true
         },
         {
           "num": 40,
           "name": "Mikala the Monk, by Twani",
-          "install": false
+          "install": true
         },
         {
           "num": 41,
           "name": "The Messenger 2: Rain or Snow or Gloom of Night, by Thimblerig and tibicina",
-          "install": false
+          "install": true
         },
         {
           "num": 42,
           "name": "Camryn and Tamah, by tibicina",
-          "install": false
+          "install": true
         },
         {
           "num": 43,
           "name": "Minor Disclosures, by jastey",
-          "install": false
+          "install": true
         },
         {
           "num": 44,
           "name": "Cloakwood Lovers, by tibicina",
-          "install": false
+          "install": true
         },
         {
           "num": 100,
@@ -723,13 +749,13 @@
         {
           "num": 105,
           "name": "Main Component: Amount of -ahem- details and BG-style vs. description text! (Required) -> Descriptive Version [Adult content] and Show/Install all Components with Warnings.",
-          "install": false
+          "install": true
         }
       ]
     },
     {
       "name": "bg1ub",
-      "tp2File": "bg1ub\\setup-bg1ub.tp2",
+      "tp2File": "bg1ub/setup-bg1ub.tp2",
       "version": "v16.4",
       "language": {
         "value": 0,
@@ -739,7 +765,7 @@
         {
           "num": 0,
           "name": "Ice Island Level Two Restoration",
-          "install": false
+          "install": true
         },
         {
           "num": 1,
@@ -794,22 +820,22 @@
         {
           "num": 11,
           "name": "Scar and the Sashenstar's Daughter",
-          "install": false
+          "install": true
         },
         {
           "num": 12,
           "name": "Quoningar, the Cleric",
-          "install": false
+          "install": true
         },
         {
           "num": 13,
           "name": "Shilo Chen and the Ogre-Magi",
-          "install": false
+          "install": true
         },
         {
           "num": 14,
           "name": "Edie, the Merchant League Applicant",
-          "install": false
+          "install": true
         },
         {
           "num": 15,
@@ -819,22 +845,22 @@
         {
           "num": 16,
           "name": "Creature Corrections",
-          "install": false
+          "install": true
         },
         {
           "num": 17,
           "name": "Creature Restorations",
-          "install": false
+          "install": true
         },
         {
           "num": 18,
           "name": "Creature Name Restorations",
-          "install": false
+          "install": true
         },
         {
           "num": 19,
           "name": "Minor Dialogue Restorations",
-          "install": false
+          "install": true
         },
         {
           "num": 20,
@@ -844,12 +870,12 @@
         {
           "num": 21,
           "name": "Store, Tavern and Inn Fixes and Restorations",
-          "install": false
+          "install": true
         },
         {
           "num": 22,
           "name": "Item Corrections and Restorations",
-          "install": false
+          "install": true
         },
         {
           "num": 23,
@@ -884,12 +910,12 @@
         {
           "num": 29,
           "name": "Duke Eltan in the Harbor Master's Building",
-          "install": false
+          "install": true
         },
         {
           "num": 30,
           "name": "Nim Furlwing Encounter",
-          "install": false
+          "install": true
         },
         {
           "num": 31,
@@ -899,23 +925,23 @@
         {
           "num": 32,
           "name": "Svlast, the Fallen Paladin Encounter",
-          "install": false
+          "install": true
         },
         {
           "num": 33,
           "name": "Mal-Kalen, the Ulcaster Ghost",
-          "install": false
+          "install": true
         },
         {
           "num": 34,
           "name": "Chapter 6 Dialogue Restorations",
-          "install": false
+          "install": true
         }
       ]
     },
     {
       "name": "BGEEClassicMovies",
-      "tp2File": "BGEEClassicMovies\\BGEEClassicMovies.tp2",
+      "tp2File": "BGEEClassicMovies/BGEEClassicMovies.tp2",
       "version": "v2.3.1",
       "language": {
         "value": 0,
@@ -925,7 +951,7 @@
         {
           "num": 0,
           "name": "Restore BG1 movies to BG:EE -> Replace all movies",
-          "install": false
+          "install": true
         },
         {
           "num": 1,
@@ -940,13 +966,13 @@
         {
           "num": 3,
           "name": "Restore BG1 Chapter and Dream Screens",
-          "install": false
+          "install": true
         }
       ]
     },
     {
       "name": "bgqe",
-      "tp2File": "bgqe\\setup-bgqe.tp2",
+      "tp2File": "bgqe/setup-bgqe.tp2",
       "version": "29",
       "language": {
         "value": 0,
@@ -956,93 +982,93 @@
         {
           "num": 0,
           "name": "Slime Quest",
-          "install": false
+          "install": true
         },
         {
           "num": 1,
           "name": "Beregost Family Quest",
-          "install": false
+          "install": true
         },
         {
           "num": 2,
           "name": "Babysitting Quest, including the Carnival Encounter...",
-          "install": false
+          "install": true
         },
         {
           "num": 3,
           "name": "Nashkel Monster Quest",
-          "install": false
+          "install": true
         },
         {
           "num": 4,
           "name": "Fallen Paladin Quest",
-          "install": false
+          "install": true
         },
         {
           "num": 5,
           "name": "Undying Love Quest",
-          "install": false
+          "install": true
         },
         {
           "num": 6,
           "name": "Lovesick Half-Orc",
-          "install": false
+          "install": true
         },
         {
           "num": 7,
           "name": "Unexpected Help Quest",
-          "install": false
+          "install": true
         },
         {
           "num": 8,
           "name": "Many Little Paws",
-          "install": false
+          "install": true
         },
         {
           "num": 9,
           "name": "Drunk Near Beregost Temple",
-          "install": false
+          "install": true
         },
         {
           "num": 10,
           "name": "A Warm Place for Noober",
-          "install": false
+          "install": true
         },
         {
           "num": 11,
           "name": "Brage's Sword",
-          "install": false
+          "install": true
         },
         {
           "num": 12,
           "name": "Legal Sea Charts Sources",
-          "install": false
+          "install": true
         },
         {
           "num": 13,
           "name": "Additions to the Lady's Hall and the Bitch Queen's Temple",
-          "install": false
+          "install": true
         },
         {
           "num": 14,
           "name": "A Worried Farmer",
-          "install": false
+          "install": true
         },
         {
           "num": 15,
           "name": "Bodies for a Good Cause",
-          "install": false
+          "install": true
         },
         {
           "num": 16,
           "name": "Finish Cordyr's Quest without killing Sil",
-          "install": false
+          "install": true
         }
       ]
     },
     {
       "name": "bst",
-      "tp2File": "bst\\setup-bst.tp2",
+      "tp2File": "bst/setup-bst.tp2",
       "version": "vEAOB.9",
       "language": {
         "value": 0,
@@ -1052,13 +1078,13 @@
         {
           "num": 0,
           "name": "The BS Company presents Balduran's Seatower",
-          "install": false
+          "install": true
         }
       ]
     },
     {
       "name": "c#endlessbg1",
-      "tp2File": "c#endlessbg1\\c#endlessbg1.tp2",
+      "tp2File": "c#endlessbg1/c#endlessbg1.tp2",
       "version": "20",
       "language": {
         "value": 0,
@@ -1068,12 +1094,12 @@
         {
           "num": 0,
           "name": "Endless BG1: Main Component (Required)",
-          "install": false
+          "install": true
         },
         {
           "num": 1,
           "name": "More Flavor to Hero of Baldur's Gate (Includes PC's Residence Inside Palace)",
-          "install": false
+          "install": true
         },
         {
           "num": 2,
@@ -1083,32 +1109,32 @@
         {
           "num": 3,
           "name": "Sarevok's Unique Items",
-          "install": false
+          "install": true
         },
         {
           "num": 4,
           "name": "Sarevok's Sword",
-          "install": false
+          "install": true
         },
         {
           "num": 5,
           "name": "Imoen and Duke Jannath (Imoen Gets Residence Inside Palace)",
-          "install": false
+          "install": true
         },
         {
           "num": 6,
           "name": "Duke Eltan Is in the Palace",
-          "install": false
+          "install": true
         },
         {
           "num": 7,
           "name": "Flaming Fist After Final Fight",
-          "install": false
+          "install": true
         },
         {
           "num": 8,
           "name": "Elminster Makes an Appearance -> jastey's Version",
-          "install": false
+          "install": true
         },
         {
           "num": 9,
@@ -1128,7 +1154,7 @@
         {
           "num": 12,
           "name": "Denkod in Thieves' Guild Comments on Sarevok's Death",
-          "install": false
+          "install": true
         },
         {
           "num": 13,
@@ -1154,7 +1180,7 @@
     },
     {
       "name": "cdtweaks",
-      "tp2File": "cdtweaks\\setup-cdtweaks.tp2",
+      "tp2File": "cdtweaks/setup-cdtweaks.tp2",
       "version": "v16",
       "language": {
         "value": 0,
@@ -2750,7 +2776,7 @@
     },
     {
       "name": "celestials",
-      "tp2File": "celestials\\setup-celestials.tp2",
+      "tp2File": "celestials/setup-celestials.tp2",
       "version": "v10",
       "language": {
         "value": 0,
@@ -2770,34 +2796,8 @@
       ]
     },
     {
-      "name": "DlcMerger",
-      "tp2File": "DlcMerger\\DlcMerger.tp2",
-      "version": "1.7",
-      "language": {
-        "value": 0,
-        "name": "English"
-      },
-      "components": [
-        {
-          "num": 1,
-          "name": "Merge DLC into game -> Merge \"Siege of Dragonspear\" DLC",
-          "install": false
-        },
-        {
-          "num": 2,
-          "name": "Merge DLC into game -> Merge user-defined DLC",
-          "install": false
-        },
-        {
-          "num": 3,
-          "name": "Merge DLC into game -> Merge all available DLCs",
-          "install": false
-        }
-      ]
-    },
-    {
       "name": "Drake",
-      "tp2File": "Drake\\Setup-Drake.tp2",
+      "tp2File": "Drake/Setup-Drake.tp2",
       "version": "1.7",
       "language": {
         "value": 0,
@@ -2807,12 +2807,12 @@
         {
           "num": 0,
           "name": "Drake NPC for Baldur's Gate: Enhanced Edition",
-          "install": false
+          "install": true
         },
         {
           "num": 1,
           "name": "Choose a portrait for Drake: -> Default Portrait (The Artisan)",
-          "install": false
+          "install": true
         },
         {
           "num": 2,
@@ -2838,7 +2838,7 @@
     },
     {
       "name": "dw_talents",
-      "tp2File": "dw_talents\\dw_talents.tp2",
+      "tp2File": "dw_talents/dw_talents.tp2",
       "version": "Beta 15",
       "language": {
         "value": 0,
@@ -3289,7 +3289,7 @@
     },
     {
       "name": "EEex",
-      "tp2File": "EEex\\EEex.tp2",
+      "tp2File": "EEex/EEex.tp2",
       "version": "v0.10.2.1-alpha",
       "language": {
         "value": 0,
@@ -3350,7 +3350,7 @@
     },
     {
       "name": "glamnpcpack",
-      "tp2File": "glamnpcpack\\setup-glamnpcpack.tp2",
+      "tp2File": "glamnpcpack/setup-glamnpcpack.tp2",
       "version": "v5",
       "language": {
         "value": 0,
@@ -3360,13 +3360,13 @@
         {
           "num": 0,
           "name": "Glam's NPC Pack for BG:EE, BGT and BG TUTU",
-          "install": false
+          "install": true
         }
       ]
     },
     {
       "name": "HiddenGameplayOptions",
-      "tp2File": "HiddenGameplayOptions\\HiddenGameplayOptions.tp2",
+      "tp2File": "HiddenGameplayOptions/HiddenGameplayOptions.tp2",
       "version": "4.7",
       "language": {
         "value": 0,
@@ -3557,7 +3557,7 @@
     },
     {
       "name": "isra",
-      "tp2File": "isra\\isra.tp2",
+      "tp2File": "isra/isra.tp2",
       "version": "v3.5",
       "language": {
         "value": 0,
@@ -3583,7 +3583,7 @@
     },
     {
       "name": "LeUI",
-      "tp2File": "LeUI\\LeUI.tp2",
+      "tp2File": "LeUI/LeUI.tp2",
       "version": "4.9.1",
       "language": {
         "value": 0,
@@ -3609,7 +3609,7 @@
     },
     {
       "name": "PPE",
-      "tp2File": "PPE\\setup-PPE.tp2",
+      "tp2File": "PPE/setup-PPE.tp2",
       "version": "1.02",
       "language": {
         "value": 0,
@@ -3725,7 +3725,7 @@
     },
     {
       "name": "rr",
-      "tp2File": "rr\\setup-rr.tp2",
+      "tp2File": "rr/setup-rr.tp2",
       "version": "v4.92",
       "language": {
         "value": 0,
@@ -3806,7 +3806,7 @@
     },
     {
       "name": "Sirene",
-      "tp2File": "Sirene\\Setup-Sirene.tp2",
+      "tp2File": "Sirene/Setup-Sirene.tp2",
       "version": "<unknown>",
       "language": {
         "value": 0,
@@ -3816,12 +3816,12 @@
         {
           "num": 0,
           "name": "Sirene NPC for Baldur's Gate",
-          "install": false
+          "install": true
         },
         {
           "num": 1,
           "name": "Choose an alternate portrait for Sirene? -> BG2 Default (Isandir)",
-          "install": false
+          "install": true
         },
         {
           "num": 2,
@@ -3867,7 +3867,7 @@
     },
     {
       "name": "SirinesCall",
-      "tp2File": "SirinesCall\\setup-SirinesCall.tp2",
+      "tp2File": "SirinesCall/setup-SirinesCall.tp2",
       "version": "v16.3",
       "language": {
         "value": 0,
@@ -3877,7 +3877,7 @@
         {
           "num": 0,
           "name": "The Lure of the Sirine's Call",
-          "install": false
+          "install": true
         },
         {
           "num": 1,
@@ -3888,8 +3888,8 @@
     },
     {
       "name": "spell_rev",
-      "tp2File": "spell_rev\\setup-spell_rev.tp2",
-      "version": "v4 Beta 18",
+      "tp2File": "spell_rev/setup-spell_rev.tp2",
+      "version": "v4.19",
       "language": {
         "value": 0,
         "name": "English"
@@ -3916,16 +3916,6 @@
           "install": false
         },
         {
-          "num": 40,
-          "name": "Cure Sleep Fix",
-          "install": false
-        },
-        {
-          "num": 50,
-          "name": "Remove Disabled Spells from Spell Selection Screens",
-          "install": false
-        },
-        {
           "num": 55,
           "name": "Spell Deflection blocks AoE spells",
           "install": false
@@ -3939,12 +3929,17 @@
           "num": 65,
           "name": "Revised Warrior HLAs",
           "install": false
+        },
+        {
+          "num": 70,
+          "name": "Revised Saving Throws",
+          "install": false
         }
       ]
     },
     {
       "name": "stratagems",
-      "tp2File": "stratagems\\setup-stratagems.tp2",
+      "tp2File": "stratagems/setup-stratagems.tp2",
       "version": "35.21",
       "language": {
         "value": 0,
@@ -4670,7 +4665,7 @@
     },
     {
       "name": "thepicturestandard",
-      "tp2File": "thepicturestandard\\thepicturestandard.tp2",
+      "tp2File": "thepicturestandard/thepicturestandard.tp2",
       "version": "0.71",
       "language": {
         "value": 0,
@@ -4996,7 +4991,7 @@
     },
     {
       "name": "ViconiaRevamped",
-      "tp2File": "ViconiaRevamped\\setup-ViconiaRevamped.tp2",
+      "tp2File": "ViconiaRevamped/setup-ViconiaRevamped.tp2",
       "version": "v7.2",
       "language": {
         "value": 0,
@@ -5112,7 +5107,7 @@
     },
     {
       "name": "wsr",
-      "tp2File": "wsr\\wsr.tp2",
+      "tp2File": "wsr/wsr.tp2",
       "version": "v1.14",
       "language": {
         "value": 0,
@@ -5145,246 +5140,1430 @@
           "install": false
         }
       ]
+    },
+    {
+      "name": "item_rev",
+      "tp2File": "item_rev/item_rev.tp2",
+      "version": "V4 Beta 10",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Item Revisions by Demivrgvs",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "Allow Spellcasting in Armor -> With a Chance of Arcane Casting Failure",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "Allow Spellcasting in Armor -> With Casting Speed Penalties for Arcane Casters",
+          "install": false
+        },
+        {
+          "num": 9,
+          "name": "Allow Thieving Skills in Armor -> Stealth is Penalized by Armor",
+          "install": false
+        },
+        {
+          "num": 10,
+          "name": "Revised Shield Bonuses",
+          "install": false
+        },
+        {
+          "num": 11,
+          "name": "Dual Wielding Changes for Light and Heavy Weapons",
+          "install": false
+        },
+        {
+          "num": 12,
+          "name": "Items of Protection Can Be Worn with Magical Armor",
+          "install": false
+        },
+        {
+          "num": 15,
+          "name": "PnP Equipment for Druids -> Druids Only",
+          "install": false
+        },
+        {
+          "num": 16,
+          "name": "PnP Equipment for Druids -> Druids and Fighter/Druids",
+          "install": false
+        },
+        {
+          "num": 17,
+          "name": "Weapon Changes",
+          "install": false
+        },
+        {
+          "num": 18,
+          "name": "Revised Backstabbing -> Thief-only Weapons",
+          "install": false
+        },
+        {
+          "num": 19,
+          "name": "Revised Backstabbing -> More Weapons Usable for Backstabbing",
+          "install": false
+        },
+        {
+          "num": 20,
+          "name": "Revised Backstabbing -> All Melee and Ranged Weapons Usable For Backstabbing",
+          "install": false
+        },
+        {
+          "num": 1030,
+          "name": "Store Revisions",
+          "install": false
+        },
+        {
+          "num": 1040,
+          "name": "Revised Armor -> With Movement Speed Penalties",
+          "install": false
+        },
+        {
+          "num": 1042,
+          "name": "Revised Armor -> Without Movement Speed Penalties",
+          "install": false
+        },
+        {
+          "num": 1060,
+          "name": "Kensai Can Wear Bracers",
+          "install": false
+        },
+        {
+          "num": 1070,
+          "name": "Thieves Can Use Wands",
+          "install": false
+        },
+        {
+          "num": 1080,
+          "name": "Enchantment Doesn't Affect Speed Factor of Weapons",
+          "install": false
+        },
+        {
+          "num": 1090,
+          "name": "Remove Weapon Restrictions from Multi-classed Divine Spellcasters -> Clerics Only",
+          "install": false
+        },
+        {
+          "num": 1091,
+          "name": "Remove Weapon Restrictions from Multi-classed Divine Spellcasters -> Clerics and Druids",
+          "install": false
+        },
+        {
+          "num": 1092,
+          "name": "Remove Weapon Restrictions from Multi-classed Divine Spellcasters -> Clerics Only, With Halved Specialization",
+          "install": false
+        },
+        {
+          "num": 1093,
+          "name": "Remove Weapon Restrictions from Multi-classed Divine Spellcasters -> Clerics and Druids, With Halved Specialization",
+          "install": false
+        },
+        {
+          "num": 1101,
+          "name": "Allow Thieving Skills in Armor -> Stealth is Penalized by Armor and Shields",
+          "install": false
+        },
+        {
+          "num": 1200,
+          "name": "Revised Critical Hit Aversion",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "EEUITweaks",
+      "tp2File": "EEUITweaks/EEUITweaks.tp2",
+      "version": "4.0.7",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 1000,
+          "name": "Mods Options",
+          "install": true
+        },
+        {
+          "num": 1010,
+          "name": "Hidden Game Options",
+          "install": true
+        },
+        {
+          "num": 1020,
+          "name": "Mr2150's Random PC Generator",
+          "install": false
+        },
+        {
+          "num": 1030,
+          "name": "Portrait Selectors -> BillyYank's Multi-Portrait Mod",
+          "install": true
+        },
+        {
+          "num": 1040,
+          "name": "Portrait Selectors -> Mr2150's Portrait Picker (Scaleable UI)",
+          "install": false
+        },
+        {
+          "num": 1041,
+          "name": "Portrait Selectors -> Mr2150's Portrait Picker (Non-Scaleable UI)",
+          "install": false
+        },
+        {
+          "num": 1042,
+          "name": "Mr2150's Backup M_BG.lua",
+          "install": false
+        },
+        {
+          "num": 1044,
+          "name": "Mr2150's Update Portraits",
+          "install": false
+        },
+        {
+          "num": 1050,
+          "name": "Adul's Unhide Chargen Options",
+          "install": false
+        },
+        {
+          "num": 1060,
+          "name": "Mr2150's Roll First",
+          "install": false
+        },
+        {
+          "num": 1070,
+          "name": "Faydark's Abilities Auto-Roller/GrimLefourbe's BG2 UI",
+          "install": false
+        },
+        {
+          "num": 1080,
+          "name": "Portrait Selectors -> lefreut's Portrait Picker",
+          "install": false
+        },
+        {
+          "num": 1090,
+          "name": "lefreut's Character Creation Screens -> Default Button Position",
+          "install": true
+        },
+        {
+          "num": 1091,
+          "name": "lefreut's Character Creation Screens -> Reversed Button Position",
+          "install": false
+        },
+        {
+          "num": 1100,
+          "name": "Display max proficiency limits",
+          "install": false
+        },
+        {
+          "num": 2000,
+          "name": "Transparent Sidebars",
+          "install": false
+        },
+        {
+          "num": 2010,
+          "name": "Feedback Message Box Re-sizers -> Feedback Message Box Buttons Hack",
+          "install": false
+        },
+        {
+          "num": 2020,
+          "name": "Feedback Message Box Re-sizers -> Adul's Message Box Resize Button",
+          "install": false
+        },
+        {
+          "num": 2030,
+          "name": "Adul's Better Quick Loot",
+          "install": true
+        },
+        {
+          "num": 2040,
+          "name": "lefreut's Better Level Up Indicators -> lefreut's Level Up Glow no Click",
+          "install": false
+        },
+        {
+          "num": 2042,
+          "name": "lefreut's Better Level Up Indicators -> lefreut's Level Up Glow with Click",
+          "install": false
+        },
+        {
+          "num": 2044,
+          "name": "lefreut's Better Level Up Indicators -> lefreut's Level Up Buttons",
+          "install": false
+        },
+        {
+          "num": 2050,
+          "name": "Simple Centered Dialog",
+          "install": false
+        },
+        {
+          "num": 2060,
+          "name": "lefreut's 1.3-ish Dialog Box",
+          "install": true
+        },
+        {
+          "num": 2070,
+          "name": "Dee's Permanent Thieving Button",
+          "install": false
+        },
+        {
+          "num": 2080,
+          "name": "elminster's Easier Area Cheats",
+          "install": false
+        },
+        {
+          "num": 2090,
+          "name": "LavaDelVortel's Sculpted Transparent Sidebars",
+          "install": false
+        },
+        {
+          "num": 2100,
+          "name": "LavaDelVortel's Red Healthbar",
+          "install": false
+        },
+        {
+          "num": 2110,
+          "name": "lefreut's Keep Dialog Box active after death",
+          "install": true
+        },
+        {
+          "num": 2120,
+          "name": "CLUAConsole for mobile",
+          "install": false
+        },
+        {
+          "num": 2130,
+          "name": "Clickable dialog box",
+          "install": false
+        },
+        {
+          "num": 2140,
+          "name": "Replace the dragon button",
+          "install": false
+        },
+        {
+          "num": 2900,
+          "name": "lefreut's Improved Record Screen",
+          "install": true
+        },
+        {
+          "num": 3000,
+          "name": "Leveling Progress Bars Tweaks",
+          "install": false
+        },
+        {
+          "num": 3010,
+          "name": "Leveling Progress Bars Options",
+          "install": false
+        },
+        {
+          "num": 3020,
+          "name": "Journal Fixes and Tweaks -> Mr2150's Journal Fixes",
+          "install": true
+        },
+        {
+          "num": 3023,
+          "name": "Journal Fixes and Tweaks -> lefreut's Journal (quests expanded by default)",
+          "install": false
+        },
+        {
+          "num": 3024,
+          "name": "Journal Fixes and Tweaks -> lefreut's Journal (quests collapsed by default)",
+          "install": false
+        },
+        {
+          "num": 3028,
+          "name": "lefreut's Customize Screens Tweaks",
+          "install": true
+        },
+        {
+          "num": 3030,
+          "name": "lefreut's Customize All Characters",
+          "install": false
+        },
+        {
+          "num": 3040,
+          "name": "Mr2150's Auto-Identify Items -> No charge to identify items",
+          "install": false
+        },
+        {
+          "num": 3041,
+          "name": "Mr2150's Auto-Identify Items -> Pay  10gp to identify items",
+          "install": false
+        },
+        {
+          "num": 3042,
+          "name": "Mr2150's Auto-Identify Items -> Pay  25gp to identify items",
+          "install": false
+        },
+        {
+          "num": 3043,
+          "name": "Mr2150's Auto-Identify Items -> Pay  50gp to identify items",
+          "install": false
+        },
+        {
+          "num": 3044,
+          "name": "Mr2150's Auto-Identify Items -> Pay 100gp to identify items",
+          "install": false
+        },
+        {
+          "num": 3045,
+          "name": "Mr2150's Auto-Identify Items -> Pay 200gp to identify items",
+          "install": false
+        },
+        {
+          "num": 3050,
+          "name": "lefreut's Improved Inventory Screen -> With Item Comparison",
+          "install": true
+        },
+        {
+          "num": 3051,
+          "name": "lefreut's Improved Inventory Screen -> Without Item Comparison",
+          "install": false
+        },
+        {
+          "num": 3070,
+          "name": "lefreut's Simple Journal Fixes",
+          "install": true
+        },
+        {
+          "num": 4000,
+          "name": "Joined Store Panels Using lefreut's Solution",
+          "install": false
+        },
+        {
+          "num": 4005,
+          "name": "lefreut's Store Screen Tweaks -> Default Button Position",
+          "install": true
+        },
+        {
+          "num": 4006,
+          "name": "lefreut's Store Screen Tweaks -> Reversed Button Position",
+          "install": false
+        },
+        {
+          "num": 4010,
+          "name": "lefreut's Steal Multiple Items",
+          "install": false
+        },
+        {
+          "num": 4020,
+          "name": "Adul's Smooth Selling",
+          "install": false
+        },
+        {
+          "num": 4025,
+          "name": "Bubb's Store Extension",
+          "install": false
+        },
+        {
+          "num": 4030,
+          "name": "Spell Books -> lefreut's Inscribed Arcana",
+          "install": true
+        },
+        {
+          "num": 4040,
+          "name": "Spell Books -> Kilivitz's Classic Spellbooks",
+          "install": false
+        },
+        {
+          "num": 5000,
+          "name": "lefreut's Tooltip Scroll",
+          "install": true
+        },
+        {
+          "num": 5020,
+          "name": "lefreut's Box 5 (Dialog Box) Override",
+          "install": false
+        },
+        {
+          "num": 5030,
+          "name": "lefreut's Scroll Bar Override",
+          "install": false
+        },
+        {
+          "num": 5040,
+          "name": "lefreut's Improved Fonts -> Non-Italicized fonts for descriptions",
+          "install": true
+        },
+        {
+          "num": 5041,
+          "name": "lefreut's Improved Fonts -> BG2 vanilla fonts for descriptions",
+          "install": false
+        },
+        {
+          "num": 5042,
+          "name": "dummy",
+          "install": false
+        },
+        {
+          "num": 5043,
+          "name": "dummy",
+          "install": false
+        },
+        {
+          "num": 5044,
+          "name": "dummy",
+          "install": false
+        },
+        {
+          "num": 5045,
+          "name": "dummy",
+          "install": false
+        },
+        {
+          "num": 5046,
+          "name": "dummy",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "ajantisbg1",
+      "tp2File": "ajantisbg1/Setup-AjantisBG1.tp2",
+      "version": "21",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Installs Ajantis BG1 Expansion Modification",
+          "install": true
+        },
+        {
+          "num": 1,
+          "name": "Install the unique BG:EE BAM for Ajantis' Family Shield",
+          "install": true
+        },
+        {
+          "num": 30,
+          "name": "Ajantis SoD NPC: Crossmod Content",
+          "install": true
+        }
+      ]
+    },
+    {
+      "name": "IndiNPC",
+      "tp2File": "IndiNPC/IndiNPC.tp2",
+      "version": "v15.1",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Indira NPC",
+          "install": true
+        },
+        {
+          "num": 1,
+          "name": "Install Interjections for Indira (BETA)",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "SotSC",
+      "tp2File": "SotSC/SotSC.tp2",
+      "version": "v8.9",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Shades of the Sword Coast - Expansion Pack for BGEE",
+          "install": true
+        }
+      ]
+    },
+    {
+      "name": "faiths_and_powers",
+      "tp2File": "faiths_and_powers/Faiths_and_Powers.tp2",
+      "version": "0.91.4",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 12,
+          "name": "Revised Cleric Spell Table -> Faiths & Powers Table",
+          "install": false
+        },
+        {
+          "num": 13,
+          "name": "Revised Cleric Spell Table -> 'Un-nerfed' Table",
+          "install": false
+        },
+        {
+          "num": 15,
+          "name": "Druids Use Cleric Spell Table and XP Table",
+          "install": false
+        },
+        {
+          "num": 21,
+          "name": "Choose a Sphere System -> oFnP: the original Faiths & Powers sphere system",
+          "install": false
+        },
+        {
+          "num": 22,
+          "name": "Choose a Sphere System -> AD&D/DR: inspired by PnP and Divine Remix",
+          "install": false
+        },
+        {
+          "num": 23,
+          "name": "Choose a Sphere System -> Vanilla: traditional spell lists, kits can cross the cleric/druid divide",
+          "install": false
+        },
+        {
+          "num": 24,
+          "name": "Choose a Sphere System -> VPlus: traditional spell lists, kits get focus access to two FnP spheres",
+          "install": false
+        },
+        {
+          "num": 25,
+          "name": "Choose a Sphere System -> nuFnP: a new sphere system (fewer spheres, more balanced, closer to PnP)",
+          "install": false
+        },
+        {
+          "num": 30,
+          "name": "Give Option to Cast Like Sorcerers (do not install if planning to use 5E casting)",
+          "install": false
+        },
+        {
+          "num": 31,
+          "name": "Install Cleric kits",
+          "install": false
+        },
+        {
+          "num": 33,
+          "name": "Install Druid kits",
+          "install": false
+        },
+        {
+          "num": 35,
+          "name": "Install Paladin kits -> ...for Tyr, Torm, Helm, Ilmater, Kelemvor, Sune",
+          "install": false
+        },
+        {
+          "num": 36,
+          "name": "Install Paladin kits -> ...for all those, PLUS Neutral/Evil/demihuman deities",
+          "install": false
+        },
+        {
+          "num": 45,
+          "name": "Revised Paladin Spell Table",
+          "install": false
+        },
+        {
+          "num": 75,
+          "name": "Alter Priests' Weapon/Armor Usability",
+          "install": false
+        },
+        {
+          "num": 80,
+          "name": "Apply Sphere System (REQUIRED for the sphere system to work)",
+          "install": false
+        },
+        {
+          "num": 91,
+          "name": "Multiclass Druids",
+          "install": false
+        },
+        {
+          "num": 92,
+          "name": "Multiclass Shamans",
+          "install": false
+        },
+        {
+          "num": 95,
+          "name": "Multiclass Cleric kits (install AFTER all other kit mods!!)",
+          "install": false
+        },
+        {
+          "num": 99,
+          "name": "Apply FnP Multiclass Kits to NPCs",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "Blackhearts_BG1",
+      "tp2File": "Blackhearts_BG1/setup-Blackhearts_BG1.tp2",
+      "version": "v1.0",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Install Black Hearts BG1 - The Hunter",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "gorgon",
+      "tp2File": "gorgon/setup-gorgon.tp2",
+      "version": "v4.8",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Install The Gorgon's Eye",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "NPC Character Portraits -> Give portraits to all characters added from this mod",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "NPC Character Portraits -> Main characters only",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "NPC Character Portraits -> Joinable NPCs only",
+          "install": false
+        },
+        {
+          "num": 4,
+          "name": "Add More Pickpocketable Items",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "thecalling",
+      "tp2File": "thecalling/thecalling.tp2",
+      "version": "v5",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "The Calling",
+          "install": true
+        },
+        {
+          "num": 20,
+          "name": "Peaceful Werewolf Isle Resolution",
+          "install": true
+        },
+        {
+          "num": 40,
+          "name": "Exotic Item Pack",
+          "install": true
+        }
+      ]
+    },
+    {
+      "name": "Emily",
+      "tp2File": "Emily/Emily.tp2",
+      "version": "1.65",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Emily NPC for BG1EE",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "Choose whether or not to have Emily's custom soundtrack play during timed talks. -> Emily's Music",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "Helga",
+      "tp2File": "Helga/setup-Helga.TP2",
+      "version": "1.56",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Helga NPC Mod",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "Helga Alternate Class: Fighter/Priest of Haela -> Fighter/Priest of Haela (Fighter Multi-class)",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "Kale",
+      "tp2File": "Kale/Kale.tp2",
+      "version": "1.69",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Kale NPC for BG1EE and SoD",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "Give Kale the Warden Class? (Recommended) -> Warden(Fighter Kit)",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "Recorder",
+      "tp2File": "Recorder/Setup-Recorder.tp2",
+      "version": "1.51",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Recorder NPC MoD",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "Choose whether or not to have Recorder's custom soundtrack play during timed talks. -> Recorder's Music",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "Vienxay",
+      "tp2File": "Vienxay/Vienxay.tp2",
+      "version": "1.67",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Vienxay NPC for BG1EE",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "ArtisansKitpack",
+      "tp2File": "ArtisansKitpack/ArtisansKitpack.TP2",
+      "version": "4.8",
+      "language": {
+        "value": 0,
+        "name": "<no language found>"
+      },
+      "components": [
+        {
+          "num": 1,
+          "name": "Artisan's Kitpack: Enable All Classes for All Races",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "Artisan's Kitpack: Enable Multi-Classes for -> All Races",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "Artisan's Kitpack: Enable Multi-Classes for -> All Races Except Human",
+          "install": false
+        },
+        {
+          "num": 1000,
+          "name": "Artisan's Kitpack: Arcane Archer Fighter Kit",
+          "install": false
+        },
+        {
+          "num": 1001,
+          "name": "Artisan's Kitpack: Arcane Archer (Fighter/Mage)",
+          "install": false
+        },
+        {
+          "num": 1002,
+          "name": "Artisan's Kitpack: Vanguard Fighter Kit",
+          "install": false
+        },
+        {
+          "num": 1003,
+          "name": "Artisan's Kitpack: Berserker Overhaul",
+          "install": false
+        },
+        {
+          "num": 1004,
+          "name": "Artisan's Kitpack: Kensai Overhaul",
+          "install": false
+        },
+        {
+          "num": 1005,
+          "name": "Artisan's Kitpack: Barbarian Overhaul",
+          "install": false
+        },
+        {
+          "num": 1006,
+          "name": "Artisan's Kitpack: Wizard Slayer Overhaul",
+          "install": false
+        },
+        {
+          "num": 1007,
+          "name": "Artisan's Kitpack: Dwarven Defender Overhaul + Vanguard Fighter Kit",
+          "install": false
+        },
+        {
+          "num": 1008,
+          "name": "Artisan's Kitpack: Siegemaster Fighter Kit",
+          "install": false
+        },
+        {
+          "num": 1009,
+          "name": "Artisan's Kitpack: Dreadnought Fighter Kit",
+          "install": false
+        },
+        {
+          "num": 1100,
+          "name": "Artisan's Kitpack: Fighter Overhaul",
+          "install": false
+        },
+        {
+          "num": 2000,
+          "name": "Artisan's Kitpack: Ranger Overhaul",
+          "install": false
+        },
+        {
+          "num": 2002,
+          "name": "Artisan's Kitpack: Dark Hunter Ranger Kit",
+          "install": false
+        },
+        {
+          "num": 2010,
+          "name": "Artisan's Kitpack: Archer Overhaul",
+          "install": false
+        },
+        {
+          "num": 2011,
+          "name": "Artisan's Kitpack: Stalker Overhaul",
+          "install": false
+        },
+        {
+          "num": 2012,
+          "name": "Artisan's Kitpack: Beast Master Overhaul",
+          "install": false
+        },
+        {
+          "num": 3000,
+          "name": "Artisan's Kitpack: Paladin Overhaul",
+          "install": false
+        },
+        {
+          "num": 3001,
+          "name": "Artisan's Kitpack: Divine Champion Paladin Kit",
+          "install": false
+        },
+        {
+          "num": 3002,
+          "name": "Artisan's Kitpack: Mystic Fire Paladin Kit",
+          "install": false
+        },
+        {
+          "num": 3003,
+          "name": "Artisan's Kitpack: Inquisitor Overhaul",
+          "install": false
+        },
+        {
+          "num": 3004,
+          "name": "Artisan's Kitpack: Blackguard Overhaul",
+          "install": false
+        },
+        {
+          "num": 3005,
+          "name": "Artisan's Kitpack: Martyr Paladin Kit",
+          "install": false
+        },
+        {
+          "num": 3010,
+          "name": "Artisan's Kitpack: Cavalier Overhaul",
+          "install": false
+        },
+        {
+          "num": 3011,
+          "name": "Artisan's Kitpack: Undead Hunter Overhaul",
+          "install": false
+        },
+        {
+          "num": 5001,
+          "name": "Artisan's Kitpack: Elementalist Druid Kit",
+          "install": false
+        },
+        {
+          "num": 5002,
+          "name": "Artisan's Kitpack: Hivemaster Druid Kit",
+          "install": false
+        },
+        {
+          "num": 5100,
+          "name": "Artisan's Kitpack: Shapeshifter Overhaul",
+          "install": false
+        },
+        {
+          "num": 5110,
+          "name": "Artisan's Kitpack: Shapeshifter Overhaul – Custom Werewolf Sprite -> Shapeshifter Form Only",
+          "install": false
+        },
+        {
+          "num": 5111,
+          "name": "Artisan's Kitpack: Shapeshifter Overhaul – Custom Werewolf Sprite -> Replace all NPC Werewolf Sprites",
+          "install": false
+        },
+        {
+          "num": 7001,
+          "name": "Artisan's Kitpack: Rogue Archer Thief Kit",
+          "install": false
+        },
+        {
+          "num": 7002,
+          "name": "Artisan's Kitpack: Magekiller Thief Kit",
+          "install": false
+        },
+        {
+          "num": 7003,
+          "name": "Artisan's Kitpack: Trickster Thief Kit",
+          "install": false
+        },
+        {
+          "num": 7004,
+          "name": "Artisan's Kitpack: Assassin Overhaul",
+          "install": false
+        },
+        {
+          "num": 7005,
+          "name": "Artisan's Kitpack: Invisible Blade Thief Kit",
+          "install": false
+        },
+        {
+          "num": 7006,
+          "name": "Artisan's Kitpack: Swashbuckler Overhaul",
+          "install": false
+        },
+        {
+          "num": 8001,
+          "name": "Artisan's Kitpack: Pale Master Sorcerer Kit",
+          "install": false
+        },
+        {
+          "num": 8002,
+          "name": "Artisan's Kitpack: 3e-accurate Dragon Disciple -> Original Stat Bonuses",
+          "install": false
+        },
+        {
+          "num": 8003,
+          "name": "Artisan's Kitpack: 3e-accurate Dragon Disciple -> Nerfed stat bonuses (net +2 to STR)",
+          "install": false
+        },
+        {
+          "num": 8004,
+          "name": "Artisan's Kitpack: Arcane Trickster Sorcerer Kit—EEEx required",
+          "install": false
+        },
+        {
+          "num": 8101,
+          "name": "Artisan's Kitpack: Pale Master Spells -> 'Unholy' Necromancy Spells Only (Cause Wounds, Disease, Poison, etc.)",
+          "install": false
+        },
+        {
+          "num": 8102,
+          "name": "Artisan's Kitpack: Pale Master Spells -> All Necromancy Divine Spells (including Cure Wounds, Neutralize Poison, etc.)",
+          "install": false
+        },
+        {
+          "num": 9001,
+          "name": "Artisan's Kitpack: Warhorn Shaman Kit",
+          "install": false
+        },
+        {
+          "num": 10001,
+          "name": "Artisan's Kitpack: Monk Revisions",
+          "install": false
+        },
+        {
+          "num": 10002,
+          "name": "Artisan's Kitpack: Brawler Kit",
+          "install": false
+        },
+        {
+          "num": 10003,
+          "name": "Artisan's Kitpack: Sacred Fist (Cleric) and Enlightened Fist (Sorcerer) Kits—EEEx required",
+          "install": false
+        },
+        {
+          "num": 10004,
+          "name": "Artisan's Kitpack: Ninja \"Class\" (Monk Kit)—EEEx required",
+          "install": false
+        },
+        {
+          "num": 20000,
+          "name": "Artisan's Kitpack: Eldritch Knight (Fighter / Mage Kit)",
+          "install": false
+        },
+        {
+          "num": 20001,
+          "name": "Artisan's Kitpack: Arcane Trickster (Mage / Thief Kit)",
+          "install": false
+        }
+      ]
     }
   ],
   "externalMods": [
     {
+      "name": "gorgon",
+      "tp2File": "Z:/games/bg/mods/bg1/gorgon-v4.8/gorgon/setup-gorgon.tp2",
+      "version": "v4.8",
+      "copy": true
+    },
+    {
       "name": "bg1npc",
-      "tp2File": "Z:\\games\\bg\\mods\\bg1\\the-bg1npc-project-v32\\bg1npc\\bg1npc.tp2",
+      "tp2File": "Z:/games/bg/mods/bg1/the-bg1npc-project-v32/bg1npc/bg1npc.tp2",
       "version": "v32",
       "copy": true
     },
     {
       "name": "bg1npcmusic",
-      "tp2File": "Z:\\games\\bg\\mods\\bg1\\bg1npcmusic\\setup-bg1npcmusic.tp2",
+      "tp2File": "Z:/games/bg/mods/bg1/bg1npcmusic/setup-bg1npcmusic.tp2",
       "version": "v6",
       "copy": true
     },
     {
       "name": "bst",
-      "tp2File": "Z:\\games\\bg\\mods\\bg1\\bs-baldurans-seatower-veaob.9\\bst\\setup-bst.tp2",
+      "tp2File": "Z:/games/bg/mods/bg1/bs-baldurans-seatower-veaob.9/bst/setup-bst.tp2",
       "version": "vEAOB.9",
       "copy": true
     },
     {
+      "name": "Vienxay",
+      "tp2File": "Z:/games/bg/mods/bg1/Vienxay-BG1-master/Vienxay/Vienxay.tp2",
+      "version": "1.67",
+      "copy": true
+    },
+    {
+      "name": "Recorder",
+      "tp2File": "Z:/games/bg/mods/bg1/Recorder-BG1-master/Recorder/Setup-Recorder.tp2",
+      "version": "1.51",
+      "copy": true
+    },
+    {
+      "name": "DlcMerger",
+      "tp2File": "Z:/games/bg/mods/bg1/win-64bit-DlcMerger-v1.7/DlcMerger/DlcMerger.tp2",
+      "version": "1.7",
+      "copy": true
+    },
+    {
       "name": "glamnpcpack",
-      "tp2File": "Z:\\games\\bg\\mods\\bg1\\glamnpcpack-v5\\glamnpcpack\\setup-glamnpcpack.tp2",
+      "tp2File": "Z:/games/bg/mods/bg1/glamnpcpack-v5/glamnpcpack/setup-glamnpcpack.tp2",
       "version": "v5",
       "copy": true
     },
     {
+      "name": "Helga",
+      "tp2File": "Z:/games/bg/mods/bg1/Helga-BG1-master/Helga/setup-Helga.TP2",
+      "version": "1.56",
+      "copy": true
+    },
+    {
       "name": "bgqe",
-      "tp2File": "Z:\\games\\bg\\mods\\bg1\\baldurs-gate-mini-quests-and-encounters-modification-29\\bgqe\\setup-bgqe.tp2",
+      "tp2File": "Z:/games/bg/mods/bg1/baldurs-gate-mini-quests-and-encounters-modification-29/bgqe/setup-bgqe.tp2",
       "version": "29",
       "copy": true
     },
     {
+      "name": "thecalling",
+      "tp2File": "Z:/games/bg/mods/bg1/thecalling-v5/thecalling/thecalling.tp2",
+      "version": "v5",
+      "copy": true
+    },
+    {
+      "name": "IndiNPC",
+      "tp2File": "Z:/games/bg/mods/bg1/indira-npc-v15.1/IndiNPC/IndiNPC.tp2",
+      "version": "v15.1",
+      "copy": true
+    },
+    {
       "name": "BGEEClassicMovies",
-      "tp2File": "Z:\\games\\bg\\mods\\bg1\\bgee-classic-movies-v2.3.1\\BGEEClassicMovies\\BGEEClassicMovies.tp2",
+      "tp2File": "Z:/games/bg/mods/bg1/bgee-classic-movies-v2.3.1/BGEEClassicMovies/BGEEClassicMovies.tp2",
       "version": "v2.3.1",
       "copy": true
     },
     {
+      "name": "ajantisbg1",
+      "tp2File": "Z:/games/bg/mods/bg1/ajantis-bg1-expansion-modification-21/ajantisbg1/Setup-AjantisBG1.tp2",
+      "version": "21",
+      "copy": true
+    },
+    {
+      "name": "SotSC",
+      "tp2File": "Z:/games/bg/mods/bg1/SotSC-v8.9/SotSC/SotSC.tp2",
+      "version": "v8.9",
+      "copy": true
+    },
+    {
       "name": "Drake",
-      "tp2File": "Z:\\games\\bg\\mods\\bg1\\ArtemiusI-Drake-v1.7a\\ArtemiusI-Drake-dd6fb4d\\Drake\\Setup-Drake.tp2",
+      "tp2File": "Z:/games/bg/mods/bg1/ArtemiusI-Drake-v1.7a/ArtemiusI-Drake-dd6fb4d/Drake/Setup-Drake.tp2",
       "version": "1.7",
       "copy": true
     },
     {
       "name": "SirinesCall",
-      "tp2File": "Z:\\games\\bg\\mods\\bg1\\SirinesCall\\setup-SirinesCall.tp2",
+      "tp2File": "Z:/games/bg/mods/bg1/SirinesCall/setup-SirinesCall.tp2",
       "version": "v16.3",
       "copy": true
     },
     {
       "name": "bg1re",
-      "tp2File": "Z:\\games\\bg\\mods\\bg1\\baldurs-gate-romantic-encounters-modification-bg1re-13\\bg1re\\setup-bg1re.tp2",
+      "tp2File": "Z:/games/bg/mods/bg1/baldurs-gate-romantic-encounters-modification-bg1re-13/bg1re/setup-bg1re.tp2",
       "version": "13",
       "copy": true
     },
     {
       "name": "c#endlessbg1",
-      "tp2File": "Z:\\games\\bg\\mods\\bg1\\endless-bg1-mod-20\\c#endlessbg1\\c#endlessbg1.tp2",
+      "tp2File": "Z:/games/bg/mods/bg1/endless-bg1-mod-20/c#endlessbg1/c#endlessbg1.tp2",
       "version": "20",
       "copy": true
     },
     {
+      "name": "Emily",
+      "tp2File": "Z:/games/bg/mods/bg1/Emily-BG1-master/Emily/Emily.tp2",
+      "version": "1.65",
+      "copy": true
+    },
+    {
+      "name": "Kale",
+      "tp2File": "Z:/games/bg/mods/bg1/Kale-BG1-master/Kale/Kale.tp2",
+      "version": "1.69",
+      "copy": true
+    },
+    {
       "name": "isra",
-      "tp2File": "Z:\\games\\bg\\mods\\bg1\\isra-npc-for-bg-v3.5\\isra\\isra.tp2",
+      "tp2File": "Z:/games/bg/mods/bg1/isra-npc-for-bg-v3.5/isra/isra.tp2",
       "version": "v3.5",
       "copy": true
     },
     {
       "name": "Sirene",
-      "tp2File": "Z:\\games\\bg\\mods\\bg1\\ArtemiusI-Sirene-NPC-v3.1\\ArtemiusI-Sirene-NPC-64beded\\Sirene\\Setup-Sirene.tp2",
+      "tp2File": "Z:/games/bg/mods/bg1/ArtemiusI-Sirene-NPC-v3.1/ArtemiusI-Sirene-NPC-64beded/Sirene/Setup-Sirene.tp2",
       "version": "<unknown>",
       "copy": true
     },
     {
       "name": "bg1ub",
-      "tp2File": "Z:\\games\\bg\\mods\\bg1\\bg1-unfinished-business-v16.4\\bg1ub\\setup-bg1ub.tp2",
+      "tp2File": "Z:/games/bg/mods/bg1/bg1-unfinished-business-v16.4/bg1ub/setup-bg1ub.tp2",
       "version": "v16.4",
       "copy": true
     },
     {
       "name": "Aura_BG1",
-      "tp2File": "Z:\\games\\bg\\mods\\bg1\\Aura_BG1-4.0\\Aura_BG1\\Setup-Aura_BG1.tp2",
+      "tp2File": "Z:/games/bg/mods/bg1/Aura_BG1-4.0/Aura_BG1/Setup-Aura_BG1.tp2",
       "version": "3.3",
       "copy": true
     },
     {
+      "name": "Blackhearts_BG1",
+      "tp2File": "Z:/games/bg/mods/bg1/Black-Hearts-BG1-1.02/Blackhearts_BG1/setup-Blackhearts_BG1.tp2",
+      "version": "v1.0",
+      "copy": true
+    },
+    {
       "name": "AC_QUEST",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\ascalons-questpack-6.1\\AC_QUEST\\ac_quest.TP2",
+      "tp2File": "Z:/games/bg/mods/both/ascalons-questpack-6.1/AC_QUEST/ac_quest.TP2",
       "version": "6.1",
       "copy": true
     },
     {
       "name": "cdtweaks",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\cdtweaks-v16\\cdtweaks\\setup-cdtweaks.tp2",
+      "tp2File": "Z:/games/bg/mods/both/cdtweaks-v16/cdtweaks/setup-cdtweaks.tp2",
       "version": "v16",
       "copy": true
     },
     {
       "name": "celestials",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\celestials-v10\\celestials\\setup-celestials.tp2",
+      "tp2File": "Z:/games/bg/mods/both/celestials-v10/celestials/setup-celestials.tp2",
       "version": "v10",
       "copy": true
     },
     {
       "name": "dw_talents",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\dw_talents-beta-15\\dw_talents\\dw_talents.tp2",
+      "tp2File": "Z:/games/bg/mods/both/dw_talents-beta-15/dw_talents/dw_talents.tp2",
       "version": "Beta 15",
       "copy": true
     },
     {
       "name": "EEex",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\eeex-v0.10.2.1-alpha\\EEex\\EEex.tp2",
+      "tp2File": "Z:/games/bg/mods/both/eeex-v0.10.2.1-alpha/EEex/EEex.tp2",
       "version": "v0.10.2.1-alpha",
       "copy": true
     },
     {
+      "name": "EEUITweaks",
+      "tp2File": "Z:/games/bg/mods/both/eeuitweaks-4.0.7/EEUITweaks/EEUITweaks.tp2",
+      "version": "4.0.7",
+      "copy": true
+    },
+    {
+      "name": "faiths_and_powers",
+      "tp2File": "Z:/games/bg/mods/both/Faiths_and_Powers-0.91.4/faiths_and_powers/Faiths_and_Powers.tp2",
+      "version": "0.91.4",
+      "copy": true
+    },
+    {
       "name": "HiddenGameplayOptions",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\HiddenGameplayOptions-v4.7\\HiddenGameplayOptions\\HiddenGameplayOptions.tp2",
+      "tp2File": "Z:/games/bg/mods/both/HiddenGameplayOptions-v4.7/HiddenGameplayOptions/HiddenGameplayOptions.tp2",
       "version": "4.7",
       "copy": true
     },
     {
+      "name": "item_rev",
+      "tp2File": "Z:/games/bg/mods/both/item_rev-v4b10/item_rev/item_rev.tp2",
+      "version": "V4 Beta 10",
+      "copy": true
+    },
+    {
       "name": "LeUI",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\lefreuts-enhanced-ui-bg2ee-skin-4.9.1\\LeUI\\LeUI.tp2",
+      "tp2File": "Z:/games/bg/mods/both/lefreuts-enhanced-ui-bg2ee-skin-4.9.1/LeUI/LeUI.tp2",
       "version": "4.9.1",
       "copy": true
     },
     {
       "name": "PPE",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\Portraits-Portraits-Everywhere-1.01\\PPE\\setup-PPE.tp2",
+      "tp2File": "Z:/games/bg/mods/both/Portraits-Portraits-Everywhere-1.01/PPE/setup-PPE.tp2",
       "version": "1.02",
       "copy": true
     },
     {
       "name": "rr",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\rr-v492\\rr\\setup-rr.tp2",
+      "tp2File": "Z:/games/bg/mods/both/rr-v492/rr/setup-rr.tp2",
       "version": "v4.92",
       "copy": true
     },
     {
       "name": "spell_rev",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\spell_rev-v4-beta18\\spell_rev\\setup-spell_rev.tp2",
-      "version": "v4 Beta 18",
+      "tp2File": "Z:/games/bg/mods/both/SpellRevisions-4.19.rc5/spell_rev/setup-spell_rev.tp2",
+      "version": "v4.19",
       "copy": true
     },
     {
       "name": "stratagems",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\stratagems-35.21\\stratagems\\setup-stratagems.tp2",
+      "tp2File": "Z:/games/bg/mods/both/stratagems-35.21/stratagems/setup-stratagems.tp2",
       "version": "35.21",
       "copy": true
     },
     {
       "name": "thepicturestandard",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\The Picture Standard-0-7-1\\thepicturestandard\\thepicturestandard.tp2",
+      "tp2File": "Z:/games/bg/mods/both/The Picture Standard-0-7-1/thepicturestandard/thepicturestandard.tp2",
       "version": "0.71",
       "copy": true
     },
     {
+      "name": "ArtisansKitpack",
+      "tp2File": "Z:/games/bg/mods/both/The-Artisan-s-Kitpack-4.8/ArtisansKitpack/ArtisansKitpack.TP2",
+      "version": "4.8",
+      "copy": true
+    },
+    {
       "name": "ViconiaRevamped",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\ViconiaRevamped v7.2\\ViconiaRevamped\\setup-ViconiaRevamped.tp2",
+      "tp2File": "Z:/games/bg/mods/both/ViconiaRevamped v7.2/ViconiaRevamped/setup-ViconiaRevamped.tp2",
       "version": "v7.2",
       "copy": true
     },
     {
       "name": "wsr",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\wsr_v114\\wsr\\wsr.tp2",
+      "tp2File": "Z:/games/bg/mods/both/wsr_v114/wsr/wsr.tp2",
       "version": "v1.14",
       "copy": true
     },
     {
-      "name": "DlcMerger",
-      "tp2File": "Z:\\games\\bg\\mods\\bg1\\win-64bit-DlcMerger-v1.7\\DlcMerger\\DlcMerger.tp2",
-      "version": "1.7",
-      "copy": true
-    },
-    {
-      "name": "SotSC",
-      "tp2File": "Z:\\games\\bg\\mods\\bg1\\SotSC-v8.9\\SotSC\\SotSC.tp2",
-      "version": "v8.9",
+      "name": "GorionsDream",
+      "tp2File": "Z:/games/bg/mods/bg1/Gorion-s-Dream-0.9a/GorionsDream/Setup-GorionsDream.tp2",
+      "version": "V0.9",
       "copy": false
     },
     {
       "name": "atweaks",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\atweaks\\setup-atweaks.tp2",
+      "tp2File": "Z:/games/bg/mods/both/atweaks/setup-atweaks.tp2",
       "version": "v4.53",
       "copy": false
     },
     {
       "name": "BardicWonders",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\Bardic-Wonders-v2.9\\BardicWonders\\BardicWonders.tp2",
+      "tp2File": "Z:/games/bg/mods/both/Bardic-Wonders-v2.9/BardicWonders/BardicWonders.tp2",
       "version": "<unknown>",
       "copy": false
     },
     {
       "name": "bubb_spell_menu_extended",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\Bubbs-Spell-Menu-Extended-5.1\\bubb_spell_menu_extended\\bubb_spell_menu_extended.tp2",
+      "tp2File": "Z:/games/bg/mods/both/Bubbs-Spell-Menu-Extended-5.1/bubb_spell_menu_extended/bubb_spell_menu_extended.tp2",
       "version": "v5.1",
       "copy": false
     },
     {
       "name": "bubb_revert_pathfinding",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\bubb_revert_pathfinding\\bubb_revert_pathfinding.tp2",
+      "tp2File": "Z:/games/bg/mods/both/bubb_revert_pathfinding/bubb_revert_pathfinding.tp2",
       "version": "<unknown>",
       "copy": false
     },
     {
       "name": "gaenemyrando",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\EnemyRandomizer-v1.1.3\\gaenemyrando\\gaenemyrando.tp2",
+      "tp2File": "Z:/games/bg/mods/both/EnemyRandomizer-v1.1.3/gaenemyrando/gaenemyrando.tp2",
       "version": "V1.1.3",
       "copy": false
     },
     {
-      "name": "faiths_and_powers",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\Faiths_and_Powers-0.91.3\\faiths_and_powers\\Faiths_and_Powers.tp2",
-      "version": "0.91.3",
-      "copy": false
-    },
-    {
       "name": "refinements",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\refinements-4.36.1\\refinements\\setup-refinements.tp2",
+      "tp2File": "Z:/games/bg/mods/both/refinements-4.36.1/refinements/setup-refinements.tp2",
       "version": "beta 4.36",
       "copy": false
     },
     {
       "name": "shadowadept",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\Shadow-Magic-3.2\\shadowadept\\shadowadept.tp2",
+      "tp2File": "Z:/games/bg/mods/both/Shadow-Magic-3.2/shadowadept/shadowadept.tp2",
       "version": "3.2",
       "copy": false
     },
     {
-      "name": "ArtisansKitpack",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\The-Artisan-s-Kitpack-4.8\\ArtisansKitpack\\ArtisansKitpack.TP2",
-      "version": "4.8",
+      "name": "song_and_silence",
+      "tp2File": "Z:/games/bg/mods/both/song_and_silence-v19/song_and_silence/setup-song_and_silence.tp2",
+      "version": "v19",
       "copy": false
     },
     {
       "name": "C0Warlock",
-      "tp2File": "Z:\\games\\bg\\mods\\both\\Warlock-2.8\\C0Warlock\\C0Warlock.TP2",
+      "tp2File": "Z:/games/bg/mods/both/Warlock-2.8/C0Warlock/C0Warlock.TP2",
       "version": "2.8",
       "copy": false
     }

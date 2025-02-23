@@ -5,8 +5,6 @@ import path from "path";
 import util from 'util';
 import { Constants } from "./models/constants";
 import { Config, ExternalMod, Mod, ModComponent, ModLocation, Mods, ValueName } from "./models/interface";
-import { glob } from "glob";
-import { stdout } from "process";
 const exec = util.promisify(execCallback);
 
 export class ModService {
@@ -33,14 +31,6 @@ export class ModService {
         }
     }
 
-    findAllMods() {
-        const config = this.getConfig();
-        Promise.all([this.getGameFolderMods(config), this.getExternalMods(config)]).then(([mods, externalMods]) => {
-            this.updateExternalModsConfig(config, externalMods);
-            // console.log(externalMods.map(m => m.name));
-        });
-    }
-
     checkExternalMods(): Promise<void> {
         const config = this.getConfig();
         return this.getExternalMods(config).then((externalMods) => this.updateExternalModsConfig(config, externalMods));
@@ -60,7 +50,7 @@ export class ModService {
             const version = this.getVersion(location);
             return {
                 name: location.relativePathFolder,
-                tp2File: location.fullPathTp2File,
+                tp2File: location.fullPathTp2File.replaceAll('\\', '/'),
                 version,
                 copy: false
             };
@@ -75,13 +65,13 @@ export class ModService {
     }
 
     getModLocations(root: string, folder: string): ModLocation | undefined {
-        const fullPathFolder = path.join(root, folder);
+        const fullPathFolder = path.join(root, folder).replaceAll('\\', '/');
         const files = fs.readdirSync(fullPathFolder, { withFileTypes: true });
         const tp2 = files.find(f => f.name.toLowerCase().endsWith('.tp2') && f.name.toLowerCase().includes(folder.toLowerCase()));
         if (tp2) {
             return {
-                relativePathTp2File: path.join(folder, tp2.name),
-                fullPathTp2File: path.join(fullPathFolder, tp2.name),
+                relativePathTp2File: path.join(folder, tp2.name).replaceAll('\\', '/'),
+                fullPathTp2File: path.join(fullPathFolder, tp2.name).replaceAll('\\', '/'),
                 fullPathFolder,
                 relativePathFolder: folder
             };
@@ -104,8 +94,8 @@ export class ModService {
             return this.getComponents(config, location, language.value);
         }).then((components) => {
             const mod: Mod = {
-                name: location.relativePathFolder,
-                tp2File: location.relativePathTp2File,
+                name: location.relativePathFolder.replaceAll('\\', '/'),
+                tp2File: location.relativePathTp2File.replaceAll('\\', '/'),
                 version,
                 language,
                 components
@@ -175,6 +165,8 @@ export class ModService {
             if (!m) console.log(chalk.redBright(`${mod.name} doesn't exist anymore!`));
             else if (m.version !== mod.version) {
                 console.log(chalk.blueBright(`${mod.name} upgraded from version ${mod.version} to ${m.version}, please check all components`));
+                mod.components = m.components;
+                mod.version = m.version;
             }
         }
         const added: Mod[] = [];
@@ -194,7 +186,7 @@ export class ModService {
         fs.writeFileSync(Constants.configFile, JSON.stringify(config, null, 2));
     }
 
-    copyMods(): Promise<void> {
+    copyMods(): Promise<any> {
         const config = this.getConfig();
         return this.getGameFolderMods(config).then(() => {
             for (const externalMod of config.externalMods) {
@@ -203,15 +195,53 @@ export class ModService {
                     console.log(chalk.grey(`Skipping ${mod.name}, aready present with the same version`));
                 else if (externalMod.copy) this.copyMod(config, externalMod);
             }
-        })
+            return this.getGameFolderMods(config);
+        });
     }
 
     copyMod(config: Config, mod: ExternalMod): void {
-        const sourceFolder = mod.tp2File.substring(0, mod.tp2File.lastIndexOf('\\'));
+        const sourceFolder = mod.tp2File.substring(0, mod.tp2File.lastIndexOf('/'));
         const destFolder = path.join(config.gameFolder, mod.name);
         console.log(chalk.bold(`Copying ${mod.name}... (${sourceFolder} to ${destFolder})`));
         fs.rmSync(destFolder, { recursive: true, force: true });
         fs.cpSync(sourceFolder, destFolder, { recursive: true });
     }
 
+    listNotInstalledMods() {
+        this.readWeiduLog().then(() => {
+            const config = this.getConfig();
+            for (const mod of config.mods) {
+                if (mod.components.every(c => !c.install)) {
+                    console.log(`${mod.name}`);
+                }
+            }
+        });
+    }
+
+    readWeiduLog(): Promise<void> {
+        const config = this.getConfig();
+        return Promise.resolve().then(() => {
+            const content = fs.readFileSync(path.join(config.gameFolder, 'weiDU.log'), { encoding: "utf8", flag: "r" });
+            const rx = /~([^~]+)~\s+#(\d+)\s+#(\d+)/g;
+            const matches = content.matchAll(rx);
+            const newList: Mod[] = [];
+            for (const match of matches) {
+                const tp2 = match[1].toUpperCase();
+                const lang = +match[2];
+                const numComponent = +match[3];
+                const modIndex = config.mods.findIndex(m => m.tp2File.toUpperCase() === tp2);
+                if (modIndex === -1) throw new Error(`${tp2} not found !`);
+                const mod = config.mods[modIndex];
+                const component = mod.components.find(c => c.num === numComponent);
+                if (!component) throw new Error(`${numComponent} not found for mod ${mod.name} !`);
+                component.install = true;
+                if (!newList.some(m => m.name)) newList.push(mod);
+            }
+            for (const mod of config.mods) {
+                if (!newList.some(m => m.name === mod.name)) newList.push(mod);
+            }
+            config.mods = newList;
+            this.updateConfig(config);
+        });
+    }
 }
