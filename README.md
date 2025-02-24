@@ -23,3 +23,22 @@ cdtweaks
 dw_talents        
 stratagems        
 PPE               
+
+The Subtle Doctor order list:
+[quest mods]
+[NPC mods]
+[spell mods including Spell Revisions]
+[item mods including Item Revisions]
+[small kit mods]
+SubtleD's Spell Tweaks
+Tome & Blood
+Will to Power
+Might and Guile
+Faiths & Powers
+5E Spellcasting Conversion
+[tweak mods including Tweaks Anthology]
+SubtleD's Item Tweaks
+SCS
+Combat Skills & Proficiencies
+SubtleD's Stat Overhauls
+[end-of-order mods like LevelOneNPCs, NPC_EE, Dual to Kit, etc.]

@@ -4,8 +4,9 @@ import * as fs from "fs";
 import path from "path";
 import util from 'util';
 import { Constants } from "./models/constants";
-import { Config, ExternalMod, Mod, ModComponent, ModLocation, Mods, ValueName } from "./models/interface";
+import { Config, ExternalMod, Mod, ModComponent, ModLocation, Mods, ValueName, WeiduLineGroup } from "./models/interface";
 const exec = util.promisify(execCallback);
+import { spawnSync } from 'child_process';
 
 export class ModService {
 
@@ -113,13 +114,9 @@ export class ModService {
 
     getLanguage(config: Config, location: ModLocation): Promise<ValueName> {
         const cmd = `weidu.exe --list-languages "${location.relativePathTp2File}"`;
-        return exec(cmd, { cwd: config.gameFolder }).then(value => {
-            if (value.stdout.includes('FATAL ERROR')) {
-                console.log(cmd);
-                throw new Error(value.stdout);
-            }
+        return this.run(cmd, config.gameFolder).then(value => {
             const rx = /(\d+)\:(\w+)/g;
-            const languages = value.stdout.matchAll(rx).map(m => ({ value: +m[1], name: m[2] })).toArray();
+            const languages = value.matchAll(rx).map(m => ({ value: +m[1], name: m[2] })).toArray();
             if (!languages.length) return { value: 0, name: '<no language found>' };
             let lang = languages.find(l => l.name.toLowerCase() === config.language.toLowerCase());
             if (!lang) lang = languages.find(l => l.name === Constants.defaultLanguage.toLowerCase());
@@ -132,13 +129,9 @@ export class ModService {
 
     getComponents(config: Config, location: ModLocation, language: number) {
         const cmd = `weidu.exe --list-components "${location.relativePathTp2File}" ${language}`;
-        return exec(cmd, { cwd: config.gameFolder }).then(value => {
-            if (value.stdout.includes('FATAL ERROR')) {
-                console.log(cmd);
-                throw new Error(value.stdout);
-            }
+        return this.run(cmd, config.gameFolder).then(value => {
             const rx = /~[^~]+~\s+#\d+\s+#(\d+)\s+\/\/\s+(.+)/g;
-            const components: ModComponent[] = value.stdout.matchAll(rx).map(m => {
+            const components: ModComponent[] = value.matchAll(rx).map(m => {
                 const label = m[2].trim();
                 const index = label.lastIndexOf(':');
                 const name = index !== -1 ? label.substring(0, index) : label;
@@ -207,8 +200,54 @@ export class ModService {
         fs.cpSync(sourceFolder, destFolder, { recursive: true });
     }
 
+    install(file: string) {
+        const config = this.getConfig();
+        const installedGroups = this.parseWeiduLog(path.join(config.gameFolder, 'weiDU.log'));
+        const groups = this.parseWeiduLog(file);
+        let o$: Promise<any> = Promise.resolve();
+        for (const [index, group] of groups.entries()) {
+            const installedGroup = installedGroups[index];
+            if (!installedGroup) {
+                o$ = o$.then(() => spawnSync('weidu', [
+                    group.tp2File,
+                    '--language', group.language,
+                    '--no-exit-pause',
+                    '--noautoupdate',
+                    '--force-install-list', ...group.components
+                ],
+                    { cwd: config.gameFolder, stdio: 'inherit' }));
+            } else console.log(`${group.tp2File} already installed`);
+        }
+        return o$;
+    }
+
+    printInstallCommands(file: string) {
+        const config = this.getConfig();
+        const installedGroups = this.parseWeiduLog(path.join(config.gameFolder, 'weiDU.log'));
+        const groups = this.parseWeiduLog(file);
+        for (const [index, group] of groups.entries()) {
+            const installedGroup = installedGroups[index];
+            if (!installedGroup) {
+                console.log(`weidu ${group.tp2File} --language ${group.language} --no-exit-pause --noautoupdate --force-install-list ${group.components.join(' ')}`);
+            }
+        }
+    }
+
+    uninstall() {
+        const config = this.getConfig();
+        const groups = this.parseWeiduLog(path.join(config.gameFolder, 'weiDU.log'));
+        let o$: Promise<any> = Promise.resolve();
+        for (const group of groups.reverse()) {
+            const cmd = `weidu ${group.tp2File} --noautoupdate --no-exit-pause --force-uninstall-list ${group.components.join(' ')}`;
+            o$ = o$.then(() => this.run(cmd, config.gameFolder));
+        }
+        return o$;
+    }
+
     listNotInstalledMods() {
-        this.readWeiduLog().then(() => {
+        const config = this.getConfig();
+        const file = path.join(config.gameFolder, 'weiDU.log')
+        this.updateModsFromWeiduLog(file).then(() => {
             const config = this.getConfig();
             for (const mod of config.mods) {
                 if (mod.components.every(c => !c.install)) {
@@ -218,23 +257,18 @@ export class ModService {
         });
     }
 
-    readWeiduLog(): Promise<void> {
+    updateModsFromWeiduLog(file: string): Promise<void> {
         const config = this.getConfig();
         return Promise.resolve().then(() => {
-            const content = fs.readFileSync(path.join(config.gameFolder, 'weiDU.log'), { encoding: "utf8", flag: "r" });
-            const rx = /~([^~]+)~\s+#(\d+)\s+#(\d+)/g;
-            const matches = content.matchAll(rx);
+            const groups = this.parseWeiduLog(file);
             const newList: Mod[] = [];
-            for (const match of matches) {
-                const tp2 = match[1].toUpperCase();
-                const lang = +match[2];
-                const numComponent = +match[3];
-                const modIndex = config.mods.findIndex(m => m.tp2File.toUpperCase() === tp2);
-                if (modIndex === -1) throw new Error(`${tp2} not found !`);
+            for (const group of groups) {
+                const modIndex = config.mods.findIndex(m => m.tp2File.toUpperCase() === group.tp2File);
+                if (modIndex === -1) throw new Error(`${group.tp2File} not found !`);
                 const mod = config.mods[modIndex];
-                const component = mod.components.find(c => c.num === numComponent);
-                if (!component) throw new Error(`${numComponent} not found for mod ${mod.name} !`);
-                component.install = true;
+                // const component = mod.components.find(c => c.num === numComponent);
+                // if (!component) throw new Error(`${numComponent} not found for mod ${mod.name} !`);
+                // component.install = true;
                 if (!newList.some(m => m.name)) newList.push(mod);
             }
             for (const mod of config.mods) {
@@ -244,4 +278,57 @@ export class ModService {
             this.updateConfig(config);
         });
     }
+
+    parseWeiduLog(file: string): WeiduLineGroup[] {
+        if (!fs.existsSync(file)) {
+            console.log(chalk.yellow(`File ${file} doesn't exist`));
+            return [];
+        };
+        const content = fs.readFileSync(file, { encoding: "utf8", flag: "r" });
+        const rx = /^~([^~]+)~\s+#(\d+)\s+#(\d+)/gm;
+        const matches = content.matchAll(rx);
+        const components: WeiduLineGroup[] = [];
+        for (const match of matches) {
+            const tp2File = match[1].toUpperCase();
+            const language = match[2];
+            const numComponent = match[3];
+            if (components.at(-1)?.tp2File === tp2File) {
+                (components.at(-1) as WeiduLineGroup).components.push(numComponent);
+            } else {
+                components.push({ tp2File, language, components: [numComponent] });
+            }
+        }
+        return components;
+    }
+
+    deleteBackupFolders(): Promise<void> {
+        const config = this.getConfig();
+        const folders = fs.readdirSync(config.gameFolder, { withFileTypes: true }).filter(f => f.isDirectory() && !Constants.gameFolderIgoreList.includes(f.name)).map(f => f.name);
+        const locations = folders.map(f => this.getModLocations(config.gameFolder, f)).filter(l => l !== undefined);
+        return Promise.all(locations.map(l => this.parseMod(config, l))).then((mods) => {
+            for (const mod of mods) {
+                const folder = path.join(config.gameFolder, mod.name, 'backup');
+                if (fs.existsSync(folder)) {
+                    fs.rmSync(folder, { recursive: true, force: true });
+                }
+            }
+        });
+    }
+
+    run(command: string, cwd: string) {
+        console.log(command);
+        return exec(command, { cwd }).then(result => {
+            if (result.stderr) {
+                console.error(command);
+                throw new Error(result.stderr);
+            }
+            else if (result.stdout.includes('FATAL ERROR') || result.stdout.includes('Aborting installation of')) {
+                console.error(result.stdout);
+                throw new Error(result.stderr);
+            }
+            // console.log(result.stdout);
+            return result.stdout;
+        });
+    }
+
 }

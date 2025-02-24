@@ -60,3 +60,9 @@ export interface ModLocation {
     relativePathFolder: string;
     fullPathFolder: string;
 }
+
+export interface WeiduLineGroup {
+    tp2File: string;
+    language: string;
+    components: string[];
+}

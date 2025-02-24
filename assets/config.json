@@ -3898,32 +3898,32 @@
         {
           "num": 0,
           "name": "Spell Revisions",
-          "install": false
+          "install": true
         },
         {
           "num": 10,
           "name": "Deva and Planetar Animations",
-          "install": false
+          "install": true
         },
         {
           "num": 20,
           "name": "Mirror Image Fix",
-          "install": false
+          "install": true
         },
         {
           "num": 30,
           "name": "Dispel Magic Fix",
-          "install": false
+          "install": true
         },
         {
           "num": 55,
           "name": "Spell Deflection blocks AoE spells",
-          "install": false
+          "install": true
         },
         {
           "num": 60,
           "name": "Update Spellbooks of Joinable NPCs",
-          "install": false
+          "install": true
         },
         {
           "num": 65,
@@ -5144,7 +5144,7 @@
     {
       "name": "item_rev",
       "tp2File": "item_rev/item_rev.tp2",
-      "version": "V4 Beta 10",
+      "version": "v4beta10sd19",
       "language": {
         "value": 0,
         "name": "English"
@@ -5153,7 +5153,7 @@
         {
           "num": 0,
           "name": "Item Revisions by Demivrgvs",
-          "install": false
+          "install": true
         },
         {
           "num": 2,
@@ -5809,7 +5809,7 @@
         {
           "num": 0,
           "name": "Install Black Hearts BG1 - The Hunter",
-          "install": false
+          "install": true
         }
       ]
     },
@@ -5825,12 +5825,12 @@
         {
           "num": 0,
           "name": "Install The Gorgon's Eye",
-          "install": false
+          "install": true
         },
         {
           "num": 1,
           "name": "NPC Character Portraits -> Give portraits to all characters added from this mod",
-          "install": false
+          "install": true
         },
         {
           "num": 2,
@@ -5887,12 +5887,12 @@
         {
           "num": 0,
           "name": "Emily NPC for BG1EE",
-          "install": false
+          "install": true
         },
         {
           "num": 1,
           "name": "Choose whether or not to have Emily's custom soundtrack play during timed talks. -> Emily's Music",
-          "install": false
+          "install": true
         }
       ]
     },
@@ -5908,12 +5908,12 @@
         {
           "num": 0,
           "name": "Helga NPC Mod",
-          "install": false
+          "install": true
         },
         {
           "num": 1,
           "name": "Helga Alternate Class: Fighter/Priest of Haela -> Fighter/Priest of Haela (Fighter Multi-class)",
-          "install": false
+          "install": true
         }
       ]
     },
@@ -5929,12 +5929,12 @@
         {
           "num": 0,
           "name": "Kale NPC for BG1EE and SoD",
-          "install": false
+          "install": true
         },
         {
           "num": 1,
           "name": "Give Kale the Warden Class? (Recommended) -> Warden(Fighter Kit)",
-          "install": false
+          "install": true
         }
       ]
     },
@@ -5950,12 +5950,12 @@
         {
           "num": 0,
           "name": "Recorder NPC MoD",
-          "install": false
+          "install": true
         },
         {
           "num": 1,
           "name": "Choose whether or not to have Recorder's custom soundtrack play during timed talks. -> Recorder's Music",
-          "install": false
+          "install": true
         }
       ]
     },
@@ -5971,7 +5971,7 @@
         {
           "num": 0,
           "name": "Vienxay NPC for BG1EE",
-          "install": false
+          "install": true
         }
       ]
     },
@@ -6240,6 +6240,837 @@
           "install": false
         }
       ]
+    },
+    {
+      "name": "infinitysounds",
+      "tp2File": "infinitysounds/infinitysounds.tp2",
+      "version": "v2.0.1",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 100,
+          "name": "Restore BG1 Spellcasting Voices",
+          "install": false
+        },
+        {
+          "num": 110,
+          "name": "Restore BG1 Spellcasting Sounds",
+          "install": false
+        },
+        {
+          "num": 120,
+          "name": "Restore BG1 Weapon Sounds",
+          "install": false
+        },
+        {
+          "num": 130,
+          "name": "Restore BG1 Armor Sounds",
+          "install": false
+        },
+        {
+          "num": 140,
+          "name": "Restore BG1 GUI Sounds",
+          "install": false
+        },
+        {
+          "num": 150,
+          "name": "Restore BG1 PC Soundsets",
+          "install": false
+        },
+        {
+          "num": 160,
+          "name": "Restore Gulp Sound",
+          "install": false
+        },
+        {
+          "num": 170,
+          "name": "Restore Chunked Death Sound",
+          "install": false
+        },
+        {
+          "num": 180,
+          "name": "Tweak Sound Channel Volume Levels",
+          "install": false
+        },
+        {
+          "num": 189,
+          "name": "Enable Footsteps During Combat",
+          "install": false
+        },
+        {
+          "num": 190,
+          "name": "Mute Reputation Change Sounds",
+          "install": false
+        },
+        {
+          "num": 200,
+          "name": "Mute Tooltip Paper Sound",
+          "install": false
+        },
+        {
+          "num": 210,
+          "name": "Restore BG1 Ambient Sounds",
+          "install": false
+        },
+        {
+          "num": 220,
+          "name": "Restore Environmental Audio (WARNING: check the readme!)",
+          "install": false
+        },
+        {
+          "num": 230,
+          "name": "Restore & Tweak Soundsets",
+          "install": false
+        },
+        {
+          "num": 240,
+          "name": "More Existence Sounds",
+          "install": false
+        },
+        {
+          "num": 250,
+          "name": "Tweak Existence Sound Delay",
+          "install": false
+        },
+        {
+          "num": 265,
+          "name": "Restore NPC Voiceovers",
+          "install": false
+        },
+        {
+          "num": 270,
+          "name": "Additional NPC Voiceovers (by Salk)",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "song_and_silence",
+      "tp2File": "song_and_silence/setup-song_and_silence.tp2",
+      "version": "v19",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Changes to trueclass bards and thieves, and unmodded game kits (required for other components)",
+          "install": false
+        },
+        {
+          "num": 1,
+          "name": "Add new bardic store and thief items",
+          "install": false
+        },
+        {
+          "num": 2,
+          "name": "Install Acrobat bard kit",
+          "install": false
+        },
+        {
+          "num": 3,
+          "name": "Install Chorister bard kit",
+          "install": false
+        },
+        {
+          "num": 4,
+          "name": "Install Dirgesinger bard kit",
+          "install": false
+        },
+        {
+          "num": 5,
+          "name": "Install Luring Piper bard kit",
+          "install": false
+        },
+        {
+          "num": 6,
+          "name": "Install Adventurer thief kit",
+          "install": false
+        },
+        {
+          "num": 7,
+          "name": "Install Burglar thief kit",
+          "install": false
+        },
+        {
+          "num": 8,
+          "name": "Install Soulknife thief kit",
+          "install": false
+        },
+        {
+          "num": 9,
+          "name": "Install Sharpshooter thief kit",
+          "install": false
+        },
+        {
+          "num": 10,
+          "name": "Install Shadowdancer thief kit",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "SubtleD_Item_Tweaks",
+      "tp2File": "SubtleD_Item_Tweaks/SubtleD_Item_Tweaks.tp2",
+      "version": "v1.3.4",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 100,
+          "name": "YARAS Yet Another Revised Armor System",
+          "install": false
+        },
+        {
+          "num": 111,
+          "name": "Aesthetic & Enchantment Tweaks -> Standardize Enchanted Equipment",
+          "install": false
+        },
+        {
+          "num": 112,
+          "name": "Aesthetic & Enchantment Tweaks -> Replace Enchanted Equipment with Mastercraft",
+          "install": false
+        },
+        {
+          "num": 120,
+          "name": "Functional Weapon Tweaks",
+          "install": false
+        },
+        {
+          "num": 140,
+          "name": "IWD Item Tweaks",
+          "install": false
+        },
+        {
+          "num": 160,
+          "name": "All Potions Usable by Any Class",
+          "install": false
+        },
+        {
+          "num": 170,
+          "name": "Armored Spellcasting for Bards",
+          "install": false
+        },
+        {
+          "num": 1000,
+          "name": "Set Spell Weapon APR to 2",
+          "install": false
+        },
+        {
+          "num": 1010,
+          "name": "Add Backstab Immunity to the Ring of Danger Sense",
+          "install": false
+        },
+        {
+          "num": 1020,
+          "name": "Proper Missile Deflection for the Gloves of Missile Snaring",
+          "install": false
+        },
+        {
+          "num": 1030,
+          "name": "Improve Detonating Weapons",
+          "install": false
+        },
+        {
+          "num": 1040,
+          "name": "Add Revised Barkskin to 'Skin of the Forest' Armor",
+          "install": false
+        },
+        {
+          "num": 1051,
+          "name": "Change IR's Rod of Absorption -> ...Instantaneous Use",
+          "install": false
+        },
+        {
+          "num": 1052,
+          "name": "Change IR's Rod of Absorption -> ...Longer Protection",
+          "install": false
+        },
+        {
+          "num": 1055,
+          "name": "Permanent Fear Protection for the Badge of the Brave",
+          "install": false
+        },
+        {
+          "num": 1060,
+          "name": "Make the Gargoyle Cloak Apply Stoneskin Instead of an AC Bonus",
+          "install": false
+        },
+        {
+          "num": 1070,
+          "name": "Make the Dwarven Thrower Hammer Usable by Non-Dwarves",
+          "install": false
+        },
+        {
+          "num": 1080,
+          "name": "Improve Azlaer's Harp and Methild's Harp",
+          "install": false
+        },
+        {
+          "num": 1091,
+          "name": "Nerf Edwin's Amulet -> Only +1 Bonus Slot per Spell Level",
+          "install": false
+        },
+        {
+          "num": 1092,
+          "name": "Nerf Edwin's Amulet -> Limit Bonus Slots to 7th Level Spells",
+          "install": false
+        },
+        {
+          "num": 1093,
+          "name": "Nerf Edwin's Amulet -> Only +1 Bonus Slots AND Limited to 7th Level",
+          "install": false
+        },
+        {
+          "num": 1100,
+          "name": "Metamagic Instead of MR for Cloak of the Weave",
+          "install": false
+        },
+        {
+          "num": 1109,
+          "name": "Free 1st-level Spellcasting for Some Items",
+          "install": false
+        },
+        {
+          "num": 1113,
+          "name": "Change Rings of Wizardry -> Replace Evermemory with a Ring of Acuity",
+          "install": false
+        },
+        {
+          "num": 1114,
+          "name": "Change Rings of Wizardry -> Replace the Ring of Acuity with Evermemory",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "SubtleD_Spell_Tweaks",
+      "tp2File": "SubtleD_Spell_Tweaks/SubtleD_Spell_Tweaks.tp2",
+      "version": "2.9",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 10,
+          "name": "Rebalanced Spell Schools",
+          "install": false
+        },
+        {
+          "num": 21,
+          "name": "Revised Arcane Opposition Schools -> No Opposition Schools",
+          "install": false
+        },
+        {
+          "num": 22,
+          "name": "Revised Arcane Opposition Schools -> IWD-style Opposition Schools",
+          "install": false
+        },
+        {
+          "num": 23,
+          "name": "Revised Arcane Opposition Schools -> IWD-style Opposition Schools, Low-Level Spells Allowed",
+          "install": false
+        },
+        {
+          "num": 24,
+          "name": "Revised Arcane Opposition Schools -> BG2-style Opposition Schools",
+          "install": false
+        },
+        {
+          "num": 25,
+          "name": "Revised Arcane Opposition Schools -> BG2-style Opposition Schools, Low-Level Spells Allowed",
+          "install": false
+        },
+        {
+          "num": 26,
+          "name": "Revised Arcane Opposition Schools -> PnP Opposition Schools",
+          "install": false
+        },
+        {
+          "num": 27,
+          "name": "Revised Arcane Opposition Schools -> PnP Opposition Schools, Low-Level Spells Allowed",
+          "install": false
+        },
+        {
+          "num": 30,
+          "name": "High-Level Spells Penetrate Magic Resistance",
+          "install": false
+        },
+        {
+          "num": 36,
+          "name": "Level Drain Effects -> Add a Saving Throw Against Level Drain",
+          "install": false
+        },
+        {
+          "num": 37,
+          "name": "Level Drain Effects -> Make Level Drain Temporary",
+          "install": false
+        },
+        {
+          "num": 40,
+          "name": "Revised Illusionary Clones",
+          "install": false
+        },
+        {
+          "num": 45,
+          "name": "Revised Invisibility and True Seeing",
+          "install": false
+        },
+        {
+          "num": 50,
+          "name": "Make Haste and Slow Properly Cancel Each Other",
+          "install": false
+        },
+        {
+          "num": 55,
+          "name": "Cure Spells Bypass Spell Deflection",
+          "install": false
+        },
+        {
+          "num": 61,
+          "name": "Cantrips -> Innate Cantrips",
+          "install": false
+        },
+        {
+          "num": 62,
+          "name": "Cantrips -> Level One Cantrips",
+          "install": false
+        },
+        {
+          "num": 63,
+          "name": "Cantrips -> Cantrip Wands",
+          "install": false
+        },
+        {
+          "num": 81,
+          "name": "Choose-Your-Own Familiar",
+          "install": false
+        },
+        {
+          "num": 82,
+          "name": "Pooky's Mod: Imbue Familiars",
+          "install": false
+        },
+        {
+          "num": 83,
+          "name": "Give Innate Cantrips to Familiars",
+          "install": false
+        },
+        {
+          "num": 1151,
+          "name": "Reduce Damage but Improve Blindness in SR's Sunscorch",
+          "install": false
+        },
+        {
+          "num": 1152,
+          "name": "Improve Faerie Fire",
+          "install": false
+        },
+        {
+          "num": 1202,
+          "name": "Make Barkskin Block One Attack Each Round",
+          "install": false
+        },
+        {
+          "num": 1207,
+          "name": "Make Goodberry an Out-of-Combat Mass Regeneration",
+          "install": false
+        },
+        {
+          "num": 1212,
+          "name": "Tweak Slow Poison",
+          "install": false
+        },
+        {
+          "num": 1251,
+          "name": "Improve Damage and Damage Type of Alicorn Lance",
+          "install": false
+        },
+        {
+          "num": 1323,
+          "name": "Improve Casting Time of Exaltation and Spiritual Clarity",
+          "install": false
+        },
+        {
+          "num": 1351,
+          "name": "Add Faerie Fire and Slow On Hit to Moonblade",
+          "install": false
+        },
+        {
+          "num": 1404,
+          "name": "Change Neutralize Poison into 'Remove Afflictions'",
+          "install": false
+        },
+        {
+          "num": 1451,
+          "name": "Make Smashing Wave Party-Friendly",
+          "install": false
+        },
+        {
+          "num": 1505,
+          "name": "Make True Seeing Party-Wide",
+          "install": false
+        },
+        {
+          "num": 1603,
+          "name": "Set Blade Barrier to be Breachable",
+          "install": false
+        },
+        {
+          "num": 1609,
+          "name": "Make False Dawn Bypass Magic Resistance",
+          "install": false
+        },
+        {
+          "num": 1611,
+          "name": "Make Wondrous Recall Restore all 1st- and 2nd-level Spells",
+          "install": false
+        },
+        {
+          "num": 1613,
+          "name": "Make Physical Mirror Block 1 Attack Per Three Seconds",
+          "install": false
+        },
+        {
+          "num": 1614,
+          "name": "Make Sol's Searing Orb Easier to Throw",
+          "install": false
+        },
+        {
+          "num": 1707,
+          "name": "Make Sunray Bypass Magic Resistance",
+          "install": false
+        },
+        {
+          "num": 1710,
+          "name": "Add Slow Effect to Holy Word",
+          "install": false
+        },
+        {
+          "num": 2105,
+          "name": "Add 1-Round Blindness Effect to Color Spray",
+          "install": false
+        },
+        {
+          "num": 2108,
+          "name": "Change Protection from Petrification into 'Mirrored Eyes'",
+          "install": false
+        },
+        {
+          "num": 2110,
+          "name": "Make Identify Scale with Level",
+          "install": false
+        },
+        {
+          "num": 2116,
+          "name": "Allow Targets of Sleep to Wake on Hit",
+          "install": false
+        },
+        {
+          "num": 2151,
+          "name": "Change SR Expeditious Retreat into Chameleon",
+          "install": false
+        },
+        {
+          "num": 2201,
+          "name": "Add Missile Avoidance to Blur",
+          "install": false
+        },
+        {
+          "num": 2209,
+          "name": "Make Luck Affect Whole Party",
+          "install": false
+        },
+        {
+          "num": 2212,
+          "name": "Move Mirror Image to 3rd Level",
+          "install": false
+        },
+        {
+          "num": 2213,
+          "name": "Add Lingering Effects to SR's Stinking Cloud",
+          "install": false
+        },
+        {
+          "num": 2215,
+          "name": "Make Web Slow Instead of Hold",
+          "install": false
+        },
+        {
+          "num": 2217,
+          "name": "Change Agannazar's Scorcher to Melf's Fiery Missiles",
+          "install": false
+        },
+        {
+          "num": 2224,
+          "name": "Improve Glitterdust",
+          "install": false
+        },
+        {
+          "num": 2251,
+          "name": "Add Deafening Effect On Hit to Decastave",
+          "install": false
+        },
+        {
+          "num": 2321,
+          "name": "Move Spell Thrust to 1st Level",
+          "install": false
+        },
+        {
+          "num": 2324,
+          "name": "Make Hold Undead and Control Undead Bypass MR",
+          "install": false
+        },
+        {
+          "num": 2352,
+          "name": "Increase Range of Icelance",
+          "install": false
+        },
+        {
+          "num": 2413,
+          "name": "Allow Target of Otiluke's Sphere to Use Inventory Screen",
+          "install": false
+        },
+        {
+          "num": 2418,
+          "name": "Set Fire Shield and Acid Sheath Spells to be Breachable",
+          "install": false
+        },
+        {
+          "num": 2451,
+          "name": "Make Shadow Monster Summons More Illusionary",
+          "install": false
+        },
+        {
+          "num": 2508,
+          "name": "Improve Function of SR's Waves of Fatigue",
+          "install": false
+        },
+        {
+          "num": 2514,
+          "name": "Give Lower Resistance an Area of Effect",
+          "install": false
+        },
+        {
+          "num": 2518,
+          "name": "Change Damage Type and School of Phantom Blade",
+          "install": false
+        },
+        {
+          "num": 2708,
+          "name": "Change Mantle into 'Iron Skin'",
+          "install": false
+        },
+        {
+          "num": 2711,
+          "name": "Adjust the Effects of Chaos",
+          "install": false
+        },
+        {
+          "num": 2714,
+          "name": "Change the Effects of Prismatic Spray",
+          "install": false
+        },
+        {
+          "num": 2808,
+          "name": "Set Moment of Prescience to Not Breachable",
+          "install": false
+        },
+        {
+          "num": 2811,
+          "name": "Move Symbol: Fear to 7th Level",
+          "install": false
+        },
+        {
+          "num": 2914,
+          "name": "Add Instant Death Effect to Energy Drain",
+          "install": false
+        },
+        {
+          "num": 2915,
+          "name": "Move Black Blade of Disaster to 8th level",
+          "install": false
+        },
+        {
+          "num": 2916,
+          "name": "Move Shapechange to 8th Level",
+          "install": false
+        },
+        {
+          "num": 2923,
+          "name": "Change Summon Planetar into Summon Noble Genie",
+          "install": false
+        },
+        {
+          "num": 25231,
+          "name": "Change Sunfire -> Change Sunfire into 'Missile Storm'",
+          "install": false
+        },
+        {
+          "num": 25232,
+          "name": "Change Sunfire -> Change Sunfire into 'Scorcher Storm'",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "SubtleD_Stat_Overhauls",
+      "tp2File": "SubtleD_Stat_Overhauls/SubtleD_Stat_Overhauls.tp2",
+      "version": "v1.8",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 100,
+          "name": "Ability Score Overhaul",
+          "install": false
+        },
+        {
+          "num": 110,
+          "name": "Stat-based Bonus Spell Slots",
+          "install": false
+        },
+        {
+          "num": 121,
+          "name": "Stat-based Bonus Spells for 5E Casters -> bonuses for memorization slots AND casting slots",
+          "install": false
+        },
+        {
+          "num": 122,
+          "name": "Stat-based Bonus Spells for 5E Casters -> bonuses only for casting slots",
+          "install": false
+        },
+        {
+          "num": 130,
+          "name": "Full Strength for 2-Hand Weapons Only",
+          "install": false
+        },
+        {
+          "num": 140,
+          "name": "Plinkification",
+          "install": false
+        },
+        {
+          "num": 151,
+          "name": "Hit Dice Overhaul -> Generous (above-average) hit points",
+          "install": false
+        },
+        {
+          "num": 152,
+          "name": "Hit Dice Overhaul -> Closer to average hit points",
+          "install": false
+        },
+        {
+          "num": 153,
+          "name": "Hit Dice Overhaul -> Reduced hit points",
+          "install": false
+        },
+        {
+          "num": 160,
+          "name": "Saving Throw Overhaul",
+          "install": false
+        },
+        {
+          "num": 180,
+          "name": "Lower Dual-Class Requirements",
+          "install": false
+        },
+        {
+          "num": 200,
+          "name": "Slower, Standardized XP Tables",
+          "install": false
+        },
+        {
+          "num": 211,
+          "name": "No Murder XP -> kills give 1/8th XP",
+          "install": false
+        },
+        {
+          "num": 212,
+          "name": "No Murder XP -> kills give 1/4th XP",
+          "install": false
+        },
+        {
+          "num": 213,
+          "name": "No Murder XP -> kills give half XP",
+          "install": false
+        },
+        {
+          "num": 221,
+          "name": "Choose SoD Starting XP -> 65,000",
+          "install": false
+        },
+        {
+          "num": 222,
+          "name": "Choose SoD Starting XP -> 90,000",
+          "install": false
+        },
+        {
+          "num": 223,
+          "name": "Choose SoD Starting XP -> 125,000",
+          "install": false
+        },
+        {
+          "num": 224,
+          "name": "Choose SoD Starting XP -> 161,000",
+          "install": false
+        },
+        {
+          "num": 231,
+          "name": "Choose SoA Starting XP -> 90,000",
+          "install": false
+        },
+        {
+          "num": 232,
+          "name": "Choose SoA Starting XP -> 161,000",
+          "install": false
+        },
+        {
+          "num": 233,
+          "name": "Choose SoA Starting XP -> 240,000",
+          "install": false
+        },
+        {
+          "num": 234,
+          "name": "Choose SoA Starting XP -> 400,000",
+          "install": false
+        },
+        {
+          "num": 251,
+          "name": "Magic Resistance Overhaul -> Replace Magic Resistance with Other Effects",
+          "install": false
+        },
+        {
+          "num": 252,
+          "name": "Magic Resistance Overhaul -> Reduce Magic Resistance",
+          "install": false
+        }
+      ]
+    },
+    {
+      "name": "vveBG",
+      "tp2File": "vveBG/vveBG.tp2",
+      "version": "v1.0",
+      "language": {
+        "value": 0,
+        "name": "English"
+      },
+      "components": [
+        {
+          "num": 0,
+          "name": "Add Character Sounds for BG",
+          "install": false
+        }
+      ]
     }
   ],
   "externalMods": [
@@ -6449,8 +7280,8 @@
     },
     {
       "name": "item_rev",
-      "tp2File": "Z:/games/bg/mods/both/item_rev-v4b10/item_rev/item_rev.tp2",
-      "version": "V4 Beta 10",
+      "tp2File": "Z:/games/bg/mods/both/ItemRevisions-4b10sd19/item_rev/item_rev.tp2",
+      "version": "v4beta10sd19",
       "copy": true
     },
     {
@@ -6508,6 +7339,12 @@
       "copy": true
     },
     {
+      "name": "vveBG",
+      "tp2File": "Z:/games/bg/mods/bg1/VoicesVoicesExtravaganza-80-1-1-1728814031/vveBG/vveBG.tp2",
+      "version": "v1.0",
+      "copy": true
+    },
+    {
       "name": "GorionsDream",
       "tp2File": "Z:/games/bg/mods/bg1/Gorion-s-Dream-0.9a/GorionsDream/Setup-GorionsDream.tp2",
       "version": "V0.9",
@@ -6538,9 +7375,27 @@
       "copy": false
     },
     {
+      "name": "APR_on_Spec",
+      "tp2File": "Z:/games/bg/mods/both/Combat_Skill_Proficiencies-1.5/APR_on_Spec/APR_on_Spec.TP2",
+      "version": "<unknown>",
+      "copy": false
+    },
+    {
       "name": "gaenemyrando",
       "tp2File": "Z:/games/bg/mods/both/EnemyRandomizer-v1.1.3/gaenemyrando/gaenemyrando.tp2",
       "version": "V1.1.3",
+      "copy": false
+    },
+    {
+      "name": "infinitysounds",
+      "tp2File": "Z:/games/bg/mods/both/infinitysounds-v2.0.1/infinitysounds/infinitysounds.tp2",
+      "version": "v2.0.1",
+      "copy": true
+    },
+    {
+      "name": "infinity_ui",
+      "tp2File": "Z:/games/bg/mods/both/InfinityUI-0.95/infinity_ui/infinity_ui.tp2",
+      "version": "v0.95",
       "copy": false
     },
     {
@@ -6559,6 +7414,36 @@
       "name": "song_and_silence",
       "tp2File": "Z:/games/bg/mods/both/song_and_silence-v19/song_and_silence/setup-song_and_silence.tp2",
       "version": "v19",
+      "copy": true
+    },
+    {
+      "name": "d5_najim_bg_fix",
+      "tp2File": "Z:/games/bg/mods/both/SubtleD_hotfixes-40/d5_najim_bg_fix/d5_najim_bg_fix.tp2",
+      "version": "<unknown>",
+      "copy": false
+    },
+    {
+      "name": "SubtleD_Item_Tweaks",
+      "tp2File": "Z:/games/bg/mods/both/SubtleD_Item_Tweaks-1.3.4/SubtleD_Item_Tweaks/SubtleD_Item_Tweaks.tp2",
+      "version": "v1.3.4",
+      "copy": true
+    },
+    {
+      "name": "SubtleD_Spell_Tweaks",
+      "tp2File": "Z:/games/bg/mods/both/SubtleD_Spell_Tweaks-2.9/SubtleD_Spell_Tweaks/SubtleD_Spell_Tweaks.tp2",
+      "version": "2.9",
+      "copy": true
+    },
+    {
+      "name": "SubtleD_Stat_Overhauls",
+      "tp2File": "Z:/games/bg/mods/both/SubtleD_Stat_Overhauls-1.8/SubtleD_Stat_Overhauls/SubtleD_Stat_Overhauls.tp2",
+      "version": "v1.8",
+      "copy": true
+    },
+    {
+      "name": "TomeAndBlood",
+      "tp2File": "Z:/games/bg/mods/both/TomeAndBlood-1.0.1/TomeAndBlood/TomeAndBlood.tp2",
+      "version": "1.0.1",
       "copy": false
     },
     {

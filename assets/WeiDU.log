@@ -160,3 +160,4 @@
 ~RECORDER/SETUP-RECORDER.TP2~ #0 #0 // Recorder NPC MoD: 1.51
 ~RECORDER/SETUP-RECORDER.TP2~ #0 #1 // Choose whether or not to have Recorder's custom soundtrack play during timed talks. -> Recorder's Music: 1.51
 ~VIENXAY/VIENXAY.TP2~ #0 #0 // Vienxay NPC for BG1EE: 1.67
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #0 // Spell Revisions: v4.19
