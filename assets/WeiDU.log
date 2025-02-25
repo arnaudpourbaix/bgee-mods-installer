@@ -48,6 +48,10 @@
 ~AC_QUEST/AC_QUEST.TP2~ #1 #9 // Fangirls: 6.1
 ~AC_QUEST/AC_QUEST.TP2~ #1 #11 // The Serpents of Abbathor -> Tweaked version: quest can be finished in BG1.: 6.1
 ~BST/SETUP-BST.TP2~ #0 #0 // The BS Company presents Balduran's Seatower: vEAOB.9
+~SOTSC/SOTSC.TP2~ #0 #0 // Shades of the Sword Coast - Expansion Pack for BGEE: v8.9
+~THECALLING/THECALLING.TP2~ #0 #0 // The Calling: v5
+~THECALLING/THECALLING.TP2~ #0 #20 // Peaceful Werewolf Isle Resolution: v5
+~THECALLING/THECALLING.TP2~ #0 #40 // Exotic Item Pack: v5
 ~BG1NPC/BG1NPC.TP2~ #0 #0 // The BG1 NPC Project: Required Modifications: v32
 ~BG1NPC/BG1NPC.TP2~ #0 #10 // The BG1 NPC Project: Banters, Quests, and Interjections: v32
 ~BG1NPC/BG1NPC.TP2~ #0 #20 // The BG1 NPC Project: Ajantis Romance Core (teen content) -> Speed: 1 hour real time (standard) minimum between LoveTalks: v32
@@ -80,7 +84,6 @@
 ~BG1RE/SETUP-BG1RE.TP2~ #0 #6 // Duke Eltan's Spare Minute, by jastey: 13
 ~BG1RE/SETUP-BG1RE.TP2~ #0 #7 // Husam's Personal Preparation, by jastey: 13
 ~BG1RE/SETUP-BG1RE.TP2~ #0 #8 // Laurel's Post-Hunting, by jastey: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #9 // Bartus' Seduction, by jastey: 13
 ~BG1RE/SETUP-BG1RE.TP2~ #0 #10 // Lina's Massage, by jastey: 13
 ~BG1RE/SETUP-BG1RE.TP2~ #0 #11 // First Night with Quentin, by Kulyok: 13
 ~BG1RE/SETUP-BG1RE.TP2~ #0 #12 // Chatting Niklos Up, by Kulyok (mature content. WARNING - refer to the readme!): 13
@@ -143,11 +146,7 @@
 ~AJANTISBG1/SETUP-AJANTISBG1.TP2~ #0 #1 // Install the unique BG:EE BAM for Ajantis' Family Shield: 21
 ~AJANTISBG1/SETUP-AJANTISBG1.TP2~ #0 #30 // Ajantis SoD NPC: Crossmod Content: 21
 ~INDINPC/INDINPC.TP2~ #0 #0 // Indira NPC: v15.1
-~SOTSC/SOTSC.TP2~ #0 #0 // Shades of the Sword Coast - Expansion Pack for BGEE: v8.9
 ~GLAMNPCPACK/SETUP-GLAMNPCPACK.TP2~ #0 #0 // Glam's NPC Pack for BG:EE, BGT and BG TUTU: v5
-~THECALLING/THECALLING.TP2~ #0 #0 // The Calling: v5
-~THECALLING/THECALLING.TP2~ #0 #20 // Peaceful Werewolf Isle Resolution: v5
-~THECALLING/THECALLING.TP2~ #0 #40 // Exotic Item Pack: v5
 ~BLACKHEARTS_BG1/SETUP-BLACKHEARTS_BG1.TP2~ #0 #0 // Install Black Hearts BG1 - The Hunter: v1.0
 ~GORGON/SETUP-GORGON.TP2~ #0 #0 // Install The Gorgon's Eye: v4.8
 ~GORGON/SETUP-GORGON.TP2~ #0 #1 // NPC Character Portraits -> Give portraits to all characters added from this mod: v4.8
@@ -161,3 +160,18 @@
 ~RECORDER/SETUP-RECORDER.TP2~ #0 #1 // Choose whether or not to have Recorder's custom soundtrack play during timed talks. -> Recorder's Music: 1.51
 ~VIENXAY/VIENXAY.TP2~ #0 #0 // Vienxay NPC for BG1EE: 1.67
 ~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #0 // Spell Revisions: v4.19
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #10 // Deva and Planetar Animations: v4.19
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #20 // Mirror Image Fix: v4.19
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #30 // Dispel Magic Fix: v4.19
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #55 // Spell Deflection blocks AoE spells: v4.19
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #60 // Update Spellbooks of Joinable NPCs: v4.19
+~BG1RE/SETUP-BG1RE.TP2~ #0 #9 // Bartus' Seduction, by jastey: 13
+~ITEM_REV/ITEM_REV.TP2~ #0 #0 // Item Revisions by Demivrgvs: v4beta10sd19
+~ITEM_REV/ITEM_REV.TP2~ #0 #1030 // Store Revisions: v4beta10sd19
+~ITEM_REV/ITEM_REV.TP2~ #0 #10 // Revised Shield Bonuses: v4beta10sd19
+~ITEM_REV/ITEM_REV.TP2~ #0 #17 // Weapon Changes: v4beta10sd19
+~ITEM_REV/ITEM_REV.TP2~ #0 #1080 // Enchantment Doesn't Affect Speed Factor of Weapons: v4beta10sd19
+~ITEM_REV/ITEM_REV.TP2~ #0 #18 // Revised Backstabbing -> Thief-only Weapons: v4beta10sd19
+~ITEM_REV/ITEM_REV.TP2~ #0 #1200 // Revised Critical Hit Aversion: v4beta10sd19
+~ITEM_REV/ITEM_REV.TP2~ #0 #16 // PnP Equipment for Druids -> Druids and Fighter/Druids: v4beta10sd19
+~ITEM_REV/ITEM_REV.TP2~ #0 #1060 // Kensai Can Wear Bracers: v4beta10sd19

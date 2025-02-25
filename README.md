@@ -9,20 +9,27 @@ It can parse WeiDU.log to run a full installation.
 ## Compatibility
 
 This is related to my own mod list, need to sort out install order for these mods:
-spell_rev         
 celestials        
+song_and_silence                                 
 EEex              
 rr                
-thepicturestandard
 wsr               
-item_rev
 ArtisansKitpack
 faiths_and_powers 
 ViconiaRevamped   
 cdtweaks          
 dw_talents        
 stratagems        
+
+thepicturestandard
 PPE               
+infinitysounds                                   
+vveBG                                            
+
+SubtleD_Item_Tweaks                              
+SubtleD_Spell_Tweaks                             
+SubtleD_Stat_Overhauls                           
+
 
 The Subtle Doctor order list:
 [quest mods]

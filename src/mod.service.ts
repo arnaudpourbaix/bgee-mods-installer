@@ -3,7 +3,7 @@ import { exec as execCallback } from 'child_process';
 import * as fs from "fs";
 import path from "path";
 import util from 'util';
-import { Constants } from "./models/constants";
+import { Constants, CR } from "./models/constants";
 import { Config, ExternalMod, Mod, ModComponent, ModLocation, Mods, ValueName, WeiduLineGroup } from "./models/interface";
 const exec = util.promisify(execCallback);
 import { spawnSync } from 'child_process';
@@ -225,12 +225,16 @@ export class ModService {
         const config = this.getConfig();
         const installedGroups = this.parseWeiduLog(path.join(config.gameFolder, 'weiDU.log'));
         const groups = this.parseWeiduLog(file);
+        const results: string[] = [];
         for (const [index, group] of groups.entries()) {
             const installedGroup = installedGroups[index];
             if (!installedGroup) {
-                console.log(`weidu ${group.tp2File} --language ${group.language} --no-exit-pause --noautoupdate --force-install-list ${group.components.join(' ')}`);
+                results.push(`weidu ${group.tp2File} --language ${group.language} --no-exit-pause --noautoupdate --force-install-list ${group.components.join(' ')}`);
             }
         }
+        const outputFile = 'install.log';
+        fs.writeFileSync(outputFile, results.join(CR));
+        console.log(`${outputFile} generated`);
     }
 
     uninstall() {
@@ -238,8 +242,10 @@ export class ModService {
         const groups = this.parseWeiduLog(path.join(config.gameFolder, 'weiDU.log'));
         let o$: Promise<any> = Promise.resolve();
         for (const group of groups.reverse()) {
-            const cmd = `weidu ${group.tp2File} --noautoupdate --no-exit-pause --force-uninstall-list ${group.components.join(' ')}`;
-            o$ = o$.then(() => this.run(cmd, config.gameFolder));
+            if (!['DLCMERGER/DLCMERGER.TP2', 'BGEECLASSICMOVIES/BGEECLASSICMOVIES.TP2'].includes(group.tp2File)) {
+                const cmd = `weidu ${group.tp2File} --noautoupdate --no-exit-pause --force-uninstall-list ${group.components.join(' ')}`;
+                o$ = o$.then(() => this.run(cmd, config.gameFolder));
+            }
         }
         return o$;
     }
