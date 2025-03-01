@@ -1,12 +1,13 @@
+import { confirm } from '@inquirer/prompts';
 import chalk from "chalk";
-import { exec as execCallback } from 'child_process';
+import { exec as execCallback, spawn } from 'child_process';
 import * as fs from "fs";
 import path from "path";
+import * as readline from 'readline';
 import util from 'util';
 import { Constants, CR } from "./models/constants";
 import { Config, ExternalMod, Mod, ModComponent, ModLocation, Mods, ValueName, WeiduLineGroup } from "./models/interface";
 const exec = util.promisify(execCallback);
-import { spawnSync } from 'child_process';
 
 export class ModService {
 
@@ -32,7 +33,7 @@ export class ModService {
         }
     }
 
-    checkExternalMods(): Promise<void> {
+    async checkExternalMods(): Promise<void> {
         const config = this.getConfig();
         return this.getExternalMods(config).then((externalMods) => this.updateExternalModsConfig(config, externalMods));
     }
@@ -59,7 +60,7 @@ export class ModService {
         return Promise.resolve(mods);
     }
 
-    getGameFolderMods(config: Config): Promise<Mod[]> {
+    async getGameFolderMods(config: Config): Promise<Mod[]> {
         const folders = fs.readdirSync(config.gameFolder, { withFileTypes: true }).filter(f => f.isDirectory() && !Constants.gameFolderIgoreList.includes(f.name)).map(f => f.name);
         const locations = folders.map(f => this.getModLocations(config.gameFolder, f)).filter(l => l !== undefined);
         return Promise.all(locations.map(l => this.parseMod(config, l))).then((mods) => this.updateModsConfig(config, mods));
@@ -87,7 +88,7 @@ export class ModService {
         }
     }
 
-    parseMod(config: Config, location: ModLocation): Promise<Mod> {
+    async parseMod(config: Config, location: ModLocation): Promise<Mod> {
         const version = this.getVersion(location);
         let language: ValueName;
         return this.getLanguage(config, location).then(r => {
@@ -112,7 +113,7 @@ export class ModService {
         return version;
     }
 
-    getLanguage(config: Config, location: ModLocation): Promise<ValueName> {
+    async getLanguage(config: Config, location: ModLocation): Promise<ValueName> {
         const cmd = `weidu.exe --list-languages "${location.relativePathTp2File}"`;
         return this.run(cmd, config.gameFolder).then(value => {
             const rx = /(\d+)\:(\w+)/g;
@@ -127,7 +128,7 @@ export class ModService {
         });
     }
 
-    getComponents(config: Config, location: ModLocation, language: number) {
+    async getComponents(config: Config, location: ModLocation, language: number) {
         const cmd = `weidu.exe --list-components "${location.relativePathTp2File}" ${language}`;
         return this.run(cmd, config.gameFolder).then(value => {
             const rx = /~[^~]+~\s+#\d+\s+#(\d+)\s+\/\/\s+(.+)/g;
@@ -179,7 +180,7 @@ export class ModService {
         fs.writeFileSync(Constants.configFile, JSON.stringify(config, null, 2));
     }
 
-    copyMods(): Promise<any> {
+    async copyMods(): Promise<any> {
         const config = this.getConfig();
         return this.getGameFolderMods(config).then(() => {
             for (const externalMod of config.externalMods) {
@@ -200,25 +201,44 @@ export class ModService {
         fs.cpSync(sourceFolder, destFolder, { recursive: true });
     }
 
-    install(file: string) {
+    async install(file: string) {
         const config = this.getConfig();
         const installedGroups = this.parseWeiduLog(path.join(config.gameFolder, 'weiDU.log'));
         const groups = this.parseWeiduLog(file);
-        let o$: Promise<any> = Promise.resolve();
+        const alwaysAsk = await confirm({ message: 'Ask for each install ?' });
         for (const [index, group] of groups.entries()) {
             const installedGroup = installedGroups[index];
             if (!installedGroup) {
-                o$ = o$.then(() => spawnSync('weidu', [
+                let install = alwaysAsk;
+                if (alwaysAsk) install = await confirm({ message: `Install ${this.getModFolder(group.tp2File)} ?` });
+                if (install) {
+                    await this.execWeidu([
+                        group.tp2File,
+                        '--language', group.language,
+                        '--no-exit-pause',
+                        '--noautoupdate',
+                        '--force-install-list', ...group.components
+                    ], config.gameFolder);
+                } else console.log(`Skipping ${group.tp2File}`);
+            } else console.log(chalk.grey(`${group.tp2File} already installed`));
+        }
+    }
+
+    async uninstall() {
+        const config = this.getConfig();
+        const groups = this.parseWeiduLog(path.join(config.gameFolder, 'weiDU.log'));
+        for (const group of groups.reverse()) {
+            const uninstall = await confirm({ message: `Uninstall ${this.getModFolder(group.tp2File)} (${group.components.join(',')}) ?` });
+            if (uninstall) {
+                await this.execWeidu([
                     group.tp2File,
                     '--language', group.language,
                     '--no-exit-pause',
                     '--noautoupdate',
-                    '--force-install-list', ...group.components
-                ],
-                    { cwd: config.gameFolder, stdio: 'inherit' }));
-            } else console.log(`${group.tp2File} already installed`);
+                    '--force-uninstall-list', ...group.components
+                ], config.gameFolder);
+            }
         }
-        return o$;
     }
 
     printInstallCommands(file: string) {
@@ -228,29 +248,17 @@ export class ModService {
         const results: string[] = [];
         for (const [index, group] of groups.entries()) {
             const installedGroup = installedGroups[index];
-            if (!installedGroup) {
-                results.push(`weidu ${group.tp2File} --language ${group.language} --no-exit-pause --noautoupdate --force-install-list ${group.components.join(' ')}`);
-            }
+            // if (!installedGroup) {
+            results.push(`weidu ${group.tp2File} --language ${group.language} --no-exit-pause --noautoupdate --force-install-list ${group.components.join(' ')}`);
+            results.push('pause');
+            // }
         }
         const outputFile = 'install.log';
         fs.writeFileSync(outputFile, results.join(CR));
         console.log(`${outputFile} generated`);
     }
 
-    uninstall() {
-        const config = this.getConfig();
-        const groups = this.parseWeiduLog(path.join(config.gameFolder, 'weiDU.log'));
-        let o$: Promise<any> = Promise.resolve();
-        for (const group of groups.reverse()) {
-            if (!['DLCMERGER/DLCMERGER.TP2', 'BGEECLASSICMOVIES/BGEECLASSICMOVIES.TP2'].includes(group.tp2File)) {
-                const cmd = `weidu ${group.tp2File} --noautoupdate --no-exit-pause --force-uninstall-list ${group.components.join(' ')}`;
-                o$ = o$.then(() => this.run(cmd, config.gameFolder));
-            }
-        }
-        return o$;
-    }
-
-    listNotInstalledMods() {
+    async listNotInstalledMods() {
         const config = this.getConfig();
         const file = path.join(config.gameFolder, 'weiDU.log')
         this.updateModsFromWeiduLog(file).then(() => {
@@ -263,7 +271,7 @@ export class ModService {
         });
     }
 
-    updateModsFromWeiduLog(file: string): Promise<void> {
+    async updateModsFromWeiduLog(file: string): Promise<void> {
         const config = this.getConfig();
         return Promise.resolve().then(() => {
             const groups = this.parseWeiduLog(file);
@@ -307,7 +315,7 @@ export class ModService {
         return components;
     }
 
-    deleteBackupFolders(): Promise<void> {
+    async deleteBackupFolders(): Promise<void> {
         const config = this.getConfig();
         const folders = fs.readdirSync(config.gameFolder, { withFileTypes: true }).filter(f => f.isDirectory() && !Constants.gameFolderIgoreList.includes(f.name)).map(f => f.name);
         const locations = folders.map(f => this.getModLocations(config.gameFolder, f)).filter(l => l !== undefined);
@@ -321,7 +329,22 @@ export class ModService {
         });
     }
 
-    run(command: string, cwd: string) {
+    async execWeidu(args: readonly string[], cwd: string) {
+        return new Promise((resolve, reject) => {
+            const p = spawn('weidu', args, { cwd, stdio: ['ignore', 'pipe', 'inherit'] });
+            p.stdout.on('data', function (data) {
+                console.log(data.toString());
+            });
+            p.stdout.on('end', function () {
+                resolve(void 0);
+            });
+            p.on('error', (err) => {
+                reject(err);
+            });
+        });
+    }
+
+    async run(command: string, cwd: string) {
         console.log(command);
         return exec(command, { cwd }).then(result => {
             if (result.stderr) {
@@ -335,6 +358,10 @@ export class ModService {
             // console.log(result.stdout);
             return result.stdout;
         });
+    }
+
+    getModFolder(tp2File: string) {
+        return tp2File.substring(0, tp2File.lastIndexOf('/'));
     }
 
 }

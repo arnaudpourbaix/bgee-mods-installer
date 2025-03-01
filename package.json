@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/arnaudpourbaix/ie-baf-generator#readme",
   "dependencies": {
+    "@inquirer/input": "^4.1.6",
+    "@inquirer/prompts": "^7.3.2",
     "chalk": "^4.1.2",
     "clear": "^0.1.0",
     "commander": "^10.0.0",
