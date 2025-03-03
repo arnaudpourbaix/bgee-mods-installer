@@ -187,3 +187,218 @@
 ~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #30 // Dispel Magic Fix: v4.19
 ~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #55 // Spell Deflection blocks AoE spells: v4.19
 ~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #60 // Update Spellbooks of Joinable NPCs: v4.19
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #1500 // Include arcane spells from Icewind Dale: Enhanced Edition: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #1510 // Include divine spells from Icewind Dale: Enhanced Edition: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #1520 // Include bard songs from Icewind Dale: Enhanced Edition: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #2000 // Install all spell tweaks (if you don't select this, you will be given a chance to choose by category): 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #2500 // Add 9 new arcane spells: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #2510 // Add 6 new divine spells (some borrowed from Divine Remix): 35.21
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #0 #0 // Changes to trueclass bards and thieves, and unmodded game kits (required for other components): v19
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #0 #1 // Add new bardic store and thief items: v19
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #0 #2 // Install Acrobat bard kit: v19
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #0 #3 // Install Chorister bard kit: v19
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #0 #4 // Install Dirgesinger bard kit: v19
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #0 #5 // Install Luring Piper bard kit: v19
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #0 #6 // Install Adventurer thief kit: v19
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #0 #7 // Install Burglar thief kit: v19
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #0 #8 // Install Soulknife thief kit: v19
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #0 #9 // Install Sharpshooter thief kit: v19
+~RR/SETUP-RR.TP2~ #0 #0 // Proper dual-wielding implementation for Thieves and Bards: v4.92
+~RR/SETUP-RR.TP2~ #0 #3 // Proper racial adjustments for thieving skills: v4.92
+~RR/SETUP-RR.TP2~ #0 #4 // Bard kit revisions: v4.92
+~RR/SETUP-RR.TP2~ #0 #7 // Additional equipment for Thieves and Bards: v4.92
+~RR/SETUP-RR.TP2~ #0 #9 // Revised Thievery -> Use PnP thievery potions and prevent their effects from stacking: v4.92
+~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #0 // Bardic Wonders: Blade Overhaul
+~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #1 // Bardic Wonders: Jester Overhaul
+~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #2 // Bardic Wonders: Skald Overhaul
+~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #3 // Bardic Wonders: Abettor of Mask Kit
+~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #4 // Bardic Wonders: Dancer Kit
+~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #5 // Bardic Wonders: Darkbloom Bard Kit
+~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #6 // Bardic Wonders: Storm Drummer Kit
+~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #7 // Bardic Wonders: Troubadour Kit
+~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #8 // Bardic Wonders: Deathsinger Kit
+~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #9 // Bardic Wonders: Strategist Kit
+~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #10 // Bardic Wonders: Kapellmeister Kit
+~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #11 // Bardic Wonders: Items
+~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #12 // Bardic Wonders: Inspirations
+~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #13 // Bardic Wonders: Armored Casting for Bards
+~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #16 // Bardic Wonders: Bard Song Overhead Visual Effect
+~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #17 // Bardic Wonders: High Level Abilities
+~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #30 // Install Hexblade fighter kit: v9
+~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #31 // Install Duelist fighter kit: v9
+~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #32 // Install Fist of Order fighter kit: v9
+~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #34 // Install Duskblade fighter kit (by ronin69hof, ronin69hof@gmail.com: v9
+~TOMEANDBLOOD/TOMEANDBLOOD.TP2~ #0 #25 // Sorcerer: Magus: 1.0.1
+~TOMEANDBLOOD/TOMEANDBLOOD.TP2~ #0 #31 // Sorcerer: Favored Soul: 1.0.1
+~TOMEANDBLOOD/TOMEANDBLOOD.TP2~ #0 #33 // Sorcerer: Sylvan Disciple: 1.0.1
+~TOMEANDBLOOD/TOMEANDBLOOD.TP2~ #0 #35 // Sorcerer: Revenant Disciple: 1.0.1
+~TOMEANDBLOOD/TOMEANDBLOOD.TP2~ #0 #37 // Sorcerer: Amorphous Disciple: 1.0.1
+~IHATEUNDEAD/IHATEUNDEAD.TP2~ #0 #4 // Death Tricker (Thief Kit): 3.8.3
+~IHATEUNDEAD/IHATEUNDEAD.TP2~ #0 #7 // Circle Enforcer (Druid Kit): 3.8.3
+~IHATEUNDEAD/IHATEUNDEAD.TP2~ #0 #10 // Dreadful Witch (Shaman Kit): 3.8.3
+~IHATEUNDEAD/IHATEUNDEAD.TP2~ #0 #11 // Imprisoned Soul (Sorcerer Kit): 3.8.3
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #60 // Add the Sohei Warrior (fighter kit): 5.8.9
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #65 // Add the Ironsmith (fighter kit): 5.8.9
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #80 // Add the Tomb Runner (fighter/thief kit): 5.8.9
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #85 // Add the Thug (fighter/thief kit): 5.8.9
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #96 // Add the Ninja (thief kit): 5.8.9
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #105 // Add the Spellfilcher (mage/thief kit): 5.8.9
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #110 // Add the Loremaster (mage/thief kit): 5.8.9
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #120 // Add Regional Ranger kits: 5.8.9
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #125 // Add the Mage Hunter (ranger kit): 5.8.9
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #155 // Add the Elven Archer (ranger kit): 5.8.9
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #160 // Add the Halfling Slinger (fighter/thief kit): 5.8.9
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #450 // Add the Jongleur (bard kit): 5.8.9
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #460 // Add the Loremaster (bard kit): 5.8.9
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #470 // Add the Gallant (bard kit): 5.8.9
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #490 // Add the Loresinger (bard kit): 5.8.9
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #8001 // Artisan's Kitpack: Pale Master Sorcerer Kit: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #8101 // Artisan's Kitpack: Pale Master Spells -> 'Unholy' Necromancy Spells Only (Cause Wounds, Disease, Poison, etc.): 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #8002 // Artisan's Kitpack: 3e-accurate Dragon Disciple -> Original Stat Bonuses: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #8004 // Artisan's Kitpack: Arcane Trickster Sorcerer Kit—EEEx required: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #10002 // Artisan's Kitpack: Brawler Kit: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #10001 // Artisan's Kitpack: Monk Revisions: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #10003 // Artisan's Kitpack: Sacred Fist (Cleric) and Enlightened Fist (Sorcerer) Kits—EEEx required: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #10004 // Artisan's Kitpack: Ninja "Class" (Monk Kit)—EEEx required: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #1003 // Artisan's Kitpack: Berserker Overhaul: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #1006 // Artisan's Kitpack: Wizard Slayer Overhaul: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #1004 // Artisan's Kitpack: Kensai Overhaul: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #1005 // Artisan's Kitpack: Barbarian Overhaul: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #1007 // Artisan's Kitpack: Dwarven Defender Overhaul + Vanguard Fighter Kit: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #1000 // Artisan's Kitpack: Arcane Archer Fighter Kit: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #1008 // Artisan's Kitpack: Siegemaster Fighter Kit: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #1009 // Artisan's Kitpack: Dreadnought Fighter Kit: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #1100 // Artisan's Kitpack: Fighter Overhaul: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #2000 // Artisan's Kitpack: Ranger Overhaul: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #2010 // Artisan's Kitpack: Archer Overhaul: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #2011 // Artisan's Kitpack: Stalker Overhaul: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #2012 // Artisan's Kitpack: Beast Master Overhaul: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #2002 // Artisan's Kitpack: Dark Hunter Ranger Kit: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #7004 // Artisan's Kitpack: Assassin Overhaul: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #7006 // Artisan's Kitpack: Swashbuckler Overhaul: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #7001 // Artisan's Kitpack: Rogue Archer Thief Kit: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #7002 // Artisan's Kitpack: Magekiller Thief Kit: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #7003 // Artisan's Kitpack: Trickster Thief Kit: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #7005 // Artisan's Kitpack: Invisible Blade Thief Kit: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #9001 // Artisan's Kitpack: Warhorn Shaman Kit: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #20000 // Artisan's Kitpack: Eldritch Knight (Fighter / Mage Kit): 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #20001 // Artisan's Kitpack: Arcane Trickster (Mage / Thief Kit): 4.8
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2250 // Un-Nerfed Sorcerer Spell Progression Table: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2261 // Alter Mage Spell Progression Table -> PnP table: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2271 // Alter Bard Spell Progression Table -> PnP table: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2281 // Alter Cleric Spell Progression Table -> PnP table: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2294 // Alter Druid Spell and Level Progression Tables -> Use cleric level progression changes with pnp druid/cleric spell table: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2580 // Alter Wisdom-Based Divine Bonus Spell Table -> Use PnP/PsT Table: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2391 // Alter Paladin Spell Progression Table -> BG2-Style Progression (Up To Level Six Spells) [TotoR]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2401 // Alter Ranger Spell Progression Table -> BG2-Style Progression (Up To Level Five Spells) [TotoR]: v16
+~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #0 #0 // Golem Construction Ability for Spellcasters: 6.4
+~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #0 #20 // Golems for enemy spellcasters: 6.4
+~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #0 #25 // Greater variety of enemy golem types: 6.4
+~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #0 #35 // Make golems vulnerable to specific spell effects: 6.4
+~ITEM_REV/ITEM_REV.TP2~ #0 #17 // Weapon Changes: v4beta10sd19
+~ITEM_REV/ITEM_REV.TP2~ #0 #1080 // Enchantment Doesn't Affect Speed Factor of Weapons: v4beta10sd19
+~ITEM_REV/ITEM_REV.TP2~ #0 #1200 // Revised Critical Hit Aversion: v4beta10sd19
+~ITEM_REV/ITEM_REV.TP2~ #0 #15 // PnP Equipment for Druids -> Druids Only: v4beta10sd19
+~ITEM_REV/ITEM_REV.TP2~ #0 #1060 // Kensai Can Wear Bracers: v4beta10sd19
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #3000 // Artisan's Kitpack: Paladin Overhaul: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #3010 // Artisan's Kitpack: Cavalier Overhaul: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #3003 // Artisan's Kitpack: Inquisitor Overhaul: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #3011 // Artisan's Kitpack: Undead Hunter Overhaul: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #3004 // Artisan's Kitpack: Blackguard Overhaul: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #3001 // Artisan's Kitpack: Divine Champion Paladin Kit: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #3002 // Artisan's Kitpack: Mystic Fire Paladin Kit: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #3005 // Artisan's Kitpack: Martyr Paladin Kit: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #5100 // Artisan's Kitpack: Shapeshifter Overhaul: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #5110 // Artisan's Kitpack: Shapeshifter Overhaul – Custom Werewolf Sprite -> Shapeshifter Form Only: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #5001 // Artisan's Kitpack: Elementalist Druid Kit: 4.8
+~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #5002 // Artisan's Kitpack: Hivemaster Druid Kit: 4.8
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #20000 // Introduce new races and subraces: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #40100 // Revised class alignment rules: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #40150 // Make Barbarian Into a Class: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #40650 // Revised speciality priests of Lathander/Helm/Talos/Tempus/Tyr: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #40752 // Adjust opposition schools for speciality mages (see readme for details) -> Use pen-and-paper AD&D opposition schools: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #40800 // Require speciality mages to memorize at least one spell per level from their speciality school: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #40900 // Allow multiclassed and dual-classed mages to become specialists and wild mages: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #40925 // Bloodlines for sorcerers: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #41000 // Rebalanced and revised kits -> Default (affects all kits): Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #50200 // New wizard kits: Militant Wizards: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #50400 // New choices of god / goddess for speciality priests: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #50500 // New class: Favored Soul: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #55000 // Allow druids to multiclass as mages, rangers, and thieves: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #55100 // Multiclass/dual-class barbarian/cleric and fighter/cleric kits: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #55200 // Multiclass/dual-class barbarian/druid and fighter/druid kits: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #55300 // Multiclass/dual-class fighter/mage kits: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #55400 // Multiclass/dual-class fighter/thief kits: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #55500 // Multiclass/dual-class cleric/mage kits: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #55700 // Multiclass/dual-class cleric/thief and druid/thief kits: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #55800 // Multiclass/dual-class mage/thief kits: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #55900 // Multiclass fighter/mage/cleric kits: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #80001 // Revised ability score modifiers -> Strict pen-and-paper 3rd edition system: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #80102 // Point-buy system for choosing ability scores -> Characters have 85 points to spend (e.g. 18,17,16,13,11,10): Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #80150 // 3rd-edition-style THAC0s (somewhat faster progression for clerics/thieves/mages): Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #80160 // Revised Shields: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #81011 // Wider access to Grand Mastery -> Paladins, blackguards, and single-classed rangers can advance to Grand Mastery in any weapon: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #81020 // Dual-class kitted characters must obey the weapon-proficiency restrictions of their kit: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #81030 // Dual-class characters gain weapon proficiencies as for their current class: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #81200 // Revised Weapon Styles: Beta 15
+~DW_TALENTS/DW_TALENTS.TP2~ #0 #90100 // Thieves gain skill points in multiples of five: Beta 15
+~VICONIAREVAMPED/SETUP-VICONIAREVAMPED.TP2~ #0 #56 // Portraits for Viconia -> Use restored Baldur's Gate 2 Demo portrait (BG2 style): v7.2
+~VICONIAREVAMPED/SETUP-VICONIAREVAMPED.TP2~ #0 #70 // Apply drow penalty: Day Blindness: v7.2
+~TNT/TNT.TP2~ #0 #22 // No talking when hiding in shadows: v8.35
+~TNT/TNT.TP2~ #0 #26 // Throwing weapons damage type -> Make axes slashing and hammers blunt: v8.35
+~TNT/TNT.TP2~ #0 #30 // Effects of scrolls and potions do not stack with themselves: v8.35
+~TNT/TNT.TP2~ #0 #33 // Potion of Really Mirrored Eyes: v8.35
+~TNT/TNT.TP2~ #0 #38 // Distinct quest items: v8.35
+~TNT/TNT.TP2~ #0 #42 // Spider form ignores web: v8.35
+~TNT/TNT.TP2~ #0 #46 // True True Sight: v8.35
+~TNT/TNT.TP2~ #0 #47 // Sensible Otiluke's Resilient Sphere: v8.35
+~TNT/TNT.TP2~ #0 #48 // Greater Command AoE: v8.35
+~TNT/TNT.TP2~ #0 #49 // Working Non-Detection: v8.35
+~TNT/TNT.TP2~ #0 #50 // Unstack Chaos Shield: v8.35
+~TNT/TNT.TP2~ #0 #53 // Sensible Blade spins: v8.35
+~TNT/TNT.TP2~ #0 #55 // Non-hostile Grease: v8.35
+~TNT/TNT.TP2~ #0 #57 // Stores always buy goods at the same (low) price | POWER USER component, consult readme: v8.35
+~TNT/TNT.TP2~ #0 #60 // More ankheg armors by Taerom: v8.35
+~TNT/TNT.TP2~ #0 #61 // Cleanup stores: v8.35
+~TNT/TNT.TP2~ #0 #62 // Limited stock: v8.35
+~TNT/TNT.TP2~ #0 #64 // Fair fights | POWER USER component, consult readme -> Also remove undroppable items granting unfair advantages from all enemies: v8.35
+~TNT/TNT.TP2~ #0 #67 // True True Grandmastery: v8.35
+~TNT/TNT.TP2~ #0 #71 // Save Melicamp: v8.35
+~TNT/TNT.TP2~ #0 #72 // Less autosaves | POWER USER component, consult readme: v8.35
+~TNT/TNT.TP2~ #0 #76 // Disable intro movies: v8.35
+~TNT/TNT.TP2~ #0 #32 // Sensible wand of frost -> AoE: v8.35
+~TNT/TNT.TP2~ #0 #35 // Improved Shandalar's cloak: v8.35
+~TNT/TNT.TP2~ #0 #36 // Algernon's cloak: usable once per day: v8.35
+~TNT/TNT.TP2~ #0 #51 // Uncheese Project Image | POWER USER component, consult readme: v8.35
+~TNT/TNT.TP2~ #0 #52 // Uncheese Mislead: v8.35
+~TNT/TNT.TP2~ #0 #54 // PnP Protection from Evil: v8.35
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #40 // Enchant Weapon works in contingencies: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #50 // Joinable NPCs don't have null kits: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #70 // Close polymorph immunity loopholes: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #100 // Hold Person doesn't display multiple strings: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #110 // Barbarian Rage blocks cosmetic effects: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #120 // Dueling fireshields don't go infinite: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #130 // Standardize Wand of Missiles: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #150 // Temple cures work better: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #160 // Bala's Axe dispels reasonably well: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #181 // Antimagic Ray and Spell Shield -> Antimagic rays ignore Spell Shield: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #190 // Death Ward protects against Aec'Letec's Death Gaze: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #200 // Elemental protection spells increment resistances: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #210 // Vorpal weapons don't chunk: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #260 // Green Slime poison can be cured: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #270 // Barrityl's Bigger and Better Burden: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #320 // Standardize inn and tavern music: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #340 // Potion effects don't stack with themselves: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #350 // Bigger random spawns: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #360 // Nature's Beauty blindness can be cured: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #370 // Fix Imoen's script in BGEE/SoD: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #380 // Prevent characters from acting uncontrollably when under Project Image: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #390 // Some merchants ignore reputation: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #402 // Alternate targeting for Potions of Fire Breath -> Potions of Fire Breath use Breath Weapon targeting: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #410 // Imoen always joins at level 1 outside Candlekeep: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #440 // Random spawns scale with difficulty: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #463 // Variable drow MR (core component): 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #465 // Choose base drow MR (required) -> Low (35): 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #473 // Choose MR progression rate (required) -> Fast (2 per level, up to level 20): 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #475 // Choose sunlight penalties (required) -> Dazzled (-2 to hit, -2 AC versus missiles): 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #512 // Area names for the BGEE world map -> Non-spoiler names: 3.1

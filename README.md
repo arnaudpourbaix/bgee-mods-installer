@@ -45,10 +45,8 @@ SubtleD's Stat Overhauls
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #1100 // Artisan's Kitpack: Fighter Overhaul: 4.8
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #1003 // Artisan's Kitpack: Berserker Overhaul: 4.8
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #1006 // Artisan's Kitpack: Wizard Slayer Overhaul: 4.8
-Wizard Slayer Rebalancing (aVENGER)
+******************************** Wizard Slayer Rebalancing (aVENGER)
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #1004 // Artisan's Kitpack: Kensai Overhaul: 4.8
-~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #50 // Move the Cavalier to the Fighter Class: 5.8.9
-~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #151 // Move the Archer to the Fighter Class: 5.8.9
 ~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #30 // Install Hexblade fighter kit: v9
 ~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #31 // Install Duelist fighter kit: v9
 ~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #32 // Install Fist of Order fighter kit: v9
@@ -218,7 +216,7 @@ Wizard Slayer Rebalancing (aVENGER)
 
 
 ## Thief:
-~RR/SETUP-RR.TP2~ #0 #1 // Thief kit revisions: v4.92
+******************************** ~RR/SETUP-RR.TP2~ #0 #1 // Thief kit revisions: v4.92
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #7004 // Artisan's Kitpack: Assassin Overhaul: 4.8
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #7006 // Artisan's Kitpack: Swashbuckler Overhaul: 4.8
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #7001 // Artisan's Kitpack: Rogue Archer Thief Kit: 4.8
@@ -226,7 +224,6 @@ Wizard Slayer Rebalancing (aVENGER)
 ~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #0 #7 // Install Burglar thief kit: v19
 ~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #0 #9 // Install Sharpshooter thief kit: v19
 ~IHATEUNDEAD/IHATEUNDEAD.TP2~ #0 #4 // Death Tricker (Thief Kit): 3.8.3
-~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #90 // Add the Rake (thief kit) and revise the Swashbuckler: 5.8.9
 ~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #96 // Add the Ninja (thief kit): 5.8.9
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #7002 // Artisan's Kitpack: Magekiller Thief Kit: 4.8
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #7003 // Artisan's Kitpack: Trickster Thief Kit: 4.8
@@ -240,34 +237,26 @@ Wizard Slayer Rebalancing (aVENGER)
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #1001 // Artisan's Kitpack: Arcane Archer (Fighter/Mage): 4.8
 ~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #80 // Add the Tomb Runner (fighter/thief kit): 5.8.9
 ~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #85 // Add the Thug (fighter/thief kit): 5.8.9
-~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #97 // Add the Ninja (fighter/thief kit): 5.8.9
 ~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #105 // Add the Spellfilcher (mage/thief kit): 5.8.9
 ~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #110 // Add the Loremaster (mage/thief kit): 5.8.9
 ~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #160 // Add the Halfling Slinger (fighter/thief kit): 5.8.9
 
 
 ## Special
-~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #280 // Revised Backstabbing: 5.8.9
-~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #290 // Revised THAC0 Progression: 5.8.9
+******************************** ~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #280 // Revised Backstabbing: 5.8.9
 
 
 # Talents of Faerun
 
-Dragon Disciples can be disciples of any chromatic dragon (Red/Blue/Green/Black/White)
-Rebalanced and revised kits
+## dw_talents.ini
 
-~DW_TALENTS/DW_TALENTS.TP2~ #0 #1500 // Include arcane spells from Icewind Dale: Enhanced Edition: Beta 15
-~DW_TALENTS/DW_TALENTS.TP2~ #0 #1510 // Include divine spells from Icewind Dale: Enhanced Edition: Beta 15
-~DW_TALENTS/DW_TALENTS.TP2~ #0 #1520 // Include bard songs from Icewind Dale: Enhanced Edition: Beta 15
-~DW_TALENTS/DW_TALENTS.TP2~ #0 #2000 // Install all spell tweaks (if you don't select this, you will be given a chance to choose by category): Beta 15
-~DW_TALENTS/DW_TALENTS.TP2~ #0 #2500 // Add 9 new arcane spells: Beta 15
-~DW_TALENTS/DW_TALENTS.TP2~ #0 #2510 // Add 6 new divine spells (some borrowed from Divine Remix): Beta 15
-~DW_TALENTS/DW_TALENTS.TP2~ #0 #20000 // Introduce new races and subraces: Beta 15
-~DW_TALENTS/DW_TALENTS.TP2~ #0 #40100 // Revised class alignment rules: Beta 15
-~DW_TALENTS/DW_TALENTS.TP2~ #0 #40150 // Make Barbarian Into a Class: Beta 15
-~DW_TALENTS/DW_TALENTS.TP2~ #0 #40752 // Adjust opposition schools for speciality mages (see readme for details) -> Use pen-and-paper AD&D opposition schools: Beta 15
-~DW_TALENTS/DW_TALENTS.TP2~ #0 #40800 // Require speciality mages to memorize at least one spell per level from their speciality school: Beta 15
-~DW_TALENTS/DW_TALENTS.TP2~ #0 #40900 // Allow multiclassed and dual-classed mages to become specialists and wild mages: Beta 15
+### rebalanced kits
+
+Disable all kits but rebalance_totemic_druid.
+
+## errors
+
+Multiclass/dual-class cleric/ranger and druid/ranger kits
 
 # FnP
 
@@ -283,3 +272,15 @@ Rebalanced and revised kits
 ~FAITHS_AND_POWERS/FAITHS_AND_POWERS.TP2~ #0 #92 // Multiclass Shamans: 0.91.4
 ~FAITHS_AND_POWERS/FAITHS_AND_POWERS.TP2~ #0 #95 // Multiclass Cleric kits (install AFTER all other kit mods!!): 0.91.4
 ~FAITHS_AND_POWERS/FAITHS_AND_POWERS.TP2~ #0 #99 // Apply FnP Multiclass Kits to NPCs: 0.91.4
+
+
+weidu DW_TALENTS/DW_TALENTS.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 1500 1510 1520 2000 2500 2510 20000 40100 40150 40752 40800 40900
+pause
+weidu FAITHS_AND_POWERS/FAITHS_AND_POWERS.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 12 15 25 31 33 36 45 75 80 91 92 95 99
+pause
+
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #50 // Move the Cavalier to the Fighter Class: 5.8.9
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #151 // Move the Archer to the Fighter Class: 5.8.9
+
+weidu ITEM_REV/ITEM_REV.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 17 1080 1200 15 1060
+weidu DW_TALENTS/DW_TALENTS.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 20000 40100 40150 40650 40752 40800 40900 40925 41000 50200 50400 50500 55000 55100 55200 55300 55400 55500 55700 55800 55900 80001 80102 80150 80160 81011 81020 81030 81200 90100
