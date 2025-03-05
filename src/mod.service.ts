@@ -209,7 +209,7 @@ export class ModService {
         for (const [index, group] of groups.entries()) {
             const installedGroup = installedGroups[index];
             if (!installedGroup) {
-                let install = alwaysAsk;
+                let install = !alwaysAsk;
                 if (alwaysAsk) install = await confirm({ message: `Install ${this.getModFolder(group.tp2File)} ?` });
                 if (install) {
                     await this.execWeidu([

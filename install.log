@@ -1,0 +1,128 @@
+weidu DLCMERGER/DLCMERGER.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 1
+pause
+weidu BGEECLASSICMOVIES/BGEECLASSICMOVIES.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 3
+pause
+weidu LEUI-BG1EE/LEUI-BG1EE.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 1 2
+pause
+weidu EEEX/EEEX.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0
+pause
+weidu BG1UB/SETUP-BG1UB.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 11 12 13 14 16 17 18 19 21 22 29 30 32 33 34
+pause
+weidu C#ENDLESSBG1/C#ENDLESSBG1.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 1 3 4 5 6 8 12
+pause
+weidu C#SODBOABRI/C#SODBOABRI.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 1 2 3
+pause
+weidu C#SODTWEAKS/SETUP-C#SODTWEAKS.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 2 5 7 20 21
+pause
+weidu NTOTSC/NTOTSC.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 2 3 5 9 10 11 12 14
+pause
+weidu BG1RE/SETUP-BG1RE.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 105 2 3 5 6 8 10 13 14 17 18 20 21 22 23 24 26 28 29 30 31 32 34 36 37 40 41 42 43 44
+pause
+weidu SIRINESCALL/SETUP-SIRINESCALL.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0
+pause
+weidu BGQE/SETUP-BGQE.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+pause
+weidu AC_QUEST/AC_QUEST.TP2 --language 1 --no-exit-pause --noautoupdate --force-install-list 0 1 2 4 6 7 8 9 11
+pause
+weidu GORGON/SETUP-GORGON.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 1
+pause
+weidu BLACKHEARTS_BG1/SETUP-BLACKHEARTS_BG1.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0
+pause
+weidu BST/SETUP-BST.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0
+pause
+weidu THECALLING/THECALLING.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 20 40
+pause
+weidu REFLECTIONS/REFLECTIONS.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 100 110 230
+pause
+weidu SOTSC/SOTSC.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0
+pause
+weidu LORETAKERS/SETUP-LORETAKERS.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0
+pause
+weidu BG1NPC/BG1NPC.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 10 21 31 41 51 61 71 80 110 120 130 240 160
+pause
+weidu BG1NPCMUSIC/SETUP-BG1NPCMUSIC.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0
+pause
+weidu AJANTISBG1/SETUP-AJANTISBG1.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 1
+pause
+weidu ISRA/ISRA.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0
+pause
+weidu INDINPC/INDINPC.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0
+pause
+weidu GLAMNPCPACK/SETUP-GLAMNPCPACK.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0
+pause
+weidu EMILY/EMILY.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 1
+pause
+weidu HELGA/SETUP-HELGA.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0
+pause
+weidu KALE/KALE.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 1
+pause
+weidu RECORDER/SETUP-RECORDER.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 1
+pause
+weidu VIENXAY/VIENXAY.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0
+pause
+weidu KVEL_BG1/SETUP-KVEL_BG1.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0
+pause
+weidu AURA_BG1/SETUP-AURA_BG1.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 1 5 14
+pause
+weidu DRAKE/SETUP-DRAKE.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 1 5
+pause
+weidu SIRENE/SETUP-SIRENE.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 1
+pause
+weidu NEERABANTERS/NEERABANTERS.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 10 20 30
+pause
+weidu CHATTYIMOEN/CHATTYIMOEN.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 10
+pause
+weidu NEERA/NEERA.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 3 6
+pause
+weidu C#BRAGE/C#BRAGE.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 1
+pause
+weidu SODRTD/SODRTD.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 80 0 10 20 30 40 50 60
+pause
+weidu THALAN/THALAN.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0
+pause
+weidu ITEM_REV/ITEM_REV.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0
+pause
+weidu AJANTISBG1/SETUP-AJANTISBG1.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 30
+pause
+weidu C#BRAGE/C#BRAGE.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 5 10
+pause
+weidu ITEM_REV/ITEM_REV.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 1030
+pause
+weidu SPELL_REV/SETUP-SPELL_REV.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 10 20 30 55 60
+pause
+weidu STRATAGEMS/SETUP-STRATAGEMS.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 1500 1510 1520 2000 2500 2510
+pause
+weidu SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 1 2 3 4 5 6 7 8 9
+pause
+weidu RR/SETUP-RR.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 3 4 7 9
+pause
+weidu BARDICWONDERS/BARDICWONDERS.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 1 2 3 4 5 6 7 8 9 10 11 12 13 16 17
+pause
+weidu SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 30 31 32 34
+pause
+weidu TOMEANDBLOOD/TOMEANDBLOOD.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 25 31 33 35 37
+pause
+weidu IHATEUNDEAD/IHATEUNDEAD.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 4 7 10 11
+pause
+weidu MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 60 65 80 85 96 105 110 120 125 155 160 450 460 470 490
+pause
+weidu ARTISANSKITPACK/ARTISANSKITPACK.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 8001 8101 8002 8004 10002 10001 10003 10004 1003 1006 1004 1005 1007 1000 1008 1009 1100 2000 2010 2011 2012 2002 7004 7006 7001 7002 7003 7005 9001 20000 20001
+pause
+weidu CDTWEAKS/SETUP-CDTWEAKS.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 2250 2261 2271 2281 2294 2580 2391 2401
+pause
+weidu A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 0 20 25 35
+pause
+weidu ITEM_REV/ITEM_REV.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 17 1080 1200 15 1060
+pause
+weidu ARTISANSKITPACK/ARTISANSKITPACK.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 3000 3010 3003 3011 3004 3001 3002 3005 5100 5110 5001 5002
+pause
+weidu DW_TALENTS/DW_TALENTS.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 20000 40100 40150 40650 40752 40800 40900 40925 41000 50200 50400 50500 55000 55100 55200 55300 55400 55500 55700 55800 55900 80001 80102 80150 80160 81011 81020 81030 81200 90100
+pause
+weidu VICONIAREVAMPED/SETUP-VICONIAREVAMPED.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 56 70
+pause
+weidu TNT/TNT.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 22 26 30 33 38 42 46 47 48 49 50 53 55 57 60 61 62 64 67 71 72 76 32 35 36 51 52 54
+pause
+weidu JTWEAKS/SETUP-JTWEAKS.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 40 50 70 100 110 120 130 150 160 181 190 200 210 260 270 320 340 350 360 370 380 390 402 410 440 463 465 473 475 512
+pause
+weidu STRATAGEMS/SETUP-STRATAGEMS.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 3010 3015 3017 3040 3505 4020 4051 4135 4140 5000 5080 5900 6000 6010 6030 6040 6100 6200 6300 6310 6320 7000 7010 7020 7030 7040 7050 7060 7070 7080 7090 7100 7110 7130 7140 7150 7200 7210 7220 7230 7250 7900
+pause

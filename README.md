@@ -258,6 +258,18 @@ Disable all kits but rebalance_totemic_druid.
 
 Multiclass/dual-class cleric/ranger and druid/ranger kits
 
+# Strategems
+
+ini:
+Conceal_Prebuff_Spell_Names = 1
+
+weidu STRATAGEMS/SETUP-STRATAGEMS.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 3010 3015 3017 3040 3505 4020 4051 4135 4140 5000 5080 5900 6000 6010 6030 6040 6100 6200 6300 6310 6320 7000 7010 7020 7030 7040 7050 7060 7070 7080 7090 7100 7110 7130 7140 7150 7200 7210 7220 7230 7250 7900
+
+# CDTweaks
+
+Errors:
+- Enforce PnP Proficiency Rules on Dual-Classed Characters
+
 # FnP
 
 ~FAITHS_AND_POWERS/FAITHS_AND_POWERS.TP2~ #0 #12 // Revised Cleric Spell Table -> Faiths & Powers Table: 0.91.4
@@ -284,3 +296,10 @@ pause
 
 weidu ITEM_REV/ITEM_REV.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 17 1080 1200 15 1060
 weidu DW_TALENTS/DW_TALENTS.TP2 --language 0 --no-exit-pause --noautoupdate --force-install-list 20000 40100 40150 40650 40752 40800 40900 40925 41000 50200 50400 50500 55000 55100 55200 55300 55400 55500 55700 55800 55900 80001 80102 80150 80160 81011 81020 81030 81200 90100
+
+# Drow
+
+At level 1 drow are 50% magic resistant
+Every level they increases the resistance by 2% (to a maximum of 80%).
+Multiclassed drow use the higher level to determine this bonus.
+On surface, Drow magic resistance is lost at a rate of 10% per day.
