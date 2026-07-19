@@ -12,18 +12,19 @@ console.log(
 program
   .version("0.0.1")
   .description("Automated mods installation")
-  .option("-l, --list", "List external mods and put them in config",)
-  .option("-c, --copy", "Copy external mods to game folder",)
-  .option("-n, --clear", "Delete backup folders",)
-  .option("-w, --work", "List mods that are not installed yet",)
-  .option("-i, --install <file>", "Install mod list from an external WeiDU.log",)
-  .option("-u, --uninstall", "Uninstall every installed mods",)
-  .option("-p, --print <file>", "Print install commands",)
+  .option("-l, --list", "List external mods and put them in config")
+  .option("-c, --copy", "Copy external mods to game folder")
+  .option("-n, --clear", "Delete backup folders")
+  .option("-w, --work", "List mods that are not installed yet")
+  .option("-i, --install <file>", "Install mod list from an external WeiDU.log")
+  .option("-u, --uninstall", "Uninstall every installed mods")
+  .option("-p, --print <file>", "Print install commands")
   .parse(process.argv);
 
 const options = program.opts();
 
 async function main() {
+  console.log(options);
   const modService = new ModService();
   if (options.list) modService.checkExternalMods();
   else if (options.copy) modService.copyMods();
