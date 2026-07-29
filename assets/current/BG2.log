@@ -1,0 +1,201 @@
+// Log of Currently Installed WeiDU Mods
+// The top of the file is the 'oldest' mod
+// ~TP2_File~ #language_number #component_number // [Subcomponent Name -> ] Component Name [ : Version]
+~EEEX/EEEX.TP2~ #0 #0 // Quick Menu Core: v1.0.0
+~EEEX/EEEX.TP2~ #0 #1 // EEex: v1.0.0
+~EEEX/EEEX.TP2~ #0 #2 // Enable effect menu module: LShift-on-hover to view spells affecting creature: v1.0.0
+~EEEX/EEEX.TP2~ #0 #3 // Enable empty container module: Highlight empty containers in gray instead of cyan: v1.0.0
+~EEEX/EEEX.TP2~ #0 #4 // Enable hotkey module: Edit override/B3Hotkey.lua to create advanced spell hotkeys: v1.0.0
+~EEEX/EEEX.TP2~ #0 #5 // Enable scale module: Customizable UI scaling factor: v1.0.0
+~EEEX/EEEX.TP2~ #0 #6 // Enable time step module: Advance 1 game tick on keypress: v1.0.0
+~EEEX/EEEX.TP2~ #0 #7 // Enable timer module: Visual indicators for modal actions, contingencies, and spell/item cooldowns: v1.0.0
+~INFINITY_UI/INFINITY_UI.TP2~ #0 #0 // Install Infinity UI++ Core Component: v1.15
+~INFINITY_UI/INFINITY_UI.TP2~ #0 #2 // Update several strings in Dialog.tlk: v1.15
+~BUBB_SPELL_MENU_EXTENDED/BUBB_SPELL_MENU_EXTENDED.TP2~ #0 #0 // Bubb's Spell Menu Extended: v5.2
+~ASCENSION/ASCENSION.TP2~ #0 #0 // Rewritten Final Chapter of Throne of Bhaal: 2.1.0
+~ASCENSION/ASCENSION.TP2~ #0 #10 // Balthazar can be redeemed: 2.1.0
+~ASCENSION/ASCENSION.TP2~ #0 #20 // Improved Sarevok-Player Interactions: 2.1.0
+~ASCENSION/ASCENSION.TP2~ #0 #30 // Improved Imoen-Player Interactions in Throne of Bhaal: 2.1.0
+~ASCENSION/ASCENSION.TP2~ #0 #40 // Restored Bhaalspawn Powers: 2.1.0
+~ASCENSION/ASCENSION.TP2~ #0 #50 // Improved Slayer Transformation: 2.1.0
+~ASCENSION/ASCENSION.TP2~ #0 #60 // Expanded Epilogues for Bioware NPCs -> David Gaider's expanded epilogues for Bioware NPCs: 2.1.0
+~ASCENSION/ASCENSION.TP2~ #0 #1000 // Tougher Abazigal: 2.1.0
+~ASCENSION/ASCENSION.TP2~ #0 #1100 // Tougher Balthazar: 2.1.0
+~ASCENSION/ASCENSION.TP2~ #0 #1200 // Tougher Demogorgon: 2.1.0
+~ASCENSION/ASCENSION.TP2~ #0 #1300 // Tougher Gromnir: 2.1.0
+~ASCENSION/ASCENSION.TP2~ #0 #1400 // Tougher Illasera: 2.1.0
+~ASCENSION/ASCENSION.TP2~ #0 #1500 // Tougher Yaga-Shura: 2.1.0
+~ASCENSION/ASCENSION.TP2~ #0 #2000 // Full-body portrait for Bodhi: 2.1.0
+~ASCENSION/ASCENSION.TP2~ #0 #2200 // Extended Epilogues for additional Beamdog NPCs, by shawne: 2.1.0
+~ASCENSION/ASCENSION.TP2~ #0 #2300 // Sharper portraits of Abazigal and Gromnir for the Enhanced Edition, by DavidW: 2.1.0
+~ASCENSION/ASCENSION.TP2~ #0 #2400 // Slightly improved cutscenes, by DavidW: 2.1.0
+~UB/SETUP-UB.TP2~ #0 #0 // The Kidnapping of Boo by Cliffette: v29
+~UB/SETUP-UB.TP2~ #0 #1 // The Suna Seni/Valygar Relationship: v29
+~UB/SETUP-UB.TP2~ #0 #2 // Kalah and What He Was Promised: v29
+~UB/SETUP-UB.TP2~ #0 #3 // "Cat and Mouse" (Bodhi hunts you in Spellhold) by Ghreyfain: v29
+~UB/SETUP-UB.TP2~ #0 #4 // Gorje Hilldark and the Extended Illithium Quest: v29
+~UB/SETUP-UB.TP2~ #0 #5 // The Pai'Na/Spider's Bane Quest: v29
+~UB/SETUP-UB.TP2~ #0 #6 // Restored Crooked Crane Inn: v29
+~UB/SETUP-UB.TP2~ #0 #7 // Restored Encounters: v29
+~UB/SETUP-UB.TP2~ #0 #8 // Artemis Entreri in Bodhi's Lair: v29
+~UB/SETUP-UB.TP2~ #0 #9 // Corrected "Xzar's Creations": v29
+~UB/SETUP-UB.TP2~ #0 #10 // Restored Hell Minions, by SimDing0: v29
+~UB/SETUP-UB.TP2~ #0 #12 // Item Restorations: v29
+~UB/SETUP-UB.TP2~ #0 #13 // Yoshimo's Original Portrait: v29
+~UB/SETUP-UB.TP2~ #0 #14 // Anomen's Original Portrait: v29
+~UB/SETUP-UB.TP2~ #0 #15 // NPC Portrait Restorations: v29
+~UB/SETUP-UB.TP2~ #0 #17 // Corrected Character Names and Biographies: v29
+~UB/SETUP-UB.TP2~ #0 #18 // Restored Minor Dialogs: v29
+~UB/SETUP-UB.TP2~ #0 #19 // Restored Bhaalspawn Powers, by David Gaider: v29
+~UB/SETUP-UB.TP2~ #0 #20 // Extended ToB Item Descriptions: v29
+~UB/SETUP-UB.TP2~ #0 #21 // Throne of Bhaal Minor Restorations: v29
+~UB/SETUP-UB.TP2~ #0 #22 // Justifier Kit: v29
+~UB/SETUP-UB.TP2~ #0 #23 // Feralan Kit: v29
+~UB/SETUP-UB.TP2~ #0 #24 // Sarevok's Remorse: v29
+~UB/SETUP-UB.TP2~ #0 #25 // The Murder of Acton Balthis, by Kulyok: v29
+~ARESTORATIONP/ARESTORATIONP.TP2~ #1 #0 // Restored Locations: v10.1
+~ARESTORATIONP/ARESTORATIONP.TP2~ #1 #1 // Restored Characters and Dialogs: v10.1
+~ARESTORATIONP/ARESTORATIONP.TP2~ #1 #2 // Restored Sounds: v10.1
+~ARESTORATIONP/ARESTORATIONP.TP2~ #1 #3 // Restored Items: v10.1
+~ARESTORATIONP/ARESTORATIONP.TP2~ #1 #4 // Restored Wish Options: v10.1
+~ARESTORATIONP/ARESTORATIONP.TP2~ #1 #5 // Restored XP for Minor Things: v10.1
+~ARESTORATIONP/ARESTORATIONP.TP2~ #1 #6 // Lich Deril: v10.1
+~ARESTORATIONP/ARESTORATIONP.TP2~ #1 #7 // Restored Random Encounters: v10.1
+~ARESTORATIONP/ARESTORATIONP.TP2~ #1 #8 // Minor Restorations: v10.1
+~ARESTORATIONP/ARESTORATIONP.TP2~ #1 #11 // Restored Final Slayer Dream: v10.1
+~ARESTORATIONP/ARESTORATIONP.TP2~ #1 #12 // Alternate Slayer Change: v10.1
+~ARESTORATIONP/ARESTORATIONP.TP2~ #1 #13 // Restored Waukeen's Promenade Cutscene: v10.1
+~CTB/CTB.TP2~ #0 #0 // Check The Bodies: 3.1
+~CTB/CTB.TP2~ #0 #3 // Other Improvements: 3.1
+~AC_QUEST/AC_QUEST.TP2~ #1 #12 // A Halfling among the Eyeless: 6.4
+~SKITIANPCS/SETUP-SKITIANPCS.TP2~ #0 #0 // Skitia NPCs for Baldur's Gate 2: 1.1
+~SKITIANPCS/SETUP-SKITIANPCS.TP2~ #0 #1 // Helga Alternate Class: Fighter/Priest of Haelga -> Priest of Haelga (Fighter Multi-class): 1.1
+~SKITIANPCS/SETUP-SKITIANPCS.TP2~ #0 #2 // Skitia NPCs: Romance Theme Soundtrack -> Romance Theme Music: 1.1
+~SKITIANPCS/SETUP-SKITIANPCS.TP2~ #0 #5 // Helga Portrait -> Helga NWN Portrait: 1.1
+~SKITIANPCS/SETUP-SKITIANPCS.TP2~ #0 #7 // Kale Portrait -> Kale NWN Portrait: 1.1
+~SKITIANPCS/SETUP-SKITIANPCS.TP2~ #0 #8 // Vienxay Portrait -> Vienxay Default Portrait by Crisshasart: 1.1
+~FOUNDLING/FOUNDLING.TP2~ #0 #0 // Foundling: Between the Shades -> Yes, but don't patch the existing save games: v5.5.4
+~SKIECOST/SKIECOST.TP2~ #0 #0 // Skie: The Cost of One Girl's Soul - New quest for Baldur's Gate 2 EE: v7.1.1
+~SKIECOST/SKIECOST.TP2~ #0 #1 // Skie: The Cost of One Girl's Soul - Allow Skie to return as a joinable NPC: v7.1.1
+~SKIECOST/SKIECOST.TP2~ #0 #2 // Skie: The Cost of One Girl's Soul - Add Player-Initiated Dialogue (PID) for Skie: v7.1.1
+~SKIECOST/SKIECOST.TP2~ #0 #3 // Skie: The Cost of One Girl's Soul - The Return of Eddard Silvershield (quest & a joinable NPC): v7.1.1
+~SKIECOST/SKIECOST.TP2~ #0 #4 // Skie: The Cost of One Girl's Soul - Add Player-Initiated Dialogue (PID) for Eddard: v7.1.1
+~SKIECOST/SKIECOST.TP2~ #0 #5 // Skie: The Cost of One Girl's Soul - Add brand new SoD-oriented items to BG2: v7.1.1
+~AURA_BG1_2_EET/SETUP-AURA_BG1_2_EET.TP2~ #0 #1 // Aura NPC for Baldur's Gate 2: Enhanced Edition
+~AURA_BG1_2_EET/SETUP-AURA_BG1_2_EET.TP2~ #0 #3 // Choose a class for Aura: -> Artificer (Thief)
+~AURA_BG1_2_EET/SETUP-AURA_BG1_2_EET.TP2~ #0 #7 // Aura NPC for Baldur's Gate 2: Enhanced Edition-NPC Portraits
+~AURA_BG1_2_EET/SETUP-AURA_BG1_2_EET.TP2~ #0 #14 // Aura NPC for Baldur's Gate 2: Enhanced Edition-Import BG1 upgrades into BG2
+~ADRIAN/ADRIAN.TP2~ #0 #0 // Adrian for BGII -> Adrian is a Sorcerer: v6.1
+~ADRIAN/ADRIAN.TP2~ #0 #10 // Install optional soundset for Adrian (only in English) -> Phaelin's soundset: v6.1
+~ADRIAN/ADRIAN.TP2~ #0 #20 // Crossmod content: v6.1
+~NINDE/NINDE.TP2~ #0 #0 // Ninde NPC Mod for BGII: v3.0
+~PAINA/PAINA.TP2~ #0 #0 // Pai'Na NPC for BG2:EE
+~DW_LANTHORN/DW_LANTHORN.TP2~ #0 #20 // Restored Rhynn Lanthorn lens quest -> Expanded Version (adds four new locations where lenses can be found): v beta 1
+~ASSASSINATIONS/ASSASSINATIONS.TP2~ #0 #0 // Assassinations mod for Baldur's Gate II: v19
+~FADINGPROMISES/SETUP-FADINGPROMISES.TP2~ #0 #0 // Fading Promises: v9
+~RE/SETUP-RE.TP2~ #0 #0 // Aerie, Anomen, Jaheira and Viconia React to Romantic Encounters: v15
+~RE/SETUP-RE.TP2~ #0 #1 // Storms and Lightning, by berelinde (Weathermistress Ada, adult content): v15
+~RE/SETUP-RE.TP2~ #0 #2 // Aimi's Magic, by berelinde (adult content): v15
+~RE/SETUP-RE.TP2~ #0 #3 // Anishai's Deft Hands, by cmorgan: v15
+~RE/SETUP-RE.TP2~ #0 #4 // An Evening with Aran, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #5 // Bjornin's Desire, by jastey (adult content): v15
+~RE/SETUP-RE.TP2~ #0 #6 // Bodhi's Allure, by Kulyok (adult content): v15
+~RE/SETUP-RE.TP2~ #0 #7 // Trademeet with Guildmistress Busya, by magrat: v15
+~RE/SETUP-RE.TP2~ #0 #8 // The Gambling Cambion, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #9 // Chanelle's Gifts, by cmorgan (adult content): v15
+~RE/SETUP-RE.TP2~ #0 #10 // A Night with Coran, by magrat: v15
+~RE/SETUP-RE.TP2~ #0 #11 // Cyric's Test, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #12 // A Tryst with a Pirate Lord, by Kulyok (Desharik, adult content): v15
+~RE/SETUP-RE.TP2~ #0 #13 // A Lonely Dryad, by Kulyok (adult content): v15
+~RE/SETUP-RE.TP2~ #0 #14 // Edwin's Softer Side, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #15 // Eldoth' Exploits, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #16 // Elhan's Expansion, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #17 // Firkraag's Unsheathed Sword: v15
+~RE/SETUP-RE.TP2~ #0 #18 // Gaelan's Contract, by Evaine Dian: v15
+~RE/SETUP-RE.TP2~ #0 #19 // A Walk with Garren Windspear, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #20 // Enter Haer'Dalis, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #21 // Hendak's Heart, by jastey: v15
+~RE/SETUP-RE.TP2~ #0 #22 // Ilona, a Merchant's Daughter, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #23 // Jarlaxle's Fascinations, by Catseye: v15
+~RE/SETUP-RE.TP2~ #0 #24 // A Night with Lais in Imnesvale, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #25 // Laran's Promise, by berelinde (adult content): v15
+~RE/SETUP-RE.TP2~ #0 #26 // The Love Song of Logan, Lord Coprith, by Ajnos: v15
+~RE/SETUP-RE.TP2~ #0 #27 // Mekrath and Nymphology, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #28 // Mira's Special Stock, by berelinde: v15
+~RE/SETUP-RE.TP2~ #0 #29 // Noober Returns, by cmorgan: v15
+~RE/SETUP-RE.TP2~ #0 #30 // Rebecca the Gypsy, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #31 // Renal Bloodscalp: A Dangerous Affair, by cmorgan (adult content): v15
+~RE/SETUP-RE.TP2~ #0 #32 // Old Ribald's Speciality, by Evaine Dian: v15
+~RE/SETUP-RE.TP2~ #0 #33 // Sir Ryan Trawl, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #34 // Saemon, a Pirate, by Kulyok (adult content): v15
+~RE/SETUP-RE.TP2~ #0 #35 // Dreaming of Sendai, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #36 // Sheri the Bardess, by cmorgan (adult content): v15
+~RE/SETUP-RE.TP2~ #0 #37 // Solaufein in the Lust Chambers, by jastey: v15
+~RE/SETUP-RE.TP2~ #0 #38 // Phaere's Reward, by berelinde (Talak, pleasure slave, adult content): v15
+~RE/SETUP-RE.TP2~ #0 #39 // Spell Research with Teos, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #40 // A fling with Yoshimo, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #41 // Isabelle's Fears, by gertjanvh (adult content): v15
+~RE/SETUP-RE.TP2~ #0 #42 // Anne's Rescue, by gertjanvh (adult content): v15
+~RE/SETUP-RE.TP2~ #0 #43 // The Queen, by Domi: v15
+~RE/SETUP-RE.TP2~ #0 #44 // Valygar Romance, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #45 // Rehearsal with Chandra, by Western Paladin: v15
+~RE/SETUP-RE.TP2~ #0 #46 // Goldander Blackenrock: After a Party, by magrat: v15
+~RE/SETUP-RE.TP2~ #0 #47 // A Chat with Viekang, by magrat: v15
+~RE/SETUP-RE.TP2~ #0 #48 // Bravery or Folly? by Aeryn (Sarevok, adult content): v15
+~RE/SETUP-RE.TP2~ #0 #49 // Blame the Moon, by Aeryn (Cernd): v15
+~RE/SETUP-RE.TP2~ #0 #50 // Cernick's Confession, by Cal Jones: v15
+~RE/SETUP-RE.TP2~ #0 #51 // Valygar Romance ToB, by Kulyok: v15
+~RE/SETUP-RE.TP2~ #0 #52 // Minsc. Takes. A Bath, by Thimblerig: v15
+~RE/SETUP-RE.TP2~ #0 #53 // Nizidramanii'yt's Vanity, by Thimblerig: v15
+~RE/SETUP-RE.TP2~ #0 #54 // Date Night, by SisterVigilante: v15
+~BLACKHEARTS/BLACKHEARTS.TP2~ #0 #20005 // Install Blackhearts for "BG2EE only": v2.05
+~A7-TESTYOURMETTLE/A7-TESTYOURMETTLE.TP2~ #0 #0 // Test Your Mettle!: 1.6
+~A7-TESTYOURMETTLE/A7-TESTYOURMETTLE.TP2~ #0 #12 // Reduced experience for killing monsters -> Reduce by 75% (recommended): 1.6
+~C#SB_SILBER/SETUP-C#SB_SILBER.TP2~ #0 #0 // Adalon's Blood - Modification for BGII by Gandalf the white: 17.3 pre 260608
+~TOD/TOD.TP2~ #0 #0 // Tower of Deception: v4.1.0
+~TOD/TOD.TP2~ #0 #1 // Improved Astral Shard Guardian: v4.1.0
+~TOD/TOD.TP2~ #0 #2 // Encounter with Ustrain: v4.1.0
+~TOD/TOD.TP2~ #0 #3 // Fix Acceleration status of Warblade of Twilight.: v4.1.0
+~EILISTRAEE/SETUP-EILISTRAEE.TP2~ #0 #0 // Eilistraee's Song -> Yes, but don't patch the existing save games: v7.5.2
+~FISHINGFORTROUBLE/FISHINGFORTROUBLE.TP2~ #0 #0 // Fishing for Trouble by Yovaneth: v3.2.11
+~FISHINGFORTROUBLE/FISHINGFORTROUBLE.TP2~ #0 #1 // Fishing for Trouble - Major character portraits: v3.2.11
+~BACKBRYNNLAW/BACKBRYNNLAW.TP2~ #0 #0 // Back to Brynnlaw mod for Baldur's Gate II: v9
+~SELLSWORDS/SELLSWORDS.TP2~ #0 #0 // The Sellswords mod for Baldur's Gate II: v9.1
+~REUNION/REUNION.TP2~ #0 #0 // The Reunion mod for Baldur's Gate II: v7
+~OOZE/OOZE.TP2~ #0 #0 // Athkatlan Grounds: The Ooze's Lounge - a new area under Athkatlan Slums: v3.1
+~SOUTHERNEDGE/SOUTHERNEDGE.TP2~ #0 #0 // Southern Edge: the new district of Athkatla -> Yes, but don't patch the existing save games: v6.0
+~TANGLEDISLE/TANGLEDISLE.TP2~ #0 #0 // Athkatlan Grounds: The Tangled Oak Isle -> Yes, but don't patch existing save games: v4.7
+~BRIDGESBLOCK/BRIDGESBLOCK.TP2~ #0 #0 // Athkatlan Grounds: The Bridge's Block: v2.02
+~ALABASTERSANDS/ALABASTERSANDS.TP2~ #0 #0 // Alabaster Sands: the new area of Athkatla -> Yes, but don't patch existing save games: v2.0
+~WHITEQUEEN/WHITEQUEEN.TP2~ #0 #0 // Colours of Infinity - The White Queen -> Yes, but don't patch the existing save games: v7.4.2
+~ISNF/ISNF.TP2~ #0 #0 // Colours of Infinity: I Shall Never Forget: 6.5.6
+~INNERSHADE/SETUP-INNERSHADE.TP2~ #0 #0 // Colours of Infinity: Innershade -> Yes, but don't patch the existing save games: v11.16
+~TOTDG/TOTDG.TP2~ #0 #0 // Colours of Infinity: Tales of the Deep Gardens -> Yes, but don't patch the existing save games: 12.96
+~TIDINGS/SETUP-TIDINGS.TP2~ #1 #0 // Dark Tidings: 3.0
+~GODCALL/SETUP-GODCALL.TP2~ #1 #0 // Call Of The Lost Goddess: v3.0
+~GODCALL/SETUP-GODCALL.TP2~ #1 #50 // Install portraits for the major NPCs of the mod: v3.0
+~GODCALL/SETUP-GODCALL.TP2~ #1 #200 // Install AI voiceover for major NPCs of the mod (mostly in English): v3.0
+~INLOVEUNDEATH/INLOVEUNDEATH.TP2~ #0 #0 // The Dreadful Tales: In Love, Undeath - a new quest and companion for BG2EE -> Yes, but don't patch existing save games: v1.8.5
+~INLOVEUNDEATH/INLOVEUNDEATH.TP2~ #0 #2 // Xzele: Player-Initiated Dialogues: v1.8.5
+~JUNIPERANDTHESTONELEECH/JUNIPERANDTHESTONELEECH.TP2~ #0 #0 // The Dreadful Tales: Juniper and the Stone Leech - companion and a quest mod for BG2EE ToB: v1.8.6
+~JUNIPERANDTHESTONELEECH/JUNIPERANDTHESTONELEECH.TP2~ #0 #1 // The Dreadful Tales: Juniper and the Stone Leech - Player-Initiated Dialogues for Juniper: v1.8.6
+~BLOODIEDSTINGSOFBAROVIA/BLOODIEDSTINGSOFBAROVIA.TP2~ #0 #0 // The Bloodied Stings of Barovia - a dark Ravenloft adventure for Baldur's Gate 2 EE: v2.6.2
+~SLANDOR/SLANDOR.TP2~ #1 #0 // The Minotaur and Lilacor: 2.1
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #1 // Creature & Area Improvements -> All Creature & Area Improvements: v3.5
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #4 // Miscellaneous Enhancements -> With Additional Random Encounters: v3.5
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #5 // Additional Shadow Thieves Content: v3.5
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #6 // Alternative Harper/Xzar Plot: v3.5
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #7 // Extended Reynald Sequence: v3.5
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #8 // Intrigue In The Copper Coronet: v3.5
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #9 // Rahul Kanakia's Potion Quest: v3.5
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #10 // Revised Hell Trials: v3.5
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #11 // Improved Oasis II -> IO2 Dialogue & Combat Enhancement: v3.5
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #13 // Saving Sanik In Brynnlaw: v3.5
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #14 // Burglary Of The Bookkeeper: v3.5
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #15 // New Fate For The Dryads' Acorns: v3.5
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #16 // The Tragedy Of Besamen: v3.5
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #17 // Further Slaver Involvement: v3.5
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #18 // Sending The Solamnic Knights Home: v3.5
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #19 // Nazariel The Lich: v3.5
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #20 // Reward Negotiation: v3.5
+~D0QUESTPACK/SETUP-D0QUESTPACK.TP2~ #0 #21 // Infernal Thievery: v3.5
