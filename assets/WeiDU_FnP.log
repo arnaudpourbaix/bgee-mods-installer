@@ -4,10 +4,10 @@
 ~DLCMERGER/DLCMERGER.TP2~ #0 #1 // Merge DLC into game -> Merge "Siege of Dragonspear" DLC: 1.7
 ~BGEECLASSICMOVIES/BGEECLASSICMOVIES.TP2~ #0 #0 // Restore BG1 movies to BG:EE -> Replace all movies: v2.3.1
 ~BGEECLASSICMOVIES/BGEECLASSICMOVIES.TP2~ #0 #3 // Restore BG1 Chapter and Dream Screens: v2.3.1
-~LEUI-BG1EE/LEUI-BG1EE.TP2~ #0 #0 // lefreut's Enhanced UI (BG1EE skin) - Core component: 4.9.1
-~LEUI-BG1EE/LEUI-BG1EE.TP2~ #0 #1 // lefreut's Enhanced UI (BG1EE skin) - BG2 vanilla bams for spells: 4.9.1
-~LEUI-BG1EE/LEUI-BG1EE.TP2~ #0 #2 // lefreut's Enhanced UI (BG1EE skin) - BG2 vanilla fonts for descriptions: 4.9.1
+infinity_ui or LeUI, or LeUI BG1 ?
 ~EEEX/EEEX.TP2~ #0 #0 // EEex: v0.10.2.1-alpha
+bubb_spell_menu_extended
+EEUITweaks ???
 ~BG1UB/SETUP-BG1UB.TP2~ #0 #0 // Ice Island Level Two Restoration: v16.4
 ~BG1UB/SETUP-BG1UB.TP2~ #0 #11 // Scar and the Sashenstar's Daughter: v16.4
 ~BG1UB/SETUP-BG1UB.TP2~ #0 #12 // Quoningar, the Cleric: v16.4
@@ -107,6 +107,7 @@
 ~AC_QUEST/AC_QUEST.TP2~ #1 #8 // A Home for the Gibberlings: 6.1
 ~AC_QUEST/AC_QUEST.TP2~ #1 #9 // Fangirls: 6.1
 ~AC_QUEST/AC_QUEST.TP2~ #1 #11 // The Serpents of Abbathor -> Tweaked version: quest can be finished in BG1.: 6.1
+ExtraExpandedEnhancedEncounters	? it doesn't seem that safe
 ~GORGON/SETUP-GORGON.TP2~ #0 #0 // Install The Gorgon's Eye: v4.8
 ~GORGON/SETUP-GORGON.TP2~ #0 #1 // NPC Character Portraits -> Give portraits to all characters added from this mod: v4.8
 ~BLACKHEARTS_BG1/SETUP-BLACKHEARTS_BG1.TP2~ #0 #0 // Install Black Hearts BG1 - The Hunter: v1.0
@@ -119,6 +120,7 @@
 ~REFLECTIONS/REFLECTIONS.TP2~ #0 #230 // Reflections of Destiny SoD: Nothing to Fear but Feyr Itself: 0.8.1
 ~SOTSC/SOTSC.TP2~ #0 #0 // Shades of the Sword Coast - Expansion Pack for BGEE: v8.9
 ~LORETAKERS/SETUP-LORETAKERS.TP2~ #0 #0 // Loretakers V 1.4: V 1.4
+GorionsDream	
 ~BG1NPC/BG1NPC.TP2~ #0 #0 // The BG1 NPC Project: Required Modifications: v32
 ~BG1NPC/BG1NPC.TP2~ #0 #10 // The BG1 NPC Project: Banters, Quests, and Interjections: v32
 ~BG1NPC/BG1NPC.TP2~ #0 #21 // The BG1 NPC Project: Ajantis Romance Core (teen content) -> Speed: 45 minutes real time minimum between LoveTalks: v32
@@ -146,8 +148,8 @@
 ~KALE/KALE.TP2~ #0 #1 // Give Kale the Warden Class? (Recommended) -> Warden(Fighter Kit): 1.69
 ~RECORDER/SETUP-RECORDER.TP2~ #0 #0 // Recorder NPC MoD: 1.51
 ~RECORDER/SETUP-RECORDER.TP2~ #0 #1 // Choose whether or not to have Recorder's custom soundtrack play during timed talks. -> Recorder's Music: 1.51
-~VIENXAY/VIENXAY.TP2~ #0 #0 // Vienxay NPC for BG1EE: 1.67
 ~KVEL_BG1/SETUP-KVEL_BG1.TP2~ #0 #0 // Kvel NPC for Baldur's Gate: Enhanced Edition
+~VIENXAY/VIENXAY.TP2~ #0 #0 // Vienxay NPC for BG1EE: 1.67
 ~AURA_BG1/SETUP-AURA_BG1.TP2~ #0 #0 // Aura NPC for Baldur's Gate: Enhanced Edition: 3.3
 ~AURA_BG1/SETUP-AURA_BG1.TP2~ #0 #1 // Choose a class for Aura: -> Artificer (Thief): 3.3
 ~AURA_BG1/SETUP-AURA_BG1.TP2~ #0 #5 // Choose a portrait for Aura: -> Default Portrait (The Artisan): 3.3
@@ -155,6 +157,8 @@
 ~DRAKE/SETUP-DRAKE.TP2~ #0 #0 // Drake NPC for Baldur's Gate: Enhanced Edition: 1.7
 ~DRAKE/SETUP-DRAKE.TP2~ #0 #1 // Choose a portrait for Drake: -> Default Portrait (The Artisan): 1.7
 ~DRAKE/SETUP-DRAKE.TP2~ #0 #5 // OPTIONAL: Original Soundset by BillyYank: 1.7
+willowisp
+acbre	
 ~SIRENE/SETUP-SIRENE.TP2~ #0 #0 // Sirene NPC for Baldur's Gate: Enhanced Edition
 ~SIRENE/SETUP-SIRENE.TP2~ #0 #1 // Choose an alternate portrait for Sirene? -> BG2 Default (Isandir)
 ~NEERABANTERS/NEERABANTERS.TP2~ #0 #10 // Neera Banters: Dialogue Banters and Interjections: v0.9.3
@@ -181,12 +185,12 @@
 ~C#BRAGE/C#BRAGE.TP2~ #0 #5 // Give Brage unique Two-Handed Sword +1: 9.1
 ~C#BRAGE/C#BRAGE.TP2~ #0 #10 // Brage's Redemption: Crossmod Content: 9.1
 ~ITEM_REV/ITEM_REV.TP2~ #0 #1030 // Store Revisions: v4beta10sd19
-~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #0 // Spell Revisions: v4.19
-~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #10 // Deva and Planetar Animations: v4.19
-~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #20 // Mirror Image Fix: v4.19
-~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #30 // Dispel Magic Fix: v4.19
-~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #55 // Spell Deflection blocks AoE spells: v4.19
-~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #60 // Update Spellbooks of Joinable NPCs: v4.19
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #0 // Spell Revisions: v4.20
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #10 // Deva and Planetar Animations: v4.20
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #20 // Mirror Image Fix: v4.20
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #30 // Dispel Magic Fix: v4.20
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #55 // Spell Deflection blocks AoE spells: v4.20
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #60 // Update Spellbooks of Joinable NPCs: v4.20
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #1500 // Include arcane spells from Icewind Dale: Enhanced Edition: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #1510 // Include divine spells from Icewind Dale: Enhanced Edition: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #1520 // Include bard songs from Icewind Dale: Enhanced Edition: 35.21
@@ -215,7 +219,6 @@
 ~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #4 // Bardic Wonders: Dancer Kit
 ~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #5 // Bardic Wonders: Darkbloom Bard Kit
 ~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #6 // Bardic Wonders: Storm Drummer Kit
-~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #7 // Bardic Wonders: Troubadour Kit
 ~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #8 // Bardic Wonders: Deathsinger Kit
 ~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #9 // Bardic Wonders: Strategist Kit
 ~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #10 // Bardic Wonders: Kapellmeister Kit
@@ -224,6 +227,7 @@
 ~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #13 // Bardic Wonders: Armored Casting for Bards
 ~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #16 // Bardic Wonders: Bard Song Overhead Visual Effect
 ~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #17 // Bardic Wonders: High Level Abilities
+garrick-tt	
 ~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #30 // Install Hexblade fighter kit: v9
 ~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #31 // Install Duelist fighter kit: v9
 ~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #32 // Install Fist of Order fighter kit: v9
@@ -342,6 +346,7 @@
 ~TNT/TNT.TP2~ #0 #71 // Save Melicamp: v8.35
 ~TNT/TNT.TP2~ #0 #72 // Less autosaves | POWER USER component, consult readme: v8.35
 ~TNT/TNT.TP2~ #0 #76 // Disable intro movies: v8.35
+jtweaks
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #3010 // Replace +1 arrows and other projectiles with nonmagical "fine" ones: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #3015 // Re-introduce potions of extra-healing: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #3017 // Make elemental arrows like BG2: 35.21
@@ -384,6 +389,8 @@
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #7230 // Tougher chapter-five end battle: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #7250 // Improved final battle: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #7900 // Improved minor encounters: 35.21
+ArtisansKitpack_npc or npckit	
+themed_tweaks
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #40 // Change Viconia's Skin Color to Dark Blue: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #60 // Weapon Animation Tweaks: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #110 // Icon Improvements: v16
@@ -438,10 +445,9 @@
 ~PLASMOBG1BG2/PLASMOBG1BG2.TP2~ #0 #1002 // Plasmocat's BG1 Imoen Portraits -> Plasmocat's BG1 NPC Choices: Imoen #1, BG2 (ruffles): v5
 ~PLASMOBG1BG2/PLASMOBG1BG2.TP2~ #0 #1005 // Plasmocat's BG1 Xzar Portraits -> Plasmocat's BG1 NPC Choices: Xzar #2, BG1 (green): v5
 ~PICKS_OF_THE_LITTER/PICKS_OF_THE_LITTER.TP2~ #0 #0 // Plasmocat's Picks of the Litter Portrait Pack: v4
-~PPE/SETUP-PPE.TP2~ #0 #0 // Portraits Portraits Everywhere (PPE) - core component: 1.02
-~PPE/SETUP-PPE.TP2~ #0 #100 // Category Portraits (Recommended) -> Sequenced: 1.02
-~PPE/SETUP-PPE.TP2~ #0 #10 // Isandir's CHARNAME Portraits: 1.02
-~PPE_RELOADED/PPE_RELOADED.TP2~ #0 #0 // Add missing Portraits to Mod Npcs: 1.0
+ArtisansKitpack_tweak	
+thepicturestandard	
+hps_portraits_project
 ~LIGHTINGPACK/LIGHTINGPACK.TP2~ #0 #2 // Shader script files for lighting control -> Moderately increased contrast, brightness and gamma (recommended): v3.2
 ~LIGHTINGPACK/LIGHTINGPACK.TP2~ #0 #102 // Modify Color Temperature -> Apply preset "Daylight (neutral)" (6,500 Kelvin): v3.2
 ~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #0 #0 // Install all Hidden Gameplay Options at once: 4.7
@@ -461,3 +467,9 @@
 ~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #240 // More Existence Sounds: v2.0.1
 ~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #250 // Tweak Existence Sound Delay: v2.0.1
 ~VVEBG/VVEBG.TP2~ #0 #0 // Add Character Sounds for BG: v1.0
+vveSOD	
+plasmobg1bg2
+
+// Dispatch them:
+A7#ImprovedArcher	
+wsr	
