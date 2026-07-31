@@ -11,7 +11,6 @@ ARESTORATIONP
 ~CTB/SETUP-CTB.TP2~ #0 #0 // Check The Bodies: 3.0
 ~CTB/SETUP-CTB.TP2~ #0 #3 // Other Improvements: 3.0
 AC_QUEST
-SkitiaNPCs
 Foundling	
 SkieCost	
 Aura_BG1_2_EET
@@ -262,7 +261,7 @@ wheels
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #9001 // Artisan's Kitpack: Warhorn Shaman Kit: 4.8
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #20000 // Artisan's Kitpack: Eldritch Knight (Fighter / Mage Kit): 4.8
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #20001 // Artisan's Kitpack: Arcane Trickster (Mage / Thief Kit): 4.8
-refinements	
+refinements	// not installed because artisan's kit already handle HLA
 ArtisansKitpack_npc
 themed_tweaks
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1160 // Multiple Strongholds [Sabre, Baldurdash, Weimer] -> No restrictions: v16
