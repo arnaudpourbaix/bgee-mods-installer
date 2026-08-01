@@ -454,3 +454,142 @@
 ~FAITHS_AND_POWERS/FAITHS_AND_POWERS.TP2~ #0 #92 // Multiclass Shamans: 0.91.4
 ~SUBTLED_SPELL_TWEAKS/SUBTLED_SPELL_TWEAKS.TP2~ #0 #10 // Rebalanced Spell Schools: 2.9.1
 ~SUBTLED_SPELL_TWEAKS/SUBTLED_SPELL_TWEAKS.TP2~ #0 #26 // Revised Arcane Opposition Schools -> PnP Opposition Schools: 2.9.1
+~TNT/TNT.TP2~ #0 #22 // No talking when hiding in shadows: v8.40
+~TNT/TNT.TP2~ #0 #27 // Throwing weapons damage type -> Both of the above options: v8.40
+~TNT/TNT.TP2~ #0 #30 // Effects of scrolls and potions do not stack with themselves: v8.40
+~TNT/TNT.TP2~ #0 #32 // Sensible wand of frost -> AoE: v8.40
+~TNT/TNT.TP2~ #0 #33 // Potion of Really Mirrored Eyes: v8.40
+~TNT/TNT.TP2~ #0 #46 // True True Sight: v8.40
+~TNT/TNT.TP2~ #0 #47 // Sensible Otiluke's Resilient Sphere: v8.40
+~TNT/TNT.TP2~ #0 #48 // Greater Command AoE: v8.40
+~TNT/TNT.TP2~ #0 #49 // Working Non-Detection: v8.40
+~TNT/TNT.TP2~ #0 #51 // Uncheese Project Image | POWER USER component, consult readme: v8.40
+~TNT/TNT.TP2~ #0 #52 // Uncheese Mislead: v8.40
+~TNT/TNT.TP2~ #0 #53 // Sensible Blade spins: v8.40
+~TNT/TNT.TP2~ #0 #54 // PnP Protection from Evil: v8.40
+~TNT/TNT.TP2~ #0 #55 // Non-hostile Grease: v8.40
+~TNT/TNT.TP2~ #0 #57 // Stores always buy goods at the same (low) price | POWER USER component, consult readme: v8.40
+~TNT/TNT.TP2~ #0 #61 // Cleanup stores: v8.40
+~TNT/TNT.TP2~ #0 #62 // Limited stock: v8.40
+~TNT/TNT.TP2~ #0 #64 // Fair fights | POWER USER component, consult readme -> Also remove undroppable items granting unfair advantages from all enemies: v8.40
+~TNT/TNT.TP2~ #0 #66 // Can't steal Carsomyr: v8.40
+~TNT/TNT.TP2~ #0 #67 // PnP-like True Grandmastery: v8.40
+~TNT/TNT.TP2~ #0 #68 // Sensible multiclass restrictions: v8.40
+~TNT/TNT.TP2~ #0 #70 // Improved strongholds: v8.40
+~TNT/TNT.TP2~ #0 #76 // Disable intro movies: v8.40
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #10 // Wilson's strength doesn't stack indefinitely: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #20 // Vernus can be raised: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #40 // Enchant Weapon works in contingencies: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #50 // Joinable NPCs don't have null kits: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #60 // NPCs don't go in inaccessible locations: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #70 // Close polymorph immunity loopholes: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #81 // Shapeshift corrections -> All transformations: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #90 // Wish Hardiness doesn't stack with itself: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #100 // Hold Person doesn't display multiple strings: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #120 // Dueling fireshields don't go infinite: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #140 // Inquisitor True Sight is consistent with other versions of the spell: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #150 // Temple cures work better: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #160 // Bala's Axe dispels reasonably well: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #170 // Celestials cast all of their spells at high levels: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #181 // Antimagic Ray and Spell Shield -> Antimagic rays ignore Spell Shield: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #200 // Elemental protection spells increment resistances: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #210 // Vorpal weapons don't chunk: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #220 // Resurrection can heal the living: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #240 // Undead Hunters are better at Turn Undead: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #260 // Green Slime poison can be cured: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #280 // Allies against Bodhi are better prepared for vampires: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #290 // Noober's Game: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #340 // Potion effects don't stack with themselves: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #350 // Bigger random spawns: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #360 // Nature's Beauty blindness can be cured: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #380 // Prevent characters from acting uncontrollably when under Project Image: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #390 // Some merchants ignore reputation: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #402 // Alternate targeting for Potions of Fire Breath -> Potions of Fire Breath use Breath Weapon targeting: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #440 // Random spawns scale with difficulty: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #463 // Variable drow MR (core component): 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #467 // Choose base drow MR (required) -> Medium (50): 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #473 // Choose MR progression rate (required) -> Fast (2 per level, up to level 20): 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #475 // Choose sunlight penalties (required) -> Dazzled (-2 to hit, -2 AC versus missiles): 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #520 // Warrior and rogue HLAs can't be removed by spell-breakers: 3.1
+~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #530 // Deactivate Spellhold picture monsters until their doors are opened: 3.1
+~BUTCHERY/BUTCHERY.TP2~ #0 #10 // DrAzTiK's revisited fight against Tazok and DigDag [install before Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #12 // Rebalancing Tazok and DigDag [install before Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #30 // Revisited fight against Wraith Sarevok in the Abyss [install before Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #40 // DrAzTiK's Creatures [install before Stratagems, some following components need it]: v5.0.0
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #3010 // Replace +1 arrows and other projectiles with nonmagical "fine" ones: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #3040 // Reduce the number of Arrows of Dispelling in stores -> Remove Arrows of Dispelling from stores: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #3505 // Wider selection of random scrolls: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #3541 // Reduce the power of Inquisitors' Dispel Magic -> Inquisitors dispel at their level (not twice their level): 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4051 // Decrease the rate at which reputation improves -> Reputation increases at about 1/2 the normal rate: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4115 // Thieves assign skill points in multiples of five: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4135 // Revised resting: resting in the wild uses up provisions: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4140 // Revised inn rooms: more expensive, more benefits: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4150 // Allow the Cowled Wizards to detect spellcasting in most indoor, above-ground areas in Athkatla: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4160 // Increase the price of a license to practise magic in Athkatla -> License costs 10,000 gp: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4170 // Increase the price asked by Gaelan Bayle -> Gaelan wants 40,000 gold pieces: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4190 // Make Watchers' Keep accessible between SoA and ToB (warning: this will make it inaccessible until the end of SoA): 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4210 // Randomize the maze in Watcher's Keep: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4215 // Remove unrealistically helpful items from certain areas: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4217 // Remove unrealistically convenient ammunition from the game -> Remove ammo up to the +2 level from random containers: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4230 // Delay the arrival of the "bonus merchants" in the Adventurers' Mart and the Copper Coronet: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #5000 // Ease-of-use party AI: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #5900 // Initialise AI components (required for all tactical and AI components): 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6000 // Smarter general AI: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6010 // Better calls for help: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6030 // Smarter Mages: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6040 // Smarter Priests: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6100 // Potions for NPCs: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6500 // Improved golems: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6510 // Improved fiends and celestials: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6520 // Smarter genies: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6540 // Smarter dragons: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6550 // Smarter beholders: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6560 // Smarter mind flayers: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6570 // Smarter githyanki: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6580 // Improved Vampires: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6590 // Smarter Throne of Bhaal final villain: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6800 // Smarter Illasera: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6810 // Smarter Gromnir: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6820 // Smarter Yaga-Shura: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6830 // Smarter Abazigal: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6840 // Ascension versions of Irenicus and Sendai use SCS abilities and AI: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #6850 // Ascension demons use SCS abilities and AI: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8000 // Make the starting dungeon slightly harder: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8010 // Improved Shade Lord: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8020 // Spellcasting Demiliches: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8040 // Tie difficulty of level-dependent monster groupings to the difficulty slider: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8050 // Improved Random Encounters: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8060 // Improved de'Arnise Keep ("Tactics Remix"): 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8070 // Improved Unseeing Eye: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8080 // Improved Bodhi: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8085 // Ascension version of Bodhi uses Improved-Bodhi abilities: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8090 // Party's items are taken from them in Spellhold: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8100 // Improved battle with Irenicus in Spellhold: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8110 // Improved Sahuagin: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8120 // Improved Beholder hive: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8130 // Rebalanced troll regeneration: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8140 // Improved Drow: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8150 // Improved Watcher's Keep: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8160 // Improved Fire Giant temple: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8170 // Improved Sendai's Enclave: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8180 // Improved Abazigal's Lair: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #8190 // Improved Minor Encounters: 35.21
+~BUTCHERY/BUTCHERY.TP2~ #0 #41 // Butchery in Irenicus Dungeon (Dwarves) [install after Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #43 // Butchery in the Forest of Tethyr (Animals and Druids) [install after Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #44 // Butchery in the planar sphere (Demonic creatures) [install after Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #45 // 3 butcheries in Spellhold (Golems, Vampires and Trolls) [install after Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #46 // Butchery outside de'Arnise Keep (Trolls) [install after Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #47 // Butchery in Windspear Hills (Orcs) [install after Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #48 // Butchery in Umar Hills (Wolves) [install after Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #49 // 2 butcheries in Trademeet and outside Watcher's Keep (Animals) [install) after Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #50 // 2 butcheries of Golems in Suldanessellar and Watcher's Keep (Machine of Lum the Mad floor) [install after Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #51 // Butchery of Yaga-Shura revisited [install after Ascension and Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #52 // Butchery in the Druid Grove area (Animals and Druids) [install after Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #53 // Butchery in the Beholder Hideout (Fanatics) [install after Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #54 // Butchery in Bodhi's Hideout (chapter 2, before Underdark) - Vampires [install after Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #55 // Butchery in Bodhi's Hideout (chapter 6, after Underdark) - Vampires [install after Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #56 // 2 butcheries of Sahuagins in Sahuagin City and Watcher's Keep (Githyanki Encampment) [install after Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #57 // 4 butcheries of spiders in Pai'Na's Hideout entrance, Temple City (Unseeing Eye Plot), Watcher's Keep first floor (Altar level) and in the area outside Sendai's Hideout [install after Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #58 // 6 butcheries of skeletons in the lower tombs of Athkatla, Shadow Temple Land, Spellhold, Watcher's Keep (Last Seals), and 2 in Nyalee's Hideout [install after Stratagems]: v5.0.0
+~BUTCHERY/BUTCHERY.TP2~ #0 #80 // More enemies scattered throughout the game [install after Stratagems]: v5.0.0
+// Recently Uninstalled: ~EXTRACT\EXTRACT.TP2~ #0 #1 // extract: 1.0
