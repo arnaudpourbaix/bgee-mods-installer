@@ -592,4 +592,109 @@
 ~BUTCHERY/BUTCHERY.TP2~ #0 #57 // 4 butcheries of spiders in Pai'Na's Hideout entrance, Temple City (Unseeing Eye Plot), Watcher's Keep first floor (Altar level) and in the area outside Sendai's Hideout [install after Stratagems]: v5.0.0
 ~BUTCHERY/BUTCHERY.TP2~ #0 #58 // 6 butcheries of skeletons in the lower tombs of Athkatla, Shadow Temple Land, Spellhold, Watcher's Keep (Last Seals), and 2 in Nyalee's Hideout [install after Stratagems]: v5.0.0
 ~BUTCHERY/BUTCHERY.TP2~ #0 #80 // More enemies scattered throughout the game [install after Stratagems]: v5.0.0
-// Recently Uninstalled: ~EXTRACT\EXTRACT.TP2~ #0 #1 // extract: 1.0
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #20 // Change Imoen's Avatar to Mage: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #40 // Change Viconia's Skin Color to Dark Blue: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #60 // Weapon Animation Tweaks: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #110 // Icon Improvements: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #130 // Force All Dialogue to Pause Game: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #140 // Fix Boo's Squeak: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #150 // Remove "+x" From Unique Item Names: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #171 // Unique Icons [Lava] -> Replace all icons: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2010 // Separate Resist Fire/Cold Icon into Separate Icons [Angel]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #220 // Enhanced Overlays for Colorblind Players [Fouinto]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #240 // Outline White Spell Icons for Accessibility -> Add Black Outline: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1010 // More Interjections: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1020 // Alter HP Triggers for NPC Wounded Dialogues: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1040 // Improved Athkatlan City Guard: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1101 // Do Not Reveal City Maps When Entering Area: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1140 // Gems and Potions Require Identification -> Gems and potions: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1180 // Female Edwina [Davide Carte, Wendy Yung, Weimer]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2020 // Two-Handed Bastard Swords: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2080 // Delay High Level Abilities: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2090 // Change Experience Point Cap -> Remove experience cap: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2150 // Wear Multiple Protection Items -> PnP restrictions: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2161 // Alter Weapon Proficiency System -> BG-style weapon proficiencies, with weapon styles [the bigg]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2170 // Cast Spells from Scrolls (and Other Items) at Character Level: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2192 // Limit Ability of Storekeepers to Identify Items -> Hybrid of both methods: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2240 // Un-Nerfed THAC0 Table: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2339 // Remove Summoning Cap for Regular Summons: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2340 // Remove Summoning Cap for Celestials [Ardanis/GeN1e]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2410 // Druids Use 3E Alignment Restrictions: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2510 // Level-Lock Spell Scrolls [Angel]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2530 // Lightning Bolts Don't Bounce [Angel]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2670 // Limit Resting Mechanic [Luke]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2680 // Make Infravision Useful [Luke]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2780 // P&P Free Action: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2999 // Max HP at Level One: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3000 // Higher HP on Level Up -> Maximum: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3060 // Remove "You Must Gather Your Party..." Sound [Weimer]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3070 // Change Effect of Reputation on Store Prices -> Low Reputation Store Discount [Sabre]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3125 // Neutral Characters Make Happy Comments at Mid-Range Reputation [Luiz]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3300 // Death Cam: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3310 // Start New Games with Party AI Turned Off: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3330 // Make Party Members Less Likely to Die Irreversibly: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3430 // More Stoneskin Feedback [Luke]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3450 // More Sensible Fireshield [Luke]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3460 // More Sensible Blade Barrier [Luke]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4010 // Improved Fate Spirit Summoning: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4050 // Change Jaheira to Neutral Good Alignment: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4100 // Change Korgan to Neutral Evil Alignment: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4200 // Make Rancor +1 a Bit More Reliable: v18
+~BGGO/BGGO.TP2~ #0 #0 // Baldurs Gate Graphical Overhaul Core: v3.6
+~VICONIAREVAMPED/SETUP-VICONIAREVAMPED.TP2~ #0 #56 // Portraits for Viconia -> Use restored Baldur's Gate 2 Demo portrait (BG2 style): v7.4.1
+~FAITHS_AND_POWERS/FAITHS_AND_POWERS.TP2~ #0 #95 // Multiclass Cleric kits (install AFTER all other kit mods!!): 0.91.4
+~FAITHS_AND_POWERS/FAITHS_AND_POWERS.TP2~ #0 #99 // Apply FnP Multiclass Kits to NPCs: 0.91.4
+~PICKS_OF_THE_LITTER/PICKS_OF_THE_LITTER.TP2~ #0 #0 // Plasmocat's Picks of the Litter Portrait Pack: v4
+~HQ_SOUNDCLIPS_BG2EE/HQ_SOUNDCLIPS_BG2EE.TP2~ #0 #0 // Install high quality soundclips for new BG2EE content: 1.3
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #1000 // Main -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #2000 // Followers -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #3000 // BG1NPC -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #4000 // Dark Horizons -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #5000 // Drizzt Saga -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #6000 // Dark Side of the Sword Coast -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #7000 // Eilistraee's Song -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #8000 // Innershade -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #9000 // I Shall Never Forget -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #10000 // Rogue Rebalancing -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #11000 // Sellswords -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #12000 // Tales Of The Deep Gardens -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #13000 // T'was A Slow Boat -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #14000 // Finch -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #15000 // Gavin -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #17000 // Isra: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #19000 // The White Queen -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #21000 // Tower of Deception: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #22000 // Siege of Dragonspear -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #23000 // Tortured Souls -> Vanilla: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #80000 // Standardized Edwin -> BG1 Edwin: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #81500 // Standardized Iomen -> Immersive Iomen Variant: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #82000 // Standardized Jaheira -> BG1 Jaheira: 0.71
+~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #83000 // Standardized Minsc -> BG1 Minsc: 0.71
+~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #0 // Add missing Portraits to Base Game Unique NPCs: 1.2
+~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #1 // Add missing Portraits to Minor and Common NPCs: 1.2
+~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #2 // Add missing Portraits to Monsters and other Special NPCs: 1.2
+~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #3 // Add new Portraits to Throne of Bhaal NPCs: 1.2
+~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #4 // De-clone area's common NPCs and add unique portraits to them: 1.2
+~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #5 // Add new portraits to original party NPCs: 1.2
+~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #51 // Add drow portraits to original party NPCs: 1.2
+~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #9 // Detect and add missing portraits to all mod's NPCs automatically (No => manual mod selection) -> Add missing portraits for all mods installed but do not replace original mods NPCs portraits or Party NPCs portraits: 1.2
+~LIGHTINGPACK/LIGHTINGPACK.TP2~ #0 #2 // Shader script files for lighting control -> Moderately increased contrast, brightness and gamma (recommended): v3.2
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #0 #0 // Install all Hidden Gameplay Options at once: 5.1
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #0 #200 // Improved Cheat Menu: 5.1
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #0 #103 // Update key bindings -> for priest and mage spells: 5.1
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #100 // Restore BG1 Spellcasting Voices: v2.2
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #110 // Restore BG1 Spellcasting Sounds: v2.2
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #120 // Restore BG1 Weapon Sounds: v2.2
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #130 // Restore BG1 Armor Sounds: v2.2
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #140 // Restore BG1 GUI Sounds: v2.2
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #170 // Restore Chunked Death Sound: v2.2
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #180 // Tweak Sound Channel Volume Levels: v2.2
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #189 // Enable Footsteps During Combat: v2.2
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #190 // Mute Reputation Change Sounds: v2.2
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #200 // Mute Tooltip Paper Sound: v2.2
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #221 // Enhance Positional Audio: v2.2
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #230 // Restore & Tweak Soundsets: v2.2
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #240 // More Existence Sounds: v2.2
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #250 // Tweak Existence Sound Delay: v2.2
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #265 // Restore NPC Voiceovers: v2.2
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #270 // Additional NPC Voiceovers (by Salk): v2.2
