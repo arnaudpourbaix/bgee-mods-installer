@@ -1,0 +1,11 @@
+{
+  "gameFolder": "<path to Baldur's Gate: Enhanced Edition folder>",
+  "modsFolders": [
+    "Z:/games/bg/mods/bg1",
+    "Z:/games/bg/mods/both"
+  ],
+  "language": "English",
+  "weiduLocation": "<path to weidu.exe for BG1EE>",
+  "mods": [],
+  "externalMods": []
+}
