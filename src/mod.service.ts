@@ -207,12 +207,12 @@ export class ModService {
         const config = this.getConfig();
         const installedGroups = this.parseWeiduLog(path.join(config.gameFolder, 'weiDU.log'));
         const groups = this.parseWeiduLog(file);
-        const alwaysAsk = await confirm({ message: 'Ask for each install ?' });
+        const alwaysAsk = await confirm({ message: 'Ask for each install ?', default: false });
         for (const [index, group] of groups.entries()) {
             const installedGroup = installedGroups[index];
             if (!installedGroup) {
                 let install = !alwaysAsk;
-                if (alwaysAsk) install = await confirm({ message: `Install ${this.getModFolder(group.tp2File)} ?` });
+                if (alwaysAsk) install = await confirm({ message: `Install ${this.getModFolder(group.tp2File)} ?`, default: false });
                 if (install) {
                     await this.execWeidu([
                         group.tp2File,
@@ -230,7 +230,7 @@ export class ModService {
         const config = this.getConfig();
         const groups = this.parseWeiduLog(path.join(config.gameFolder, 'weiDU.log'));
         for (const group of groups.reverse()) {
-            const uninstall = await confirm({ message: `Uninstall ${this.getModFolder(group.tp2File)} (${group.components.join(',')}) ?` });
+            const uninstall = await confirm({ message: `Uninstall ${this.getModFolder(group.tp2File)} (${group.components.join(',')}) ?`, default: false });
             if (uninstall) {
                 await this.execWeidu([
                     group.tp2File,

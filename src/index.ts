@@ -36,14 +36,19 @@ function isGame(value: unknown): value is Game {
 }
 
 async function pauseForConfirmation(): Promise<void> {
+  const stdin = process.stdin;
+  if (!stdin.isTTY) {
+    console.error(chalk.red('Cannot prompt for confirmation: not running in an interactive terminal.'));
+    process.exit(1);
+  }
   console.log(chalk.bold("Press any key to continue... (Ctrl+C to abort)"));
   return new Promise((resolve) => {
-    const stdin = process.stdin;
     stdin.setRawMode(true);
     stdin.resume();
     stdin.once('data', (data: Buffer) => {
       stdin.setRawMode(false);
       stdin.pause();
+      while (stdin.read() !== null) { /* drain any buffered input */ }
       if (data[0] === 0x03) process.exit(130);
       resolve();
     });
@@ -51,7 +56,6 @@ async function pauseForConfirmation(): Promise<void> {
 }
 
 async function main() {
-  console.log(options);
   const actionRequested = options.list || options.copy || options.work || options.install || options.uninstall || options.print || options.clear;
   if (!actionRequested) {
     program.outputHelp();
@@ -59,7 +63,11 @@ async function main() {
   }
 
   if (!isGame(options.game)) {
-    console.error(chalk.red(`Please specify which game to target with -g, --game <bg1|bg2>`));
+    if (options.game === undefined) {
+      console.error(chalk.red(`Please specify which game to target with -g, --game <bg1|bg2>`));
+    } else {
+      console.error(chalk.red(`Unknown game "${options.game}" — expected bg1 or bg2`));
+    }
     process.exit(1);
   }
 
@@ -67,12 +75,20 @@ async function main() {
   const configFile = Constants.getConfigFile(game);
   const destructive = options.copy || options.install || options.uninstall || options.clear;
 
+  const modService = new ModService(configFile);
+  const config = modService.getConfig();
+
+  if (config.gameFolder.startsWith('<')) {
+    console.error(chalk.red(`Please edit ${configFile} — gameFolder is still a placeholder value.`));
+    process.exit(1);
+  }
+
   console.log(chalk.bold.yellow(`Selected game: ${GAME_LABELS[game]}`));
   console.log(chalk.gray(`Config file: ${configFile}`));
+  console.log(chalk.gray(`Game folder: ${config.gameFolder}`));
 
   if (destructive) await pauseForConfirmation();
 
-  const modService = new ModService(configFile);
   if (options.list) modService.checkExternalMods();
   else if (options.copy) modService.copyMods();
   else if (options.work) modService.listNotInstalledMods();
@@ -82,4 +98,7 @@ async function main() {
   else if (options.clear) modService.deleteBackupFolders();
 }
 
-main();
+main().catch((error) => {
+  console.error(chalk.red(error instanceof Error ? error.message : String(error)));
+  process.exit(1);
+});
