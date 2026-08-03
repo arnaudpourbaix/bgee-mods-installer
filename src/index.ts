@@ -1,5 +1,6 @@
 import { program } from "commander";
 import { ModService } from "./mod.service";
+import { Constants } from "./models/constants";
 
 const clear = require("clear");
 const figlet = require("figlet");
@@ -25,7 +26,7 @@ const options = program.opts();
 
 async function main() {
   console.log(options);
-  const modService = new ModService();
+  const modService = new ModService(Constants.getConfigFile('bg2'));
   if (options.list) modService.checkExternalMods();
   else if (options.copy) modService.copyMods();
   else if (options.work) modService.listNotInstalledMods();

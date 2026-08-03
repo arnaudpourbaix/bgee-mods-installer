@@ -11,13 +11,15 @@ const exec = util.promisify(execCallback);
 
 export class ModService {
 
+    constructor(private readonly configFile: string) {}
+
     getConfig() {
         try {
-            const file = fs.readFileSync(Constants.configFile, { encoding: "utf8", flag: "r" });
+            const file = fs.readFileSync(this.configFile, { encoding: "utf8", flag: "r" });
             const config: Config = JSON.parse(file);
             return config;
         } catch (error: unknown) {
-            console.error(chalk.red(`${Constants.configFile} is not a valid json file!`));
+            console.error(chalk.red(`${this.configFile} is not a valid json file!`));
             throw error;
         }
     }
@@ -177,7 +179,7 @@ export class ModService {
     }
 
     updateConfig(config: Config) {
-        fs.writeFileSync(Constants.configFile, JSON.stringify(config, null, 2));
+        fs.writeFileSync(this.configFile, JSON.stringify(config, null, 2));
     }
 
     async copyMods(): Promise<any> {
