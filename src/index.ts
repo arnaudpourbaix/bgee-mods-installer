@@ -35,6 +35,21 @@ function isGame(value: unknown): value is Game {
   return value === 'bg1' || value === 'bg2';
 }
 
+async function pauseForConfirmation(): Promise<void> {
+  console.log(chalk.bold("Press any key to continue... (Ctrl+C to abort)"));
+  return new Promise((resolve) => {
+    const stdin = process.stdin;
+    stdin.setRawMode(true);
+    stdin.resume();
+    stdin.once('data', (data: Buffer) => {
+      stdin.setRawMode(false);
+      stdin.pause();
+      if (data[0] === 0x03) process.exit(130);
+      resolve();
+    });
+  });
+}
+
 async function main() {
   console.log(options);
   const actionRequested = options.list || options.copy || options.work || options.install || options.uninstall || options.print || options.clear;
@@ -50,8 +65,12 @@ async function main() {
 
   const game = options.game as Game;
   const configFile = Constants.getConfigFile(game);
+  const destructive = options.copy || options.install || options.uninstall || options.clear;
+
   console.log(chalk.bold.yellow(`Selected game: ${GAME_LABELS[game]}`));
   console.log(chalk.gray(`Config file: ${configFile}`));
+
+  if (destructive) await pauseForConfirmation();
 
   const modService = new ModService(configFile);
   if (options.list) modService.checkExternalMods();
