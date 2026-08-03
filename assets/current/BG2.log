@@ -233,6 +233,7 @@
 ~VALYGARFRIENDSHIP/VALYGARFRIENDSHIP.TP2~ #0 #0 // Valygar Corthala Friendship: v1.5
 ~VICONIA/VICONIA.TP2~ #0 #0 // Viconia Friendship: v4.5
 ~HIDDENADVENTURE/HIDDENADVENTURE.TP2~ #1 #0 // Lady Elgea's extended plot: Beta_9
+~HIDDENADVENTURE/HIDDENADVENTURE.TP2~ #1 #2 // Jerlia's Ore Shop: Beta_9
 ~HIDDENADVENTURE/HIDDENADVENTURE.TP2~ #1 #3 // Elven holy water in the Temple of Lathander: Beta_9
 ~HIDDENADVENTURE/HIDDENADVENTURE.TP2~ #1 #4 // Wave Blade in Treasury: Beta_9
 ~HIDDENADVENTURE/HIDDENADVENTURE.TP2~ #1 #6 // Bards can spend the night at their stronghold (Five Flagons): Beta_9
@@ -240,7 +241,6 @@
 ~HIDDENADVENTURE/HIDDENADVENTURE.TP2~ #1 #8 // Silver Sword: Beta_9
 ~HIDDENADVENTURE/HIDDENADVENTURE.TP2~ #1 #9 // A Tunnel for Saradush: Beta_9
 ~HIDDENADVENTURE/HIDDENADVENTURE.TP2~ #1 #10 // Temple of Mask in Docks District: Beta_9
-~HIDDENADVENTURE/HIDDENADVENTURE.TP2~ #1 #2 // Jerlia's Ore Shop: Beta_9
 ~HERTHIMONEY/HERTHIMONEY.TP2~ #1 #0 // Component 1. Interjections & Mini-quests (by Austin & Arcanecoast Team): 4.6.4
 ~HERTHIMONEY/HERTHIMONEY.TP2~ #1 #10 // Component 2. First Calimport Bank Pack (by Scheele & Austin & Arcanecoast Team): 4.6.4
 ~HERTHIMONEY/HERTHIMONEY.TP2~ #1 #20 // Component 3. Shadow-Covered Love & Death (by Alisia & Austin): 4.6.4
@@ -275,7 +275,6 @@
 ~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #60 // Update Spellbooks of Joinable NPCs: v4.20
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #1500 // Include arcane spells from Icewind Dale: Enhanced Edition: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #1510 // Include divine spells from Icewind Dale: Enhanced Edition: 35.21
-~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #1520 // Include bard songs from Icewind Dale: Enhanced Edition: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #2000 // Install all spell tweaks (if you don't select this, you will be given a chance to choose by category): 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #2500 // Add 9 new arcane spells: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #2510 // Add 6 new divine spells (some borrowed from Divine Remix): 35.21
@@ -352,6 +351,7 @@
 ~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #96 // Add the Ninja (thief kit): 5.8.9
 ~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #105 // Add the Spellfilcher (mage/thief kit): 5.8.9
 ~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #110 // Add the Loremaster (mage/thief kit): 5.8.9
+~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #120 // Add Regional Ranger kits: 5.8.9
 ~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #125 // Add the Mage Hunter (ranger kit): 5.8.9
 ~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #155 // Add the Elven Archer (ranger kit): 5.8.9
 ~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #160 // Add the Halfling Slinger (fighter/thief kit): 5.8.9
@@ -359,7 +359,6 @@
 ~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #460 // Add the Loremaster (bard kit): 5.8.9
 ~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #470 // Add the Gallant (bard kit): 5.8.9
 ~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #490 // Add the Loresinger (bard kit): 5.8.9
-~MIGHT_AND_GUILE/MIGHT_AND_GUILE.TP2~ #0 #120 // Add Regional Ranger kits: 5.8.9
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #20000 // Artisan's Kitpack: Eldritch Knight (Fighter / Mage Kit)
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #20001 // Artisan's Kitpack: Arcane Trickster (Mage / Thief Kit)
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #8001 // Artisan's Kitpack: Pale Master Sorcerer Kit
@@ -419,7 +418,6 @@
 ~ARTISANSKITPACK_NPC/ARTISANSKITPACK_NPC.TP2~ #0 #21001 // Artisan's Kitpack: Give Jan the Arcane Trickster Kit
 ~ARTISANSKITPACK_NPC/ARTISANSKITPACK_NPC.TP2~ #0 #10004 // Artisan's Kitpack: Make Rasaad a Sacred Fist
 ~ARTISANSKITPACK_NPC/ARTISANSKITPACK_NPC.TP2~ #0 #20002 // Artisan's Kitpack: Make Xan an Eldritch Knight
-~THEMED_TWEAKS/THEMED_TWEAKS.TP2~ #0 #150 // SoD/BG2EE - Remove cut scenes that the PC shouldn't be privy to: v0.5
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1160 // Multiple Strongholds [Sabre, Baldurdash, Weimer] -> No restrictions: v18
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2140 // Expanded Dual-Class Options: v18
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2250 // Un-Nerfed Sorcerer Spell Progression Table: v18
@@ -430,8 +428,6 @@
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2580 // Alter Wisdom-Based Divine Bonus Spell Table -> Use PnP/PsT Table: v18
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2391 // Alter Paladin Spell Progression Table -> BG2-Style Progression (Up To Level Six Spells) [TotoR]: v18
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2401 // Alter Ranger Spell Progression Table -> BG2-Style Progression (Up To Level Five Spells) [TotoR]: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2420 // Loosen Equipment Restrictions for Cleric Multi- and Dual-Classes: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2430 // Change Equipment Restrictions for Druid Multi- and Dual-Classes -> Loosen equipment restrictions: v18
 ~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #0 #0 // Golem Construction Ability for Spellcasters: 6.4
 ~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #0 #20 // Golems for enemy spellcasters: 6.4
 ~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #0 #25 // Greater variety of enemy golem types: 6.4
@@ -641,35 +637,18 @@
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4100 // Change Korgan to Neutral Evil Alignment: v18
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4200 // Make Rancor +1 a Bit More Reliable: v18
 ~BGGO/BGGO.TP2~ #0 #0 // Baldurs Gate Graphical Overhaul Core: v3.6
-~VICONIAREVAMPED/SETUP-VICONIAREVAMPED.TP2~ #0 #56 // Portraits for Viconia -> Use restored Baldur's Gate 2 Demo portrait (BG2 style): v7.4.1
 ~FAITHS_AND_POWERS/FAITHS_AND_POWERS.TP2~ #0 #95 // Multiclass Cleric kits (install AFTER all other kit mods!!): 0.91.4
 ~FAITHS_AND_POWERS/FAITHS_AND_POWERS.TP2~ #0 #99 // Apply FnP Multiclass Kits to NPCs: 0.91.4
-~PICKS_OF_THE_LITTER/PICKS_OF_THE_LITTER.TP2~ #0 #0 // Plasmocat's Picks of the Litter Portrait Pack: v4
 ~HQ_SOUNDCLIPS_BG2EE/HQ_SOUNDCLIPS_BG2EE.TP2~ #0 #0 // Install high quality soundclips for new BG2EE content: 1.3
-~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #1000 // Main -> Vanilla: 0.71
-~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #2000 // Followers -> Vanilla: 0.71
-~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #3000 // BG1NPC -> Vanilla: 0.71
-~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #4000 // Dark Horizons -> Vanilla: 0.71
-~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #5000 // Drizzt Saga -> Vanilla: 0.71
-~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #6000 // Dark Side of the Sword Coast -> Vanilla: 0.71
 ~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #7000 // Eilistraee's Song -> Vanilla: 0.71
 ~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #8000 // Innershade -> Vanilla: 0.71
 ~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #9000 // I Shall Never Forget -> Vanilla: 0.71
 ~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #10000 // Rogue Rebalancing -> Vanilla: 0.71
 ~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #11000 // Sellswords -> Vanilla: 0.71
 ~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #12000 // Tales Of The Deep Gardens -> Vanilla: 0.71
-~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #13000 // T'was A Slow Boat -> Vanilla: 0.71
-~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #14000 // Finch -> Vanilla: 0.71
-~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #15000 // Gavin -> Vanilla: 0.71
 ~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #17000 // Isra: 0.71
 ~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #19000 // The White Queen -> Vanilla: 0.71
 ~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #21000 // Tower of Deception: 0.71
-~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #22000 // Siege of Dragonspear -> Vanilla: 0.71
-~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #23000 // Tortured Souls -> Vanilla: 0.71
-~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #80000 // Standardized Edwin -> BG1 Edwin: 0.71
-~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #81500 // Standardized Iomen -> Immersive Iomen Variant: 0.71
-~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #82000 // Standardized Jaheira -> BG1 Jaheira: 0.71
-~THEPICTURESTANDARD/THEPICTURESTANDARD.TP2~ #0 #83000 // Standardized Minsc -> BG1 Minsc: 0.71
 ~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #0 // Add missing Portraits to Base Game Unique NPCs: 1.2
 ~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #1 // Add missing Portraits to Minor and Common NPCs: 1.2
 ~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #2 // Add missing Portraits to Monsters and other Special NPCs: 1.2
