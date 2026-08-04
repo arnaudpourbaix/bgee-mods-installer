@@ -324,6 +324,7 @@ export class ModService {
         ],
         config.gameFolder,
       );
+      this.verifyInstall(config, group);
     }
   }
 
@@ -482,6 +483,30 @@ export class ModService {
         reject(err);
       });
     });
+  }
+
+  verifyInstall(config: Config, group: WeiduLineGroup): void {
+    const installedGroups = this.parseWeiduLog(
+      path.join(config.gameFolder, "weiDU.log"),
+    );
+    const installedComponents = installedGroups
+      .filter(
+        (g) => g.tp2File === group.tp2File && g.language === group.language,
+      )
+      .flatMap((g) => g.components);
+    const missing = group.components.filter(
+      (c) => !installedComponents.includes(c),
+    );
+    if (missing.length) {
+      throw new Error(
+        `Installation of ${group.tp2File} did not complete: component(s) ${missing.join(", ")} not found in weiDU.log. Halting.`,
+      );
+    }
+    console.log(
+      chalk.green(
+        `${group.tp2File}: all ${group.components.length} component(s) confirmed installed`,
+      ),
+    );
   }
 
   async run(command: string, cwd: string) {
