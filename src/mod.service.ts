@@ -309,7 +309,9 @@ export class ModService {
         console.log(`Skipping ${group.tp2File}`);
         continue;
       }
-      console.log(`Installing ${group.components.join(", ")}`);
+      console.log(
+        `Installing ${group.tp2File} --language ${group.language} --no-exit-pause --noautoupdate --force-install-list ${group.components.join(" ")}`,
+      );
       await this.execWeidu(
         [
           group.tp2File,

@@ -2,13 +2,14 @@ import { program } from "commander";
 import chalk from "chalk";
 import { ModService } from "./mod.service";
 import { Constants, Game } from "./models/constants";
+import { confirm } from "@inquirer/prompts";
 
 const clear = require("clear");
 const figlet = require("figlet");
 
 clear();
 console.log(
-  figlet.textSync("BGEE Mods Installer", { horizontalLayout: "full" })
+  figlet.textSync("BGEE Mods Installer", { horizontalLayout: "full" }),
 );
 
 program
@@ -28,35 +29,30 @@ const options = program.opts();
 
 const GAME_LABELS: Record<Game, string> = {
   bg1: "Baldur's Gate: Enhanced Edition (BG1)",
-  bg2: "Baldur's Gate II: Enhanced Edition (BG2)"
+  bg2: "Baldur's Gate II: Enhanced Edition (BG2)",
 };
 
 function isGame(value: unknown): value is Game {
-  return value === 'bg1' || value === 'bg2';
+  return value === "bg1" || value === "bg2";
 }
 
 async function pauseForConfirmation(): Promise<void> {
-  const stdin = process.stdin;
-  if (!stdin.isTTY) {
-    console.error(chalk.red('Cannot prompt for confirmation: not running in an interactive terminal.'));
-    process.exit(1);
-  }
-  console.log(chalk.bold("Press any key to continue... (Ctrl+C to abort)"));
-  return new Promise((resolve) => {
-    stdin.setRawMode(true);
-    stdin.resume();
-    stdin.once('data', (data: Buffer) => {
-      stdin.setRawMode(false);
-      stdin.pause();
-      while (stdin.read() !== null) { /* drain any buffered input */ }
-      if (data[0] === 0x03) process.exit(130);
-      resolve();
-    });
+  const confirmation = await confirm({
+    message: "Press y to continue",
+    default: true,
   });
+  if (!confirmation) process.exit(1);
 }
 
 async function main() {
-  const actionRequested = options.list || options.copy || options.work || options.install || options.uninstall || options.print || options.clear;
+  const actionRequested =
+    options.list ||
+    options.copy ||
+    options.work ||
+    options.install ||
+    options.uninstall ||
+    options.print ||
+    options.clear;
   if (!actionRequested) {
     program.outputHelp();
     return;
@@ -64,22 +60,33 @@ async function main() {
 
   if (!isGame(options.game)) {
     if (options.game === undefined) {
-      console.error(chalk.red(`Please specify which game to target with -g, --game <bg1|bg2>`));
+      console.error(
+        chalk.red(
+          `Please specify which game to target with -g, --game <bg1|bg2>`,
+        ),
+      );
     } else {
-      console.error(chalk.red(`Unknown game "${options.game}" — expected bg1 or bg2`));
+      console.error(
+        chalk.red(`Unknown game "${options.game}" — expected bg1 or bg2`),
+      );
     }
     process.exit(1);
   }
 
   const game = options.game as Game;
   const configFile = Constants.getConfigFile(game);
-  const destructive = options.copy || options.install || options.uninstall || options.clear;
+  const destructive =
+    options.copy || options.install || options.uninstall || options.clear;
 
   const modService = new ModService(configFile);
   const config = modService.getConfig();
 
-  if (config.gameFolder.startsWith('<')) {
-    console.error(chalk.red(`Please edit ${configFile} — gameFolder is still a placeholder value.`));
+  if (config.gameFolder.startsWith("<")) {
+    console.error(
+      chalk.red(
+        `Please edit ${configFile} — gameFolder is still a placeholder value.`,
+      ),
+    );
     process.exit(1);
   }
 
@@ -99,6 +106,8 @@ async function main() {
 }
 
 main().catch((error) => {
-  console.error(chalk.red(error instanceof Error ? error.message : String(error)));
+  console.error(
+    chalk.red(error instanceof Error ? error.message : String(error)),
+  );
   process.exit(1);
 });
