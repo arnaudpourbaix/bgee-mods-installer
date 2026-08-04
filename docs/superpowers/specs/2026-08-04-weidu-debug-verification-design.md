@@ -1,4 +1,4 @@
-# WeiDU Debug Log Verification Design
+# WeiDU Install Verification Design
 
 ## Problem
 
@@ -6,68 +6,42 @@
 
 ## Goal
 
-After each mod install, verify — using WeiDU's own debug log — that every component requested for that mod was actually installed. If any requested component is missing, halt the entire install run immediately (no further mods are attempted).
+After each mod install, verify — using WeiDU's own `weiDU.log` (the game folder's persistent, incrementally-updated record of installed components) — that every component requested for that mod was actually installed. If any requested component is missing, halt the entire install run immediately (no further mods are attempted).
 
-## How WeiDU's debug file works (verified against real files)
+## How `weiDU.log` works (verified against a real game folder)
 
-- WeiDU writes a per-mod debug file named `SETUP-<TP2BASENAME>.DEBUG` (uppercase, tp2 extension stripped) into the current working directory, which for this tool is always `config.gameFolder`. Example: tp2 `BG1UB/BG1UB.TP2` → `SETUP-BG1UB.DEBUG`. Confirmed against actual files: `SETUP-BG1UB.DEBUG`, `SETUP-BGEECLASSICMOVIES.DEBUG`, `SETUP-DLCMERGER.DEBUG`.
-- The file is **appended to** across separate WeiDU invocations, not overwritten. A file from a prior session can already exist and contain unrelated history.
-- Near the end of each invocation's output, WeiDU writes a block (following a `Saving This Log:` marker) listing every currently-installed component for the game in the same syntax as `weidu.log`, but without tildes/`#` and with the literal word `Installed`:
+- `weiDU.log` lives at `<config.gameFolder>/weiDU.log`. It is WeiDU's canonical, always-current record of installed components, written incrementally as each component completes — this is the same file `ModService` already reads at the top of `install()` to skip already-installed groups, and already has a parser for: `parseWeiduLog()` (src/mod.service.ts:423-443).
+- Each line has the format `~TP2FILE~ #language #component // description`, e.g.:
   ```
-  BG1UB/BG1UB.TP2  0  0 Installed ~Ice Island Level Two Restoration~
-  BG1UB/BG1UB.TP2  0 11 Installed ~Scar and the Sashenstar's Daughter~
-  DLCMERGER/DLCMERGER.TP2  0  1 Installed
+  ~EEEX/EEEX.TP2~ #0 #6 // Enable time step module: Advance 1 game tick on keypress: v1.0.0
+  ~INFINITY_UI/INFINITY_UI.TP2~ #0 #0 // Install Infinity UI++ Core Component: v1.15
   ```
-  (Component name in `~tildes~` is present for named components, absent otherwise. Whitespace between fields is column-padded, i.e. variable — must match with `\s+`, not fixed spacing.)
-- This block includes *all* currently-installed components for the whole game (not just the mod being installed in this run), since WeiDU is dumping the equivalent of the full `weidu.log`. Confirming presence of the specific `tp2/language/component` lines requested in the current group is sufficient — extra unrelated lines in the block are irrelevant.
-- No explicit "not installed" / "failed" line format was found in sampled files (no failure examples were available to inspect). The verification approach therefore does not depend on recognizing a failure marker: **absence of an `Installed` line for a requested component is treated as failure.** This also removes any need to scan for `ERROR`/`WARNING` text.
+  Confirmed against a live `weiDU.log`.
+- `parseWeiduLog()` already turns this into `WeiduLineGroup[]` (`{ tp2File, language, components }`), uppercasing `tp2File`. Consecutive lines sharing the same `tp2File` are merged into one group's `components` array; non-consecutive lines for the same tp2 (e.g. if the same mod's components were installed across two separate, non-adjacent WeiDU runs) produce separate group entries in the array.
+- No debug-file naming, appending, or byte-offset scoping is needed at all: re-reading and re-parsing `weiDU.log` after an install always reflects exactly what is currently installed, and reuses code that already exists in this class.
 
 ## Design
 
-### 1. Debug file path resolution
+### Verification
 
 New helper on `ModService`:
 
 ```ts
-getDebugLogPath(config: Config, group: WeiduLineGroup): string {
-  const tp2Base = group.tp2File.split("/").pop()!.replace(/\.TP2$/i, "");
-  return path.join(config.gameFolder, `SETUP-${tp2Base}.DEBUG`);
-}
-```
-
-`group.tp2File` is already uppercase (see `parseWeiduLog`), matching the debug file's naming convention.
-
-### 2. Scoping the check to the current run
-
-Because the debug file accumulates history, the check must only look at content written by *this* invocation:
-
-- Before calling `execWeidu` for a group, record the debug file's current size in bytes (`0` if it doesn't exist yet).
-- After `execWeidu` resolves, read the file and take only the bytes past that recorded offset.
-
-### 3. Verification
-
-New helper on `ModService`:
-
-```ts
-verifyDebugLog(debugLogFile: string, startSize: number, group: WeiduLineGroup): void {
-  if (!fs.existsSync(debugLogFile)) {
-    throw new Error(
-      `Debug log ${debugLogFile} not found after installing ${group.tp2File}`,
-    );
-  }
-  const buffer = fs.readFileSync(debugLogFile);
-  const newContent = buffer.subarray(startSize).toString("utf8");
-  const escapedTp2 = group.tp2File.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const missing = group.components.filter((c) => {
-    const rx = new RegExp(
-      `^${escapedTp2}\\s+${group.language}\\s+${c}\\s+Installed\\b`,
-      "m",
-    );
-    return !rx.test(newContent);
-  });
+verifyInstall(config: Config, group: WeiduLineGroup): void {
+  const installedGroups = this.parseWeiduLog(
+    path.join(config.gameFolder, "weiDU.log"),
+  );
+  const installedComponents = installedGroups
+    .filter(
+      (g) => g.tp2File === group.tp2File && g.language === group.language,
+    )
+    .flatMap((g) => g.components);
+  const missing = group.components.filter(
+    (c) => !installedComponents.includes(c),
+  );
   if (missing.length) {
     throw new Error(
-      `Installation of ${group.tp2File} did not complete: component(s) ${missing.join(", ")} not confirmed as Installed in ${debugLogFile}. Halting.`,
+      `Installation of ${group.tp2File} did not complete: component(s) ${missing.join(", ")} not found in weiDU.log. Halting.`,
     );
   }
   console.log(
@@ -78,18 +52,23 @@ verifyDebugLog(debugLogFile: string, startSize: number, group: WeiduLineGroup): 
 }
 ```
 
-### 4. Wiring into `install()`
+`group.tp2File` and `group.language` are already uppercase/string-formatted identically to what `parseWeiduLog()` produces (both come from the same regex-based parsing), so the equality comparison is exact-match, no normalization needed.
 
-In the loop body, immediately around the existing `execWeidu` call:
+The `.filter().flatMap()` (rather than `.find()`) guards against the edge case where the same tp2/language's components were installed across two non-adjacent WeiDU runs, which `parseWeiduLog()` would represent as two separate group entries in the array.
+
+### Wiring into `install()`
+
+Immediately after the existing `execWeidu` call in the loop body:
 
 ```ts
-const debugLogFile = this.getDebugLogPath(config, group);
-const startSize = fs.existsSync(debugLogFile) ? fs.statSync(debugLogFile).size : 0;
-await this.execWeidu([...existing args...], config.gameFolder);
-this.verifyDebugLog(debugLogFile, startSize, group);
+await this.execWeidu(
+  [...existing args...],
+  config.gameFolder,
+);
+this.verifyInstall(config, group);
 ```
 
-No `try/catch` is added around this — the thrown `Error` propagates out of `install()`'s `for` loop (stopping any remaining mods in the batch) and up to the existing top-level handler in `src/index.ts`:
+No `try/catch` is added — the thrown `Error` propagates out of `install()`'s `for` loop (stopping any remaining mods in the batch) and up to the existing top-level handler in `src/index.ts`:
 
 ```ts
 main().catch((error) => {
@@ -103,8 +82,9 @@ This matches the existing halting pattern already used in `ModService.run()` for
 ### Scope
 
 - Applies only to `install()`. `uninstall()` is out of scope (not requested).
-- Already-installed groups (skipped via the `installedGroup` check) are not checked — they don't invoke `execWeidu` in this run.
+- Already-installed groups (skipped via the existing `installedGroup` check) are not checked — they don't invoke `execWeidu` in this run.
 - No new config options; behavior is unconditional once installed.
+- No new file-naming/discovery logic and no new regex parsing — this design deliberately reuses `parseWeiduLog()` as-is rather than introducing a second, debug-file-specific format to maintain.
 
 ## Testing
 
@@ -112,4 +92,4 @@ This project has no test framework configured (no test runner in `package.json`,
 
 - Build (`npm run build`) and confirm no TypeScript errors.
 - Exercise the pass path against a real game folder: run an install for a mod, confirm the green confirmation line appears and the loop continues.
-- Exercise the halt path by hand-editing a copy of a real `SETUP-<MOD>.DEBUG` fixture (or temporarily requesting a component number that won't be present) to simulate a missing `Installed` line, confirming the process halts with the expected red error message and stops before installing any subsequent mod in the batch.
+- Exercise the halt path by temporarily requesting a component number that WeiDU won't actually install (e.g. append a bogus component number to a group's `components` before running), confirming the process halts with the expected red error message and stops before installing any subsequent mod in the batch.
