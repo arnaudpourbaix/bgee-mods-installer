@@ -165,7 +165,7 @@ Expected, for each mod actually installed:
 - The existing green `<TP2FILE>: all N component(s) confirmed installed` line still appears (unchanged).
 - Immediately after it, a new cyan line appears: `<mod folder> installed in <N>s (cumulative: <M>s)`.
 - The per-mod `<N>s` is roughly the wall-clock time that mod took.
-- The cumulative `<M>s` strictly increases from one installed mod to the next, and is roughly the sum of all prior per-mod times in this run.
+- The cumulative `<M>s` strictly increases from one installed mod to the next, and is *at least* the sum of all prior per-mod times in this run — it will legitimately run higher if time was spent at "Install X ?" prompts or on skip-scanning, since cumulative is wall-clock time since the batch started, not a sum of per-mod durations. A gap here is expected, not a bug, if you paused at a prompt.
 - For any mod that is skipped (already installed) or declined (answered "no" at the "Install X ?" prompt), no cyan timing line appears — output is unchanged from before this plan.
 
 - [ ] **Step 5: Commit**
