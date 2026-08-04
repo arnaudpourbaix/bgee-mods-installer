@@ -6,7 +6,7 @@
 
 **Architecture:** `ModService.install()` (src/mod.service.ts) already loops over `WeiduLineGroup`s and calls `execWeidu()` per mod, followed by `verifyInstall()`. Add a `batchStart` timestamp before the loop and a per-mod `start` timestamp before each `execWeidu()` call; after `execWeidu()` resolves, compute elapsed and cumulative seconds and print them.
 
-**Tech Stack:** TypeScript, compiled via `tsc` (`npm run build`) to `lib/`. No test framework is configured in this project (see `package.json` — no `test` script, no `*.test.ts` files anywhere); verification for this plan is build-clean + manual run, matching how the existing `verifyInstall()` feature (src/mod.service.ts:488-510) was verified.
+**Tech Stack:** TypeScript, compiled via `tsc` (`npm run build`) to `lib/` (git-ignored, not committed). No test framework is configured in this project (see `package.json` — no `test` script, no `*.test.ts` files anywhere); automated verification for this plan is build-clean only. Runtime verification requires a real interactive TTY (the CLI's `install()` uses `@inquirer/prompts` `confirm()`) and touches the maintainer's real game folder, so it is a manual, human-only step — never run `node lib/index.js --install ...` from an automated agent context.
 
 ## Global Constraints
 
@@ -14,6 +14,7 @@
 - Only `install()` is touched. `uninstall()`, `printInstallCommands()`, and other commands are out of scope. (Spec: "`uninstall()` and other commands are out of scope; only `install()` is touched.")
 - Durations are whole seconds via `Math.round()`, not any other unit or precision. (Spec: "Both durations are whole seconds (`Math.round`)".)
 - Skipped groups (already installed) and declined groups (user said no at the "Install X ?" prompt) must print nothing and must not advance either clock. (Spec: "don't reset either clock".)
+- Never run `node lib/index.js --install ...` (or `--uninstall`, `--copy`) from an automated/non-interactive context — it requires a real TTY and mutates the real game folder.
 
 ---
 
@@ -150,11 +151,11 @@ Note `batchStart` is declared once, after the `alwaysAsk` prompt and before the 
 Run: `npm run build`
 Expected: exits 0, no errors printed. This regenerates `lib/mod.service.js` from `src/mod.service.ts`.
 
-- [ ] **Step 4: Manually verify against a real game folder**
+- [ ] **Step 4: Flag for human verification (do not run this yourself)**
 
-This step requires a real WeiDU game folder and at least one mod available to install (or re-install after removing its `weiDU.log` entry) — use whatever the maintainer normally uses for testing this tool (e.g. one of the configs in `assets/config_bg1.json` / `assets/config_bg2.json`).
+`install()` uses `@inquirer/prompts`' `confirm()`, which requires a real interactive TTY — it will hang or error under any non-interactive tool call (an agent's Bash/shell tool included). Running it would also execute real WeiDU installs against the maintainer's actual game folder. **Do not attempt to run `node lib/index.js --install ...` yourself, whether you are an automated implementer or a reviewer.** Build-clean (Step 3) is the only automated verification for this task.
 
-Run the CLI's install command for a batch containing at least two mods that will actually install (not already present in `weiDU.log`), e.g.:
+Instead, note in your report that the following manual check is still owed, for the human maintainer to run in their own interactive terminal after this change is merged:
 
 ```
 node lib/index.js -g bg1 --install <path-to-a-weidu-log-with-2+-new-mods>
