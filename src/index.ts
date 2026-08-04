@@ -96,13 +96,13 @@ async function main() {
 
   if (destructive) await pauseForConfirmation();
 
-  if (options.list) modService.checkExternalMods();
-  else if (options.copy) modService.copyMods();
-  else if (options.work) modService.listNotInstalledMods();
-  else if (options.install) modService.install(options.install);
-  else if (options.print) modService.printInstallCommands(options.print);
-  else if (options.uninstall) modService.uninstall();
-  else if (options.clear) modService.deleteBackupFolders();
+  if (options.list) await modService.checkExternalMods();
+  else if (options.copy) await modService.copyMods();
+  else if (options.work) await modService.listNotInstalledMods();
+  else if (options.install) await modService.install(options.install);
+  else if (options.print) await modService.printInstallCommands(options.print);
+  else if (options.uninstall) await modService.uninstall();
+  else if (options.clear) await modService.deleteBackupFolders();
 }
 
 main().catch((error) => {

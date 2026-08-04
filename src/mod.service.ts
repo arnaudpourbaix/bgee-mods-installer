@@ -476,7 +476,7 @@ export class ModService {
       p.stdout.on("data", function (data) {
         console.log(data.toString());
       });
-      p.stdout.on("end", function () {
+      p.on("close", function () {
         resolve(void 0);
       });
       p.on("error", (err) => {
