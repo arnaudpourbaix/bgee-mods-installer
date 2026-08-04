@@ -291,7 +291,7 @@ export class ModService {
     const groups = this.parseWeiduLog(file);
     const alwaysAsk = await confirm({
       message: "Ask for each install ?",
-      default: false,
+      default: true,
     });
     for (const [index, group] of groups.entries()) {
       const installedGroup = installedGroups[index];
