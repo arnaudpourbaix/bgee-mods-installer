@@ -293,6 +293,7 @@ export class ModService {
       message: "Ask for each install ?",
       default: true,
     });
+    const batchStart = Date.now();
     for (const [index, group] of groups.entries()) {
       const installedGroup = installedGroups[index];
       if (installedGroup) {
@@ -312,6 +313,7 @@ export class ModService {
       console.log(
         `Installing ${group.tp2File} --language ${group.language} --no-exit-pause --noautoupdate --force-install-list ${group.components.join(" ")}`,
       );
+      const start = Date.now();
       await this.execWeidu(
         [
           group.tp2File,
@@ -324,7 +326,14 @@ export class ModService {
         ],
         config.gameFolder,
       );
+      const elapsedSeconds = Math.round((Date.now() - start) / 1000);
+      const cumulativeSeconds = Math.round((Date.now() - batchStart) / 1000);
       this.verifyInstall(config, group);
+      console.log(
+        chalk.cyan(
+          `${this.getModFolder(group.tp2File)} installed in ${elapsedSeconds}s (cumulative: ${cumulativeSeconds}s)`,
+        ),
+      );
     }
   }
 
