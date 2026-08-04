@@ -295,28 +295,33 @@ export class ModService {
     });
     for (const [index, group] of groups.entries()) {
       const installedGroup = installedGroups[index];
-      if (!installedGroup) {
-        let install = !alwaysAsk;
-        if (alwaysAsk)
-          install = await confirm({
-            message: `Install ${this.getModFolder(group.tp2File)} ?`,
-            default: false,
-          });
-        if (install) {
-          await this.execWeidu(
-            [
-              group.tp2File,
-              "--language",
-              group.language,
-              "--no-exit-pause",
-              "--noautoupdate",
-              "--force-install-list",
-              ...group.components,
-            ],
-            config.gameFolder,
-          );
-        } else console.log(`Skipping ${group.tp2File}`);
-      } else console.log(chalk.grey(`${group.tp2File} already installed`));
+      if (installedGroup) {
+        console.log(chalk.grey(`${group.tp2File} already installed`));
+        continue;
+      }
+      let install = !alwaysAsk;
+      if (alwaysAsk)
+        install = await confirm({
+          message: `Install ${this.getModFolder(group.tp2File)} ?`,
+          default: true,
+        });
+      if (!install) {
+        console.log(`Skipping ${group.tp2File}`);
+        continue;
+      }
+      console.log(`Installing ${group.components.join(", ")}`);
+      await this.execWeidu(
+        [
+          group.tp2File,
+          "--language",
+          group.language,
+          "--no-exit-pause",
+          "--noautoupdate",
+          "--force-install-list",
+          ...group.components,
+        ],
+        config.gameFolder,
+      );
     }
   }
 
@@ -325,25 +330,33 @@ export class ModService {
     const groups = this.parseWeiduLog(
       path.join(config.gameFolder, "weiDU.log"),
     );
+    const alwaysAsk = await confirm({
+      message: "Ask for each uninstall ?",
+      default: true,
+    });
     for (const group of groups.reverse()) {
-      const uninstall = await confirm({
-        message: `Uninstall ${this.getModFolder(group.tp2File)} (${group.components.join(",")}) ?`,
-        default: true,
-      });
-      if (uninstall) {
-        await this.execWeidu(
-          [
-            group.tp2File,
-            "--language",
-            group.language,
-            "--no-exit-pause",
-            "--noautoupdate",
-            "--force-uninstall-list",
-            ...group.components,
-          ],
-          config.gameFolder,
-        );
+      let uninstall = !alwaysAsk;
+      if (alwaysAsk)
+        uninstall = await confirm({
+          message: `Uninstall ${this.getModFolder(group.tp2File)} (${group.components.join(",")}) ?`,
+          default: true,
+        });
+      if (!uninstall) {
+        console.log(`Skipping ${group.tp2File}`);
+        continue;
       }
+      await this.execWeidu(
+        [
+          group.tp2File,
+          "--language",
+          group.language,
+          "--no-exit-pause",
+          "--noautoupdate",
+          "--force-uninstall-list",
+          ...group.components,
+        ],
+        config.gameFolder,
+      );
     }
   }
 
