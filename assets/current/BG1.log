@@ -221,7 +221,6 @@
 ~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1005 // Bardic Wonders: Dancer Kit
 ~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1006 // Bardic Wonders: Darkbloom Bard Kit
 ~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1007 // Bardic Wonders: Storm Drummer Kit
-~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1008 // Bardic Wonders: Troubadour Kit
 ~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1009 // Bardic Wonders: Deathsinger Kit
 ~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1010 // Bardic Wonders: Strategist Kit
 ~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1011 // Bardic Wonders: Kapellmeister Kit
@@ -232,6 +231,7 @@
 ~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #2008 // Bardic Wonders: New Bard Spells
 ~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #2003 // Bardic Wonders: Armored Casting for Bards
 ~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #2006 // Bardic Wonders: Bard Song Overhead Visual Effect
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1008 // Bardic Wonders: Troubadour Kit
 ~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #30 // Install Hexblade fighter kit: v12
 ~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #31 // Install Duelist fighter kit: v12
 ~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #32 // Install Fist of Order fighter kit: v12
@@ -495,18 +495,16 @@
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4110 // Give Kagain a Legal Constitution Score of 19: v18
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4120 // Give Coran a Legal Dexterity Score of 19: v18
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4170 // Ensure Shar-Teel Doesn't Die in the Original Challenge: v18
-~BGGO/BGGO.TP2~ #0 #0 // BGGO for EET, BGT, BGEE, BG2EE, ToB and Tutu: v3.3
+~BGGO/BGGO.TP2~ #0 #0 // Baldurs Gate Graphical Overhaul Core: v3.6
 ~JAHEIRARECAST/JAHEIRARECAST.TP2~ #0 #1 // Jaheira Recast: Character Sounds -> Use BG1+BG2 Character Sounds: v3.2
 ~JAHEIRARECAST/JAHEIRARECAST.TP2~ #0 #2 // Jaheira Recast: Dialog Voiceover: v3.2
 ~JAHEIRARECAST/JAHEIRARECAST.TP2~ #0 #3 // Jaheira Recast: Give Jaheira her BG2 Portrait: v3.2
-~HQ_SOUNDCLIPS_BG2EE/HQ_SOUNDCLIPS_BG2EE.TP2~ #0 #0 // Install high quality soundclips for new BG2EE content: 1.3
 ~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #0 // Add missing Portraits to Base Game Unique NPCs: 1.2
 ~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #1 // Add missing Portraits to Minor and Common NPCs: 1.2
 ~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #2 // Add missing Portraits to Monsters and other Special NPCs: 1.2
 ~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #3 // Add new Portraits to Throne of Bhaal NPCs: 1.2
 ~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #4 // De-clone area's common NPCs and add unique portraits to them: 1.2
 ~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #5 // Add new portraits to original party NPCs: 1.2
-~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #51 // Add drow portraits to original party NPCs: 1.2
 ~HPS_PORTRAITS_PROJECT/HPS_PORTRAITS_PROJECT.TP2~ #0 #9 // Detect and add missing portraits to all mod's NPCs automatically (No => manual mod selection) -> Add missing portraits for all mods installed but do not replace original mods NPCs portraits or Party NPCs portraits: 1.2
 ~LIGHTINGPACK/LIGHTINGPACK.TP2~ #0 #2 // Shader script files for lighting control -> Moderately increased contrast, brightness and gamma (recommended): v3.2
 ~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #0 #0 // Install all Hidden Gameplay Options at once: 5.1
@@ -517,15 +515,15 @@
 ~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #120 // Restore BG1 Weapon Sounds: v2.2
 ~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #130 // Restore BG1 Armor Sounds: v2.2
 ~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #140 // Restore BG1 GUI Sounds: v2.2
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #160 // Restore Gulp Sound: v2.2
 ~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #170 // Restore Chunked Death Sound: v2.2
 ~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #180 // Tweak Sound Channel Volume Levels: v2.2
 ~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #189 // Enable Footsteps During Combat: v2.2
 ~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #190 // Mute Reputation Change Sounds: v2.2
 ~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #200 // Mute Tooltip Paper Sound: v2.2
+~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #210 // Restore BG1 Ambient Sounds: v2.2
 ~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #221 // Enhance Positional Audio: v2.2
 ~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #230 // Restore & Tweak Soundsets: v2.2
 ~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #240 // More Existence Sounds: v2.2
 ~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #250 // Tweak Existence Sound Delay: v2.2
-~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #265 // Restore NPC Voiceovers: v2.2
-~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #270 // Additional NPC Voiceovers (by Salk): v2.2
 ~VVEBG/VVEBG.TP2~ #0 #0 // Add Character Sounds for BG: v1.0
