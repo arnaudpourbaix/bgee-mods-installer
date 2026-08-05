@@ -310,6 +310,10 @@ export class ModService {
         console.log(`Skipping ${group.tp2File}`);
         continue;
       }
+      if (!fs.existsSync(path.join(config.gameFolder, group.tp2File))) {
+        console.log(`${group.tp2File} doesn't exist !`);
+        process.exit(1);
+      }
       console.log(
         `Installing ${group.tp2File} --language ${group.language} --no-exit-pause --noautoupdate --force-install-list ${group.components.join(" ")}`,
       );
@@ -326,12 +330,12 @@ export class ModService {
         ],
         config.gameFolder,
       );
-      const elapsedSeconds = Math.round((Date.now() - start) / 1000);
-      const cumulativeSeconds = Math.round((Date.now() - batchStart) / 1000);
+      const elapsedMinutes = Math.round((Date.now() - start) / 60000);
+      const cumulativeMinutes = Math.round((Date.now() - batchStart) / 60000);
       this.verifyInstall(config, group);
       console.log(
         chalk.cyan(
-          `${this.getModFolder(group.tp2File)} installed in ${elapsedSeconds}s (cumulative: ${cumulativeSeconds}s)`,
+          `${this.getModFolder(group.tp2File)} installed in ${elapsedMinutes}m (cumulative: ${cumulativeMinutes}m)`,
         ),
       );
     }
@@ -373,20 +377,13 @@ export class ModService {
   }
 
   printInstallCommands(file: string) {
-    const config = this.getConfig();
-    const installedGroups = this.parseWeiduLog(
-      path.join(config.gameFolder, "weiDU.log"),
-    );
     const groups = this.parseWeiduLog(file);
     const results: string[] = [];
     for (const [index, group] of groups.entries()) {
-      const installedGroup = installedGroups[index];
-      // if (!installedGroup) {
       results.push(
         `weidu ${group.tp2File} --language ${group.language} --no-exit-pause --noautoupdate --force-install-list ${group.components.join(" ")}`,
       );
       results.push("pause");
-      // }
     }
     const outputFile = "install.log";
     fs.writeFileSync(outputFile, results.join(CR));

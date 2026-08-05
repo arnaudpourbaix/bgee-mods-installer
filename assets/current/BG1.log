@@ -2,8 +2,10 @@
 // The top of the file is the 'oldest' mod
 // ~TP2_File~ #language_number #component_number // [Subcomponent Name -> ] Component Name [ : Version]
 ~DLCMERGER/DLCMERGER.TP2~ #0 #1 // Merge DLC into game -> Merge "Siege of Dragonspear" DLC: 1.7
-~BGEECLASSICMOVIES/BGEECLASSICMOVIES.TP2~ #0 #0 // Restore BG1 movies to BG:EE -> Replace all movies: v2.3.1
-~BGEECLASSICMOVIES/BGEECLASSICMOVIES.TP2~ #0 #3 // Restore BG1 Chapter and Dream Screens: v2.3.1
+~BGEECLASSICMOVIES/BGEECLASSICMOVIES.TP2~ #0 #0 // Restore BG1 movies to BG:EE -> Replace all movies: v2.4.0
+~BGEECLASSICMOVIES/BGEECLASSICMOVIES.TP2~ #0 #2 // Show all movies in options without need to unlock them in game: v2.4.0
+~BGEECLASSICMOVIES/BGEECLASSICMOVIES.TP2~ #0 #3 // Restore BG1 Chapter and Dream Screens: v2.4.0
+~BGEECLASSICMOVIES/BGEECLASSICMOVIES.TP2~ #0 #4 // Modify startup movies -> Disable startup logo and intro movies: v2.4.0
 ~EEEX/EEEX.TP2~ #0 #0 // Quick Menu Core: v1.0.0
 ~EEEX/EEEX.TP2~ #0 #1 // EEex: v1.0.0
 ~EEEX/EEEX.TP2~ #0 #2 // Enable effect menu module: LShift-on-hover to view spells affecting creature: v1.0.0
@@ -15,39 +17,37 @@
 ~INFINITY_UI/INFINITY_UI.TP2~ #0 #0 // Install Infinity UI++ Core Component: v1.15
 ~INFINITY_UI/INFINITY_UI.TP2~ #0 #2 // Update several strings in Dialog.tlk: v1.15
 ~BUBB_SPELL_MENU_EXTENDED/BUBB_SPELL_MENU_EXTENDED.TP2~ #0 #0 // Bubb's Spell Menu Extended: v5.2
-~BG1UB/SETUP-BG1UB.TP2~ #0 #0 // Ice Island Level Two Restoration: v16.4
-~BG1UB/SETUP-BG1UB.TP2~ #0 #11 // Scar and the Sashenstar's Daughter: v16.4
-~BG1UB/SETUP-BG1UB.TP2~ #0 #12 // Quoningar, the Cleric: v16.4
-~BG1UB/SETUP-BG1UB.TP2~ #0 #13 // Shilo Chen and the Ogre-Magi: v16.4
-~BG1UB/SETUP-BG1UB.TP2~ #0 #14 // Edie, the Merchant League Applicant: v16.4
-~BG1UB/SETUP-BG1UB.TP2~ #0 #16 // Creature Corrections: v16.4
-~BG1UB/SETUP-BG1UB.TP2~ #0 #17 // Creature Restorations: v16.4
-~BG1UB/SETUP-BG1UB.TP2~ #0 #18 // Creature Name Restorations: v16.4
-~BG1UB/SETUP-BG1UB.TP2~ #0 #19 // Minor Dialogue Restorations: v16.4
-~BG1UB/SETUP-BG1UB.TP2~ #0 #21 // Store, Tavern and Inn Fixes and Restorations: v16.4
-~BG1UB/SETUP-BG1UB.TP2~ #0 #22 // Item Corrections and Restorations: v16.4
-~BG1UB/SETUP-BG1UB.TP2~ #0 #29 // Duke Eltan in the Harbor Master's Building: v16.4
-~BG1UB/SETUP-BG1UB.TP2~ #0 #30 // Nim Furlwing Encounter: v16.4
-~BG1UB/SETUP-BG1UB.TP2~ #0 #32 // Svlast, the Fallen Paladin Encounter: v16.4
-~BG1UB/SETUP-BG1UB.TP2~ #0 #33 // Mal-Kalen, the Ulcaster Ghost: v16.4
-~BG1UB/SETUP-BG1UB.TP2~ #0 #34 // Chapter 6 Dialogue Restorations: v16.4
-~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #0 #0 // Endless BG1: Main Component (Required): 20
-~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #0 #1 // More Flavor to Hero of Baldur's Gate (Includes PC's Residence Inside Palace): 20
-~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #0 #3 // Sarevok's Unique Items: 20
-~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #0 #4 // Sarevok's Sword: 20
-~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #0 #5 // Imoen and Duke Jannath (Imoen Gets Residence Inside Palace): 20
-~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #0 #6 // Duke Eltan Is in the Palace: 20
-~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #0 #8 // Elminster Makes an Appearance -> jastey's Version: 20
-~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #0 #12 // Denkod in Thieves' Guild Comments on Sarevok's Death: 20
+~BG1UB/BG1UB.TP2~ #0 #0 // Ice Island Level Two Restoration: v17.1
+~BG1UB/BG1UB.TP2~ #0 #11 // Scar and the Sashenstar's Daughter: v17.1
+~BG1UB/BG1UB.TP2~ #0 #12 // Quoningar, the Cleric: v17.1
+~BG1UB/BG1UB.TP2~ #0 #13 // Shilo Chen and the Ogre-Magi: v17.1
+~BG1UB/BG1UB.TP2~ #0 #14 // Edie, the Merchant League Applicant: v17.1
+~BG1UB/BG1UB.TP2~ #0 #17 // Creature Restorations: v17.1
+~BG1UB/BG1UB.TP2~ #0 #18 // Creature Name Restorations: v17.1
+~BG1UB/BG1UB.TP2~ #0 #19 // Minor Dialogue Restorations: v17.1
+~BG1UB/BG1UB.TP2~ #0 #21 // Store, Tavern and Inn Fixes and Restorations: v17.1
+~BG1UB/BG1UB.TP2~ #0 #29 // Duke Eltan in the Harbor Master's Building: v17.1
+~BG1UB/BG1UB.TP2~ #0 #30 // Nim Furlwing Encounter: v17.1
+~BG1UB/BG1UB.TP2~ #0 #32 // Svlast, the Fallen Paladin Encounter: v17.1
+~BG1UB/BG1UB.TP2~ #0 #33 // Mal-Kalen, the Ulcaster Ghost: v17.1
+~BG1UB/BG1UB.TP2~ #0 #34 // Chapter 6 Dialogue Restorations: v17.1
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #0 #0 // Endless BG1: Main Component (Required): 20.2
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #0 #1 // More Flavor to Hero of Baldur's Gate (Includes PC's Residence Inside Palace): 20.2
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #0 #3 // Sarevok's Unique Items: 20.2
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #0 #4 // Sarevok's Sword: 20.2
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #0 #5 // Imoen and Duke Jannath (Imoen Gets Residence Inside Palace): 20.2
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #0 #6 // Duke Eltan Is in the Palace: 20.2
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #0 #8 // Elminster Makes an Appearance -> jastey's Version: 20.2
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #0 #12 // Denkod in Thieves' Guild Comments on Sarevok's Death: 20.2
 ~C#SODBOABRI/C#SODBOABRI.TP2~ #0 #0 // Scene at Boareskyr Bridge will be Acknowledged: Add NPC Reactions: v8
 ~C#SODBOABRI/C#SODBOABRI.TP2~ #0 #1 // Add Description Text to Original Scene at Bridge: v8
 ~C#SODBOABRI/C#SODBOABRI.TP2~ #0 #2 // Bridge Scene has Different Choices: v8
 ~C#SODBOABRI/C#SODBOABRI.TP2~ #0 #3 // Add Stat Changes to Choices at Bridge: v8
-~C#SODTWEAKS/SETUP-C#SODTWEAKS.TP2~ #0 #2 // Do Not Miss NPC-PC Dialogues -> For NPCs in Party Only: v13
-~C#SODTWEAKS/SETUP-C#SODTWEAKS.TP2~ #0 #5 // More Dialogue Choices & Prevent Dead Ends: v13
-~C#SODTWEAKS/SETUP-C#SODTWEAKS.TP2~ #0 #7 // Restore scripted Abduction Scene Fight: v13
-~C#SODTWEAKS/SETUP-C#SODTWEAKS.TP2~ #0 #20 // Make Portal Close from Dragonspear Castle (Aun Argent survives always): v13
-~C#SODTWEAKS/SETUP-C#SODTWEAKS.TP2~ #0 #21 // Hephernaan takes Dragonspear Vault Key: v13
+~C#SODTWEAKS/SETUP-C#SODTWEAKS.TP2~ #0 #2 // Do Not Miss NPC-PC Dialogues -> For NPCs in Party Only: v14
+~C#SODTWEAKS/SETUP-C#SODTWEAKS.TP2~ #0 #5 // More Dialogue Choices & Prevent Dead Ends: v14
+~C#SODTWEAKS/SETUP-C#SODTWEAKS.TP2~ #0 #7 // Restore scripted Abduction Scene Fight: v14
+~C#SODTWEAKS/SETUP-C#SODTWEAKS.TP2~ #0 #20 // Make Portal Close from Dragonspear Castle (Aun Argent survives always): v14
+~C#SODTWEAKS/SETUP-C#SODTWEAKS.TP2~ #0 #21 // Hephernaan takes Dragonspear Vault Key: v14
 ~NTOTSC/NTOTSC.TP2~ #0 #0 // Northern Tales of the Sword Coast (NTotSC) for BGT-Weidu, BG:EE, and EET: 5.0.0
 ~NTOTSC/NTOTSC.TP2~ #0 #2 // Keelor the Dwarf: 5.0.0
 ~NTOTSC/NTOTSC.TP2~ #0 #3 // Llindellyn's Lucky Arrow: 5.0.0
@@ -57,75 +57,77 @@
 ~NTOTSC/NTOTSC.TP2~ #0 #11 // Improved Haeball: 5.0.0
 ~NTOTSC/NTOTSC.TP2~ #0 #12 // Improved Ghotal: 5.0.0
 ~NTOTSC/NTOTSC.TP2~ #0 #14 // Reduce Number of Shaman Cloaks -> Make Cloaks Undroppable: 5.0.0
-~BG1RE/SETUP-BG1RE.TP2~ #0 #105 // Main Component: Amount of -ahem- details and BG-style vs. description text! (Required) -> Descriptive Version [Adult content] and Show/Install all Components with Warnings.: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #2 // Scar's Spare Time, by jastey: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #3 // Kim's Preoccupation, by jastey (WARNING - refer to the readme!): 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #5 // No Starch in the Maypole: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #6 // Duke Eltan's Spare Minute, by jastey: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #8 // Laurel's Post-Hunting, by jastey: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #10 // Lina's Massage, by jastey: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #13 // Slythe and Krystin, by Kulyok (mature content. WARNING - refer to the readme!): 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #14 // No Regrets: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #17 // Late Night with Jaheira, by Kulyok: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #18 // Sil's Blessing, by Lava: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #20 // Reading with Rinnie, by Western Paladin: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #21 // Molly the Husband-Grabber, by Kulyok: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #22 // The Mourning of Centeol, the Spider Lady, by Lava: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #23 // The Essential End, by Lava (WARNING - refer to the readme!): 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #24 // The Harvestmen Lair, by Lava (mature content): 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #26 // The Messenger, by Thimblerig: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #28 // The Novelists, by Thimblerig: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #29 // The Honest Lies of Two Riversides, By Lava: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #30 // Necromancer's Trouble, by jastey: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #31 // Dinner with Thalantyr, by jastey: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #32 // Girdle of Gender Reactions, by Thimblerig, Kulyok, Domi, Lava, Lastknightleft, Twani, Jastey, Daisy Ninja Girl: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #34 // All That Left Was, by Lava and Thimblerig: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #36 // Arlene the Working Girl, by Kulyok: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #37 // Della May from Thay, by Kulyok: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #40 // Mikala the Monk, by Twani: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #41 // The Messenger 2: Rain or Snow or Gloom of Night, by Thimblerig and tibicina: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #42 // Camryn and Tamah, by tibicina: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #43 // Minor Disclosures, by jastey: 13
-~BG1RE/SETUP-BG1RE.TP2~ #0 #44 // Cloakwood Lovers, by tibicina: 13
-~SIRINESCALL/SETUP-SIRINESCALL.TP2~ #0 #0 // The Lure of the Sirine's Call: v16.3
-~BGQE/SETUP-BGQE.TP2~ #0 #0 // Slime Quest: 29
-~BGQE/SETUP-BGQE.TP2~ #0 #1 // Beregost Family Quest: 29
-~BGQE/SETUP-BGQE.TP2~ #0 #2 // Babysitting Quest, including the Carnival Encounter...: 29
-~BGQE/SETUP-BGQE.TP2~ #0 #3 // Nashkel Monster Quest: 29
-~BGQE/SETUP-BGQE.TP2~ #0 #4 // Fallen Paladin Quest: 29
-~BGQE/SETUP-BGQE.TP2~ #0 #5 // Undying Love Quest: 29
-~BGQE/SETUP-BGQE.TP2~ #0 #6 // Lovesick Half-Orc: 29
-~BGQE/SETUP-BGQE.TP2~ #0 #7 // Unexpected Help Quest: 29
-~BGQE/SETUP-BGQE.TP2~ #0 #8 // Many Little Paws: 29
-~BGQE/SETUP-BGQE.TP2~ #0 #9 // Drunk Near Beregost Temple: 29
-~BGQE/SETUP-BGQE.TP2~ #0 #10 // A Warm Place for Noober: 29
-~BGQE/SETUP-BGQE.TP2~ #0 #11 // Brage's Sword: 29
-~BGQE/SETUP-BGQE.TP2~ #0 #12 // Legal Sea Charts Sources: 29
-~BGQE/SETUP-BGQE.TP2~ #0 #13 // Additions to the Lady's Hall and the Bitch Queen's Temple: 29
-~BGQE/SETUP-BGQE.TP2~ #0 #14 // A Worried Farmer: 29
-~BGQE/SETUP-BGQE.TP2~ #0 #15 // Bodies for a Good Cause: 29
-~BGQE/SETUP-BGQE.TP2~ #0 #16 // Finish Cordyr's Quest without killing Sil: 29
-~AC_QUEST/AC_QUEST.TP2~ #1 #0 // A Job Well-Paid: 6.1
-~AC_QUEST/AC_QUEST.TP2~ #1 #1 // A Feast for the Gnolls: 6.1
-~AC_QUEST/AC_QUEST.TP2~ #1 #2 // Jumper -> Original version: Ugh and Jumper are inside the cave.: 6.1
-~AC_QUEST/AC_QUEST.TP2~ #1 #4 // The Lost Son: 6.1
-~AC_QUEST/AC_QUEST.TP2~ #1 #6 // Of Wolves and Men -> Quest uses house in Beregost.: 6.1
-~AC_QUEST/AC_QUEST.TP2~ #1 #7 // The Great Carlini: 6.1
-~AC_QUEST/AC_QUEST.TP2~ #1 #8 // A Home for the Gibberlings: 6.1
-~AC_QUEST/AC_QUEST.TP2~ #1 #9 // Fangirls: 6.1
-~AC_QUEST/AC_QUEST.TP2~ #1 #11 // The Serpents of Abbathor -> Tweaked version: quest can be finished in BG1.: 6.1
+~BG1RE/SETUP-BG1RE.TP2~ #0 #105 // Main Component: Amount of -ahem- details and BG-style vs. description text! (Required) -> Descriptive Version [Adult content] and Show/Install all Components with Warnings.: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #2 // Scar's Spare Time, by jastey: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #3 // Kim's Preoccupation, by jastey (WARNING - refer to the readme!): 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #5 // No Starch in the Maypole: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #6 // Duke Eltan's Spare Minute, by jastey: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #8 // Laurel's Post-Hunting, by jastey: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #10 // Lina's Massage, by jastey: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #13 // Slythe and Krystin, by Kulyok (mature content. WARNING - refer to the readme!): 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #14 // No Regrets: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #17 // Late Night with Jaheira, by Kulyok: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #18 // Sil's Blessing, by Lava: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #20 // Reading with Rinnie, by Western Paladin: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #21 // Molly the Husband-Grabber, by Kulyok: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #22 // The Mourning of Centeol, the Spider Lady, by Lava: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #23 // The Essential End, by Lava (WARNING - refer to the readme!): 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #24 // The Harvestmen Lair, by Lava (mature content): 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #26 // The Messenger, by Thimblerig: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #28 // The Novelists, by Thimblerig: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #29 // The Honest Lies of Two Riversides, By Lava: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #30 // Necromancer's Trouble, by jastey: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #31 // Dinner with Thalantyr, by jastey: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #32 // Girdle of Gender Reactions, by Thimblerig, Kulyok, Domi, Lava, Lastknightleft, Twani, Jastey, Daisy Ninja Girl: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #34 // All That Left Was, by Lava and Thimblerig: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #36 // Arlene the Working Girl, by Kulyok: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #37 // Della May from Thay, by Kulyok: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #40 // Mikala the Monk, by Twani: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #41 // The Messenger 2: Rain or Snow or Gloom of Night, by Thimblerig and tibicina: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #42 // Camryn and Tamah, by tibicina: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #43 // Minor Disclosures, by jastey: 15pre
+~BG1RE/SETUP-BG1RE.TP2~ #0 #44 // Cloakwood Lovers, by tibicina: 15pre
+~SIRINESCALL/SETUP-SIRINESCALL.TP2~ #0 #0 // The Lure of the Sirine's Call: v16.5.1
+~BGQE/SETUP-BGQE.TP2~ #0 #0 // Slime Quest: 31
+~BGQE/SETUP-BGQE.TP2~ #0 #1 // Beregost Family Quest: 31
+~BGQE/SETUP-BGQE.TP2~ #0 #2 // Babysitting Quest, including the Carnival Encounter...: 31
+~BGQE/SETUP-BGQE.TP2~ #0 #3 // Nashkel Monster Quest: 31
+~BGQE/SETUP-BGQE.TP2~ #0 #4 // Fallen Paladin Quest: 31
+~BGQE/SETUP-BGQE.TP2~ #0 #5 // Undying Love Quest: 31
+~BGQE/SETUP-BGQE.TP2~ #0 #6 // Lovesick Half-Orc: 31
+~BGQE/SETUP-BGQE.TP2~ #0 #7 // Unexpected Help Quest: 31
+~BGQE/SETUP-BGQE.TP2~ #0 #8 // Many Little Paws: 31
+~BGQE/SETUP-BGQE.TP2~ #0 #9 // Drunk Near Beregost Temple: 31
+~BGQE/SETUP-BGQE.TP2~ #0 #10 // A Warm Place for Noober: 31
+~BGQE/SETUP-BGQE.TP2~ #0 #11 // Brage's Sword: 31
+~BGQE/SETUP-BGQE.TP2~ #0 #12 // Legal Sea Charts Sources: 31
+~BGQE/SETUP-BGQE.TP2~ #0 #13 // Additions to the Lady's Hall and the Bitch Queen's Temple: 31
+~BGQE/SETUP-BGQE.TP2~ #0 #14 // A Worried Farmer: 31
+~BGQE/SETUP-BGQE.TP2~ #0 #15 // Bodies for a Good Cause: 31
+~BGQE/SETUP-BGQE.TP2~ #0 #16 // Finish Cordyr's Quest without killing Sil: 31
+~AC_QUEST/AC_QUEST.TP2~ #1 #0 // A Job Well-Paid: 6.4
+~AC_QUEST/AC_QUEST.TP2~ #1 #1 // A Feast for the Gnolls: 6.4
+~AC_QUEST/AC_QUEST.TP2~ #1 #2 // Jumper -> Original version: Ugh and Jumper are inside the cave.: 6.4
+~AC_QUEST/AC_QUEST.TP2~ #1 #4 // The Lost Son: 6.4
+~AC_QUEST/AC_QUEST.TP2~ #1 #6 // Of Wolves and Men -> Quest uses house in Beregost.: 6.4
+~AC_QUEST/AC_QUEST.TP2~ #1 #7 // The Great Carlini: 6.4
+~AC_QUEST/AC_QUEST.TP2~ #1 #8 // A Home for the Gibberlings: 6.4
+~AC_QUEST/AC_QUEST.TP2~ #1 #9 // Fangirls: 6.4
+~AC_QUEST/AC_QUEST.TP2~ #1 #11 // The Serpents of Abbathor -> Tweaked version: quest can be finished in BG1.: 6.4
 ~GORGON/SETUP-GORGON.TP2~ #0 #0 // Install The Gorgon's Eye: v4.8
 ~GORGON/SETUP-GORGON.TP2~ #0 #1 // NPC Character Portraits -> Give portraits to all characters added from this mod: v4.8
-~BLACKHEARTS_BG1/SETUP-BLACKHEARTS_BG1.TP2~ #0 #0 // Install Black Hearts BG1 - The Hunter: v1.0
+~BLACKHEARTS/BLACKHEARTS.TP2~ #0 #1 // Install Blackhearts for "BGEE" or "EET including BGEE and BG2EE": v2.05
 ~BST/SETUP-BST.TP2~ #0 #0 // The BS Company presents Balduran's Seatower: vEAOB.9
-~THECALLING/THECALLING.TP2~ #0 #0 // The Calling: v5
-~THECALLING/THECALLING.TP2~ #0 #20 // Peaceful Werewolf Isle Resolution: v5
-~THECALLING/THECALLING.TP2~ #0 #40 // Exotic Item Pack: v5
-~REFLECTIONS/REFLECTIONS.TP2~ #0 #100 // Reflections of Destiny BG1: The Future is Now: 0.8.1
-~REFLECTIONS/REFLECTIONS.TP2~ #0 #110 // Reflections of Destiny BG1: The Mirror Shard: 0.8.1
-~REFLECTIONS/REFLECTIONS.TP2~ #0 #230 // Reflections of Destiny SoD: Nothing to Fear but Feyr Itself: 0.8.1
-~SOTSC/SOTSC.TP2~ #0 #0 // Shades of the Sword Coast - Expansion Pack for BGEE: v8.9
-~LORETAKERS/SETUP-LORETAKERS.TP2~ #0 #0 // Loretakers V 1.4: V 1.4
+~THECALLING/THECALLING.TP2~ #0 #0 // The Calling: Mage - The Cursed Bracers: v6
+~THECALLING/THECALLING.TP2~ #0 #20 // Peaceful Werewolf Isle Resolution: v6
+~THECALLING/THECALLING.TP2~ #0 #40 // Exotic Item Pack -> Add exotic items: v6
+~REFLECTIONS_OF_DESTINY/REFLECTIONS_OF_DESTINY.TP2~ #0 #100 // Reflections of Destiny BG1: The Future is Now: 0.9.1
+~REFLECTIONS_OF_DESTINY/REFLECTIONS_OF_DESTINY.TP2~ #0 #110 // Reflections of Destiny BG1: The Mirror Shard: 0.9.1
+~REFLECTIONS_OF_DESTINY/REFLECTIONS_OF_DESTINY.TP2~ #0 #200 // Reflections of Destiny SoD: Rewriting History: 0.9.1
+~REFLECTIONS_OF_DESTINY/REFLECTIONS_OF_DESTINY.TP2~ #0 #220 // Reflections of Destiny SoD: Magical Realism: 0.9.1
+~REFLECTIONS_OF_DESTINY/REFLECTIONS_OF_DESTINY.TP2~ #0 #230 // Reflections of Destiny SoD: Nothing to Fear but Feyr Itself: 0.9.1
+~SOTSC/SOTSC.TP2~ #0 #0 // Shades of the Sword Coast – Expansion Pack for BGEE: v10.5
+~LORETAKERS/SETUP-LORETAKERS.TP2~ #0 #0 // Loretakers V 2.6: V 2.6
 ~BG1NPC/BG1NPC.TP2~ #0 #0 // The BG1 NPC Project: Required Modifications: v32
 ~BG1NPC/BG1NPC.TP2~ #0 #10 // The BG1 NPC Project: Banters, Quests, and Interjections: v32
 ~BG1NPC/BG1NPC.TP2~ #0 #21 // The BG1 NPC Project: Ajantis Romance Core (teen content) -> Speed: 45 minutes real time minimum between LoveTalks: v32
@@ -141,27 +143,25 @@
 ~BG1NPC/BG1NPC.TP2~ #0 #240 // The BG1 NPC Project: Kivan's Proficiency -> Kivan uses spears: v32
 ~BG1NPC/BG1NPC.TP2~ #0 #160 // The BG1 NPC Project: Add Non-Joinable NPC portraits to quests and dialogues: v32
 ~BG1NPCMUSIC/SETUP-BG1NPCMUSIC.TP2~ #0 #0 // The BG1 NPC Project Music Pack -> Install All Audio: v6
-~AJANTISBG1/SETUP-AJANTISBG1.TP2~ #0 #0 // Installs Ajantis BG1 Expansion Modification: 21
-~AJANTISBG1/SETUP-AJANTISBG1.TP2~ #0 #1 // Install the unique BG:EE BAM for Ajantis' Family Shield: 21
+~AJANTISBG1/SETUP-AJANTISBG1.TP2~ #0 #0 // Installs Ajantis BG1 Expansion Modification: 22
+~AJANTISBG1/SETUP-AJANTISBG1.TP2~ #0 #1 // Install the unique BG:EE BAM for Ajantis' Family Shield: 22
 ~ISRA/ISRA.TP2~ #0 #0 // Isra NPC Mod for BG:EE, EET, BGT and TuTu: v3.5
 ~INDINPC/INDINPC.TP2~ #0 #0 // Indira NPC: v15.1
-~GLAMNPCPACK/SETUP-GLAMNPCPACK.TP2~ #0 #0 // Glam's NPC Pack for BG:EE, BGT and BG TUTU: v5
+~GLAMNPCPACK/SETUP-GLAMNPCPACK.TP2~ #0 #0 // Glam's NPC Pack for BG:EE, BGT and BG TUTU: v7
 ~EMILY/EMILY.TP2~ #0 #0 // Emily NPC for BG1EE: 1.65
 ~EMILY/EMILY.TP2~ #0 #1 // Choose whether or not to have Emily's custom soundtrack play during timed talks. -> Emily's Music: 1.65
-~HELGA/SETUP-HELGA.TP2~ #0 #0 // Helga NPC Mod: 1.56
+~HELGA/SETUP-HELGA.TP2~ #0 #0 // Helga NPC Mod: 1.57
 ~KALE/KALE.TP2~ #0 #0 // Kale NPC for BG1EE and SoD: 1.69
-~KALE/KALE.TP2~ #0 #1 // Give Kale the Warden Class? (Recommended) -> Warden(Fighter Kit): 1.69
+~KALE/KALE.TP2~ #0 #1 // Select Kale's Kit (Warden Recommended) -> Warden(Fighter Kit): 1.69
 ~RECORDER/SETUP-RECORDER.TP2~ #0 #0 // Recorder NPC MoD: 1.51
 ~RECORDER/SETUP-RECORDER.TP2~ #0 #1 // Choose whether or not to have Recorder's custom soundtrack play during timed talks. -> Recorder's Music: 1.51
 ~KVEL_BG1/SETUP-KVEL_BG1.TP2~ #0 #0 // Kvel NPC for Baldur's Gate: Enhanced Edition
 ~VIENXAY/VIENXAY.TP2~ #0 #0 // Vienxay NPC for BG1EE: 1.67
-~AURA_BG1/SETUP-AURA_BG1.TP2~ #0 #0 // Aura NPC for Baldur's Gate: Enhanced Edition: 3.3
-~AURA_BG1/SETUP-AURA_BG1.TP2~ #0 #1 // Choose a class for Aura: -> Artificer (Thief): 3.3
-~AURA_BG1/SETUP-AURA_BG1.TP2~ #0 #5 // Choose a portrait for Aura: -> Default Portrait (The Artisan): 3.3
-~AURA_BG1/SETUP-AURA_BG1.TP2~ #0 #14 // ADD-ON: Pre-version 3.4 soundset for Aura by Kait: 3.3
-~DRAKE/SETUP-DRAKE.TP2~ #0 #0 // Drake NPC for Baldur's Gate: Enhanced Edition: 1.7
-~DRAKE/SETUP-DRAKE.TP2~ #0 #1 // Choose a portrait for Drake: -> Default Portrait (The Artisan): 1.7
-~DRAKE/SETUP-DRAKE.TP2~ #0 #5 // OPTIONAL: Original Soundset by BillyYank: 1.7
+~AURA_BG1_2_EET/SETUP-AURA_BG1_2_EET.TP2~ #0 #0 // Aura NPC for Baldur's Gate: Enhanced Edition
+~AURA_BG1_2_EET/SETUP-AURA_BG1_2_EET.TP2~ #0 #6 // Choose a class for Aura: -> Artificer (Bard, EEex required)
+~DRAKE/SETUP-DRAKE.TP2~ #0 #0 // Drake NPC for Baldur's Gate: Enhanced Edition
+~DRAKE/SETUP-DRAKE.TP2~ #0 #1 // Choose a portrait for Drake: -> Default Portrait (The Artisan)
+~DRAKE/SETUP-DRAKE.TP2~ #0 #5 // OPTIONAL: Original Soundset by BillyYank
 ~SIRENE/SETUP-SIRENE.TP2~ #0 #0 // Sirene NPC for Baldur's Gate: Enhanced Edition
 ~SIRENE/SETUP-SIRENE.TP2~ #0 #1 // Choose an alternate portrait for Sirene? -> BG2 Default (Isandir)
 ~NEERABANTERS/NEERABANTERS.TP2~ #0 #10 // Neera Banters: Dialogue Banters and Interjections: v0.9.3
@@ -172,21 +172,21 @@
 ~NEERA/NEERA.TP2~ #0 #0 // Neera Expansion: v1.3.1
 ~NEERA/NEERA.TP2~ #0 #3 // How much time would you like between talks (approximately)? -> 1 hour: v1.3.1
 ~NEERA/NEERA.TP2~ #0 #6 // Make Neera romanceable by women: v1.3.1
-~C#BRAGE/C#BRAGE.TP2~ #0 #0 // Brage's Redemption - Brage Joinable NPC for Baldur's Gate: 9.1
-~C#BRAGE/C#BRAGE.TP2~ #0 #1 // Assign the mod's portrait and soundset to the original Brage in game.: 9.1
-~SODRTD/SODRTD.TP2~ #0 #80 // SoD - Stat-based observations and quest options from Lauriel's Themed Tweaks Mod: 5.0
-~SODRTD/SODRTD.TP2~ #0 #0 // Main Component: Tracking System: 5.0
-~SODRTD/SODRTD.TP2~ #0 #10 // Consistency Changes to Game Dialogues: 5.0
-~SODRTD/SODRTD.TP2~ #0 #20 // Officers Are Aware: 5.0
-~SODRTD/SODRTD.TP2~ #0 #30 // Give PC Informed Reply Options: 5.0
-~SODRTD/SODRTD.TP2~ #0 #40 // PC Can Tell the Officers: 5.0
-~SODRTD/SODRTD.TP2~ #0 #50 // Add Officers Reactions: 5.0
-~SODRTD/SODRTD.TP2~ #0 #60 // Additional Info Points: 5.0
+~C#BRAGE/C#BRAGE.TP2~ #0 #0 // Brage's Redemption - Brage Joinable NPC for Baldur's Gate: 10.1
+~C#BRAGE/C#BRAGE.TP2~ #0 #1 // Assign the mod's portrait and soundset to the original Brage in game.: 10.1
+~SODRTD/SODRTD.TP2~ #0 #0 // Main Component: Tracking System: 6.0
+~SODRTD/SODRTD.TP2~ #0 #10 // Consistency Changes to Game Dialogues: 6.0
+~SODRTD/SODRTD.TP2~ #0 #20 // Officers Are Aware: 6.0
+~SODRTD/SODRTD.TP2~ #0 #30 // Give PC Informed Reply Options: 6.0
+~SODRTD/SODRTD.TP2~ #0 #40 // PC Can Tell the Officers: 6.0
+~SODRTD/SODRTD.TP2~ #0 #50 // Add Officers Reactions: 6.0
+~SODRTD/SODRTD.TP2~ #0 #60 // Additional Info Points: 6.0
+~SODRTD/SODRTD.TP2~ #0 #70 // Add Additional Communication with Officers: 6.0
 ~THALAN/THALAN.TP2~ #0 #0 // Thalantyr Item Upgrade: v4.5.1
 ~ITEM_REV/ITEM_REV.TP2~ #0 #0 // Item Revisions by Demivrgvs: v4beta10sd19
-~AJANTISBG1/SETUP-AJANTISBG1.TP2~ #0 #30 // Ajantis SoD NPC: Crossmod Content: 21
-~C#BRAGE/C#BRAGE.TP2~ #0 #5 // Give Brage unique Two-Handed Sword +1: 9.1
-~C#BRAGE/C#BRAGE.TP2~ #0 #10 // Brage's Redemption: Crossmod Content: 9.1
+~AJANTISBG1/SETUP-AJANTISBG1.TP2~ #0 #30 // Ajantis SoD NPC: Crossmod Content: 22
+~C#BRAGE/C#BRAGE.TP2~ #0 #5 // Give Brage unique Two-Handed Sword +1: 10.1
+~C#BRAGE/C#BRAGE.TP2~ #0 #10 // Brage's Redemption: Crossmod Content: 10.1
 ~ITEM_REV/ITEM_REV.TP2~ #0 #1030 // Store Revisions: v4beta10sd19
 ~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #0 // Spell Revisions: v4.20
 ~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #10 // Deva and Planetar Animations: v4.20
@@ -196,7 +196,6 @@
 ~SPELL_REV/SETUP-SPELL_REV.TP2~ #0 #60 // Update Spellbooks of Joinable NPCs: v4.20
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #1500 // Include arcane spells from Icewind Dale: Enhanced Edition: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #1510 // Include divine spells from Icewind Dale: Enhanced Edition: 35.21
-~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #1520 // Include bard songs from Icewind Dale: Enhanced Edition: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #2000 // Install all spell tweaks (if you don't select this, you will be given a chance to choose by category): 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #2500 // Add 9 new arcane spells: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #2510 // Add 6 new divine spells (some borrowed from Divine Remix): 35.21
@@ -215,30 +214,33 @@
 ~RR/SETUP-RR.TP2~ #0 #4 // Bard kit revisions: v4.92
 ~RR/SETUP-RR.TP2~ #0 #7 // Additional equipment for Thieves and Bards: v4.92
 ~RR/SETUP-RR.TP2~ #0 #9 // Revised Thievery -> Use PnP thievery potions and prevent their effects from stacking: v4.92
-~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #0 // Bardic Wonders: Blade Overhaul
-~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #1 // Bardic Wonders: Jester Overhaul
-~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #2 // Bardic Wonders: Skald Overhaul
-~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #3 // Bardic Wonders: Abettor of Mask Kit
-~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #4 // Bardic Wonders: Dancer Kit
-~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #5 // Bardic Wonders: Darkbloom Bard Kit
-~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #6 // Bardic Wonders: Storm Drummer Kit
-~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #8 // Bardic Wonders: Deathsinger Kit
-~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #9 // Bardic Wonders: Strategist Kit
-~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #10 // Bardic Wonders: Kapellmeister Kit
-~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #11 // Bardic Wonders: Items
-~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #12 // Bardic Wonders: Inspirations
-~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #13 // Bardic Wonders: Armored Casting for Bards
-~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #16 // Bardic Wonders: Bard Song Overhead Visual Effect
-~BARDICWONDERS/BARDICWONDERS.TP2~ #0 #17 // Bardic Wonders: High Level Abilities
-~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #30 // Install Hexblade fighter kit: v9
-~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #31 // Install Duelist fighter kit: v9
-~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #32 // Install Fist of Order fighter kit: v9
-~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #34 // Install Duskblade fighter kit (by ronin69hof, ronin69hof@gmail.com: v9
-~TOMEANDBLOOD/TOMEANDBLOOD.TP2~ #0 #25 // Sorcerer: Magus: 1.0.1
-~TOMEANDBLOOD/TOMEANDBLOOD.TP2~ #0 #31 // Sorcerer: Favored Soul: 1.0.1
-~TOMEANDBLOOD/TOMEANDBLOOD.TP2~ #0 #33 // Sorcerer: Sylvan Disciple: 1.0.1
-~TOMEANDBLOOD/TOMEANDBLOOD.TP2~ #0 #35 // Sorcerer: Revenant Disciple: 1.0.1
-~TOMEANDBLOOD/TOMEANDBLOOD.TP2~ #0 #37 // Sorcerer: Amorphous Disciple: 1.0.1
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1001 // Bardic Wonders: Blade Overhaul
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1002 // Bardic Wonders: Jester Overhaul
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1003 // Bardic Wonders: Skald Overhaul
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1004 // Bardic Wonders: Abettor of Mask Kit
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1005 // Bardic Wonders: Dancer Kit
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1006 // Bardic Wonders: Darkbloom Bard Kit
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1007 // Bardic Wonders: Storm Drummer Kit
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1008 // Bardic Wonders: Troubadour Kit
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1009 // Bardic Wonders: Deathsinger Kit
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1010 // Bardic Wonders: Strategist Kit
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1011 // Bardic Wonders: Kapellmeister Kit
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #1012 // Bardic Wonders: Gallant Paladin Kit
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #2001 // Bardic Wonders: Items
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #2002 // Bardic Wonders: Inspirations
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #2007 // Bardic Wonders: High Level Abilities
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #2008 // Bardic Wonders: New Bard Spells
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #2003 // Bardic Wonders: Armored Casting for Bards
+~BARDICWONDERS/SETUP-BARDICWONDERS.TP2~ #0 #2006 // Bardic Wonders: Bard Song Overhead Visual Effect
+~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #30 // Install Hexblade fighter kit: v12
+~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #31 // Install Duelist fighter kit: v12
+~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #32 // Install Fist of Order fighter kit: v12
+~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #0 #34 // Install Duskblade fighter kit (by ronin69hof, ronin69hof@gmail.com: v12
+~TOMEANDBLOOD/TOMEANDBLOOD.TP2~ #0 #25 // Sorcerer: Magus: 1.4
+~TOMEANDBLOOD/TOMEANDBLOOD.TP2~ #0 #31 // Sorcerer: Favored Soul: 1.4
+~TOMEANDBLOOD/TOMEANDBLOOD.TP2~ #0 #33 // Sorcerer: Sylvan Disciple: 1.4
+~TOMEANDBLOOD/TOMEANDBLOOD.TP2~ #0 #35 // Sorcerer: Revenant Disciple: 1.4
+~TOMEANDBLOOD/TOMEANDBLOOD.TP2~ #0 #37 // Sorcerer: Amorphous Disciple: 1.4
 ~IHATEUNDEAD/IHATEUNDEAD.TP2~ #0 #4 // Death Tricker (Thief Kit): 3.8.3
 ~IHATEUNDEAD/IHATEUNDEAD.TP2~ #0 #7 // Circle Enforcer (Druid Kit): 3.8.3
 ~IHATEUNDEAD/IHATEUNDEAD.TP2~ #0 #10 // Dreadful Witch (Shaman Kit): 3.8.3
@@ -309,26 +311,27 @@
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #7003 // Artisan's Kitpack: Trickster Thief Kit
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #7005 // Artisan's Kitpack: Invisible Blade Thief Kit
 ~ARTISANSKITPACK/ARTISANSKITPACK.TP2~ #0 #30001 // Artisan's Kitpack: Favored Soul (EEex only, under Shaman in chargen)
+~ARTISANSKITPACK_NPC/ARTISANSKITPACK_NPC.TP2~ #0 #1101 // Artisan's Kitpack: Give Khalid the Vanguard Kit
+~ARTISANSKITPACK_NPC/ARTISANSKITPACK_NPC.TP2~ #0 #1102 // Artisan's Kitpack: Make Skitia's Emily an -> Arcane Archer
 ~ARTISANSKITPACK_NPC/ARTISANSKITPACK_NPC.TP2~ #0 #2001 // Artisan's Kitpack: Rashemi Berserker Ranger Kit for Minsc
-~ARTISANSKITPACK_NPC/ARTISANSKITPACK_NPC.TP2~ #0 #3102 // Artisan's Kitpack: Make Mazzy a Divine Champion
-~ARTISANSKITPACK_NPC/ARTISANSKITPACK_NPC.TP2~ #0 #5101 // Artisan's Kitpack: Give Cernd the Elementalist Kit
+~ARTISANSKITPACK_NPC/ARTISANSKITPACK_NPC.TP2~ #0 #3101 // Artisan's Kitpack: Give Ajantis the Divine Champion Kit
 ~ARTISANSKITPACK_NPC/ARTISANSKITPACK_NPC.TP2~ #0 #5102 // Artisan's Kitpack: Red Wizard Mage Kit for Edwin
-~ARTISANSKITPACK_NPC/ARTISANSKITPACK_NPC.TP2~ #0 #7104 // Artisan's Kitpack: Give Hexxat the Invisible Blade Kit
-~ARTISANSKITPACK_NPC/ARTISANSKITPACK_NPC.TP2~ #0 #21001 // Artisan's Kitpack: Give Jan the Arcane Trickster Kit
 ~ARTISANSKITPACK_NPC/ARTISANSKITPACK_NPC.TP2~ #0 #10004 // Artisan's Kitpack: Make Rasaad a Sacred Fist
 ~ARTISANSKITPACK_NPC/ARTISANSKITPACK_NPC.TP2~ #0 #20002 // Artisan's Kitpack: Make Xan an Eldritch Knight
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2250 // Un-Nerfed Sorcerer Spell Progression Table: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2261 // Alter Mage Spell Progression Table -> PnP table: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2271 // Alter Bard Spell Progression Table -> PnP table: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2281 // Alter Cleric Spell Progression Table -> PnP table: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2294 // Alter Druid Spell and Level Progression Tables -> Use cleric level progression changes with pnp druid/cleric spell table: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2580 // Alter Wisdom-Based Divine Bonus Spell Table -> Use PnP/PsT Table: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2391 // Alter Paladin Spell Progression Table -> BG2-Style Progression (Up To Level Six Spells) [TotoR]: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2401 // Alter Ranger Spell Progression Table -> BG2-Style Progression (Up To Level Five Spells) [TotoR]: v16
+~ARTISANSKITPACK_NPC/ARTISANSKITPACK_NPC.TP2~ #0 #99001 // Bardic Wonders: Give Garrick the Troubadour Kit
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2250 // Un-Nerfed Sorcerer Spell Progression Table: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2261 // Alter Mage Spell Progression Table -> PnP table: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2271 // Alter Bard Spell Progression Table -> PnP table: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2281 // Alter Cleric Spell Progression Table -> PnP table: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2294 // Alter Druid Spell and Level Progression Tables -> Use cleric level progression changes with pnp druid/cleric spell table: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2580 // Alter Wisdom-Based Divine Bonus Spell Table -> Use PnP/PsT Table: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2391 // Alter Paladin Spell Progression Table -> BG2-Style Progression (Up To Level Six Spells) [TotoR]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2401 // Alter Ranger Spell Progression Table -> BG2-Style Progression (Up To Level Five Spells) [TotoR]: v18
 ~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #0 #0 // Golem Construction Ability for Spellcasters: 6.4
 ~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #0 #20 // Golems for enemy spellcasters: 6.4
 ~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #0 #25 // Greater variety of enemy golem types: 6.4
 ~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #0 #35 // Make golems vulnerable to specific spell effects: 6.4
+~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #0 #50 // Add "Teleport" ability to golems: 6.4
 ~ITEM_REV/ITEM_REV.TP2~ #0 #17 // Weapon Changes: v4beta10sd19
 ~ITEM_REV/ITEM_REV.TP2~ #0 #1080 // Enchantment Doesn't Affect Speed Factor of Weapons: v4beta10sd19
 ~ITEM_REV/ITEM_REV.TP2~ #0 #1200 // Revised Critical Hit Aversion: v4beta10sd19
@@ -346,44 +349,40 @@
 ~FAITHS_AND_POWERS/FAITHS_AND_POWERS.TP2~ #0 #92 // Multiclass Shamans: 0.91.4
 ~FAITHS_AND_POWERS/FAITHS_AND_POWERS.TP2~ #0 #95 // Multiclass Cleric kits (install AFTER all other kit mods!!): 0.91.4
 ~FAITHS_AND_POWERS/FAITHS_AND_POWERS.TP2~ #0 #99 // Apply FnP Multiclass Kits to NPCs: 0.91.4
-~SUBTLED_SPELL_TWEAKS/SUBTLED_SPELL_TWEAKS.TP2~ #0 #10 // Rebalanced Spell Schools: 2.9
-~SUBTLED_SPELL_TWEAKS/SUBTLED_SPELL_TWEAKS.TP2~ #0 #26 // Revised Arcane Opposition Schools -> PnP Opposition Schools: 2.9
-~TNT/TNT.TP2~ #0 #22 // No talking when hiding in shadows: v8.35
-~TNT/TNT.TP2~ #0 #26 // Throwing weapons damage type -> Make axes slashing and hammers blunt: v8.35
-~TNT/TNT.TP2~ #0 #30 // Effects of scrolls and potions do not stack with themselves: v8.35
-~TNT/TNT.TP2~ #0 #32 // Sensible wand of frost -> AoE: v8.35
-~TNT/TNT.TP2~ #0 #33 // Potion of Really Mirrored Eyes: v8.35
-~TNT/TNT.TP2~ #0 #35 // Improved Shandalar's cloak: v8.35
-~TNT/TNT.TP2~ #0 #36 // Algernon's cloak: usable once per day: v8.35
-~TNT/TNT.TP2~ #0 #38 // Distinct quest items: v8.35
-~TNT/TNT.TP2~ #0 #42 // Spider form ignores web: v8.35
-~TNT/TNT.TP2~ #0 #46 // True True Sight: v8.35
-~TNT/TNT.TP2~ #0 #47 // Sensible Otiluke's Resilient Sphere: v8.35
-~TNT/TNT.TP2~ #0 #48 // Greater Command AoE: v8.35
-~TNT/TNT.TP2~ #0 #49 // Working Non-Detection: v8.35
-~TNT/TNT.TP2~ #0 #50 // Unstack Chaos Shield: v8.35
-~TNT/TNT.TP2~ #0 #51 // Uncheese Project Image | POWER USER component, consult readme: v8.35
-~TNT/TNT.TP2~ #0 #52 // Uncheese Mislead: v8.35
-~TNT/TNT.TP2~ #0 #53 // Sensible Blade spins: v8.35
-~TNT/TNT.TP2~ #0 #54 // PnP Protection from Evil: v8.35
-~TNT/TNT.TP2~ #0 #55 // Non-hostile Grease: v8.35
-~TNT/TNT.TP2~ #0 #57 // Stores always buy goods at the same (low) price | POWER USER component, consult readme: v8.35
-~TNT/TNT.TP2~ #0 #60 // More ankheg armors by Taerom: v8.35
-~TNT/TNT.TP2~ #0 #61 // Cleanup stores: v8.35
-~TNT/TNT.TP2~ #0 #62 // Limited stock: v8.35
-~TNT/TNT.TP2~ #0 #64 // Fair fights | POWER USER component, consult readme -> Also remove undroppable items granting unfair advantages from all enemies: v8.35
-~TNT/TNT.TP2~ #0 #67 // True True Grandmastery: v8.35
-~TNT/TNT.TP2~ #0 #71 // Save Melicamp: v8.35
-~TNT/TNT.TP2~ #0 #72 // Less autosaves | POWER USER component, consult readme: v8.35
-~TNT/TNT.TP2~ #0 #76 // Disable intro movies: v8.35
-~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #10 // Wilson's strength doesn't stack indefinitely: 3.1
-~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #20 // Vernus can be raised: 3.1
+~SUBTLED_SPELL_TWEAKS/SUBTLED_SPELL_TWEAKS.TP2~ #0 #10 // Rebalanced Spell Schools: 2.9.1
+~SUBTLED_SPELL_TWEAKS/SUBTLED_SPELL_TWEAKS.TP2~ #0 #26 // Revised Arcane Opposition Schools -> PnP Opposition Schools: 2.9.1
+~TNT/TNT.TP2~ #0 #22 // No talking when hiding in shadows: v8.40
+~TNT/TNT.TP2~ #0 #26 // Throwing weapons damage type -> Make axes slashing and hammers blunt: v8.40
+~TNT/TNT.TP2~ #0 #30 // Effects of scrolls and potions do not stack with themselves: v8.40
+~TNT/TNT.TP2~ #0 #32 // Sensible wand of frost -> AoE: v8.40
+~TNT/TNT.TP2~ #0 #33 // Potion of Really Mirrored Eyes: v8.40
+~TNT/TNT.TP2~ #0 #35 // Improved Shandalar's cloak: v8.40
+~TNT/TNT.TP2~ #0 #36 // Algernon's cloak: usable once per day: v8.40
+~TNT/TNT.TP2~ #0 #38 // Distinct quest items: v8.40
+~TNT/TNT.TP2~ #0 #42 // Spider form ignores web: v8.40
+~TNT/TNT.TP2~ #0 #46 // True True Sight: v8.40
+~TNT/TNT.TP2~ #0 #47 // Sensible Otiluke's Resilient Sphere: v8.40
+~TNT/TNT.TP2~ #0 #48 // Greater Command AoE: v8.40
+~TNT/TNT.TP2~ #0 #49 // Working Non-Detection: v8.40
+~TNT/TNT.TP2~ #0 #50 // Unstack Chaos Shield: v8.40
+~TNT/TNT.TP2~ #0 #51 // Uncheese Project Image | POWER USER component, consult readme: v8.40
+~TNT/TNT.TP2~ #0 #52 // Uncheese Mislead: v8.40
+~TNT/TNT.TP2~ #0 #53 // Sensible Blade spins: v8.40
+~TNT/TNT.TP2~ #0 #54 // PnP Protection from Evil: v8.40
+~TNT/TNT.TP2~ #0 #55 // Non-hostile Grease: v8.40
+~TNT/TNT.TP2~ #0 #57 // Stores always buy goods at the same (low) price | POWER USER component, consult readme: v8.40
+~TNT/TNT.TP2~ #0 #60 // More ankheg armors by Taerom: v8.40
+~TNT/TNT.TP2~ #0 #61 // Cleanup stores: v8.40
+~TNT/TNT.TP2~ #0 #62 // Limited stock: v8.40
+~TNT/TNT.TP2~ #0 #64 // Fair fights | POWER USER component, consult readme -> Also remove undroppable items granting unfair advantages from all enemies: v8.40
+~TNT/TNT.TP2~ #0 #67 // PnP-like True Grandmastery: v8.40
+~TNT/TNT.TP2~ #0 #71 // Save Melicamp: v8.40
+~TNT/TNT.TP2~ #0 #72 // Less autosaves | POWER USER component, consult readme: v8.40
+~TNT/TNT.TP2~ #0 #76 // Disable intro movies: v8.40
 ~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #40 // Enchant Weapon works in contingencies: 3.1
 ~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #50 // Joinable NPCs don't have null kits: 3.1
-~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #60 // NPCs don't go in inaccessible locations: 3.1
 ~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #70 // Close polymorph immunity loopholes: 3.1
 ~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #81 // Shapeshift corrections -> All transformations: 3.1
-~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #90 // Wish Hardiness doesn't stack with itself: 3.1
 ~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #100 // Hold Person doesn't display multiple strings: 3.1
 ~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #120 // Dueling fireshields don't go infinite: 3.1
 ~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #140 // Inquisitor True Sight is consistent with other versions of the spell: 3.1
@@ -396,8 +395,6 @@
 ~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #220 // Resurrection can heal the living: 3.1
 ~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #240 // Undead Hunters are better at Turn Undead: 3.1
 ~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #260 // Green Slime poison can be cured: 3.1
-~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #280 // Allies against Bodhi are better prepared for vampires: 3.1
-~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #290 // Noober's Game: 3.1
 ~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #340 // Potion effects don't stack with themselves: 3.1
 ~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #350 // Bigger random spawns: 3.1
 ~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #360 // Nature's Beauty blindness can be cured: 3.1
@@ -409,15 +406,14 @@
 ~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #467 // Choose base drow MR (required) -> Medium (50): 3.1
 ~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #473 // Choose MR progression rate (required) -> Fast (2 per level, up to level 20): 3.1
 ~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #475 // Choose sunlight penalties (required) -> Dazzled (-2 to hit, -2 AC versus missiles): 3.1
-~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #520 // Warrior and rogue HLAs can't be removed by spell-breakers: 3.1
-~JTWEAKS/SETUP-JTWEAKS.TP2~ #0 #530 // Deactivate Spellhold picture monsters until their doors are opened: 3.1
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #3010 // Replace +1 arrows and other projectiles with nonmagical "fine" ones: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #3015 // Re-introduce potions of extra-healing: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #3017 // Make elemental arrows like BG2: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #3040 // Reduce the number of Arrows of Dispelling in stores -> Remove Arrows of Dispelling from stores: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #3505 // Wider selection of random scrolls: 35.21
-~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4020 // More realistic wolves and wild dogs: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #3541 // Reduce the power of Inquisitors' Dispel Magic -> Inquisitors dispel at their level (not twice their level): 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4051 // Decrease the rate at which reputation improves -> Reputation increases at about 1/2 the normal rate: 35.21
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4115 // Thieves assign skill points in multiples of five: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4135 // Revised resting: resting in the wild uses up provisions: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4140 // Revised inn rooms: more expensive, more benefits: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #5000 // Ease-of-use party AI: 35.21
@@ -453,50 +449,52 @@
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #7230 // Tougher chapter-five end battle: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #7250 // Improved final battle: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #7900 // Improved minor encounters: 35.21
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #40 // Change Viconia's Skin Color to Dark Blue: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #60 // Weapon Animation Tweaks: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #110 // Icon Improvements: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #130 // Force All Dialogue to Pause Game: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #140 // Fix Boo's Squeak: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #150 // Remove "+x" From Unique Item Names: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #160 // Make Magic Shields Glow [plainab/grogerson]: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #171 // Unique Icons [Lava] -> Replace all icons: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #182 // Unique Containers [Miloch] -> Unique icons and names: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #191 // Use Character Colors Instead of Item Colors -> For non-magical shields and helmets: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2010 // Separate Resist Fire/Cold Icon into Separate Icons [Angel]: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #220 // Enhanced Overlays for Colorblind Players [Fouinto]: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1010 // More Interjections: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1060 // Breakable Iron Non-Magical Shields, Helms, and Armor: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1075 // Send BioWare NPCs to an Inn [DavidW/Zed Nocear]: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1140 // Gems and Potions Require Identification -> Gems and potions: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1270 // Change Cloakwood Mine Chapter End Change Trigger to Non-TotSC Behavior [plainab]: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2100 // Allow Thieving and Stealth in Heavy Armor per PnP: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2120 // Allow Arcane Spellcasting in Heavy Armor: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2150 // Wear Multiple Protection Items -> PnP restrictions: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2170 // Cast Spells from Scrolls (and Other Items) at Character Level: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2192 // Limit Ability of Storekeepers to Identify Items -> Hybrid of both methods: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2210 // Change Grandmastery Bonuses -> True grandmastery [Baldurdash]: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2220 // Change Magically Created Weapons to Zero Weight: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2339 // Remove Summoning Cap for Regular Summons: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2510 // Level-Lock Spell Scrolls [Angel]: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2530 // Lightning Bolts Don't Bounce [Angel]: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2620 // Make Certain Creatures Immune to Backstab/Sneak Attack [Luke]: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3010 // Maximum HP Creatures [the bigg] -> For all creatures in game: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3060 // Remove "You Must Gather Your Party..." Sound [Weimer]: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3125 // Neutral Characters Make Happy Comments at Mid-Range Reputation [Luiz]: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3230 // Taerom Makes Additional Ankheg Armor [Icendoan/grogerson]: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3300 // Death Cam: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3320 // No Depreciation in Stores: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3330 // Make Party Members Less Likely to Die Irreversibly: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4000 // Adjust Evil Joinable NPC Reaction Rolls: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4031 // Consistent Stats: Edwin -> Use BG2 values: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4041 // Consistent Stats: Jaheira -> Use BG2 values: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4061 // Consistent Stats: Minsc -> Use BG2 values: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4071 // Consistent Stats: Viconia -> Use BG2 values: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4090 // Make Montaron an Assassin [Andyr]: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4110 // Give Kagain a Legal Constitution Score of 19: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4120 // Give Coran a Legal Dexterity Score of 19: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4170 // Ensure Shar-Teel Doesn't Die in the Original Challenge: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #40 // Change Viconia's Skin Color to Dark Blue: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #60 // Weapon Animation Tweaks: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #110 // Icon Improvements: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #130 // Force All Dialogue to Pause Game: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #140 // Fix Boo's Squeak: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #150 // Remove "+x" From Unique Item Names: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #171 // Unique Icons [Lava] -> Replace all icons: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2010 // Separate Resist Fire/Cold Icon into Separate Icons [Angel]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #220 // Enhanced Overlays for Colorblind Players [Fouinto]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #240 // Outline White Spell Icons for Accessibility -> Add Black Outline: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1010 // More Interjections: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1140 // Gems and Potions Require Identification -> Gems and potions: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2020 // Two-Handed Bastard Swords: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2090 // Change Experience Point Cap -> Remove experience cap: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2150 // Wear Multiple Protection Items -> PnP restrictions: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2161 // Alter Weapon Proficiency System -> BG-style weapon proficiencies, with weapon styles [the bigg]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2170 // Cast Spells from Scrolls (and Other Items) at Character Level: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2192 // Limit Ability of Storekeepers to Identify Items -> Hybrid of both methods: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2240 // Un-Nerfed THAC0 Table: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2339 // Remove Summoning Cap for Regular Summons: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2410 // Druids Use 3E Alignment Restrictions: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2510 // Level-Lock Spell Scrolls [Angel]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2530 // Lightning Bolts Don't Bounce [Angel]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2670 // Limit Resting Mechanic [Luke]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2680 // Make Infravision Useful [Luke]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2780 // P&P Free Action: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2999 // Max HP at Level One: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3000 // Higher HP on Level Up -> Maximum: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3060 // Remove "You Must Gather Your Party..." Sound [Weimer]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3070 // Change Effect of Reputation on Store Prices -> Low Reputation Store Discount [Sabre]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3125 // Neutral Characters Make Happy Comments at Mid-Range Reputation [Luiz]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3300 // Death Cam: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3310 // Start New Games with Party AI Turned Off: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3330 // Make Party Members Less Likely to Die Irreversibly: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3430 // More Stoneskin Feedback [Luke]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3450 // More Sensible Fireshield [Luke]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3460 // More Sensible Blade Barrier [Luke]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4031 // Consistent Stats: Edwin -> Use BG2 values: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4041 // Consistent Stats: Jaheira -> Use BG2 values: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4050 // Change Jaheira to Neutral Good Alignment: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4061 // Consistent Stats: Minsc -> Use BG2 values: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4071 // Consistent Stats: Viconia -> Use BG2 values: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4090 // Make Montaron an Assassin [Andyr]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4110 // Give Kagain a Legal Constitution Score of 19: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4120 // Give Coran a Legal Dexterity Score of 19: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4170 // Ensure Shar-Teel Doesn't Die in the Original Challenge: v18
 ~BGGO/BGGO.TP2~ #0 #0 // BGGO for EET, BGT, BGEE, BG2EE, ToB and Tutu: v3.3
 ~JAHEIRARECAST/JAHEIRARECAST.TP2~ #0 #1 // Jaheira Recast: Character Sounds -> Use BG1+BG2 Character Sounds: v3.2
 ~JAHEIRARECAST/JAHEIRARECAST.TP2~ #0 #2 // Jaheira Recast: Dialog Voiceover: v3.2
