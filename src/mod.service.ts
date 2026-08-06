@@ -324,6 +324,7 @@ export class ModService {
           "--language",
           group.language,
           "--no-exit-pause",
+          "--skip-at-view",
           "--noautoupdate",
           "--force-install-list",
           ...group.components,
@@ -477,7 +478,7 @@ export class ModService {
     return new Promise((resolve, reject) => {
       const p = spawn("weidu", args, {
         cwd,
-        stdio: ["ignore", "pipe", "inherit"],
+        stdio: ["inherit", "pipe", "inherit"],
       });
       p.stdout.on("data", function (data) {
         console.log(data.toString());

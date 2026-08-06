@@ -14,9 +14,6 @@
                         "type": "string"
                     }
                 },
-                "weiduLocation": {
-                    "type": "string"
-                },
                 "language": {
                     "type": "string"
                 },
@@ -36,7 +33,6 @@
             "required": [
                 "gameFolder",
                 "modsFolders",
-                "weiduLocation",
                 "language",
                 "mods",
                 "externalMods"

@@ -1,11 +1,11 @@
 {
-  "gameFolder": "C:/Games/Baldur's Gate II Enhanced Edition",
+  "gameFolder": "C:/Games/BG2EE",
+  "gameFolderOld": "C:/Games/Baldur's Gate II Enhanced Edition",
   "modsFolders": [
     "Z:/games/bg/mods/bg2",
     "Z:/games/bg/mods/both"
   ],
   "language": "English",
-  "weiduLocation": "C:/Games/Baldur's Gate II Enhanced Edition/weidu.exe",
   "mods": [
   ],
   "externalMods": []

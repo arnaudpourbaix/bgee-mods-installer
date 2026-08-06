@@ -14,8 +14,9 @@
 ~EEEX/EEEX.TP2~ #0 #5 // Enable scale module: Customizable UI scaling factor: v1.0.0
 ~EEEX/EEEX.TP2~ #0 #6 // Enable time step module: Advance 1 game tick on keypress: v1.0.0
 ~EEEX/EEEX.TP2~ #0 #7 // Enable timer module: Visual indicators for modal actions, contingencies, and spell/item cooldowns: v1.0.0
-~INFINITY_UI/INFINITY_UI.TP2~ #0 #0 // Install Infinity UI++ Core Component: v1.15
-~INFINITY_UI/INFINITY_UI.TP2~ #0 #2 // Update several strings in Dialog.tlk: v1.15
+~LEUI-BG1EE/LEUI-BG1EE.TP2~ #0 #0 // lefreut's Enhanced UI (BG1EE skin) - Core component: 4.9.1
+~LEUI-BG1EE/LEUI-BG1EE.TP2~ #0 #1 // lefreut's Enhanced UI (BG1EE skin) - BG2 vanilla bams for spells: 4.9.1
+~LEUI-BG1EE/LEUI-BG1EE.TP2~ #0 #2 // lefreut's Enhanced UI (BG1EE skin) - BG2 vanilla fonts for descriptions: 4.9.1
 ~BUBB_SPELL_MENU_EXTENDED/BUBB_SPELL_MENU_EXTENDED.TP2~ #0 #0 // Bubb's Spell Menu Extended: v5.2
 ~BG1UB/BG1UB.TP2~ #0 #0 // Ice Island Level Two Restoration: v17.1
 ~BG1UB/BG1UB.TP2~ #0 #11 // Scar and the Sashenstar's Daughter: v17.1
@@ -413,7 +414,6 @@
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #3505 // Wider selection of random scrolls: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #3541 // Reduce the power of Inquisitors' Dispel Magic -> Inquisitors dispel at their level (not twice their level): 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4051 // Decrease the rate at which reputation improves -> Reputation increases at about 1/2 the normal rate: 35.21
-~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4115 // Thieves assign skill points in multiples of five: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4135 // Revised resting: resting in the wild uses up provisions: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #4140 // Revised inn rooms: more expensive, more benefits: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #5000 // Ease-of-use party AI: 35.21

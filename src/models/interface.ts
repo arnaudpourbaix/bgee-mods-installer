@@ -8,7 +8,6 @@ export interface Config {
      * A root folder can contain any number of mods. It is possible to specify several root folders.
      */
     modsFolders: string[];
-    weiduLocation: string;
     /**
      * Language in full text, for example: English
      */
