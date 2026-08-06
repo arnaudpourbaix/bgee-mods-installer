@@ -437,7 +437,7 @@ export class ModService {
     const matches = content.matchAll(rx);
     const components: WeiduLineGroup[] = [];
     for (const match of matches) {
-      const tp2File = match[1].toUpperCase();
+      const tp2File = match[1].replaceAll("\\", "/").toUpperCase();
       const language = match[2];
       const numComponent = match[3];
       if (components.at(-1)?.tp2File === tp2File) {
