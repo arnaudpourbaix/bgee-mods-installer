@@ -449,52 +449,6 @@
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #7230 // Tougher chapter-five end battle: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #7250 // Improved final battle: 35.21
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #0 #7900 // Improved minor encounters: 35.21
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #40 // Change Viconia's Skin Color to Dark Blue: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #60 // Weapon Animation Tweaks: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #110 // Icon Improvements: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #130 // Force All Dialogue to Pause Game: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #140 // Fix Boo's Squeak: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #150 // Remove "+x" From Unique Item Names: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #171 // Unique Icons [Lava] -> Replace all icons: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2010 // Separate Resist Fire/Cold Icon into Separate Icons [Angel]: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #220 // Enhanced Overlays for Colorblind Players [Fouinto]: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #240 // Outline White Spell Icons for Accessibility -> Add Black Outline: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1010 // More Interjections: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1140 // Gems and Potions Require Identification -> Gems and potions: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2020 // Two-Handed Bastard Swords: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2090 // Change Experience Point Cap -> Remove experience cap: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2150 // Wear Multiple Protection Items -> PnP restrictions: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2161 // Alter Weapon Proficiency System -> BG-style weapon proficiencies, with weapon styles [the bigg]: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2170 // Cast Spells from Scrolls (and Other Items) at Character Level: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2192 // Limit Ability of Storekeepers to Identify Items -> Hybrid of both methods: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2240 // Un-Nerfed THAC0 Table: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2339 // Remove Summoning Cap for Regular Summons: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2410 // Druids Use 3E Alignment Restrictions: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2510 // Level-Lock Spell Scrolls [Angel]: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2530 // Lightning Bolts Don't Bounce [Angel]: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2670 // Limit Resting Mechanic [Luke]: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2680 // Make Infravision Useful [Luke]: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2780 // P&P Free Action: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2999 // Max HP at Level One: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3000 // Higher HP on Level Up -> Maximum: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3060 // Remove "You Must Gather Your Party..." Sound [Weimer]: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3070 // Change Effect of Reputation on Store Prices -> Low Reputation Store Discount [Sabre]: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3125 // Neutral Characters Make Happy Comments at Mid-Range Reputation [Luiz]: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3300 // Death Cam: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3310 // Start New Games with Party AI Turned Off: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3330 // Make Party Members Less Likely to Die Irreversibly: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3430 // More Stoneskin Feedback [Luke]: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3450 // More Sensible Fireshield [Luke]: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3460 // More Sensible Blade Barrier [Luke]: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4031 // Consistent Stats: Edwin -> Use BG2 values: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4041 // Consistent Stats: Jaheira -> Use BG2 values: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4050 // Change Jaheira to Neutral Good Alignment: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4061 // Consistent Stats: Minsc -> Use BG2 values: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4071 // Consistent Stats: Viconia -> Use BG2 values: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4090 // Make Montaron an Assassin [Andyr]: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4110 // Give Kagain a Legal Constitution Score of 19: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4120 // Give Coran a Legal Dexterity Score of 19: v18
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4170 // Ensure Shar-Teel Doesn't Die in the Original Challenge: v18
 ~BGGO/BGGO.TP2~ #0 #0 // Baldurs Gate Graphical Overhaul Core: v3.6
 ~JAHEIRARECAST/JAHEIRARECAST.TP2~ #0 #1 // Jaheira Recast: Character Sounds -> Use BG1+BG2 Character Sounds: v3.2
 ~JAHEIRARECAST/JAHEIRARECAST.TP2~ #0 #2 // Jaheira Recast: Dialog Voiceover: v3.2
@@ -527,3 +481,49 @@
 ~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #240 // More Existence Sounds: v2.2
 ~INFINITYSOUNDS/INFINITYSOUNDS.TP2~ #0 #250 // Tweak Existence Sound Delay: v2.2
 ~VVEBG/VVEBG.TP2~ #0 #0 // Add Character Sounds for BG: v1.0
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #40 // Change Viconia's Skin Color to Dark Blue: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #60 // Weapon Animation Tweaks: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #110 // Icon Improvements: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #130 // Force All Dialogue to Pause Game: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #140 // Fix Boo's Squeak: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #150 // Remove "+x" From Unique Item Names: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #171 // Unique Icons [Lava] -> Replace all icons: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2010 // Separate Resist Fire/Cold Icon into Separate Icons [Angel]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #220 // Enhanced Overlays for Colorblind Players [Fouinto]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #240 // Outline White Spell Icons for Accessibility -> Add Black Outline: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1010 // More Interjections: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #1140 // Gems and Potions Require Identification -> Gems and potions: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2020 // Two-Handed Bastard Swords: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2090 // Change Experience Point Cap -> Remove experience cap: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2150 // Wear Multiple Protection Items -> PnP restrictions: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2170 // Cast Spells from Scrolls (and Other Items) at Character Level: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2192 // Limit Ability of Storekeepers to Identify Items -> Hybrid of both methods: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2240 // Un-Nerfed THAC0 Table: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2339 // Remove Summoning Cap for Regular Summons: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2410 // Druids Use 3E Alignment Restrictions: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2510 // Level-Lock Spell Scrolls [Angel]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2530 // Lightning Bolts Don't Bounce [Angel]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2780 // P&P Free Action: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2999 // Max HP at Level One: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3000 // Higher HP on Level Up -> Maximum: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3060 // Remove "You Must Gather Your Party..." Sound [Weimer]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3070 // Change Effect of Reputation on Store Prices -> Low Reputation Store Discount [Sabre]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3125 // Neutral Characters Make Happy Comments at Mid-Range Reputation [Luiz]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3300 // Death Cam: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3310 // Start New Games with Party AI Turned Off: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3330 // Make Party Members Less Likely to Die Irreversibly: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3430 // More Stoneskin Feedback [Luke]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3450 // More Sensible Fireshield [Luke]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #3460 // More Sensible Blade Barrier [Luke]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4031 // Consistent Stats: Edwin -> Use BG2 values: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4041 // Consistent Stats: Jaheira -> Use BG2 values: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4050 // Change Jaheira to Neutral Good Alignment: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4061 // Consistent Stats: Minsc -> Use BG2 values: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4071 // Consistent Stats: Viconia -> Use BG2 values: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4090 // Make Montaron an Assassin [Andyr]: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4110 // Give Kagain a Legal Constitution Score of 19: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4120 // Give Coran a Legal Dexterity Score of 19: v18
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #4170 // Ensure Shar-Teel Doesn't Die in the Original Challenge: v18
+//~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2161 // Alter Weapon Proficiency System -> BG-style weapon proficiencies, with weapon styles [the bigg]: v18
+//~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2670 // Limit Resting Mechanic [Luke]: v18
+//~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #0 #2680 // Make Infravision Useful [Luke]: v18

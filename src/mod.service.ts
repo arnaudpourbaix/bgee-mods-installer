@@ -294,9 +294,16 @@ export class ModService {
       default: true,
     });
     const batchStart = Date.now();
-    for (const [index, group] of groups.entries()) {
-      const installedGroup = installedGroups[index];
-      if (installedGroup) {
+    for (const group of groups) {
+      const installedComponents = installedGroups
+        .filter(
+          (g) => g.tp2File === group.tp2File && g.language === group.language,
+        )
+        .flatMap((g) => g.components);
+      const missingComponents = group.components.filter(
+        (c) => !installedComponents.includes(c),
+      );
+      if (!missingComponents.length) {
         console.log(chalk.grey(`${group.tp2File} already installed`));
         continue;
       }
@@ -315,7 +322,7 @@ export class ModService {
         process.exit(1);
       }
       console.log(
-        `Installing ${group.tp2File} --language ${group.language} --no-exit-pause --noautoupdate --force-install-list ${group.components.join(" ")}`,
+        `Installing ${group.tp2File} --language ${group.language} --no-exit-pause --noautoupdate --force-install-list ${missingComponents.join(" ")}`,
       );
       const start = Date.now();
       await this.execWeidu(
@@ -327,7 +334,7 @@ export class ModService {
           "--skip-at-view",
           "--noautoupdate",
           "--force-install-list",
-          ...group.components,
+          ...missingComponents,
         ],
         config.gameFolder,
       );
